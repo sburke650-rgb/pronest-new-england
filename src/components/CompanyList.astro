@@ -1,0 +1,60 @@
+---
+import companies from "../data/companies/ma-companies.json";
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+// OPTIONAL props (safe if not provided)
+const { townSlug = null, serviceId = null } = Astro.props;
+
+// Start from MA companies (don’t rely on placeholder “cities” data)
+let list = companies.filter((c) => norm(c.state) === "ma");
+
+// Optional filters (if you ever pass them)
+if (townSlug) list = list.filter((c) => norm(c.townSlug) === norm(townSlug));
+if (serviceId) list = list.filter((c) => norm(c.serviceId) === norm(serviceId));
+
+// Group by townSlug
+const byTown = new Map();
+for (const c of list) {
+  if (!c?.townSlug || !c?.serviceId || !c?.id) continue;
+  if (!byTown.has(c.townSlug)) byTown.set(c.townSlug, []);
+  byTown.get(c.townSlug).push(c);
+}
+
+// Sort towns and companies for nice output
+const townEntries = Array.from(byTown.entries()).sort((a, b) =>
+  String(a[0]).localeCompare(String(b[0]))
+);
+
+for (const [, arr] of townEntries) {
+  arr.sort((a, b) => String(a.name).localeCompare(String(b.name)));
+}
+---
+
+<ul style="list-style:none; padding:0; margin:0; display:grid; gap:18px;">
+  {townEntries.map(([tSlug, comps]) => (
+    <li style="border:1px solid #e6e6e6; border-radius:14px; padding:14px; background:#fafafa;">
+      <h2 style="margin:0 0 10px; font-size:16px; letter-spacing:.02em;">
+        <a href={`/ma/${tSlug}`} style="text-decoration:none; border-bottom:1px solid rgba(0,0,0,.15); color:#111;">
+          {String(tSlug).toUpperCase()}
+        </a>
+      </h2>
+
+      <ul style="list-style:none; padding:0; margin:0; display:grid; gap:8px;">
+        {comps.map((c) => (
+          <li>
+            <a
+              href={`/ma/${c.townSlug}/${c.serviceId}/${c.id}`}
+              style="display:inline-block; padding:6px 8px; border-radius:10px; text-decoration:none; border:1px solid transparent; color:#111;"
+            >
+              {c.name}
+            </a>
+            <span style="color:#666; font-size:13px; margin-left:8px;">
+              ({c.serviceId})
+            </span>
+          </li>
+        ))}
+      </ul>
+    </li>
+  ))}
+</ul>

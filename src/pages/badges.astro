@@ -1,0 +1,164 @@
+---
+export const prerender = true;
+
+// Keep this list simple strings so it never renders as [object Object]
+const SUPPORTED_LANGUAGES = [
+  "English",
+  "Spanish",
+  "Portuguese",
+  "French",
+  "Haitian Creole",
+  "Chinese",
+  "Vietnamese",
+  "Arabic",
+  "Russian",
+  "Italian",
+  "Korean",
+  "Polish",
+  "Greek",
+  "Hindi",
+];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Badge Information</title>
+    <meta name="description" content="What profile badges mean on this directory." />
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        background: #0b1220;
+        color: rgba(255, 255, 255, 0.92);
+      }
+      .wrap {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 24px 16px 60px;
+      }
+      a {
+        color: rgba(255, 255, 255, 0.9);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .back {
+        display: inline-block;
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      h1 {
+        margin: 0 0 10px 0;
+        font-size: 24px;
+      }
+      .intro {
+        margin: 0 0 18px 0;
+        color: rgba(255, 255, 255, 0.72);
+        line-height: 1.4;
+        font-size: 14px;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        border-radius: 14px;
+        padding: 14px;
+        margin: 10px 0;
+      }
+      .title {
+        font-weight: 750;
+        margin: 0 0 6px 0;
+      }
+      .desc {
+        margin: 0;
+        color: rgba(255, 255, 255, 0.75);
+        line-height: 1.4;
+        font-size: 14px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .chip {
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.07);
+        color: rgba(255, 255, 255, 0.9);
+        white-space: nowrap;
+      }
+      .small {
+        margin-top: 10px;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.35;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <a class="back" href="/">← Back to Home</a>
+
+      <h1>Badge Information</h1>
+
+      <p class="intro">
+        Badges represent additional information displayed on a provider listing.
+        They describe available business details and do not guarantee service quality.
+      </p>
+
+      <div class="card">
+        <div class="title">Business Verified</div>
+        <p class="desc">
+          Basic business information such as name and at least one working contact method has been confirmed.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="title">License Confirmed</div>
+        <p class="desc">
+          The provider indicates they hold a required license and documentation may be confirmed when available.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="title">Insurance Confirmed</div>
+        <p class="desc">
+          The provider indicates they carry active insurance coverage.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="title">Profile Claimed</div>
+        <p class="desc">
+          The business has claimed and manages their listing information.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="title">Supported Languages</div>
+        <p class="desc">
+          Businesses can list a primary language and optional secondary languages on their profile.
+          Language details appear once a business claims and updates its listing.
+        </p>
+
+        <div class="chips" aria-label="Supported languages">
+          {SUPPORTED_LANGUAGES.map((l) => (
+            <span class="chip">{l}</span>
+          ))}
+        </div>
+
+        <p class="small">
+          Primary language indicates the main language the business uses with customers. Secondary languages
+          reflect additional communication options.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

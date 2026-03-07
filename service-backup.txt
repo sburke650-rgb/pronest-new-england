@@ -1,0 +1,55 @@
+---
+import towns from "../../../data/towns/ma-towns.json";
+import services from "../../../data/services/ma-services.json";
+import companies from "../../../data/companies/ma-companies.json";
+
+export function getStaticPaths() {
+  const paths = [];
+
+  for (const t of towns) {
+    for (const s of services) {
+      paths.push({
+        params: { slug: t.slug, service: s.id },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { slug, service } = Astro.params;
+
+const town = towns.find((t) => t.slug === slug);
+const serviceObj = services.find((s) => s.id === service);
+
+if (!town || !serviceObj) {
+  throw new Error(`Missing town or service for slug="${slug}" service="${service}"`);
+}
+
+const matchingCompanies = companies.filter(
+  (c) => c.townSlug === slug && c.serviceId === service
+);
+---
+
+<h1>{serviceObj.name} in {town.name}, {town.state}</h1>
+
+<p>
+  Providers for <strong>{serviceObj.name}</strong> in <strong>{town.name}</strong>.
+</p>
+
+<h2>Companies</h2>
+
+{matchingCompanies.length === 0 ? (
+  <p><em>No providers listed yet.</em></p>
+) : (
+  <ul>
+    {matchingCompanies.map((c) => (
+      <li style="margin-bottom: 12px;">
+        <strong>{c.name}</strong><br />
+        {c.phone ? <span>{c.phone}<br /></span> : null}
+        {c.website ? <a href={c.website} target="_blank">Website</a> : null}
+        {c.description ? <div style="margin-top: 6px; opacity: 0.9;">{c.description}</div> : null}
+      </li>
+    ))}
+  </ul>
+)}

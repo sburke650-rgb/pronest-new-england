@@ -1,0 +1,71 @@
+---
+export const prerender = true;
+
+import towns from "../../../data/towns/ma-towns.json";
+import companies from "../../../data/companies/ma-companies.json";
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+export function getStaticPaths() {
+  return towns.map((t) => ({
+    params: { slug: String(t.slug) },
+  }));
+}
+
+const { slug } = Astro.params;
+const townSlug = norm(slug);
+
+const town =
+  towns.find((t) => norm(t.slug) === townSlug) ?? null;
+
+const townName = town?.name ?? slug;
+
+// Companies in this town
+const companiesInTown = companies.filter(
+  (c) => norm(c?.townSlug) === townSlug
+);
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{townName} • Massachusetts • ProNest New England</title>
+  </head>
+
+  <body>
+    <main style="max-width: 900px; margin: 0 auto; padding: 24px;">
+      <p style="margin: 0 0 6px; opacity: 0.8;">Massachusetts</p>
+      <h1 style="margin: 0 0 6px;">{townName}</h1>
+      <p style="margin: 0 0 18px; opacity: 0.9;">
+        Browse services and local providers.
+      </p>
+
+      {companiesInTown.length === 0 ? (
+        <>
+          <h2>Providers near {townName}</h2>
+          <p>
+            We’re expanding coverage in {townName}. Check nearby towns.
+          </p>
+
+          <p style="margin-top: 16px; opacity: 0.85;">
+            Tip: If you’re a provider serving {townName}, you can add your listing and claim it later.
+          </p>
+        </>
+      ) : (
+        <>
+          <h2>Providers in {townName}</h2>
+          <ul>
+            {companiesInTown.map((c) => (
+              <li>
+                <a href={`/ma/${townSlug}/${norm(c.serviceId)}/${c.id}/`}>
+                  {c.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </main>
+  </body>
+</html>

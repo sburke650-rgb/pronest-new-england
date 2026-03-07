@@ -1,0 +1,21 @@
+[
+  { "name": "English", "flag": "🇺🇸" },
+  { "name": "Spanish", "flag": "🇪🇸" },
+  { "name": "Portuguese", "flag": "🇵🇹" },
+  { "name": "Haitian Creole", "flag": "🇭🇹" },
+  { "name": "Cape Verdean Creole", "flag": "🇨🇻" },
+  { "name": "Vietnamese", "flag": "🇻🇳" },
+  { "name": "Chinese (Mandarin)", "flag": "🇨🇳" },
+  { "name": "Chinese (Cantonese)", "flag": "🇭🇰" },
+  { "name": "Russian", "flag": "🇷🇺" },
+  { "name": "Arabic", "flag": "🇸🇦" },
+  { "name": "French", "flag": "🇫🇷" },
+  { "name": "Italian", "flag": "🇮🇹" },
+  { "name": "Greek", "flag": "🇬🇷" },
+  { "name": "Polish", "flag": "🇵🇱" },
+  { "name": "Albanian", "flag": "🇦🇱" },
+  { "name": "Korean", "flag": "🇰🇷" },
+  { "name": "Japanese", "flag": "🇯🇵" },
+  { "name": "Hindi", "flag": "🇮🇳" },
+  { "name": "Urdu", "flag": "🇵🇰" }
+]

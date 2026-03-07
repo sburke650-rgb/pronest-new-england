@@ -1,0 +1,218 @@
+---
+export const prerender = true;
+
+import towns from "../../../../data/towns/ma-towns.json";
+import companies from "../../../../data/companies/ma-companies.json";
+import services from "../../../../data/services/ma-services.json";
+
+export function getStaticPaths() {
+  const norm = (v) => String(v ?? "").trim().toLowerCase();
+  const paths = [];
+
+  for (const c of companies) {
+    if (!c?.townSlug || !c?.serviceId || !c?.id) continue;
+
+    paths.push({
+      params: {
+        slug: String(c.townSlug),
+        service: String(c.serviceId),
+        company: String(c.id),
+      },
+    });
+  }
+
+  return paths;
+}
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+const { slug, service, company: companyParam } = Astro.params;
+const urlTown = norm(slug);
+const urlService = norm(service);
+const urlCompanyId = norm(companyParam);
+
+const company =
+  companies.find(
+    (c) =>
+      norm(c.id) === urlCompanyId &&
+      norm(c.townSlug) === urlTown &&
+      norm(c.serviceId) === urlService
+  ) ?? null;
+
+if (!company) return new Response("Not Found", { status: 404 });
+
+const town = towns.find((t) => norm(t.slug) === urlTown) ?? null;
+const serviceObj = services.find((s) => norm(s.id) === urlService) ?? null;
+
+const townName = town?.name ?? company.townSlug;
+const serviceName = serviceObj?.name ?? company.serviceId;
+
+const isVerified = company?.verified === true || company?.claimStatus === "verified";
+const isClaimed = company?.claimed === true || company?.claimStatus === "claimed";
+
+const title = `${company.name} — ${serviceName} in ${townName}, MA`;
+const description =
+  company?.description && company.description.trim().length > 0
+    ? String(company.description)
+    : `${company.name} offers professional ${serviceName.toLowerCase()} services in ${townName}, Massachusetts. Contact them today for local service.`;
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+<script type="application/ld+json">
+{JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": company.name,
+  "description": description,
+  "telephone": company.phone ?? undefined,
+  "url": `https://yourdomain.com/ma/${company.townSlug}/${company.serviceId}/${company.slug}`,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": townName,
+    "addressRegion": "MA",
+    "addressCountry": "US"
+  }
+})}
+</script>
+
+<style>
+
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        background: #fff;
+        color: #111;
+      }
+      main {
+        max-width: 900px;
+        margin: 28px auto;
+        padding: 0 16px 50px;
+      }
+      a { color: inherit; }
+      .crumbs {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 14px;
+      }
+      .crumbs a {
+        text-decoration: none;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+      }
+      h1 { margin: 0; font-size: 28px; }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 4px 10px;
+        border-radius: 999px;
+        border: 1px solid rgba(34,197,94,.45);
+        background: rgba(34,197,94,.12);
+        color: rgba(22,101,52,1);
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 10px 14px;
+        border-radius: 12px;
+        border: 1px solid #ddd;
+        background: #fff;
+        text-decoration: none;
+        font-weight: 700;
+      }
+      .card {
+        margin-top: 18px;
+        padding: 16px;
+        border: 1px solid #e6e6e6;
+        border-radius: 14px;
+        background: #fafafa;
+      }
+      .row { margin-bottom: 8px; }
+      .label { color: #666; }
+      .muted { color: #666; font-size: 14px; }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="crumbs">
+        <a href="/ma">Massachusetts</a>
+        &nbsp;/&nbsp;
+        <a href={`/ma/${company.townSlug}`}>{townName}</a>
+        &nbsp;/&nbsp;
+        <a href={`/ma/${company.townSlug}/${company.serviceId}`}>{serviceName}</a>
+      </div>
+
+      <div class="header">
+  <h1>{company.name}</h1>
+
+  {/* Positive-only trust signals (no negative badges) */}
+  <div class="trust">
+    {isVerified && (
+      <span class="badge" title="Verified business">✓ Verified</span>
+    )}
+
+    {isClaimed && (
+      <span class="badge badge-claimed" title="Claimed listing">Claimed</span>
+    )}
+
+    <a class="claim-link" href={`/claim?company=${encodeURIComponent(String(company.id ?? company.slug ?? Astro.params.company ?? ""))}`}>
+      Claim this listing
+    </a>
+  </div>
+</div>
+
+         
+      <div class="card">
+  <div class="row"><span class="label">Service:</span> {serviceName}</div>
+  <div class="row"><span class="label">Town:</span> {townName}, MA</div>
+
+  {company.phone && (
+    <div class="row"><span class="label">Phone:</span> {company.phone}</div>
+  )}
+
+  {company.updatedAt && (
+  <div class="row">
+    <span class="label">Last updated:</span>{" "}
+    {new Date(company.updatedAt).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    })}
+  </div>
+)}
+
+
+  {company.website && (
+    <div class="row">
+      <span class="label">Website:</span>{" "}
+      <a href={company.website} target="_blank" rel="nofollow noopener">
+        {company.website}
+      </a>
+    </div>
+  )}
+
+
+
+      </div>
+    </main>
+  </body>
+</html>

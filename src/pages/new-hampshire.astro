@@ -1,0 +1,19 @@
+---
+import CompanyList from '../components/CompanyList.astro';
+
+const cities = {
+  "Manchester": ["IceAway LLC", "Snow Patrol"],
+  "Nashua": ["WhiteOut Snow Removal"]
+};
+---
+
+<html>
+  <head>
+    <title>New Hampshire Snow Removal</title>
+  </head>
+  <body>
+    <h1>New Hampshire</h1>
+    <a href="/">← Back to Home</a>
+    <CompanyList {cities} />
+  </body>
+</html>

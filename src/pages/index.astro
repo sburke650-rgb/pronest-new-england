@@ -1,0 +1,237 @@
+---
+export const prerender = true;
+
+import towns from "../data/towns/ma-towns.json";
+import services from "../data/services/ma-services.json";
+import companies from "../data/companies/ma-companies.json";
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+// Build lookups from companies
+const townsWithProvidersSet = new Set();
+const servicesByTown = new Map(); // townSlug -> Set(serviceId)
+
+for (const c of companies) {
+  const t = norm(c?.townSlug);
+  const s = norm(c?.serviceId);
+  if (!t || !s) continue;
+
+  townsWithProvidersSet.add(t);
+
+  if (!servicesByTown.has(t)) servicesByTown.set(t, new Set());
+  servicesByTown.get(t).add(s);
+}
+
+// Town dropdown: only towns with providers
+const townsWithProviders = towns
+  .filter((t) => townsWithProvidersSet.has(norm(t?.slug)))
+  .slice()
+  .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+
+// Service catalog (id->name)
+const serviceCatalog = services
+  .slice()
+  .map((s) => ({ id: String(s.id), name: String(s.name) }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+// Services used anywhere (for initial dropdown)
+const servicesUsedSet = new Set();
+for (const [, set] of servicesByTown.entries()) {
+  for (const sid of set) servicesUsedSet.add(sid);
+}
+
+const servicesInitial = serviceCatalog.filter((s) => servicesUsedSet.has(norm(s.id)));
+
+// servicesByTown plain object
+const servicesByTownObj = {};
+for (const [townSlug, set] of servicesByTown.entries()) {
+  servicesByTownObj[townSlug] = Array.from(set);
+}
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ProNest New England</title>
+
+    <meta name="build-check" content="INDEX_STABLE_REBUILD_DROPDOWN_V2" />
+
+    <style>
+      :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+      body { margin: 0; background: #fff; color: #111; }
+      .wrap { max-width: 980px; margin: 0 auto; padding: 44px 16px; }
+      .brand { font-weight: 800; font-size: 20px; margin-bottom: 18px; }
+      .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 24px 18px; }
+      h1 { margin: 0 0 10px 0; font-size: 32px; line-height: 1.15; }
+      p { margin: 0 0 18px 0; font-size: 16px; color: #333; }
+      .grid { display: grid; grid-template-columns: 1fr 1fr auto; gap: 10px; align-items: end; }
+      label { display:block; font-size: 13px; margin-bottom: 6px; }
+      select { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid #ccc; background: #fff; font-size: 15px; }
+      button { padding: 11px 14px; border-radius: 10px; border: 1px solid #111; background: #111; color: #fff; cursor: pointer; font-size: 15px; }
+      .note { margin-top: 10px; font-size: 12px; color: #666; }
+      .links { margin-top: 16px; }
+      .links a { color: #111; text-decoration: underline; }
+      .error { margin-top: 10px; font-size: 13px; color: #b00020; display: none; }
+    </style>
+  </head>
+
+  <body>
+    <main class="wrap">
+      <div class="brand">ProNest New England</div>
+
+      <section class="card">
+        <h1>New England’s Regional Directory for Local Professionals</h1>
+        <p>
+          Connecting homeowners and businesses with reliable local service providers. Verified businesses are clearly marked.
+        </p>
+
+        <div class="grid">
+          <div>
+            <label for="townSelect">Town</label>
+            <select id="townSelect">
+              <option value="">Select a town</option>
+              {townsWithProviders.map((t) => (
+                <option value={t.slug}>{t.name}</option>
+              ))}
+            </select>
+          </div>
+
+          <div>
+            <label for="serviceSelect">Service</label>
+            <select id="serviceSelect">
+              <option value="">Select a service</option>
+              {servicesInitial.map((s) => (
+                <option value={s.id}>{s.name}</option>
+              ))}
+            </select>
+          </div>
+
+          <button id="searchBtn" type="button">Search</button>
+        </div>
+
+        <div id="errorMsg" class="error"></div>
+
+        <div class="note">
+          Town + Service → /ma/{`{town}`}/{`{service}`}/ • Town only → /ma/{`{town}`}/
+        </div>
+
+        <div class="links">
+          <a href="http://localhost:4321/ma/">Browse Massachusetts directory</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- IMPORTANT: use set:html so JSON isn't HTML-escaped -->
+    <script
+      type="application/json"
+      id="__servicesByTown"
+      set:html={JSON.stringify(servicesByTownObj)}
+    ></script>
+
+    <script
+      type="application/json"
+      id="__serviceCatalog"
+      set:html={JSON.stringify(serviceCatalog)}
+    ></script>
+
+    <script is:inline>
+      (function () {
+        function norm(v) { return String(v || "").trim().toLowerCase(); }
+
+        var townSelect = document.getElementById("townSelect");
+        var serviceSelect = document.getElementById("serviceSelect");
+        var searchBtn = document.getElementById("searchBtn");
+        var errorMsg = document.getElementById("errorMsg");
+
+        function showError(msg) {
+          if (!errorMsg) return;
+          if (!msg) { errorMsg.style.display = "none"; errorMsg.textContent = ""; return; }
+          errorMsg.textContent = msg;
+          errorMsg.style.display = "block";
+        }
+
+        function readJson(id) {
+          var el = document.getElementById(id);
+          if (!el) return null;
+          try { return JSON.parse(el.textContent); } catch (e) { return null; }
+        }
+
+        var servicesByTown = readJson("__servicesByTown") || {};
+        var catalog = readJson("__serviceCatalog") || [];
+
+        function rebuildServiceOptions(list) {
+          var keepValue = serviceSelect.value;
+
+          serviceSelect.innerHTML = "";
+          var ph = document.createElement("option");
+          ph.value = "";
+          ph.textContent = "Select a service";
+          serviceSelect.appendChild(ph);
+
+          if (!list || list.length === 0) {
+            var none = document.createElement("option");
+            none.value = "";
+            none.textContent = "No services available";
+            serviceSelect.appendChild(none);
+            serviceSelect.value = "";
+            return;
+          }
+
+          for (var i = 0; i < list.length; i++) {
+            var s = list[i];
+            var opt = document.createElement("option");
+            opt.value = s.id;
+            opt.textContent = s.name;
+            serviceSelect.appendChild(opt);
+          }
+
+          var stillValid = list.some(function (s) { return s.id === keepValue; });
+          serviceSelect.value = stillValid ? keepValue : "";
+        }
+
+        function servicesForTown(townSlug) {
+          var t = norm(townSlug);
+          if (!t) {
+            var used = new Set();
+            Object.keys(servicesByTown).forEach(function (k) {
+              (servicesByTown[k] || []).forEach(function (sid) { used.add(norm(sid)); });
+            });
+            return catalog.filter(function (s) { return used.has(norm(s.id)); });
+          }
+
+          var allowed = new Set((servicesByTown[t] || []).map(norm));
+          return catalog.filter(function (s) { return allowed.has(norm(s.id)); });
+        }
+
+        if (!townSelect || !serviceSelect || !searchBtn) return;
+
+        townSelect.addEventListener("change", function () {
+          showError("");
+          rebuildServiceOptions(servicesForTown(townSelect.value));
+        });
+
+        searchBtn.addEventListener("click", function () {
+          showError("");
+
+          var town = norm(townSelect.value);
+          var service = norm(serviceSelect.value);
+
+          if (!town && service) {
+            showError("Select a town first (service-only search is not supported).");
+            return;
+          }
+          if (!town) {
+            showError("Select a town to search.");
+            return;
+          }
+
+          var path = "/ma/" + town + "/";
+          if (service) path = "/ma/" + town + "/" + service + "/";
+
+          window.location.href = path;
+        });
+      })();
+    </script>
+  </body>
+</html>

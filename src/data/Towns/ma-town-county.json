@@ -1,0 +1,62 @@
+{
+  "boston": "Suffolk",
+  "revere": "Suffolk",
+  "chelsea": "Suffolk",
+  "winthrop": "Suffolk",
+
+  "cambridge": "Middlesex",
+  "somerville": "Middlesex",
+  "medford": "Middlesex",
+  "malden": "Middlesex",
+  "everett": "Middlesex",
+  "waltham": "Middlesex",
+  "newton": "Middlesex",
+  "lexington": "Middlesex",
+  "winchester": "Middlesex",
+
+  "burlington": "Middlesex",
+  "framingham": "Middlesex",
+
+  "quincy": "Norfolk",
+  "brookline": "Norfolk",
+  "needham": "Norfolk",
+  "dedham": "Norfolk",
+  "milton": "Norfolk",
+  "weymouth": "Norfolk",
+
+  "worcester": "Worcester",
+  "shrewsbury": "Worcester",
+  "auburn": "Worcester",
+  "leicester": "Worcester",
+  "millbury": "Worcester",
+
+  "springfield": "Hampden",
+  "chicopee": "Hampden",
+  "holyoke": "Hampden",
+  "westfield": "Hampden",
+
+  "lowell": "Middlesex",
+  "lawrence": "Essex",
+  "haverhill": "Essex",
+  "lynn": "Essex",
+  "salem": "Essex",
+  "peabody": "Essex",
+  "beverly": "Essex",
+
+  "plymouth": "Plymouth",
+  "brockton": "Plymouth",
+  "hingham": "Plymouth",
+  "marshfield": "Plymouth",
+
+  "new-bedford": "Bristol",
+  "fall-river": "Bristol",
+  "taunton": "Bristol",
+  "attleboro": "Bristol",
+
+  "pittsfield": "Berkshire",
+  "north-adams": "Berkshire",
+
+  "barnstable": "Barnstable",
+  "yarmouth": "Barnstable",
+  "falmouth": "Barnstable"
+}

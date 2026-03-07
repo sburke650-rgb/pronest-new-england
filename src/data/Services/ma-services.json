@@ -1,0 +1,11 @@
+[
+  { "id": "plumbing", "name": "Plumbing" },
+  { "id": "electrician", "name": "Electrician" },
+  { "id": "hvac", "name": "Heating & Air Conditioning" },
+  { "id": "roofing", "name": "Roofing" },
+  { "id": "yard-landscaping", "name": "Yard & Landscaping" },
+  { "id": "junk-removal", "name": "Junk Removal" },
+  { "id": "solar", "name": "Solar" },
+  { "id": "security-alarm", "name": "Security & Alarm Systems" },
+  { "id": "access-control", "name": "Access Control Systems" }
+]

@@ -1,0 +1,76 @@
+PROJECT: ProNest New England
+
+GOAL
+SEO-first regional directory for home service providers.
+Starting with Massachusetts towns.
+Static Astro site generated from JSON.
+
+TECH STACK
+Astro static site
+Cloudflare Pages hosting
+JSON data files
+
+DATA FILES
+src/data/towns/ma-towns.json
+src/data/services/ma-services.json
+src/data/companies/ma-companies.json
+
+ROUTES
+Homepage
+src/pages/index.astro
+http://localhost:4321/
+
+Town page
+src/pages/ma/[slug]/index.astro
+/ma/{town}/
+
+Town + Service page
+src/pages/ma/[slug]/[service].astro
+/ma/{town}/{service}/
+
+Company page
+src/pages/ma/[slug]/[service]/[company].astro
+/ma/{town}/{service}/{companyId}/
+
+HOMEPAGE SEARCH LOGIC
+Town dropdown = only towns with providers
+Service dropdown = filtered by selected town
+Town + Service → /ma/{town}/{service}/
+Town only → /ma/{town}/
+Service only search is blocked
+
+IMPORTANT FIXES ALREADY COMPLETED
+
+404 FIX
+Town + service pages generate for all towns × services.
+
+LANGUAGE DISPLAY
+Languages shown from company data.
+
+VERIFIED SORTING
+Verified providers appear first in listings.
+
+SERVICE CLEANUP
+snow-removal removed
+landscaping + lawn-care merged into:
+yard-landscaping
+
+HOMEPAGE DROPDOWN FIX
+Service dropdown bug fixed using raw JSON output with:
+
+set:html={JSON.stringify(...)}
+
+This prevents Astro from HTML-escaping the JSON.
+
+CURRENT STATUS
+Homepage search working.
+Town and service routes stable.
+491 companies loaded.
+
+NEXT FEATURE
+If a town has no providers for a service:
+Show nearby providers instead of empty results.
+
+WORKFLOW PREFERENCE
+User edits files in Notepad.
+Always provide entire files for copy/paste.

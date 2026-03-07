@@ -1,0 +1,11 @@
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\badges.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\claim.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\index.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\ma.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\massachusetts.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\new-hampshire.astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\companies\[slug].astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\ma\[slug].astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\ma\services\[service].astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\ma\[slug]\[service].astro
+C:\Users\16035\Desktop\NewEnglandSnowDirectory\src\pages\ma\[slug]\[service]\[company].astro

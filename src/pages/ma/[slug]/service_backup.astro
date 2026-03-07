@@ -1,0 +1,275 @@
+---
+export const prerender = true;
+
+import towns from "../../../data/towns/ma-towns.json";
+import companies from "../../../data/companies/ma-companies.json";
+import services from "../../../data/services/ma-services.json";
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+/* Convert codes to names (never display EN/ES etc) */
+const CODE_TO_NAME = {
+  EN: "English",
+  ES: "Spanish",
+  PT: "Portuguese",
+  FR: "French",
+  HT: "Haitian Creole",
+  ZH: "Chinese",
+  VI: "Vietnamese",
+  AR: "Arabic",
+  RU: "Russian",
+  IT: "Italian",
+  KO: "Korean",
+  PL: "Polish",
+  EL: "Greek",
+  HI: "Hindi",
+};
+
+const toLanguageName = (v) => {
+  const s = String(v ?? "").trim();
+  if (!s) return "";
+  if (/^[A-Za-z]{2}$/.test(s)) return CODE_TO_NAME[s.toUpperCase()] ?? "";
+  return s;
+};
+
+/**
+ * Primary language logic:
+ * - If company.primaryLanguage exists -> use it
+ * - else English
+ * Secondary:
+ * - pulled from company.languages / languageCodes / lang / language
+ * - remove primary and remove English duplicates
+ */
+const getPrimaryLanguage = (c) => {
+  const rawPrimary = c?.primaryLanguage ?? c?.primary_language ?? c?.primaryLang ?? null;
+  const p = toLanguageName(rawPrimary);
+  return p || "English";
+};
+
+const getSecondaryLanguages = (c, primary) => {
+  const raw = c?.languages ?? c?.languageCodes ?? c?.lang ?? c?.language ?? null;
+  if (!raw) return [];
+
+  let items = [];
+  if (typeof raw === "string") items = raw.split(/[,\|\/]/g).map((x) => x.trim());
+  else if (Array.isArray(raw)) items = raw.map((x) => String(x ?? "").trim());
+
+  const names = items.map(toLanguageName).filter(Boolean);
+
+  const primaryKey = String(primary ?? "").toLowerCase();
+  const seen = new Set();
+  const out = [];
+
+  for (const n of names) {
+    const key = n.toLowerCase();
+    if (!key) continue;
+    if (key === primaryKey) continue; // don't duplicate primary
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(n);
+  }
+
+  return out;
+};
+
+export function getStaticPaths() {
+  // ✅ Generate ALL town + service pages so empty combos show a "no providers" page instead of 404
+  const paths = [];
+  for (const t of towns) {
+    for (const s of services) {
+      paths.push({
+        params: { slug: String(t.slug), service: String(s.id) },
+      });
+    }
+  }
+  return paths;
+}
+
+const { slug, service } = Astro.params;
+
+const townSlug = norm(slug);
+const serviceId = norm(service);
+
+const town = towns.find((t) => norm(t.slug) === townSlug) ?? null;
+const serviceObj = services.find((s) => norm(s.id) === serviceId) ?? null;
+
+const townName = (town?.name ?? String(slug)).toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
+const serviceName = serviceObj?.name ?? String(service);
+
+const listAll = companies.filter(
+  (c) => norm(c.townSlug) === townSlug && norm(c.serviceId) === serviceId
+);
+
+const verified = listAll.filter((c) => c?.verified === true);
+const unverified = listAll.filter((c) => c?.verified !== true);
+
+verified.sort((a, b) => String(a?.name ?? "").localeCompare(String(b?.name ?? "")));
+unverified.sort((a, b) => String(a?.name ?? "").localeCompare(String(b?.name ?? "")));
+
+const list = [...verified, ...unverified];
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{serviceName} in {townName}, MA</title>
+    <meta
+      name="description"
+      content={`Find ${serviceName} providers in ${townName}, MA. Verified providers appear first.`}
+    />
+    <style>
+      body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #0b1220; color: rgba(255,255,255,0.92); }
+      .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 60px; }
+
+      .crumbs { font-size: 14px; margin-bottom: 14px; color: rgba(255,255,255,0.65); }
+      .crumbs a { color: rgba(255,255,255,0.8); text-decoration: none; }
+      .crumbs a:hover { text-decoration: underline; }
+
+      .header { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.10); border-radius: 14px; padding: 16px; margin-bottom: 14px; }
+      h1 { margin: 0 0 6px 0; font-size: 22px; }
+      .sub { font-size: 14px; color: rgba(255,255,255,0.65); }
+
+      .stats { margin-top: 10px; display: flex; gap: 10px; font-size: 13px; flex-wrap: wrap; }
+      .pill { padding: 6px 10px; border-radius: 999px; background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); }
+
+      .process { margin-top: 12px; padding: 12px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.10); background: rgba(255,255,255,0.04); }
+      .process h2 { margin: 0 0 6px 0; font-size: 14px; }
+      .process p { margin: 0; font-size: 13px; line-height: 1.35; color: rgba(255,255,255,0.70); }
+
+      .list { display: grid; gap: 10px; }
+      .card {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 14px;
+        padding: 18px 18px;
+        backdrop-filter: blur(6px);
+        transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(255,255,255,0.28);
+        box-shadow: 0 14px 36px rgba(0,0,0,0.55);
+      }
+
+      .card.verified {
+        border-color: rgba(34,197,94,0.35);
+        box-shadow: inset 3px 0 0 rgba(34,197,94,0.55);
+      }
+
+      .toprow { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+      .name { font-weight: 750; line-height: 1.2; }
+
+      .badge { font-size: 12px; padding: 5px 9px; border-radius: 999px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.07); white-space: nowrap; }
+      .badge.good { background: rgba(34,197,94,0.25); border-color: rgba(34,197,94,0.40); }
+      .badge.warn { background: rgba(250,204,21,0.18); border-color: rgba(250,204,21,0.30); }
+
+      .lang { margin-top: 6px; font-size: 13px; color: rgba(255,255,255,0.70); }
+
+      .meta { margin-top: 10px; font-size: 14px; color: rgba(255,255,255,0.78); }
+      .meta div { margin-bottom: 4px; }
+      .meta a { color: rgba(255,255,255,0.92); text-decoration: none; }
+      .meta a:hover { text-decoration: underline; }
+
+      .actions { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; }
+      .btn { padding: 7px 10px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.08); font-size: 13px; text-decoration: none; color: white; }
+      .btn:hover { background: rgba(255,255,255,0.15); }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrap">
+
+      <div class="crumbs">
+        <a href="/ma">Massachusetts</a> /
+        <a href={"/ma/" + townSlug}>{townName}</a> /
+        {serviceName}
+      </div>
+
+      <div class="header">
+        <h1>{serviceName} in {townName}</h1>
+        <div class="sub">Verified providers appear first.</div>
+
+        <div class="stats">
+          <div class="pill">{verified.length} Verified</div>
+          <div class="pill">{listAll.length} Providers</div>
+        </div>
+
+        {listAll.length === 0 ? (
+          <div class="process" style="margin-top:12px;">
+            <h2>No providers yet</h2>
+            <p>
+              We’re expanding coverage for {serviceName.toLowerCase()} in {townName}.
+              If you’re a provider serving {townName}, you can add your listing and claim it later.
+            </p>
+          </div>
+        ) : (
+          <>
+            <p class="service-intro">
+              Find trusted {serviceName.toLowerCase()} professionals serving {townName}, Massachusetts.
+              Compare local companies, view contact information, and connect with providers offering
+              {serviceName.toLowerCase()} services in the {townName} area.
+            </p>
+
+            <div class="process">
+              <h2>Verified Business Information</h2>
+              <p>
+                Profiles may include verification status, licensing, insurance, and other business details.
+                Click “View Details” to see full profile information. Primary and secondary languages
+                reflect the languages a provider confirms they can serve customers in.
+              </p>
+              <p style="margin-top:6px; font-size:13px;">
+                <a href="/badges" style="color:rgba(255,255,255,0.85); text-decoration:underline;">
+                  What do these badges mean?
+                </a>
+              </p>
+            </div>
+          </>
+        )}
+      </div>
+
+      {listAll.length > 0 && (
+        <div class="list">
+          {list.map((c) => {
+            const isVerified = c?.verified === true;
+            const phone = c?.phone ?? "";
+            const website = c?.website ?? "";
+            const detailsHref = "/ma/" + townSlug + "/" + serviceId + "/" + c.id;
+
+            const primary = getPrimaryLanguage(c);
+            const secondary = getSecondaryLanguages(c, primary);
+
+            return (
+              <div class={"card" + (isVerified ? " verified" : "")}>
+                <div class="toprow">
+                  <div class="name">{c?.name ?? "Company"}</div>
+                  {isVerified && (<span class="badge good">Verified</span>)}
+                </div>
+
+                <div class="lang">
+                  {primary} (Primary)
+                  {secondary.length > 0 && (<> · {secondary.join(", ")} (Secondary)</>)}
+                </div>
+
+                <div class="meta">
+                  {phone && <div>📞 {phone}</div>}
+                  {website && (
+                    <div>
+                      <a href={website} target="_blank" rel="noopener noreferrer">Website</a>
+                    </div>
+                  )}
+                </div>
+
+                <div class="actions">
+                  <a class="btn" href={detailsHref}>View Profile</a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+    </div>
+  </body>
+</html>

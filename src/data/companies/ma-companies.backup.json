@@ -1,0 +1,233 @@
+[
+  {
+    "id": "acme-plumbing-boston",
+    "name": "Acme Plumbing",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "plumbing",
+    "phone": "(617) 555-0123",
+    "website": "https://example.com",
+    "description": "Licensed plumbing services in Boston including repairs, installs, and emergency calls.",
+    "slug": "acme-plumbing"
+  },
+  {
+    "id": "north-shore-hvac-manchester",
+    "name": "North Shore HVAC",
+    "state": "MA",
+    "townSlug": "manchester-by-the-sea",
+    "serviceId": "hvac",
+    "phone": "(978) 555-0199",
+    "website": "https://example.com",
+    "description": "Heating and cooling service on the North Shore. Maintenance and emergency repair.",
+    "slug": "north-shore-hvac"
+  },
+  {
+    "id": "roto-rooter-boston",
+    "name": "Roto-Rooter Plumbing & Water Cleanup",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "plumbing",
+    "phone": "(617) 325-6200",
+    "website": "https://www.rotorooter.com",
+    "description": "Roto-Rooter provides plumbing services in the Boston area. Services may include drain cleaning, pipe repair, fixture installation, and emergency plumbing support depending on customer needs.",
+    "slug": "roto-rooter-plumbing-and-water-cleanup"
+  },
+  {
+    "id": "mr-rooter-boston",
+    "name": "Mr. Rooter Plumbing of Greater Boston",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "plumbing",
+    "phone": "(617) 841-6480",
+    "website": "https://www.mrrooter.com",
+    "description": "Mr. Rooter Plumbing provides plumbing services in the Greater Boston area. Services may include plumbing repair, drain cleaning, fixture installation, and emergency plumbing service depending on customer needs.",
+    "slug": "mr-rooter-plumbing-of-greater-boston"
+  },
+  {
+    "id": "boston-standard-hvac",
+    "name": "Boston Standard Company",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "hvac",
+    "phone": "(617) 975-1696",
+    "website": "https://www.bostonstandardcompany.com",
+    "description": "Boston Standard Company provides heating and air conditioning services in the Greater Boston area. Services may include system installation, maintenance, repair, and seasonal servicing depending on customer needs.",
+    "slug": "boston-standard-company"
+  },
+  {
+    "id": "sila-heating-boston",
+    "name": "Sila Heating & Air Conditioning",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "hvac",
+    "phone": "(617) 206-3655",
+    "website": "https://www.sila.com",
+    "description": "Sila Heating & Air Conditioning provides heating and cooling services in the Boston area. Services may include heating repair, air conditioning installation, and HVAC maintenance depending on customer needs.",
+    "slug": "sila-heating-and-air-conditioning"
+  },
+  {
+    "id": "brightview-boston",
+    "name": "BrightView Landscape Services",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "landscaping",
+    "phone": "(844) 235-6845",
+    "website": "https://www.brightview.com",
+    "description": "BrightView provides landscaping services in parts of Massachusetts. Services may include landscape installation, property maintenance, and seasonal landscape services depending on customer needs.",
+    "slug": "brightview-landscape-services"
+  },
+  {
+    "id": "savatree-boston",
+    "name": "SavATree Lawn Care",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "lawn-care",
+    "phone": "(781) 769-2525",
+    "website": "https://www.savatree.com",
+    "description": "SavATree provides lawn care services in parts of Massachusetts. Services may include lawn treatment programs, lawn maintenance, and seasonal lawn care depending on customer needs.",
+    "slug": "savatree-lawn-care"
+  },
+  {
+    "id": "college-hunks-boston",
+    "name": "College Hunks Hauling Junk",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "junk-removal",
+    "phone": "(617) 971-3444",
+    "website": "https://www.collegehunkshaulingjunk.com",
+    "description": "College Hunks Hauling Junk provides junk removal services in parts of Massachusetts. Services may include furniture removal, property cleanouts, and general junk hauling depending on customer needs.",
+    "slug": "college-hunks-hauling-junk"
+  },
+  {
+    "id": "adt-boston",
+    "name": "ADT Security Services",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "security-alarm",
+    "phone": "(800) 716-3640",
+    "website": "https://www.adt.com",
+    "description": "ADT provides security and alarm system services in many Massachusetts communities. Services may include alarm installation, monitoring setup, and smart security integration depending on customer needs.",
+    "slug": "adt-security-services"
+  },
+  {
+    "id": "sunrun-boston",
+    "name": "Sunrun Solar",
+    "state": "MA",
+    "townSlug": "boston",
+    "serviceId": "solar",
+    "phone": "(833) 324-5886",
+    "website": "https://www.sunrun.com",
+    "description": "Sunrun provides solar installation services in parts of Massachusetts. Services may include residential solar panel installation, system design, and monitoring setup depending on customer needs.",
+    "slug": "sunrun-solar"
+  },
+  {
+    "id": "roto-rooter-worcester",
+    "name": "Roto-Rooter Plumbing & Water Cleanup",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "plumbing",
+    "phone": "(508) 752-1000",
+    "website": "https://www.rotorooter.com",
+    "description": "Roto-Rooter provides plumbing services in the Worcester area.",
+    "slug": "roto-rooter-plumbing-and-water-cleanup"
+  },
+  {
+    "id": "central-heating-worcester",
+    "name": "Central Heating & Cooling",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "hvac",
+    "phone": "(508) 753-1234",
+    "website": "https://example.com",
+    "description": "Central Heating & Cooling provides heating and air conditioning services in the Worcester area.",
+    "slug": "central-heating-and-cooling"
+  },
+  {
+    "id": "green-earth-lawn-worcester",
+    "name": "Green Earth Lawn Care",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "lawn-care",
+    "phone": "(508) 799-2222",
+    "website": "https://example.com",
+    "description": "Green Earth Lawn Care provides lawn care services in the Worcester area.",
+    "slug": "green-earth-lawn-care"
+  },
+  {
+    "id": "premier-landscape-worcester",
+    "name": "Premier Landscape Services",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "landscaping",
+    "phone": "(508) 755-3333",
+    "website": "https://example.com",
+    "description": "Premier Landscape Services provides landscaping services in the Worcester area.",
+    "slug": "premier-landscape-services"
+  },
+  {
+    "id": "junk-king-worcester",
+    "name": "Junk King Worcester",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "junk-removal",
+    "phone": "(508) 556-4444",
+    "website": "https://www.junk-king.com",
+    "description": "Junk King provides junk removal services in the Worcester area.",
+    "slug": "junk-king-worcester"
+  },
+  {
+    "id": "adt-worcester",
+    "name": "ADT Security Services",
+    "state": "MA",
+    "townSlug": "worcester",
+    "serviceId": "security-alarm",
+    "phone": "(800) 716-3640",
+    "website": "https://www.adt.com",
+    "description": "ADT provides security and alarm services in the Worcester area.",
+    "slug": "adt-security-services"
+  },
+  {
+    "id": "springfield-plumbing-pros",
+    "name": "Springfield Plumbing Pros",
+    "state": "MA",
+    "townSlug": "springfield",
+    "serviceId": "plumbing",
+    "phone": "(413) 555-0101",
+    "website": "https://example.com",
+    "description": "Springfield Plumbing Pros provides plumbing services in Springfield, Massachusetts.",
+    "slug": "springfield-plumbing-pros"
+  },
+  {
+    "id": "springfield-heating-air",
+    "name": "Springfield Heating & Air",
+    "state": "MA",
+    "townSlug": "springfield",
+    "serviceId": "hvac",
+    "phone": "(413) 555-0102",
+    "website": "https://example.com",
+    "description": "Springfield Heating & Air provides heating and air conditioning services in Springfield, Massachusetts.",
+    "slug": "springfield-heating-and-air"
+  },
+  {
+    "id": "pioneer-lawn-care-springfield",
+    "name": "Pioneer Lawn Care",
+    "state": "MA",
+    "townSlug": "springfield",
+    "serviceId": "lawn-care",
+    "phone": "(413) 555-0103",
+    "website": "https://example.com",
+    "description": "Pioneer Lawn Care provides lawn care services in Springfield, Massachusetts.",
+    "slug": "pioneer-lawn-care"
+  },
+  {
+    "id": "springfield-security-alarm",
+    "name": "Springfield Security & Alarm",
+    "state": "MA",
+    "townSlug": "springfield",
+    "serviceId": "security-alarm",
+    "phone": "(413) 555-0104",
+    "website": "https://example.com",
+    "description": "Springfield Security & Alarm provides security and alarm services in Springfield, Massachusetts.",
+    "slug": "springfield-security-and-alarm"
+  }
+]

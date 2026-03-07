@@ -1,0 +1,77 @@
+---
+import towns from "../../../data/towns/ma-towns.json";
+import services from "../../../data/services/ma-services.json";
+
+export async function getStaticPaths() {
+  return services.map((s) => ({
+    params: { service: s.id },
+  }));
+}
+
+const { service } = Astro.params;
+
+const serviceObj = services.find((s) => s.id === service);
+
+if (!serviceObj) {
+  throw new Error(`Service not found: "${service}"`);
+}
+
+const sortedTowns = [...towns].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<h1>{serviceObj.name} in Massachusetts</h1>
+
+<p>
+  Choose a town to view {serviceObj.name.toLowerCase()} providers.
+</p>
+
+<p>
+  <a href="/ma">← Back to Massachusetts</a>
+</p>
+
+<h2>Search Towns</h2>
+
+<input
+  id="townSearch"
+  type="text"
+  placeholder="Search towns (ex: Boston)"
+  style="width: 100%; max-width: 420px; padding: 10px; font-size: 16px;"
+/>
+
+<p id="resultsCount" style="margin-top: 12px; opacity: 0.8;"></p>
+
+<ul id="townList">
+  {sortedTowns.map((t) => (
+    <li class="townItem" data-name={t.name.toLowerCase()}>
+      <a href={`/ma/${t.slug}/${serviceObj.id}`}>{t.name}</a>
+    </li>
+  ))}
+</ul>
+
+<script>
+  const input = document.getElementById("townSearch");
+  const items = Array.from(document.querySelectorAll(".townItem"));
+  const countEl = document.getElementById("resultsCount");
+
+  function updateCount(visible) {
+    countEl.textContent =
+      visible + " town" + (visible === 1 ? "" : "s") + " shown";
+  }
+
+  function filter() {
+    const q = (input.value || "").toLowerCase();
+    let visible = 0;
+
+    for (const li of items) {
+      const name = li.dataset.name || "";
+      const show = !q || name.includes(q);
+      li.style.display = show ? "" : "none";
+      if (show) visible++;
+    }
+
+    updateCount(visible);
+  }
+
+  input.addEventListener("input", filter);
+  updateCount(items.length);
+</script>

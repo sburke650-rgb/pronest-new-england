@@ -1,0 +1,11 @@
+SERVICE DROPDOWN EMPTY AFTER SELECTING TOWN
+
+Cause:
+Astro escaped JSON inside <script type="application/json">.
+
+Fix:
+Use:
+set:html={JSON.stringify(data)}
+
+Result:
+Browser can correctly parse JSON and rebuild service dropdown.

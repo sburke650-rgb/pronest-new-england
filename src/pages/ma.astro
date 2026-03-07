@@ -1,0 +1,72 @@
+---
+import towns from "../data/towns/ma-towns.json";
+import services from "../data/services/ma-services.json";
+
+const sorted = [...towns].sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<h1>Massachusetts Town Directory</h1>
+
+<p>
+  Browse official Massachusetts municipalities. Town pages include Snow Removal,
+  Plumbing, Electrician, HVAC, and Roofing.
+</p>
+
+<h2>Services</h2>
+
+<ul>
+  {services.map((s) => (
+    <li>
+      <a href={`/ma/services/${s.id}`}>{s.name}</a>
+    </li>
+  ))}
+</ul>
+
+<hr style="margin: 24px 0;" />
+
+<h2>Find Your Town</h2>
+
+<input
+  id="townSearch"
+  type="text"
+  placeholder="Search towns (ex: Boston)"
+  style="width: 100%; max-width: 420px; padding: 10px; font-size: 16px;"
+/>
+
+<p id="resultsCount" style="margin-top: 12px; opacity: 0.8;"></p>
+
+<ul id="townList">
+  {sorted.map((town) => (
+    <li class="townItem" data-name={town.name.toLowerCase()}>
+      <a href={`/ma/${town.slug}`}>{town.name}</a>
+    </li>
+  ))}
+</ul>
+
+<script>
+  const input = document.getElementById("townSearch");
+  const items = Array.from(document.querySelectorAll(".townItem"));
+  const countEl = document.getElementById("resultsCount");
+
+  function updateCount(visible) {
+    countEl.textContent =
+      visible + " town" + (visible === 1 ? "" : "s") + " shown";
+  }
+
+  function filter() {
+    const q = (input.value || "").toLowerCase();
+    let visible = 0;
+
+    for (const li of items) {
+      const name = li.dataset.name || "";
+      const show = !q || name.includes(q);
+      li.style.display = show ? "" : "none";
+      if (show) visible++;
+    }
+
+    updateCount(visible);
+  }
+
+  input.addEventListener("input", filter);
+  updateCount(items.length);
+</script>

@@ -1,0 +1,275 @@
+---
+export const prerender = true;
+
+import towns from "../../data/towns/ma-towns.json";
+import companies from "../../data/companies/ma-companies.json";
+import services from "../../data/services/ma-services.json";
+
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+const toTitleCase = (s) => {
+  const str = String(s ?? "").trim();
+  if (!str) return str;
+  return str
+    .toLowerCase()
+    .split(/\s+/)
+    .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : ""))
+    .join(" ");
+};
+
+/*
+  Badge catalog (FACT-BASED, neutral)
+  These badges do NOT imply "trusted" — they describe extra information.
+*/
+const BADGE_CATALOG = {
+  "verified-business": {
+    label: "Business info verified",
+    color: "#1b5e20",
+    background: "#e8f5e9",
+    border: "#4caf50",
+  },
+  licensed: {
+    label: "License confirmed",
+    color: "#0d47a1",
+    background: "#e3f2fd",
+    border: "#2196f3",
+  },
+  insured: {
+    label: "Insurance confirmed",
+    color: "#4a148c",
+    background: "#f3e5f5",
+    border: "#9c27b0",
+  },
+  "profile-claimed": {
+    label: "Profile claimed",
+    color: "#bf360c",
+    background: "#fbe9e7",
+    border: "#ff5722",
+  },
+  "top-rated": {
+    label: "Top rated",
+    color: "#8d6e00",
+    background: "#fff8e1",
+    border: "#ffc107",
+  },
+  "same-day": {
+    label: "Same-day available",
+    color: "#263238",
+    background: "#eceff1",
+    border: "#607d8b",
+  },
+  "24-7": {
+    label: "24/7 service",
+    color: "#212121",
+    background: "#f5f5f5",
+    border: "#9e9e9e",
+  },
+};
+
+// Read badges from `badges: []` and also support legacy `verified: true`
+const getBadges = (company) => {
+  const raw = Array.isArray(company?.badges) ? company.badges : [];
+  const normalized = raw.map((b) => norm(b)).filter(Boolean);
+
+  // Legacy support
+  if (company?.verified === true && !normalized.includes("verified-business")) {
+    normalized.push("verified-business");
+  }
+
+  const badgeObjs = normalized
+    .map((key) => ({ key, ...BADGE_CATALOG[key] }))
+    .filter((b) => Boolean(b.label));
+
+  return badgeObjs;
+};
+
+// Languages are a SERVICE ATTRIBUTE, not a trust signal
+const getLanguages = (company) => {
+  if (!Array.isArray(company?.languages)) return [];
+  return company.languages
+    .map((x) => String(x ?? "").trim())
+    .filter(Boolean)
+    .slice(0, 8); // keep it tidy
+};
+
+/*
+  Completeness scoring (NOT TRUST)
+  More useful info = higher rank.
+  You can tune these points anytime without changing data.
+*/
+const completenessScore = (c) => {
+  let score = 0;
+
+  // Core contact/info
+  if (String(c?.phone || "").trim()) score += 25;
+  if (String(c?.website || "").trim()) score += 25;
+  if (String(c?.description || "").trim()) score += 20;
+
+  // Optional data you may add later
+  if (String(c?.address || "").trim()) score += 10;
+  if (String(c?.email || "").trim()) score += 10;
+  if (String(c?.hours || "").trim()) score += 10;
+
+  // Extra info fields (still not "trust")
+  const badges = getBadges(c);
+  if (badges.length > 0) score += 10;
+
+  const langs = getLanguages(c);
+  if (langs.length > 0) score += 10;
+
+  // Add any custom "extras" you might have later
+  if (Array.isArray(c?.photos) && c.photos.length > 0) score += 5;
+  if (String(c?.yearsInBusiness || "").trim()) score += 5;
+
+  return score;
+};
+
+export function getStaticPaths() {
+  const paths = [];
+
+  for (const c of companies) {
+    if (!c?.townSlug || !c?.serviceId) continue;
+
+    paths.push({
+      params: {
+        slug: String(c.townSlug),
+        service: String(c.serviceId),
+      },
+    });
+  }
+
+  return paths;
+}
+
+const { slug, service } = Astro.params;
+
+const townSlug = norm(slug);
+const serviceId = norm(service);
+
+const town = towns.find((t) => norm(t.slug) === townSlug) ?? null;
+const serviceObj = services.find((s) => norm(s.id) === serviceId) ?? null;
+
+const townName = toTitleCase(town?.name ?? String(slug));
+const serviceName = serviceObj?.name ?? String(service);
+
+// Filter then sort by completeness (desc), then name
+const companiesForPage = companies
+  .filter((c) => norm(c.townSlug) === townSlug && norm(c.serviceId) === serviceId)
+  .sort((a, b) => {
+    const diff = completenessScore(b) - completenessScore(a);
+    if (diff !== 0) return diff;
+    return String(a?.name || "").localeCompare(String(b?.name || ""));
+  });
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{serviceName} in {townName}, MA</title>
+    <meta
+      name="description"
+      content={`Find ${serviceName} providers in ${townName}, Massachusetts. Listings may display additional information such as licenses, insurance, or languages.`}
+    />
+  </head>
+
+  <body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0;">
+    <main style="max-width: 920px; margin: 0 auto; padding: 24px;">
+      <a href="/ma" style="text-decoration:none;">← Back to Massachusetts</a>
+
+      <header style="margin-top: 16px;">
+        <h1 style="margin: 0 0 8px 0;">
+          {serviceName} in {townName}, MA
+        </h1>
+        <p style="margin: 0; color: #444;">
+          Listings may display additional information (licenses, insurance, languages, and more).
+        </p>
+      </header>
+
+      <section style="margin-top: 20px;">
+        {companiesForPage.length === 0 ? (
+          <p style="padding: 14px; border: 1px solid #ddd; border-radius: 10px;">
+            No providers listed yet for <strong>{serviceName}</strong> in <strong>{townName}</strong>.
+          </p>
+        ) : (
+          <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 12px;">
+            {companiesForPage.map((c) => {
+              const badges = getBadges(c);
+              const langs = getLanguages(c);
+
+              return (
+                <li style="border: 1px solid #ddd; border-radius: 12px; padding: 14px;">
+                  <h3 style="margin:0 0 6px 0;">
+                    <a href={`/ma/${c.townSlug}/${c.serviceId}/${c.id}`} style="text-decoration:none;">
+                      {c.name}
+                    </a>
+                  </h3>
+
+                  {/* Badges (fact-based) */}
+                  {badges.length > 0 && (
+                    <div style="display:flex; gap:8px; flex-wrap:wrap; margin: 0 0 8px 0;">
+                      {badges.map((b) => (
+                        <span
+                          style={`
+                            font-size:12px;
+                            padding:3px 10px;
+                            border-radius:999px;
+                            border:1px solid ${b.border};
+                            background:${b.background};
+                            color:${b.color};
+                            font-weight:500;
+                          `}
+                          title={b.key}
+                        >
+                          {b.label}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Languages (separate style) */}
+                  {langs.length > 0 && (
+                    <div style="display:flex; gap:8px; flex-wrap:wrap; margin: 0 0 8px 0;">
+                      {langs.map((lang) => (
+                        <span
+                          style="
+                            font-size:12px;
+                            padding:3px 10px;
+                            border-radius:999px;
+                            border:1px solid #c9c9c9;
+                            background:#fafafa;
+                            color:#333;
+                          "
+                          title="Language"
+                        >
+                          {lang}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
+                  {c.description && (
+                    <p style="margin: 0 0 8px 0; color:#333;">
+                      {c.description}
+                    </p>
+                  )}
+
+                  <div style="display:flex; gap:14px; flex-wrap:wrap; color:#333;">
+                    {c.phone && <span><strong>Phone:</strong> {c.phone}</span>}
+                    {c.website && (
+                      <a href={c.website} target="_blank" rel="noopener noreferrer">
+                        Website
+                      </a>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+      </section>
+    </main>
+  </body>
+</html>

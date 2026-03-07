@@ -1,0 +1,70 @@
+---
+export const prerender = true;
+
+import companies from "../../data/companies/ma-companies.json";
+
+// Generate BOTH routes:
+// - /companies/{company.id}
+// - /companies/{company.slug}
+// De-dupe so build doesn't create duplicates.
+export function getStaticPaths() {
+  function norm(v) {
+    return String(v ?? "").trim().toLowerCase();
+  }
+
+  const seen = new Set();
+  const paths = [];
+
+  for (const company of companies ?? []) {
+    const id = String(company?.id ?? "").trim();
+    const slug = String(company?.slug ?? "").trim();
+
+    for (const s of [id, slug]) {
+      if (!s) continue;
+      const key = norm(s);
+      if (seen.has(key)) continue;
+      seen.add(key);
+
+      paths.push({
+        params: { slug: s },
+        props: { company },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { slug } = Astro.params;
+
+function norm(v) {
+  return String(v ?? "").trim().toLowerCase();
+}
+
+const company =
+  (companies ?? []).find(
+    (c) => norm(c?.id) === norm(slug) || norm(c?.slug) === norm(slug)
+  ) ?? null;
+
+if (!company) {
+  return Astro.redirect("/404");
+}
+---
+
+<h1>{company.name}</h1>
+
+<p><strong>Service:</strong> {company.serviceId}</p>
+<p><strong>Town:</strong> {company.townSlug}</p>
+
+{company.phone && (
+  <p><strong>Phone:</strong> {company.phone}</p>
+)}
+
+{company.website && (
+  <p>
+    <strong>Website:</strong>{" "}
+    <a href={company.website} target="_blank" rel="noopener noreferrer">
+      {company.website}
+    </a>
+  </p>
+)}

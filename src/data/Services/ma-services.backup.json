@@ -1,0 +1,15 @@
+[
+  { "id": "snow-removal", "name": "Snow Removal" },
+  { "id": "plumbing", "name": "Plumbing" },
+  { "id": "electrician", "name": "Electrician" },
+  { "id": "hvac", "name": "Heating & Air Conditioning" },
+  { "id": "roofing", "name": "Roofing" },
+
+  { "id": "lawn-care", "name": "Lawn Care" },
+  { "id": "landscaping", "name": "Landscaping" },
+  { "id": "junk-removal", "name": "Junk Removal" },
+  { "id": "solar", "name": "Solar Installation" },
+
+  { "id": "security-alarm", "name": "Security & Alarm Systems" },
+  { "id": "access-control", "name": "Access Control Systems" }
+]

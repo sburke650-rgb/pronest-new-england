@@ -1,0 +1,352 @@
+---
+export const prerender = true;
+
+import towns from "../../../data/towns/ma-towns.json";
+import companies from "../../../data/companies/ma-companies.json";
+import services from "../../../data/services/ma-services.json";
+
+const norm = (v) => String(v ?? "").trim().toLowerCase();
+
+const titleCaseFromSlug = (v) =>
+  String(v ?? "")
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+
+const getTownNameFromSlug = (slug) => {
+  const town = towns.find((t) => norm(t.slug) === norm(slug));
+  return town?.name ?? titleCaseFromSlug(slug);
+};
+
+const getServiceNameFromId = (id) => {
+  const service = services.find((s) => norm(s.id) === norm(id));
+  return service?.name ?? titleCaseFromSlug(id);
+};
+
+const formatLanguages = (langs) => {
+  if (!langs) return [];
+
+  if (Array.isArray(langs)) {
+    return langs.map((x) => String(x).trim()).filter(Boolean);
+  }
+
+  if (typeof langs === "string") {
+    return langs
+      .split(",")
+      .map((x) => x.trim())
+      .filter(Boolean);
+  }
+
+  return [];
+};
+
+/*
+  Starter nearby-town map for Massachusetts.
+  You can expand this anytime later.
+*/
+const NEARBY_TOWNS = {
+  "boston": ["cambridge", "somerville", "quincy", "brookline", "newton", "medford"],
+  "cambridge": ["somerville", "boston", "brookline", "medford", "watertown", "belmont"],
+  "somerville": ["cambridge", "medford", "boston", "malden", "everett", "arlington"],
+  "worcester": ["shrewsbury", "west-boylston", "auburn", "millbury", "leicester", "holden"],
+  "springfield": ["west-springfield", "chicopee", "holyoke", "longmeadow", "wilbraham", "east-longmeadow"],
+  "lowell": ["dracut", "chelmsford", "tyngsborough", "tewksbury", "billerica", "lawrence"],
+  "quincy": ["boston", "milton", "weymouth", "braintree", "randolph", "brookline"],
+  "brockton": ["avon", "stoughton", "holbrook", "easton", "west-bridgewater", "abington"],
+  "new-bedford": ["fairhaven", "dartmouth", "acushnet", "fall-river", "wareham", "freetown"],
+  "fall-river": ["somerset", "swansea", "westport", "new-bedford", "seekonk", "taunton"],
+  "lynn": ["salem", "swampscott", "saugus", "peabody", "revere", "malden"],
+  "newton": ["brookline", "watertown", "waltham", "needham", "boston", "cambridge"],
+  "framingham": ["natick", "ashland", "marlborough", "southborough", "weston", "wayland"],
+  "lawrence": ["methuen", "andover", "north-andover", "haverhill", "lowell", "dracut"],
+  "malden": ["melrose", "everett", "medford", "revere", "saugus", "somerville"],
+  "medford": ["somerville", "malden", "melrose", "cambridge", "arlington", "everett"],
+  "waltham": ["watertown", "newton", "belmont", "lexington", "weston", "cambridge"],
+  "haverhill": ["methuen", "lawrence", "north-andover", "andover", "dracut", "lowell"],
+  "taunton": ["raynham", "berkley", "dighton", "seekonk", "fall-river", "bridgewater"],
+  "brookline": ["boston", "newton", "cambridge", "watertown", "belmont", "quincy"],
+  "plymouth": ["kingston", "carver", "duxbury", "marshfield", "wareham", "middleborough"],
+  "revere": ["everett", "malden", "saugus", "chelsea", "boston", "lynn"],
+  "peabody": ["salem", "danvers", "lynn", "beverly", "saugus", "swampscott"],
+  "methuen": ["lawrence", "andover", "north-andover", "haverhill", "dracut", "lowell"],
+  "barnstable": ["yarmouth", "sandwich", "mashpee", "dennis", "falmouth", "orleans"],
+  "yarmouth": ["barnstable", "dennis", "harwich", "sandwich", "orleans", "brewster"],
+  "falmouth": ["mashpee", "barnstable", "sandwich", "wareham", "bourne", "plymouth"],
+  "chicopee": ["springfield", "holyoke", "west-springfield", "ludlow", "wilbraham", "longmeadow"],
+  "holyoke": ["chicopee", "springfield", "westfield", "northampton", "easthampton", "south-hadley"],
+  "westfield": ["southwick", "holyoke", "northampton", "easthampton", "springfield", "agawam"],
+  "northampton": ["easthampton", "amherst", "hadley", "holyoke", "westfield", "south-hadley"],
+  "amherst": ["hadley", "northampton", "south-hadley", "belchertown", "easthampton", "holyoke"],
+  "beverly": ["salem", "danvers", "peabody", "manchester-by-the-sea", "gloucester", "lynn"],
+  "gloucester": ["rockport", "manchester-by-the-sea", "beverly", "salem", "danvers", "peabody"],
+  "leominster": ["fitchburg", "lunenburg", "shirley", "lancaster", "clinton", "sterling"],
+  "fitchburg": ["leominster", "lunenburg", "ashby", "westminster", "gardner", "sterling"],
+  "marlborough": ["hudson", "southborough", "northborough", "framingham", "natick", "westborough"],
+  "natick": ["framingham", "wellesley", "needham", "wayland", "ashland", "weston"],
+  "andover": ["north-andover", "lawrence", "methuen", "haverhill", "lowell", "dracut"],
+  "west-springfield": ["springfield", "chicopee", "holyoke", "agawam", "westfield", "longmeadow"],
+  "everett": ["malden", "revere", "medford", "somerville", "boston", "chelsea"],
+  "chelsea": ["everett", "revere", "boston", "malden", "somerville", "lynn"],
+  "attleboro": ["north-attleboro", "seekonk", "taunton", "mansfield", "foxborough", "pawtucket"],
+  "salem": ["beverly", "danvers", "peabody", "swampscott", "lynn", "gloucester"],
+  "westford": ["chelmsford", "lowell", "acton", "littleton", "concord", "carlisle"],
+  "billerica": ["lowell", "tewksbury", "chelmsford", "bedford", "burlington", "wilmington"],
+  "burlington": ["woburn", "lexington", "bedford", "wilmington", "billerica", "belmont"],
+  "woburn": ["winchester", "stoneham", "burlington", "lexington", "medford", "melrose"],
+  "arlington": ["cambridge", "somerville", "medford", "belmont", "lexington", "watertown"],
+  "belmont": ["cambridge", "watertown", "waltham", "newton", "arlington", "lexington"],
+  "watertown": ["cambridge", "belmont", "newton", "waltham", "brookline", "boston"],
+  "lexington": ["arlington", "belmont", "waltham", "bedford", "burlington", "concord"],
+  "needham": ["newton", "wellesley", "dedham", "natick", "brookline", "boston"],
+  "wellesley": ["needham", "natick", "newton", "weston", "framingham", "wayland"],
+  "dedham": ["needham", "westwood", "milton", "boston", "quincy", "brookline"]
+};
+
+export function getStaticPaths() {
+  const paths = [];
+
+  for (const town of towns) {
+    for (const service of services) {
+      if (!town?.slug || !service?.id) continue;
+
+      paths.push({
+        params: {
+          slug: String(town.slug),
+          service: String(service.id),
+        },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { slug, service } = Astro.params;
+
+const townSlug = norm(slug);
+const serviceId = norm(service);
+
+const town = towns.find((t) => norm(t.slug) === townSlug) ?? null;
+const serviceObj = services.find((s) => norm(s.id) === serviceId) ?? null;
+
+const townName = town?.name ?? titleCaseFromSlug(slug);
+const serviceName = serviceObj?.name ?? titleCaseFromSlug(service);
+
+const exactMatches = companies
+  .filter(
+    (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
+  )
+  .sort((a, b) => {
+    const verifiedDiff = Number(Boolean(b?.verified)) - Number(Boolean(a?.verified));
+    if (verifiedDiff !== 0) return verifiedDiff;
+    return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
+  });
+
+const nearbyTownSlugs = (NEARBY_TOWNS[townSlug] ?? []).map(norm);
+
+const nearbyMatches = companies
+  .filter(
+    (c) =>
+      nearbyTownSlugs.includes(norm(c?.townSlug)) &&
+      norm(c?.serviceId) === serviceId
+  )
+  .sort((a, b) => {
+    const aIndex = nearbyTownSlugs.indexOf(norm(a?.townSlug));
+    const bIndex = nearbyTownSlugs.indexOf(norm(b?.townSlug));
+    if (aIndex !== bIndex) return aIndex - bIndex;
+
+    const verifiedDiff = Number(Boolean(b?.verified)) - Number(Boolean(a?.verified));
+    if (verifiedDiff !== 0) return verifiedDiff;
+
+    return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
+  });
+
+const statewideFallback = companies
+  .filter(
+    (c) =>
+      norm(c?.serviceId) === serviceId &&
+      norm(c?.townSlug) !== townSlug &&
+      !nearbyTownSlugs.includes(norm(c?.townSlug))
+  )
+  .sort((a, b) => {
+    const verifiedDiff = Number(Boolean(b?.verified)) - Number(Boolean(a?.verified));
+    if (verifiedDiff !== 0) return verifiedDiff;
+    return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
+  });
+
+const isExact = exactMatches.length > 0;
+const isNearbyFallback = !isExact && nearbyMatches.length > 0;
+const isStatewideFallback = !isExact && nearbyMatches.length === 0 && statewideFallback.length > 0;
+
+const listingCompanies = isExact
+  ? exactMatches
+  : isNearbyFallback
+    ? nearbyMatches
+    : isStatewideFallback
+      ? statewideFallback.slice(0, 24)
+      : [];
+
+const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
+const pageDescription = isExact
+  ? `Browse ${serviceName.toLowerCase()} providers in ${townName}, Massachusetts.`
+  : isNearbyFallback
+    ? `No exact ${serviceName.toLowerCase()} providers were found in ${townName}. Showing nearby providers instead.`
+    : `Browse ${serviceName.toLowerCase()} providers near ${townName}, Massachusetts.`;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+  </head>
+
+  <body style="margin:0; font-family:Arial, Helvetica, sans-serif; color:#111827; background:#f8fafc;">
+    <main style="max-width:1100px; margin:0 auto; padding:32px 20px 60px;">
+      <nav style="font-size:14px; margin-bottom:18px;">
+        <a href="/" style="color:#2563eb; text-decoration:none;">Home</a>
+        <span style="color:#6b7280;"> / </span>
+        <a href="/ma/" style="color:#2563eb; text-decoration:none;">Massachusetts</a>
+        <span style="color:#6b7280;"> / </span>
+        <a href={`/ma/${townSlug}/`} style="color:#2563eb; text-decoration:none;">{townName}</a>
+        <span style="color:#6b7280;"> / </span>
+        <span style="color:#6b7280;">{serviceName}</span>
+      </nav>
+
+      <header style="margin-bottom:24px;">
+        <h1 style="margin:0 0 10px; font-size:34px; line-height:1.15;">
+          {serviceName} in {townName}, Massachusetts
+        </h1>
+
+        {isExact && (
+          <p style="margin:0; font-size:17px; color:#4b5563;">
+            Showing providers located in {townName}.
+          </p>
+        )}
+
+        {isNearbyFallback && (
+          <div style="margin-top:14px; padding:16px; border:1px solid #fde68a; background:#fffbeb; border-radius:12px;">
+            <p style="margin:0 0 8px; font-weight:700; color:#92400e;">
+              No providers were found directly in {townName}.
+            </p>
+            <p style="margin:0; color:#78350f;">
+              Showing nearby {serviceName.toLowerCase()} providers instead.
+            </p>
+          </div>
+        )}
+
+        {isStatewideFallback && (
+          <div style="margin-top:14px; padding:16px; border:1px solid #bfdbfe; background:#eff6ff; border-radius:12px;">
+            <p style="margin:0 0 8px; font-weight:700; color:#1d4ed8;">
+              No providers were found in {townName} or its nearby mapped towns.
+            </p>
+            <p style="margin:0; color:#1e40af;">
+              Showing other Massachusetts {serviceName.toLowerCase()} providers instead.
+            </p>
+          </div>
+        )}
+      </header>
+
+      {listingCompanies.length > 0 ? (
+        <>
+          <section style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:18px;">
+            {listingCompanies.map((company) => {
+              const companyTownName = getTownNameFromSlug(company?.townSlug);
+              const companyLanguages = formatLanguages(company?.languages);
+              const companyUrl = `/ma/${company.townSlug}/${company.serviceId}/${company.id}/`;
+
+              return (
+                <article style="background:#ffffff; border:1px solid #e5e7eb; border-radius:16px; padding:18px; box-shadow:0 1px 2px rgba(0,0,0,0.04);">
+                  <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:10px;">
+                    <h2 style="margin:0; font-size:20px; line-height:1.25;">
+                      <a href={companyUrl} style="color:#111827; text-decoration:none;">
+                        {company?.name ?? "Provider"}
+                      </a>
+                    </h2>
+
+                    {company?.verified && (
+                      <span style="display:inline-block; white-space:nowrap; font-size:12px; font-weight:700; color:#166534; background:#dcfce7; border:1px solid #86efac; padding:6px 10px; border-radius:999px;">
+                        Verified
+                      </span>
+                    )}
+                  </div>
+
+                  <p style="margin:0 0 10px; color:#4b5563; font-size:14px;">
+                    {serviceName} • {companyTownName}, MA
+                  </p>
+
+                  {company?.description && (
+                    <p style="margin:0 0 12px; color:#374151; font-size:15px; line-height:1.5;">
+                      {company.description}
+                    </p>
+                  )}
+
+                  <div style="display:grid; gap:8px; font-size:14px; color:#374151;">
+                    {company?.phone && (
+                      <div>
+                        <strong>Phone:</strong> {company.phone}
+                      </div>
+                    )}
+
+                    {company?.website && (
+                      <div>
+                        <strong>Website:</strong>{" "}
+                        <a
+                          href={company.website}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style="color:#2563eb; text-decoration:none; word-break:break-word;"
+                        >
+                          {company.website}
+                        </a>
+                      </div>
+                    )}
+
+                    {companyLanguages.length > 0 && (
+                      <div>
+                        <strong>Languages:</strong> {companyLanguages.join(", ")}
+                      </div>
+                    )}
+                  </div>
+
+                  <div style="margin-top:14px;">
+                    <a
+                      href={companyUrl}
+                      style="display:inline-block; text-decoration:none; color:#ffffff; background:#2563eb; padding:10px 14px; border-radius:10px; font-weight:700;"
+                    >
+                      View company
+                    </a>
+                  </div>
+                </article>
+              );
+            })}
+          </section>
+
+          {isNearbyFallback && nearbyTownSlugs.length > 0 && (
+            <section style="margin-top:28px;">
+              <h2 style="margin:0 0 10px; font-size:22px;">Nearby towns checked</h2>
+              <p style="margin:0; color:#4b5563; line-height:1.6;">
+                {nearbyTownSlugs.map((slug) => getTownNameFromSlug(slug)).join(", ")}
+              </p>
+            </section>
+          )}
+        </>
+      ) : (
+        <section style="padding:22px; background:#ffffff; border:1px solid #e5e7eb; border-radius:16px;">
+          <h2 style="margin:0 0 10px; font-size:24px;">No providers found</h2>
+          <p style="margin:0 0 14px; color:#4b5563; line-height:1.6;">
+            We could not find any {serviceName.toLowerCase()} providers for {townName} right now.
+          </p>
+          <a
+            href={`/ma/${townSlug}/`}
+            style="display:inline-block; text-decoration:none; color:#ffffff; background:#2563eb; padding:10px 14px; border-radius:10px; font-weight:700;"
+          >
+            Back to {townName}
+          </a>
+        </section>
+      )}
+    </main>
+  </body>
+</html>

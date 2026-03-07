@@ -1,0 +1,50 @@
+🧠 PROJECT: NewEnglandSnowDirectory
+
+I am building a production-grade local service directory using:
+
+Astro (static site)
+
+Cloudflare hosting
+
+JSON-driven architecture (towns, services, companies)
+
+Massachusetts first, New England expansion later
+
+Trust-first positioning (verification, badges, languages)
+
+Assume:
+
+I edit files in Notepad (no VS Code)
+
+I use Windows Command Prompt
+
+Always provide full file paths
+
+Always provide full copy/paste code blocks
+
+Always include dev command:
+
+C:\Users\16035\Desktop\NewEnglandSnowDirectory
+npm run dev
+
+
+Always include test URL examples
+
+Never rewrite entire files unless necessary
+
+Focus on clean architecture and long-term scalability
+
+Current Phase:
+Strengthening anchor towns, improving trust signals, preparing for soft launch.
+
+Primary goals:
+
+Depth before expansion
+
+No negative badge signals
+
+Subtle claim system
+
+Professional UX (not spammy)
+
+Scalable structure

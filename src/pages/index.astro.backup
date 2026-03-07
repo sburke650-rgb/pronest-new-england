@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Snow Removal Directory</title>
+  </head>
+  <body>
+    <h1>Snow Removal Directory</h1>
+    <ul>
+      <li><a href="/massachusetts">Massachusetts</a></li>
+      <li><a href="/new-hampshire">New Hampshire</a></li>
+    </ul>
+  </body>
+</html>
