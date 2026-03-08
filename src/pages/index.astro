@@ -54,6 +54,7 @@ for (const [townSlug, set] of servicesByTown.entries()) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ProNest New England</title>
+    <meta name="description" content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts." />
 
     <meta name="build-check" content="INDEX_STABLE_REBUILD_DROPDOWN_V2" />
 
@@ -61,7 +62,22 @@ for (const [townSlug, set] of servicesByTown.entries()) {
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
       body { margin: 0; background: #fff; color: #111; }
       .wrap { max-width: 980px; margin: 0 auto; padding: 44px 16px; }
-      .brand { font-weight: 800; font-size: 20px; margin-bottom: 18px; }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .brand img {
+        display: block;
+        height: 56px;
+        width: auto;
+      }
+      .brand-text {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 1.1;
+      }
       .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 24px 18px; }
       h1 { margin: 0 0 10px 0; font-size: 32px; line-height: 1.15; }
       p { margin: 0 0 18px 0; font-size: 16px; color: #333; }
@@ -73,12 +89,24 @@ for (const [townSlug, set] of servicesByTown.entries()) {
       .links { margin-top: 16px; }
       .links a { color: #111; text-decoration: underline; }
       .error { margin-top: 10px; font-size: 13px; color: #b00020; display: none; }
+
+      @media (max-width: 760px) {
+        .wrap { padding: 28px 16px; }
+        .brand img { height: 48px; }
+        .brand-text { font-size: 18px; }
+        h1 { font-size: 28px; }
+        .grid { grid-template-columns: 1fr; }
+        button { width: 100%; }
+      }
     </style>
   </head>
 
   <body>
     <main class="wrap">
-      <div class="brand">ProNest New England</div>
+      <div class="brand">
+        <img src="/logo.png" alt="ProNest New England logo" />
+        <div class="brand-text">ProNest New England</div>
+      </div>
 
       <section class="card">
         <h1>New England’s Regional Directory for Local Professionals</h1>
@@ -117,12 +145,11 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         </div>
 
         <div class="links">
-          <a href="http://localhost:4321/ma/">Browse Massachusetts directory</a>
+          <a href="/ma/">Browse Massachusetts directory</a>
         </div>
       </section>
     </main>
 
-    <!-- IMPORTANT: use set:html so JSON isn't HTML-escaped -->
     <script
       type="application/json"
       id="__servicesByTown"
@@ -146,7 +173,11 @@ for (const [townSlug, set] of servicesByTown.entries()) {
 
         function showError(msg) {
           if (!errorMsg) return;
-          if (!msg) { errorMsg.style.display = "none"; errorMsg.textContent = ""; return; }
+          if (!msg) {
+            errorMsg.style.display = "none";
+            errorMsg.textContent = "";
+            return;
+          }
           errorMsg.textContent = msg;
           errorMsg.style.display = "block";
         }
