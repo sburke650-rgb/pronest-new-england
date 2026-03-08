@@ -9,7 +9,7 @@ const norm = (v) => String(v ?? "").trim().toLowerCase();
 
 // Build lookups from companies
 const townsWithProvidersSet = new Set();
-const servicesByTown = new Map(); // townSlug -> Set(serviceId)
+const servicesByTown = new Map();
 
 for (const c of companies) {
   const t = norm(c?.townSlug);
@@ -22,19 +22,16 @@ for (const c of companies) {
   servicesByTown.get(t).add(s);
 }
 
-// Town dropdown: only towns with providers
 const townsWithProviders = towns
   .filter((t) => townsWithProvidersSet.has(norm(t?.slug)))
   .slice()
   .sort((a, b) => String(a.name).localeCompare(String(b.name)));
 
-// Service catalog (id->name)
 const serviceCatalog = services
   .slice()
   .map((s) => ({ id: String(s.id), name: String(s.name) }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
-// Services used anywhere (for initial dropdown)
 const servicesUsedSet = new Set();
 for (const [, set] of servicesByTown.entries()) {
   for (const sid of set) servicesUsedSet.add(sid);
@@ -42,7 +39,6 @@ for (const [, set] of servicesByTown.entries()) {
 
 const servicesInitial = serviceCatalog.filter((s) => servicesUsedSet.has(norm(s.id)));
 
-// servicesByTown plain object
 const servicesByTownObj = {};
 for (const [townSlug, set] of servicesByTown.entries()) {
   servicesByTownObj[townSlug] = Array.from(set);
@@ -56,44 +52,151 @@ for (const [townSlug, set] of servicesByTown.entries()) {
     <title>ProNest New England</title>
     <meta name="description" content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts." />
 
-    <meta name="build-check" content="INDEX_STABLE_REBUILD_DROPDOWN_V2" />
+    <meta name="build-check" content="INDEX_HEADER_NAV_V2" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
       body { margin: 0; background: #fff; color: #111; }
-      .wrap { max-width: 980px; margin: 0 auto; padding: 44px 16px; }
-      .brand {
+
+      .site-header {
+        border-bottom: 1px solid #e5e7eb;
+        background: #ffffff;
+      }
+
+      .header-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 14px 16px;
         display: flex;
         align-items: center;
-        gap: 12px;
-        margin-bottom: 18px;
+        justify-content: space-between;
+        gap: 16px;
       }
-      .brand img {
+
+      .brand-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .brand-link img {
         display: block;
-        height: 56px;
+        height: 72px;
         width: auto;
       }
-      .brand-text {
-        font-weight: 800;
-        font-size: 20px;
-        line-height: 1.1;
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
       }
-      .card { border: 1px solid #e5e5e5; border-radius: 14px; padding: 24px 18px; }
-      h1 { margin: 0 0 10px 0; font-size: 32px; line-height: 1.15; }
-      p { margin: 0 0 18px 0; font-size: 16px; color: #333; }
-      .grid { display: grid; grid-template-columns: 1fr 1fr auto; gap: 10px; align-items: end; }
-      label { display:block; font-size: 13px; margin-bottom: 6px; }
-      select { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid #ccc; background: #fff; font-size: 15px; }
-      button { padding: 11px 14px; border-radius: 10px; border: 1px solid #111; background: #111; color: #fff; cursor: pointer; font-size: 15px; }
-      .note { margin-top: 10px; font-size: 12px; color: #666; }
-      .links { margin-top: 16px; }
-      .links a { color: #111; text-decoration: underline; }
-      .error { margin-top: 10px; font-size: 13px; color: #b00020; display: none; }
+
+      .nav a {
+        text-decoration: none;
+        color: #111827;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .nav a:hover {
+        text-decoration: underline;
+      }
+
+      .wrap { max-width: 980px; margin: 0 auto; padding: 36px 16px 44px; }
+
+      .card {
+        border: 1px solid #e5e5e5;
+        border-radius: 18px;
+        padding: 28px 22px;
+        background: #fff;
+      }
+
+      h1 {
+        margin: 0 0 12px 0;
+        font-size: 32px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+      }
+
+      p {
+        margin: 0 0 18px 0;
+        font-size: 16px;
+        color: #333;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: 10px;
+        align-items: end;
+      }
+
+      label {
+        display: block;
+        font-size: 13px;
+        margin-bottom: 6px;
+      }
+
+      select {
+        width: 100%;
+        padding: 12px 14px;
+        border-radius: 14px;
+        border: 1px solid #d1d5db;
+        background: #fff;
+        font-size: 15px;
+      }
+
+      button {
+        padding: 12px 18px;
+        border-radius: 14px;
+        border: 1px solid #111;
+        background: #111;
+        color: #fff;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      .note {
+        margin-top: 12px;
+        font-size: 12px;
+        color: #666;
+      }
+
+      .links {
+        margin-top: 18px;
+      }
+
+      .links a {
+        color: #111;
+        text-decoration: underline;
+        font-size: 16px;
+      }
+
+      .error {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #b00020;
+        display: none;
+      }
 
       @media (max-width: 760px) {
+        .header-inner {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .brand-link img {
+          height: 60px;
+        }
+
+        .nav {
+          width: 100%;
+          gap: 14px;
+        }
+
         .wrap { padding: 28px 16px; }
-        .brand img { height: 48px; }
-        .brand-text { font-size: 18px; }
         h1 { font-size: 28px; }
         .grid { grid-template-columns: 1fr; }
         button { width: 100%; }
@@ -102,12 +205,21 @@ for (const [townSlug, set] of servicesByTown.entries()) {
   </head>
 
   <body>
-    <main class="wrap">
-      <div class="brand">
-        <img src="/logo.png" alt="ProNest New England logo" />
-        <div class="brand-text">ProNest New England</div>
-      </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="brand-link" aria-label="ProNest New England home">
+          <img src="/logo.png" alt="ProNest New England logo" />
+        </a>
 
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/ma/">Massachusetts</a>
+          <a href="/claim/">Claim Listing</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
       <section class="card">
         <h1>New England’s Regional Directory for Local Professionals</h1>
         <p>
