@@ -9,3 +9,13 @@ set:html={JSON.stringify(data)}
 
 Result:
 Browser can correctly parse JSON and rebuild service dropdown.
+
+Cloudflare build failures due to folder casing (Towns vs towns)
+
+Backup .astro files causing build errors
+
+Logo not loading due to filename case mismatch
+
+Deployment workflow confirmed (git push → Cloudflare build)
+
+Keeping this log prevents repeating debugging work later.
