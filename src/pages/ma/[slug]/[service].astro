@@ -118,11 +118,110 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f8fafc;
+        color: #111827;
+      }
+
+      .site-header {
+        border-bottom: 1px solid #e5e7eb;
+        background: #ffffff;
+      }
+
+      .header-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 14px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .brand-link {
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+      }
+
+      .brand-link img {
+        display: block;
+        height: 72px;
+        width: auto;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+
+      .nav a {
+        text-decoration: none;
+        color: #111827;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .nav a:hover {
+        text-decoration: underline;
+      }
+
+      .page-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+      }
+
+      .cards-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+      }
+
+      @media (max-width: 760px) {
+        .header-inner {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .brand-link img {
+          height: 60px;
+        }
+
+        .nav {
+          width: 100%;
+          gap: 14px;
+        }
+
+        .page-wrap {
+          padding: 28px 16px 44px;
+        }
+      }
+    </style>
   </head>
 
-  <body style="margin:0;font-family:Arial,Helvetica,sans-serif;background:#f8fafc;color:#111827;">
-    <main style="max-width:1100px;margin:0 auto;padding:32px 20px 60px;">
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="brand-link" aria-label="ProNest New England home">
+          <img src="/logo.png" alt="ProNest New England logo" />
+        </a>
 
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/">Home</a>
+          <a href="/ma/">Massachusetts</a>
+          <a href="/claim/">Claim Listing</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-wrap">
       <h1 style="margin:0 0 10px;font-size:34px;">
         {serviceName} in {townName}, Massachusetts
       </h1>
@@ -131,10 +230,8 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
         When available, verified providers are shown first and marked with a green Verified badge.
       </p>
 
-      <section style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
-
+      <section class="cards-grid">
         {listingCompanies.map((company) => {
-
           const verified = isVerifiedCompany(company?.verified);
           const websiteUrl = normalizeWebsiteUrl(company?.website);
           const phoneHref = getPhoneHref(company?.phone);
@@ -145,9 +242,7 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
             : "background:#ffffff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 2px 6px rgba(0,0,0,0.05);";
 
           return (
-
             <article style={cardStyle}>
-
               {verified && (
                 <div style="
                   position:absolute;
@@ -162,10 +257,11 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
               )}
 
               <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px;gap:10px;">
-
                 <h2 style="margin:0;font-size:20px;">
-                  <a href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
-                     style="text-decoration:none;color:#111827;">
+                  <a
+                    href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
+                    style="text-decoration:none;color:#111827;"
+                  >
                     {company?.name}
                   </a>
                 </h2>
@@ -178,15 +274,15 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
                     background:#dcfce7;
                     border:1px solid #22c55e;
                     padding:6px 10px;
-                    border-radius:999px;">
+                    border-radius:999px;
+                  ">
                     Verified
                   </span>
                 )}
-
               </div>
 
               <p style="margin:0 0 12px;color:#4b5563;font-size:14px;">
-                                Based in {getTownNameFromSlug(company?.townSlug)}, MA
+                Based in {getTownNameFromSlug(company?.townSlug)}, MA
               </p>
 
               {company?.description && (
@@ -196,7 +292,6 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
               )}
 
               <div style="display:grid;gap:10px;font-size:14px;color:#374151;">
-
                 {company?.phone && (
                   <div>
                     <strong>Phone:</strong>{" "}
@@ -209,10 +304,12 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
                 {company?.website && (
                   <div>
                     <strong>Website:</strong>{" "}
-                    <a href={websiteUrl}
-                       target="_blank"
-                       rel="noopener noreferrer"
-                       style="color:#2563eb;text-decoration:none;">
+                    <a
+                      href={websiteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style="color:#2563eb;text-decoration:none;"
+                    >
                       {company.website}
                     </a>
                   </div>
@@ -229,7 +326,6 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
                     <strong>Also communicates in:</strong> {langs.additional.join(", ")}
                   </div>
                 )}
-
               </div>
 
               <div style="margin-top:16px;">
@@ -242,19 +338,16 @@ const pageTitle = `${serviceName} in ${townName}, MA | ProNest New England`;
                     color:#ffffff;
                     padding:10px 14px;
                     border-radius:10px;
-                    font-weight:700;">
+                    font-weight:700;
+                  "
+                >
                   View company
                 </a>
               </div>
-
             </article>
-
           );
-
         })}
-
       </section>
-
     </main>
   </body>
 </html>
