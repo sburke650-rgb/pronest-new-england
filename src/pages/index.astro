@@ -52,7 +52,7 @@ for (const [townSlug, set] of servicesByTown.entries()) {
     <title>ProNest New England</title>
     <meta name="description" content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts." />
 
-    <meta name="build-check" content="INDEX_HEADER_NAV_V2" />
+    <meta name="build-check" content="INDEX_SEARCH_FIRST_V3_GREEN_BUTTON" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -103,26 +103,59 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         text-decoration: underline;
       }
 
-      .wrap { max-width: 980px; margin: 0 auto; padding: 36px 16px 44px; }
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 42px 16px 72px;
+      }
 
-      .card {
-        border: 1px solid #e5e5e5;
-        border-radius: 18px;
-        padding: 28px 22px;
-        background: #fff;
+      .hero {
+        display: grid;
+        gap: 24px;
+      }
+
+      .eyebrow {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #2563eb;
       }
 
       h1 {
-        margin: 0 0 12px 0;
-        font-size: 32px;
-        line-height: 1.15;
+        margin: 0;
+        font-size: 36px;
+        line-height: 1.1;
         letter-spacing: -0.02em;
       }
 
-      p {
+      .subtext {
+        margin: 0;
+        font-size: 17px;
+        color: #374151;
+        line-height: 1.6;
+        max-width: 760px;
+      }
+
+      .search-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 20px;
+        padding: 26px 24px;
+        background: #f8fafc;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+      }
+
+      .search-card h2 {
+        margin: 0 0 8px 0;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      .search-card p {
         margin: 0 0 18px 0;
-        font-size: 16px;
-        color: #333;
+        font-size: 15px;
+        color: #4b5563;
       }
 
       .grid {
@@ -136,6 +169,8 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         display: block;
         font-size: 13px;
         margin-bottom: 6px;
+        color: #111827;
+        font-weight: 600;
       }
 
       select {
@@ -150,28 +185,19 @@ for (const [townSlug, set] of servicesByTown.entries()) {
       button {
         padding: 12px 18px;
         border-radius: 14px;
-        border: 1px solid #111;
-        background: #111;
+        border: 1px solid #15803d;
+        background: #16a34a;
         color: #fff;
         cursor: pointer;
         font-size: 15px;
         font-weight: 700;
+        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        box-shadow: 0 4px 12px rgba(22, 163, 74, 0.18);
       }
 
-      .note {
-        margin-top: 12px;
-        font-size: 12px;
-        color: #666;
-      }
-
-      .links {
-        margin-top: 18px;
-      }
-
-      .links a {
-        color: #111;
-        text-decoration: underline;
-        font-size: 16px;
+      button:focus-visible {
+        outline: 3px solid rgba(34, 197, 94, 0.28);
+        outline-offset: 2px;
       }
 
       .error {
@@ -179,6 +205,47 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         font-size: 13px;
         color: #b00020;
         display: none;
+      }
+
+      .browse-row {
+        margin-top: 22px;
+      }
+
+      .browse-link {
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 600;
+        color: #111827;
+        text-decoration: underline;
+      }
+
+      .info-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 18px;
+        padding: 24px 22px;
+        background: #ffffff;
+        margin-top: 6px;
+      }
+
+      .info-card h3 {
+        margin: 0 0 10px 0;
+        font-size: 20px;
+      }
+
+      .info-card p {
+        margin: 0;
+        font-size: 15px;
+        color: #374151;
+        line-height: 1.6;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        button:hover {
+          background: #15803d;
+          border-color: #166534;
+          transform: translateY(-1px);
+          box-shadow: 0 8px 18px rgba(21, 128, 61, 0.22);
+        }
       }
 
       @media (max-width: 760px) {
@@ -196,10 +263,25 @@ for (const [townSlug, set] of servicesByTown.entries()) {
           gap: 14px;
         }
 
-        .wrap { padding: 28px 16px; }
-        h1 { font-size: 28px; }
-        .grid { grid-template-columns: 1fr; }
-        button { width: 100%; }
+        .wrap {
+          padding: 30px 16px 56px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        button {
+          width: 100%;
+        }
+
+        .search-card {
+          padding: 20px 18px;
+        }
       }
     </style>
   </head>
@@ -220,44 +302,56 @@ for (const [townSlug, set] of servicesByTown.entries()) {
     </header>
 
     <main class="wrap">
-      <section class="card">
-        <h1>New England’s Regional Directory for Local Professionals</h1>
-        <p>
-          Connecting homeowners and businesses with reliable local service providers. When available, verified providers are shown first and marked with a green Verified badge.
+      <section class="hero">
+        <p class="eyebrow">Massachusetts Service Directory</p>
+
+        <h1>Find trusted home and business services in your town</h1>
+
+        <p class="subtext">
+          Search by town and service to find local providers quickly. When available,
+          verified providers are shown first and marked with a green Verified badge.
         </p>
 
-        <div class="grid">
-          <div>
-            <label for="townSelect">Town</label>
-            <select id="townSelect">
-              <option value="">Select a town</option>
-              {townsWithProviders.map((t) => (
-                <option value={t.slug}>{t.name}</option>
-              ))}
-            </select>
+        <div class="search-card">
+          <h2>Search the directory</h2>
+          <p>Choose a town and service to go directly to available providers.</p>
+
+          <div class="grid">
+            <div>
+              <label for="townSelect">Town</label>
+              <select id="townSelect">
+                <option value="">Select a town</option>
+                {townsWithProviders.map((t) => (
+                  <option value={t.slug}>{t.name}</option>
+                ))}
+              </select>
+            </div>
+
+            <div>
+              <label for="serviceSelect">Service</label>
+              <select id="serviceSelect">
+                <option value="">Select a service</option>
+                {servicesInitial.map((s) => (
+                  <option value={s.id}>{s.name}</option>
+                ))}
+              </select>
+            </div>
+
+            <button id="searchBtn" type="button">Search</button>
           </div>
 
-          <div>
-            <label for="serviceSelect">Service</label>
-            <select id="serviceSelect">
-              <option value="">Select a service</option>
-              {servicesInitial.map((s) => (
-                <option value={s.id}>{s.name}</option>
-              ))}
-            </select>
+          <div id="errorMsg" class="error"></div>
+
+          <div class="browse-row">
+            <a class="browse-link" href="/ma/">Browse Massachusetts Directory</a>
           </div>
-
-          <button id="searchBtn" type="button">Search</button>
         </div>
 
-        <div id="errorMsg" class="error"></div>
-
-        <div class="note">
-          Town + Service → /ma/{`{town}`}/{`{service}`}/ • Town only → /ma/{`{town}`}/
-        </div>
-
-        <div class="links">
-          <a href="/ma/">Browse Massachusetts directory</a>
+        <div class="info-card">
+          <h3>Find trusted local professionals</h3>
+          <p>
+            ProNest New England connects homeowners and businesses with trusted service providers across Massachusetts.
+          </p>
         </div>
       </section>
     </main>
