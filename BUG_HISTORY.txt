@@ -19,3 +19,9 @@ Logo not loading due to filename case mismatch
 Deployment workflow confirmed (git push → Cloudflare build)
 
 Keeping this log prevents repeating debugging work later.
+
+Header logo appeared too small due to whitespace in PNG.
+
+Long website URLs overflowed card container.
+
+Initial confusion about CompanyList.astro vs ma/[slug]/[service].astro.
