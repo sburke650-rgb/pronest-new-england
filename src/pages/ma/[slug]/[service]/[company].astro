@@ -105,10 +105,6 @@ main {
   padding:0 16px 50px;
 }
 
-a {
-  color:inherit;
-}
-
 .crumbs {
   font-size:14px;
   color:#666;
@@ -186,13 +182,21 @@ h1 {
   line-height:1.6;
 }
 
-.row:last-child {
-  margin-bottom:0;
-}
-
 .label {
   color:#666;
   font-weight:600;
+}
+
+.link {
+  color:#0f766e;
+  text-decoration:none;
+  font-weight:500;
+  transition:color .15s ease;
+}
+
+.link:hover {
+  color:#115e59;
+  text-decoration:underline;
 }
 
 .website-link {
@@ -285,7 +289,7 @@ Claim this listing
 {company.phone && (
 <div class="row">
 <span class="label">Phone:</span>{" "}
-<a href={`tel:${cleanPhone}`}>{company.phone}</a>
+<a class="link" href={`tel:${cleanPhone}`}>{company.phone}</a>
 </div>
 )}
 
@@ -304,7 +308,7 @@ day:"numeric"
 <div class="row">
 <span class="label">Website:</span>{" "}
 <a
-class="website-link"
+class="link website-link"
 href={company.website}
 target="_blank"
 rel="nofollow noopener"
@@ -315,7 +319,7 @@ rel="nofollow noopener"
 )}
 
 <div class="row">
-📍 <a href={googleMapsUrl} target="_blank" rel="nofollow noopener">
+📍 <a class="link" href={googleMapsUrl} target="_blank" rel="nofollow noopener">
 View on Google Maps
 </a>
 </div>
