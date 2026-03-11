@@ -19,59 +19,162 @@ if (!serviceObj) {
 const sortedTowns = [...towns].sort((a, b) => a.name.localeCompare(b.name));
 ---
 
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>{serviceObj.name} in Massachusetts</title>
+
+<style>
+body {
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+  background:#fff;
+  color:#111827;
+}
+
+.wrap {
+  max-width:1000px;
+  margin:0 auto;
+  padding:32px 16px 56px;
+}
+
+.breadcrumbs {
+  font-size:14px;
+  color:#6b7280;
+  margin-bottom:16px;
+}
+
+.breadcrumbs a {
+  text-decoration:none;
+  color:inherit;
+  border-bottom:1px solid rgba(0,0,0,.15);
+}
+
+.hero h1 {
+  margin:0 0 10px 0;
+  font-size:36px;
+}
+
+.intro {
+  margin:0 0 20px 0;
+  color:#374151;
+  font-size:17px;
+}
+
+.search-box {
+  width:100%;
+  max-width:420px;
+  padding:12px;
+  font-size:16px;
+  border:1px solid #d1d5db;
+  border-radius:10px;
+}
+
+.results {
+  margin-top:12px;
+  color:#6b7280;
+}
+
+.town-grid {
+  list-style:none;
+  margin:20px 0 0 0;
+  padding:0;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:10px;
+}
+
+.town-grid li {
+  margin:0;
+}
+
+.town-link {
+  display:block;
+  padding:14px 16px;
+  border:1px solid #e5e7eb;
+  border-radius:12px;
+  text-decoration:none;
+  color:#111827;
+  font-weight:600;
+  background:#f9fafb;
+}
+
+.town-link:hover {
+  background:#f3f4f6;
+}
+
+@media (max-width:640px) {
+  .hero h1 {
+    font-size:30px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<main class="wrap">
+
+<div class="breadcrumbs">
+<a href="/">Home</a> /
+<a href="/ma/">Massachusetts</a> /
+<span>{serviceObj.name}</span>
+</div>
+
+<div class="hero">
 <h1>{serviceObj.name} in Massachusetts</h1>
-
-<p>
-  Choose a town to view {serviceObj.name.toLowerCase()} providers.
+<p class="intro">
+Choose a town to view {serviceObj.name.toLowerCase()} providers.
 </p>
-
-<p>
-  <a href="/ma">← Back to Massachusetts</a>
-</p>
-
-<h2>Search Towns</h2>
+</div>
 
 <input
-  id="townSearch"
-  type="text"
-  placeholder="Search towns (ex: Boston)"
-  style="width: 100%; max-width: 420px; padding: 10px; font-size: 16px;"
+id="townSearch"
+class="search-box"
+type="text"
+placeholder="Search towns (ex: Boston)"
 />
 
-<p id="resultsCount" style="margin-top: 12px; opacity: 0.8;"></p>
+<p id="resultsCount" class="results"></p>
 
-<ul id="townList">
-  {sortedTowns.map((t) => (
-    <li class="townItem" data-name={t.name.toLowerCase()}>
-      <a href={`/ma/${t.slug}/${serviceObj.id}`}>{t.name}</a>
-    </li>
-  ))}
+<ul id="townList" class="town-grid">
+{sortedTowns.map((t) => (
+<li class="townItem" data-name={t.name.toLowerCase()}>
+<a class="town-link" href={`/ma/${t.slug}/${serviceObj.id}`}>{t.name}</a>
+</li>
+))}
 </ul>
 
+</main>
+
 <script>
-  const input = document.getElementById("townSearch");
-  const items = Array.from(document.querySelectorAll(".townItem"));
-  const countEl = document.getElementById("resultsCount");
+const input=document.getElementById("townSearch");
+const items=Array.from(document.querySelectorAll(".townItem"));
+const countEl=document.getElementById("resultsCount");
 
-  function updateCount(visible) {
-    countEl.textContent =
-      visible + " town" + (visible === 1 ? "" : "s") + " shown";
-  }
+function updateCount(visible){
+countEl.textContent=visible+" town"+(visible===1?"":"s")+" shown";
+}
 
-  function filter() {
-    const q = (input.value || "").toLowerCase();
-    let visible = 0;
+function filter(){
+const q=(input.value||"").toLowerCase();
+let visible=0;
 
-    for (const li of items) {
-      const name = li.dataset.name || "";
-      const show = !q || name.includes(q);
-      li.style.display = show ? "" : "none";
-      if (show) visible++;
-    }
+for(const li of items){
+const name=li.dataset.name||"";
+const show=!q||name.includes(q);
+li.style.display=show?"":"none";
+if(show)visible++;
+}
 
-    updateCount(visible);
-  }
+updateCount(visible);
+}
 
-  input.addEventListener("input", filter);
-  updateCount(items.length);
+input.addEventListener("input",filter);
+updateCount(items.length);
 </script>
+
+</body>
+</html>
