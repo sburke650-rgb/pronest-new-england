@@ -7,53 +7,147 @@ export const prerender = true;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Claim a Listing</title>
+    <meta
+      name="description"
+      content="Claim your business listing on ProNest New England and request verification."
+    />
+
+    <style>
+      :root {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        background: #fff;
+        color: #111;
+      }
+
+      main {
+        max-width: 760px;
+        margin: 40px auto;
+        padding: 0 16px 56px;
+      }
+
+      h1 {
+        margin: 0 0 8px 0;
+        font-size: 34px;
+        line-height: 1.1;
+      }
+
+      h2 {
+        margin-top: 28px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 1.2;
+      }
+
+      p {
+        line-height: 1.6;
+      }
+
+      .intro {
+        margin-top: 0;
+        color: #444;
+        max-width: 680px;
+      }
+
+      ol,
+      ul {
+        line-height: 1.6;
+        padding-left: 22px;
+      }
+
+      .claim-box {
+        margin-top: 28px;
+        padding: 16px 18px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        background: #fafafa;
+      }
+
+      .claim-box strong {
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .claim-email {
+        font-size: 18px;
+        font-weight: 700;
+        color: #111827;
+        text-decoration: none;
+        word-break: break-word;
+      }
+
+      .claim-email:hover {
+        text-decoration: underline;
+      }
+
+      .note {
+        color: #666;
+        font-size: 14px;
+        margin-top: 8px;
+      }
+
+      .back-link {
+        display: inline-block;
+        margin-top: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        color: #111827;
+      }
+
+      .back-link:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
 
   <body>
-    <main style="max-width: 760px; margin: 40px auto; padding: 0 16px; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;">
-      <h1 style="margin-bottom: 8px;">Claim a Listing</h1>
-      <p style="margin-top: 0; color: #444;">
-        If you own a business listed on this site, you can claim your listing and get a Verified badge.
+    <main>
+      <h1>Claim a Listing</h1>
+
+      <p class="intro">
+        If you own or manage a business listed on ProNest New England, you can
+        claim your listing and request verification. Verified listings help
+        customers identify trusted local businesses and ensure your business
+        information is accurate.
       </p>
 
-      <h2 style="margin-top: 28px;">How to claim</h2>
-      <ol style="line-height: 1.6;">
+      <h2>How to claim</h2>
+
+      <ol>
+        <li>Email <strong>claims@pronestne.com</strong>.</li>
+
         <li>
-          Email us from a business email address (preferred), or include proof you own the business.
-        </li>
-        <li>
-          Include:
+          Include the following information:
           <ul>
             <li>Business name</li>
-            <li>Town + service category</li>
+            <li>Town and service category</li>
+            <li>Your name and role with the business</li>
             <li>Your phone number</li>
             <li>Link to your website or Google Business Profile</li>
           </ul>
         </li>
+
         <li>
-          We’ll review and mark your listing as <strong>Verified</strong>.
+          We will review the information and update your listing once verified.
         </li>
       </ol>
 
-      <h2 style="margin-top: 28px;">Fast verification options</h2>
-      <ul style="line-height: 1.6;">
-        <li>Domain email (name@yourcompany.com)</li>
-        <li>Match website ownership (your website lists your phone/address)</li>
-        <li>License number (if applicable)</li>
-        <li>Video call or phone callback (manual verification)</li>
-      </ul>
+      <div class="claim-box">
+        <strong>Claim email</strong>
+        <a class="claim-email" href="mailto:claims@pronestne.com">
+          claims@pronestne.com
+        </a>
 
-      <div style="margin-top: 28px; padding: 14px 16px; border: 1px solid #ddd; border-radius: 12px; background: #fafafa;">
-        <strong>Claim email:</strong>
-        <span> claims@yourdomain.com </span>
-        <div style="color:#666; font-size: 14px; margin-top: 6px;">
-          (Replace this with your real email address when ready.)
+        <div class="note">
+          Include your business details and verification information in your
+          message.
         </div>
       </div>
 
-      <p style="margin-top: 30px;">
-        <a href="/" style="text-decoration: none;">← Back to home</a>
-      </p>
+      <a class="back-link" href="/">← Back to home</a>
     </main>
   </body>
 </html>
