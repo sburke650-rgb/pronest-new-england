@@ -1051,17 +1051,6 @@
     "slug": "commonwealth-plumbing"
   },
   {
-    "id": "akian-plumbing-boston",
-    "name": "Akian Plumbing, Heating & Air Conditioning",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "plumbing",
-    "phone": "(617) 298-6600",
-    "website": "https://www.akiansolutions.com/",
-    "description": "Plumbing installation, repair, and emergency services serving Boston and surrounding areas.",
-    "slug": "akian-plumbing"
-  },
-  {
     "id": "winters-home-services-plumbing-boston",
     "name": "Winters Home Services",
     "state": "MA",
