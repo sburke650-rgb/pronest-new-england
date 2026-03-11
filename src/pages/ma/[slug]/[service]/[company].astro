@@ -58,6 +58,9 @@ const description =
 
 const companyUrl = `https://pronestne.com/ma/${company.townSlug}/${company.serviceId}/${company.id}`;
 const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
+
+const googleMapsQuery = encodeURIComponent(`${company.name} ${townName} Massachusetts`);
+const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${googleMapsQuery}`;
 ---
 
 <!doctype html>
@@ -283,6 +286,13 @@ const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
             </a>
           </div>
         )}
+
+        <div class="row">
+          <span class="label">Map:</span>{" "}
+          <a href={googleMapsUrl} target="_blank" rel="nofollow noopener">
+            View on Google Maps
+          </a>
+        </div>
 
         {company.description && company.description.trim() && (
           <div class="description">
