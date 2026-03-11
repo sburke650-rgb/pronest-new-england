@@ -51,12 +51,14 @@ const isVerified = company?.verified === true || company?.claimStatus === "verif
 const isClaimed = company?.claimed === true || company?.claimStatus === "claimed";
 
 const title = `${company.name} — ${serviceName} in ${townName}, MA`;
+
 const description =
   company?.description && company.description.trim().length > 0
     ? String(company.description)
     : `${company.name} offers professional ${serviceName.toLowerCase()} services in ${townName}, Massachusetts. Contact them today for local service.`;
 
 const companyUrl = `https://pronestne.com/ma/${company.townSlug}/${company.serviceId}/${company.id}`;
+
 const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
 
 const googleMapsQuery = encodeURIComponent(`${company.name} ${townName} Massachusetts`);
@@ -65,241 +67,268 @@ const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${googleM
 
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title}</title>
-    <meta name="description" content={description} />
+<head>
 
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": company.name,
-      "description": description,
-      "telephone": company.phone ?? undefined,
-      "url": companyUrl,
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": townName,
-        "addressRegion": "MA",
-        "addressCountry": "US"
-      }
-    })}></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <style>
-      body {
-        margin: 0;
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-        background: #fff;
-        color: #111;
-      }
+<title>{title}</title>
+<meta name="description" content={description} />
 
-      main {
-        max-width: 900px;
-        margin: 28px auto;
-        padding: 0 16px 50px;
-      }
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": company.name,
+  "description": description,
+  "telephone": company.phone ?? undefined,
+  "url": companyUrl,
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": townName,
+    "addressRegion": "MA",
+    "addressCountry": "US"
+  }
+})}></script>
 
-      a {
-        color: inherit;
-      }
+<style>
 
-      .crumbs {
-        font-size: 14px;
-        color: #666;
-        margin-bottom: 14px;
-        line-height: 1.6;
-      }
+body {
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:#fff;
+  color:#111;
+}
 
-      .crumbs a {
-        text-decoration: none;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-      }
+main {
+  max-width:900px;
+  margin:28px auto;
+  padding:0 16px 50px;
+}
 
-      .crumbs a:hover {
-        border-bottom-color: rgba(0, 0, 0, 0.35);
-      }
+a {
+  color:inherit;
+}
 
-      .header {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
-        margin-bottom: 10px;
-      }
+.crumbs {
+  font-size:14px;
+  color:#666;
+  margin-bottom:14px;
+  line-height:1.6;
+}
 
-      h1 {
-        margin: 0;
-        font-size: 28px;
-      }
+.crumbs a {
+  text-decoration:none;
+  border-bottom:1px solid rgba(0,0,0,0.15);
+}
 
-      .trust {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-wrap: wrap;
-      }
+.crumbs a:hover {
+  border-bottom-color:rgba(0,0,0,0.35);
+}
 
-      .badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        font-size: 12px;
-        font-weight: 700;
-        padding: 4px 10px;
-        border-radius: 999px;
-        border: 1px solid rgba(34, 197, 94, 0.45);
-        background: rgba(34, 197, 94, 0.12);
-        color: rgba(22, 101, 52, 1);
-      }
+.header {
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:10px;
+}
 
-      .claim-link {
-        display: inline-block;
-        font-size: 14px;
-        font-weight: 700;
-        text-decoration: none;
-        padding: 8px 12px;
-        border-radius: 10px;
-        border: 1px solid #d1d5db;
-        background: #fff;
-      }
+h1 {
+  margin:0;
+  font-size:28px;
+}
 
-      .claim-link:hover {
-        text-decoration: underline;
-      }
+.trust {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  flex-wrap:wrap;
+}
 
-      .card {
-        margin-top: 18px;
-        padding: 16px;
-        border: 1px solid #e6e6e6;
-        border-radius: 14px;
-        background: #fafafa;
-      }
+.badge {
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:12px;
+  font-weight:700;
+  padding:4px 10px;
+  border-radius:999px;
+  border:1px solid rgba(34,197,94,0.45);
+  background:rgba(34,197,94,0.12);
+  color:rgba(22,101,52,1);
+}
 
-      .row {
-        margin-bottom: 10px;
-        line-height: 1.6;
-      }
+.claim-link {
+  display:inline-block;
+  font-size:14px;
+  font-weight:700;
+  text-decoration:none;
+  padding:8px 12px;
+  border-radius:10px;
+  border:1px solid #d1d5db;
+  background:#fff;
+}
 
-      .row:last-child {
-        margin-bottom: 0;
-      }
+.claim-link:hover {
+  text-decoration:underline;
+}
 
-      .label {
-        color: #666;
-        font-weight: 600;
-      }
+.card {
+  margin-top:18px;
+  padding:16px;
+  border:1px solid #e6e6e6;
+  border-radius:14px;
+  background:#fafafa;
+}
 
-      .website-link {
-        overflow-wrap: anywhere;
-        word-break: break-word;
-      }
+.row {
+  margin-bottom:10px;
+  line-height:1.6;
+}
 
-      .description {
-        margin-top: 16px;
-        padding-top: 16px;
-        border-top: 1px solid #e5e7eb;
-        color: #374151;
-        line-height: 1.7;
-      }
+.row:last-child {
+  margin-bottom:0;
+}
 
-      @media (max-width: 640px) {
-        main {
-          margin: 22px auto;
-          padding: 0 14px 42px;
-        }
+.label {
+  color:#666;
+  font-weight:600;
+}
 
-        h1 {
-          font-size: 24px;
-        }
-      }
-    </style>
-  </head>
+.website-link {
+  overflow-wrap:anywhere;
+  word-break:break-word;
+}
 
-  <body>
-    <main>
-      <div class="crumbs">
-        <a href="/">Home</a>
-        &nbsp;/&nbsp;
-        <a href="/ma/">Massachusetts</a>
-        &nbsp;/&nbsp;
-        <a href={`/ma/${company.townSlug}`}>{townName}</a>
-        &nbsp;/&nbsp;
-        <a href={`/ma/${company.townSlug}/${company.serviceId}`}>{serviceName}</a>
-        &nbsp;/&nbsp;
-        <span>{company.name}</span>
-      </div>
+.description {
+  margin-top:16px;
+  padding-top:16px;
+  border-top:1px solid #e5e7eb;
+  color:#374151;
+  line-height:1.7;
+}
 
-      <div class="header">
-        <h1>{company.name}</h1>
+@media (max-width:640px) {
 
-        <div class="trust">
-          {isVerified && (
-            <span class="badge" title="Verified business">✓ Verified</span>
-          )}
+main {
+  margin:22px auto;
+  padding:0 14px 42px;
+}
 
-          {isClaimed && (
-            <span class="badge" title="Claimed listing">Claimed</span>
-          )}
+h1 {
+  font-size:24px;
+}
 
-          <a
-            class="claim-link"
-            href={`/claim?company=${encodeURIComponent(String(company.id ?? Astro.params.company ?? ""))}`}
-          >
-            Claim this listing
-          </a>
-        </div>
-      </div>
+}
 
-      <div class="card">
-        <div class="row"><span class="label">Service:</span> {serviceName}</div>
-        <div class="row"><span class="label">Town:</span> {townName}, MA</div>
+</style>
 
-        {company.phone && (
-          <div class="row">
-            <span class="label">Phone:</span>{" "}
-            <a href={`tel:${cleanPhone}`}>{company.phone}</a>
-          </div>
-        )}
+</head>
 
-        {company.updatedAt && (
-          <div class="row">
-            <span class="label">Last updated:</span>{" "}
-            {new Date(company.updatedAt).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-              day: "numeric"
-            })}
-          </div>
-        )}
+<body>
 
-        {company.website && (
-          <div class="row">
-            <span class="label">Website:</span>{" "}
-            <a
-              class="website-link"
-              href={company.website}
-              target="_blank"
-              rel="nofollow noopener"
-            >
-              {company.website}
-            </a>
-          </div>
-        )}
+<main>
 
-        <div class="row">
-          <span class="label">Map:</span>{" "}
-          <a href={googleMapsUrl} target="_blank" rel="nofollow noopener">
-            View on Google Maps
-          </a>
-        </div>
+<div class="crumbs">
 
-        {company.description && company.description.trim() && (
-          <div class="description">
-            {company.description}
-          </div>
-        )}
-      </div>
-    </main>
-  </body>
+<a href="/">Home</a>
+
+&nbsp;/&nbsp;
+
+<a href="/ma/">Massachusetts</a>
+
+&nbsp;/&nbsp;
+
+<a href={`/ma/${company.townSlug}`}>{townName}</a>
+
+&nbsp;/&nbsp;
+
+<a href={`/ma/${company.townSlug}/${company.serviceId}`}>{serviceName}</a>
+
+&nbsp;/&nbsp;
+
+<span>{company.name}</span>
+
+</div>
+
+<div class="header">
+
+<h1>{company.name}</h1>
+
+<div class="trust">
+
+{isVerified && (
+<span class="badge" title="Verified business">✓ Verified</span>
+)}
+
+{isClaimed && (
+<span class="badge" title="Claimed listing">Claimed</span>
+)}
+
+<a
+class="claim-link"
+href={`/claim?company=${encodeURIComponent(String(company.id ?? Astro.params.company ?? ""))}`}
+>
+Claim this listing
+</a>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="row"><span class="label">Service:</span> {serviceName}</div>
+
+<div class="row"><span class="label">Town:</span> {townName}, MA</div>
+
+{company.phone && (
+<div class="row">
+<span class="label">Phone:</span>{" "}
+<a href={`tel:${cleanPhone}`}>{company.phone}</a>
+</div>
+)}
+
+{company.updatedAt && (
+<div class="row">
+<span class="label">Last updated:</span>{" "}
+{new Date(company.updatedAt).toLocaleDateString("en-US", {
+year:"numeric",
+month:"long",
+day:"numeric"
+})}
+</div>
+)}
+
+{company.website && (
+<div class="row">
+<span class="label">Website:</span>{" "}
+<a
+class="website-link"
+href={company.website}
+target="_blank"
+rel="nofollow noopener"
+>
+{company.website}
+</a>
+</div>
+)}
+
+<div class="row">
+📍 <a href={googleMapsUrl} target="_blank" rel="nofollow noopener">
+View on Google Maps
+</a>
+</div>
+
+{company.description && company.description.trim() && (
+<div class="description">
+{company.description}
+</div>
+)}
+
+</div>
+
+</main>
+
+</body>
 </html>
