@@ -1,0 +1,113 @@
+---
+export const prerender = true;
+
+import towns from "../data/towns/ma-towns.json";
+import services from "../data/services/ma-services.json";
+
+const sortedTowns = towns
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+const sortedServices = services
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Massachusetts Service Directory</title>
+
+<style>
+
+body{
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+margin:0;
+background:#ffffff;
+color:#111;
+}
+
+main{
+max-width:900px;
+margin:40px auto;
+padding:0 16px 60px;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+h2{
+margin-top:30px;
+font-size:20px;
+}
+
+.town{
+margin-bottom:18px;
+}
+
+.services{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:6px;
+}
+
+.services a{
+font-size:14px;
+text-decoration:none;
+border:1px solid #e5e7eb;
+padding:6px 10px;
+border-radius:8px;
+background:#fafafa;
+}
+
+.services a:hover{
+background:#f0fdf4;
+border-color:#22c55e;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<main>
+
+<h1>Massachusetts Services Directory</h1>
+
+<p>
+Browse towns and services across Massachusetts.
+</p>
+
+{sortedTowns.map((town) => (
+
+<div class="town">
+
+<h2>{town.name}</h2>
+
+<div class="services">
+
+{sortedServices.map((service) => (
+
+<a href={`/ma/${town.slug}/${service.id}/`}>
+{service.name}
+</a>
+
+))}
+
+</div>
+
+</div>
+
+))}
+
+</main>
+
+</body>
+
+</html>
