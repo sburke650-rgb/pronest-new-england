@@ -61,7 +61,11 @@ const companyUrl = `https://pronestne.com/ma/${company.townSlug}/${company.servi
 
 const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
 
-const googleMapsQuery = encodeURIComponent(`${company.name} ${townName} Massachusetts`);
+/* Make Google Maps search more specific:
+   company name + service + town + MA */
+const googleMapsQuery = encodeURIComponent(
+  `${company.name} ${serviceName} ${townName} MA`
+);
 const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${googleMapsQuery}`;
 ---
 
