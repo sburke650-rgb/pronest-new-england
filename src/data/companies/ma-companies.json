@@ -1106,17 +1106,6 @@
     "slug": "cooler-air-conditioning-hvac"
   },
   {
-    "id": "crowe-electric-boston",
-    "name": "Crowe Electric",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "(781) 395-3773",
-    "website": "https://www.croweelectric.com/",
-    "description": "Residential and commercial electrical services including upgrades, wiring, and troubleshooting.",
-    "slug": "crowe-electric"
-  },
-  {
     "id": "beantown-electric-boston",
     "name": "Beantown Electric",
     "state": "MA",
@@ -1181,17 +1170,6 @@
     "website": "https://www.bostonsplumber.com/",
     "description": "Emergency plumbing and drain services serving Cambridge and Greater Boston.",
     "slug": "t-flow-plumbing"
-  },
-  {
-    "id": "akian-plumbing-cambridge",
-    "name": "Akian Plumbing, Heating & Air Conditioning",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "plumbing",
-    "phone": "(617) 298-6600",
-    "website": "https://www.akiansolutions.com/",
-    "description": "Residential plumbing installation, repair, and maintenance services serving Cambridge.",
-    "slug": "akian-plumbing"
   },
   {
     "id": "winters-home-services-plumbing-cambridge",
@@ -1698,28 +1676,6 @@
     "slug": "joseph-racco-roofing"
   },
   {
-    "id": "welch-brothers-plumbing-heating-lowell",
-    "name": "Welch Brothers Plumbing and Heating",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "plumbing",
-    "phone": "(978) 453-2100",
-    "website": "https://www.welchbrothersplumbing.com/",
-    "description": "Full-service plumbing and heating company based in Lowell serving residential and commercial customers.",
-    "slug": "welch-brothers-plumbing-heating"
-  },
-  {
-    "id": "armory-plumbing-lowell",
-    "name": "Armory Plumbing Inc.",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "plumbing",
-    "phone": "(978) 981-3456",
-    "website": "https://www.armoryplumbinginc.com/",
-    "description": "Plumbing services serving Middlesex County with fast scheduling and emergency-friendly support.",
-    "slug": "armory-plumbing"
-  },
-  {
     "id": "matley-plumbing-heating-lowell",
     "name": "Matley Plumbing and Heating",
     "state": "MA",
@@ -1742,17 +1698,6 @@
     "slug": "martinez-plumbing"
   },
   {
-    "id": "druziako-hvac-lowell",
-    "name": "Druziako HVAC",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "hvac",
-    "phone": "978-441-9800",
-    "website": "https://druziakohvac.com/contact/",
-    "description": "Family-owned heating and air conditioning installation and repair company based in Lowell.",
-    "slug": "druziako-hvac"
-  },
-  {
     "id": "balancing-technologies-hvac-lowell",
     "name": "Balancing Technologies, Inc.",
     "state": "MA",
@@ -1773,28 +1718,6 @@
     "website": "https://justcallheritage.com/massachusetts/lowell-ma/",
     "description": "HVAC services for Lowell plus plumbing and electrical options (Greater Boston coverage).",
     "slug": "heritage-home-service-lowell"
-  },
-  {
-    "id": "crowe-sons-electric-lowell",
-    "name": "Crowe & Sons Electrical Corporation",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "electrician",
-    "phone": "978-453-6696",
-    "website": "https://www.croweelectric.com/",
-    "description": "Electrical contractor with a Lowell address and emergency contact line available.",
-    "slug": "crowe-sons-electric"
-  },
-  {
-    "id": "four-star-lighting-electric-lowell",
-    "name": "Four Star Lighting and Electric",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "electrician",
-    "phone": "(978) 543-1050",
-    "website": "https://www.fourstarlighting.net/",
-    "description": "Licensed electricians with Lowell location serving Middlesex County and nearby areas.",
-    "slug": "four-star-lighting-electric"
   },
   {
     "id": "quinns-construction-roofing-lowell",
@@ -8243,52 +8166,16 @@
     "verified": false
   },
   {
-    "id": "medford-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "medford",
-    "serviceId": "painters"
-  },
-  {
-    "id": "medford-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "medford",
-    "serviceId": "painters"
-  },
-  {
     "id": "medford-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "medford",
     "serviceId": "painters"
   },
   {
-    "id": "medford-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "medford",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "medford-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "medford",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "medford-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "medford",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "medford-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "medford-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "medford-pressure-washing-003",
@@ -8351,34 +8238,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "waltham-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "waltham",
-    "serviceId": "painters"
-  },
-  {
-    "id": "waltham-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "waltham",
-    "serviceId": "painters"
-  },
-  {
     "id": "waltham-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "waltham",
     "serviceId": "painters"
-  },
-  {
-    "id": "waltham-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "waltham",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "waltham-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "waltham",
-    "serviceId": "pest-control"
   },
   {
     "id": "waltham-pest-control-003",
@@ -8387,34 +8250,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "waltham-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "waltham",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "waltham-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "waltham",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "waltham-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "waltham",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "revere-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "revere",
-    "serviceId": "painters"
-  },
-  {
-    "id": "revere-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "revere",
-    "serviceId": "painters"
   },
   {
     "id": "revere-painters-003",
@@ -8423,34 +8262,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "revere-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "revere",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "revere-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "revere",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "revere-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "revere",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "revere-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "revere-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "revere-pressure-washing-003",
@@ -8459,52 +8274,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "everett-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "everett",
-    "serviceId": "painters"
-  },
-  {
-    "id": "everett-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "everett",
-    "serviceId": "painters"
-  },
-  {
     "id": "everett-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "everett",
     "serviceId": "painters"
   },
   {
-    "id": "everett-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "everett",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "everett-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "everett",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "everett-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "everett",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "everett-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "everett-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "everett-pressure-washing-003",
@@ -8567,34 +8346,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "chelsea-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "chelsea",
-    "serviceId": "painters"
-  },
-  {
-    "id": "chelsea-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "chelsea",
-    "serviceId": "painters"
-  },
-  {
     "id": "chelsea-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "chelsea",
     "serviceId": "painters"
-  },
-  {
-    "id": "chelsea-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "chelsea",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "chelsea-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "chelsea",
-    "serviceId": "pest-control"
   },
   {
     "id": "chelsea-pest-control-003",
@@ -8603,34 +8358,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "chelsea-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "chelsea",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "chelsea-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "chelsea",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "chelsea-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "chelsea",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "somerville-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "somerville",
-    "serviceId": "painters"
-  },
-  {
-    "id": "somerville-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "somerville",
-    "serviceId": "painters"
   },
   {
     "id": "somerville-painters-003",
@@ -8639,34 +8370,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "somerville-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "somerville",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "somerville-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "somerville",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "somerville-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "somerville",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "somerville-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "somerville",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "somerville-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "somerville",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "somerville-pressure-washing-003",
@@ -8675,34 +8382,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "brookline-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "brookline",
-    "serviceId": "painters"
-  },
-  {
-    "id": "brookline-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "brookline",
-    "serviceId": "painters"
-  },
-  {
     "id": "brookline-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "brookline",
     "serviceId": "painters"
-  },
-  {
-    "id": "brookline-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "brookline",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "brookline-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "brookline",
-    "serviceId": "pest-control"
   },
   {
     "id": "brookline-pest-control-003",
@@ -8711,34 +8394,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "brookline-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "brookline",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "brookline-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "brookline",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "brookline-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "brookline",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "arlington-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "arlington",
-    "serviceId": "painters"
-  },
-  {
-    "id": "arlington-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "arlington",
-    "serviceId": "painters"
   },
   {
     "id": "arlington-painters-003",
@@ -8747,34 +8406,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "arlington-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "arlington",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "arlington-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "arlington",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "arlington-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "arlington",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "arlington-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "arlington",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "arlington-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "arlington",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "arlington-pressure-washing-003",
@@ -8837,34 +8472,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "newton-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "newton",
-    "serviceId": "painters"
-  },
-  {
-    "id": "newton-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "newton",
-    "serviceId": "painters"
-  },
-  {
     "id": "newton-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "newton",
     "serviceId": "painters"
-  },
-  {
-    "id": "newton-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "newton",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "newton-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "newton",
-    "serviceId": "pest-control"
   },
   {
     "id": "newton-pest-control-003",
@@ -8873,34 +8484,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "newton-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "newton-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "newton-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "newton",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "quincy-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "quincy",
-    "serviceId": "painters"
-  },
-  {
-    "id": "quincy-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "quincy",
-    "serviceId": "painters"
   },
   {
     "id": "quincy-painters-003",
@@ -8909,34 +8496,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "quincy-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "quincy",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "quincy-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "quincy",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "quincy-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "quincy",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "quincy-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "quincy-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "quincy-pressure-washing-003",
@@ -9017,18 +8580,6 @@
     "serviceId": "painters"
   },
   {
-    "id": "cambridge-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "cambridge",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "cambridge-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "cambridge",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "cambridge-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "cambridge",
@@ -9053,34 +8604,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "lynn-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "lynn",
-    "serviceId": "painters"
-  },
-  {
-    "id": "lynn-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "lynn",
-    "serviceId": "painters"
-  },
-  {
     "id": "lynn-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "lynn",
     "serviceId": "painters"
-  },
-  {
-    "id": "lynn-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "lynn",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "lynn-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "lynn",
-    "serviceId": "pest-control"
   },
   {
     "id": "lynn-pest-control-003",
@@ -9089,34 +8616,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "lynn-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "lynn",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "lynn-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "lynn",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "lynn-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "lynn",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "salem-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "salem",
-    "serviceId": "painters"
-  },
-  {
-    "id": "salem-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "salem",
-    "serviceId": "painters"
   },
   {
     "id": "salem-painters-003",
@@ -9125,34 +8628,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "salem-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "salem",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "salem-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "salem",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "salem-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "salem",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "salem-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "salem",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "salem-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "salem",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "salem-pressure-washing-003",
@@ -9161,34 +8640,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "peabody-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "peabody",
-    "serviceId": "painters"
-  },
-  {
-    "id": "peabody-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "peabody",
-    "serviceId": "painters"
-  },
-  {
     "id": "peabody-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "peabody",
     "serviceId": "painters"
-  },
-  {
-    "id": "peabody-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "peabody",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "peabody-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "peabody",
-    "serviceId": "pest-control"
   },
   {
     "id": "peabody-pest-control-003",
@@ -9197,34 +8652,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "peabody-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "peabody",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "peabody-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "peabody",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "peabody-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "peabody",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "woburn-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "woburn",
-    "serviceId": "painters"
-  },
-  {
-    "id": "woburn-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "woburn",
-    "serviceId": "painters"
   },
   {
     "id": "woburn-painters-003",
@@ -9233,34 +8664,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "woburn-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "woburn",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "woburn-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "woburn",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "woburn-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "woburn",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "woburn-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "woburn-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "woburn-pressure-washing-003",
@@ -9809,52 +9216,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "haverhill-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "haverhill",
-    "serviceId": "painters"
-  },
-  {
-    "id": "haverhill-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "haverhill",
-    "serviceId": "painters"
-  },
-  {
     "id": "haverhill-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "haverhill",
     "serviceId": "painters"
   },
   {
-    "id": "haverhill-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "haverhill",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "haverhill-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "haverhill",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "haverhill-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "haverhill",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "haverhill-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "haverhill",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "haverhill-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "haverhill",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "haverhill-pressure-washing-003",
@@ -10781,52 +10152,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "marlborough-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "marlborough",
-    "serviceId": "painters"
-  },
-  {
-    "id": "marlborough-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "marlborough",
-    "serviceId": "painters"
-  },
-  {
     "id": "marlborough-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "marlborough",
     "serviceId": "painters"
   },
   {
-    "id": "marlborough-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "marlborough",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "marlborough-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "marlborough",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "marlborough-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "marlborough",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "marlborough-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "marlborough",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "marlborough-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "marlborough",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "marlborough-pressure-washing-003",
@@ -11213,52 +10548,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "framingham-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "framingham",
-    "serviceId": "painters"
-  },
-  {
-    "id": "framingham-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "framingham",
-    "serviceId": "painters"
-  },
-  {
     "id": "framingham-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "framingham",
     "serviceId": "painters"
   },
   {
-    "id": "framingham-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "framingham",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "framingham-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "framingham",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "framingham-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "framingham",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "framingham-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "framingham",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "framingham-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "framingham",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "framingham-pressure-washing-003",
@@ -11645,34 +10944,10 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "braintree-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "braintree",
-    "serviceId": "painters"
-  },
-  {
-    "id": "braintree-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "braintree",
-    "serviceId": "painters"
-  },
-  {
     "id": "braintree-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "braintree",
     "serviceId": "painters"
-  },
-  {
-    "id": "braintree-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "braintree",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "braintree-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "braintree",
-    "serviceId": "pest-control"
   },
   {
     "id": "braintree-pest-control-003",
@@ -11681,34 +10956,10 @@
     "serviceId": "pest-control"
   },
   {
-    "id": "braintree-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "braintree",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "braintree-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "braintree",
-    "serviceId": "pressure-washing"
-  },
-  {
     "id": "braintree-pressure-washing-003",
     "name": "Pro Exterior Cleaning",
     "townSlug": "braintree",
     "serviceId": "pressure-washing"
-  },
-  {
-    "id": "weymouth-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "weymouth",
-    "serviceId": "painters"
-  },
-  {
-    "id": "weymouth-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "weymouth",
-    "serviceId": "painters"
   },
   {
     "id": "weymouth-painters-003",
@@ -11717,34 +10968,10 @@
     "serviceId": "painters"
   },
   {
-    "id": "weymouth-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "weymouth",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "weymouth-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "weymouth",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "weymouth-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "weymouth",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "weymouth-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "weymouth",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "weymouth-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "weymouth",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "weymouth-pressure-washing-003",
@@ -12509,52 +11736,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "taunton-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "taunton",
-    "serviceId": "painters"
-  },
-  {
-    "id": "taunton-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "taunton",
-    "serviceId": "painters"
-  },
-  {
     "id": "taunton-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "taunton",
     "serviceId": "painters"
   },
   {
-    "id": "taunton-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "taunton",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "taunton-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "taunton",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "taunton-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "taunton",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "taunton-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "taunton",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "taunton-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "taunton",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "taunton-pressure-washing-003",
@@ -12671,52 +11862,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "attleboro-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "attleboro",
-    "serviceId": "painters"
-  },
-  {
-    "id": "attleboro-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "attleboro",
-    "serviceId": "painters"
-  },
-  {
     "id": "attleboro-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "attleboro",
     "serviceId": "painters"
   },
   {
-    "id": "attleboro-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "attleboro",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "attleboro-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "attleboro",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "attleboro-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "attleboro",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "attleboro-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "attleboro",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "attleboro-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "attleboro",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "attleboro-pressure-washing-003",
@@ -13535,52 +12690,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "fall-river-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "fall-river",
-    "serviceId": "painters"
-  },
-  {
-    "id": "fall-river-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "fall-river",
-    "serviceId": "painters"
-  },
-  {
     "id": "fall-river-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "fall-river",
     "serviceId": "painters"
   },
   {
-    "id": "fall-river-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "fall-river",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "fall-river-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "fall-river",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "fall-river-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "fall-river",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "fall-river-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "fall-river",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "fall-river-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "fall-river",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "fall-river-pressure-washing-003",
@@ -13697,52 +12816,16 @@
     "serviceId": "pressure-washing"
   },
   {
-    "id": "new-bedford-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "new-bedford",
-    "serviceId": "painters"
-  },
-  {
-    "id": "new-bedford-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "new-bedford",
-    "serviceId": "painters"
-  },
-  {
     "id": "new-bedford-painters-003",
     "name": "Precision Coat Painters",
     "townSlug": "new-bedford",
     "serviceId": "painters"
   },
   {
-    "id": "new-bedford-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "new-bedford",
-    "serviceId": "pest-control"
-  },
-  {
-    "id": "new-bedford-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "new-bedford",
-    "serviceId": "pest-control"
-  },
-  {
     "id": "new-bedford-pest-control-003",
     "name": "Terminix Pest Control",
     "townSlug": "new-bedford",
     "serviceId": "pest-control"
-  },
-  {
-    "id": "new-bedford-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "new-bedford",
-    "serviceId": "pressure-washing"
-  },
-  {
-    "id": "new-bedford-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "new-bedford",
-    "serviceId": "pressure-washing"
   },
   {
     "id": "new-bedford-pressure-washing-003",
@@ -15639,5 +14722,334 @@
     "name": "Pro Exterior Cleaning",
     "townSlug": "hamilton",
     "serviceId": "pressure-washing"
+  },
+  {
+    "id": "certapro-painters-south-shore-quincy-ma",
+    "name": "CertaPro Painters South Shore",
+    "townSlug": "quincy",
+    "serviceId": "painters",
+    "verified": true
+  },
+  {
+    "id": "artisan-painting-quincy-ma",
+    "name": "Artisan Painting and Decorating",
+    "townSlug": "quincy",
+    "serviceId": "painters",
+    "verified": false
+  },
+  {
+    "id": "wilder-painting-quincy-ma",
+    "name": "Wilder Painting Contractors",
+    "townSlug": "quincy",
+    "serviceId": "painters",
+    "verified": false
+  },
+  {
+    "id": "south-shore-ipm-quincy-ma",
+    "name": "South Shore IPM",
+    "townSlug": "quincy",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "nw-pest-control-quincy-ma",
+    "name": "NW Pest Control",
+    "townSlug": "quincy",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "exterior-property-experts-quincy-ma",
+    "name": "Exterior Property Experts",
+    "townSlug": "quincy",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-power-washing-quincy-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "quincy",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "hicleaners-pressure-washing-quincy-ma",
+    "name": "HiCleaners Pressure Washing",
+    "townSlug": "quincy",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "certapro-painters-north-shore-lynn-ma",
+    "name": "CertaPro Painters North Shore",
+    "townSlug": "lynn",
+    "serviceId": "painters",
+    "verified": true
+  },
+  {
+    "id": "premier-painting-lynn-ma",
+    "name": "Premier Painting Services",
+    "townSlug": "lynn",
+    "serviceId": "painters",
+    "verified": false
+  },
+  {
+    "id": "north-shore-painting-lynn-ma",
+    "name": "North Shore Painting",
+    "townSlug": "lynn",
+    "serviceId": "painters",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-lynn-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "lynn",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-lynn-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "lynn",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-lynn-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "lynn",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "north-shore-power-wash-lynn-ma",
+    "name": "North Shore Power Wash",
+    "townSlug": "lynn",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-newton-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "newton",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-newton-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "newton",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-newton-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "newton",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-somerville-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "somerville",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-somerville-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "somerville",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-somerville-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "somerville",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "certapro-painters-malden-ma",
+    "name": "CertaPro Painters",
+    "townSlug": "malden",
+    "serviceId": "painters",
+    "verified": true
+  },
+  {
+    "id": "debug-pest-control-malden-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "malden",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-malden-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "malden",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-malden-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "malden",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-medford-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "medford",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-medford-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "medford",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-medford-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "medford",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-waltham-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "waltham",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-waltham-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "waltham",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-waltham-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "waltham",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-brookline-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "brookline",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-brookline-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "brookline",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-brookline-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "brookline",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-revere-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "revere",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-revere-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "revere",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-revere-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "revere",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-everett-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "everett",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-everett-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "everett",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-everett-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "everett",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "debug-pest-control-chelsea-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "chelsea",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-chelsea-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "chelsea",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-chelsea-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "chelsea",
+    "serviceId": "pressure-washing",
+    "verified": false
+  },
+  {
+    "id": "certapro-painters-watertown-ma",
+    "name": "CertaPro Painters",
+    "townSlug": "watertown",
+    "serviceId": "painters",
+    "verified": true
+  },
+  {
+    "id": "debug-pest-control-watertown-ma",
+    "name": "Debug Pest Control",
+    "townSlug": "watertown",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "ladybug-pest-control-watertown-ma",
+    "name": "Ladybug Pest Control",
+    "townSlug": "watertown",
+    "serviceId": "pest-control",
+    "verified": false
+  },
+  {
+    "id": "rolling-suds-watertown-ma",
+    "name": "Rolling Suds Power Washing",
+    "townSlug": "watertown",
+    "serviceId": "pressure-washing",
+    "verified": false
   }
 ]
