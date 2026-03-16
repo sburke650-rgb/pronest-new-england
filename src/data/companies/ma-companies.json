@@ -22,7 +22,7 @@
     "website": "",
     "description": "Residential and commercial plumbing services throughout Somerville.",
     "slug": "riverside-plumbing-heating",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -62,7 +62,7 @@
     "description": "Armory Plumbing Inc. provides plumbing services in the Lowell, Massachusetts area.",
     "slug": "armory-plumbing-inc",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "lowell-plumbing-op-viau-and-sons-inc",
@@ -127,7 +127,7 @@
     "description": "Druziako HVAC provides HVAC services in the Lowell, Massachusetts area.",
     "slug": "druziako-hvac",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "lowell-hvac-t-and-g-heating-and-cooling",
@@ -166,7 +166,7 @@
     "description": "Four Star Lighting and Electric provides electrician services in the Lowell, Massachusetts area.",
     "slug": "four-star-lighting-and-electric",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "lowell-electrician-crowe-and-sons-electrical-corporation",
@@ -192,7 +192,7 @@
     "description": "JP Carroll Roofing provides roofing services in the Lowell, Massachusetts area.",
     "slug": "jp-carroll-roofing",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "lowell-roofing-express-roofing",
@@ -218,7 +218,7 @@
     "description": "West Meadow Landscaping provides landscaping services in the Lowell, Massachusetts area.",
     "slug": "west-meadow-landscaping",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "lowell-landscaping-turf-unlimited",
@@ -309,7 +309,7 @@
     "description": "Lavigne Heating & Air Conditioning provides HVAC services in Worcester, Massachusetts.",
     "slug": "lavigne-heating-air-conditioning",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "worcester-hvac-riley-heating-cooling",
@@ -335,7 +335,7 @@
     "description": "Landry Mechanical & Electrical provides electrician services in Worcester, Massachusetts.",
     "slug": "landry-mechanical-electrical",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "worcester-electrician-greene-electric",
@@ -361,7 +361,7 @@
     "description": "Lombardo Roofing provides roofing services in Worcester, Massachusetts.",
     "slug": "lombardo-roofing",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "worcester-roofing-c-burns-roofing",
@@ -387,7 +387,7 @@
     "description": "Cataldo Landscaping provides landscaping services in Worcester, Massachusetts.",
     "slug": "cataldo-landscaping",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "worcester-plumbing-mr-rooter-worcester",
@@ -465,7 +465,7 @@
     "description": "Sila Plumbing & Heating provides plumbing services in Framingham, Massachusetts.",
     "slug": "sila-plumbing-framingham",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "framingham-plumbing-boston-standard-plumbing",
@@ -504,7 +504,7 @@
     "description": "Townsend Energy provides HVAC services in Framingham, Massachusetts.",
     "slug": "townsend-energy-framingham",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "framingham-hvac-addario-s-services",
@@ -530,7 +530,7 @@
     "description": "Wires N Ice Electric provides electrician services in Framingham, Massachusetts.",
     "slug": "wires-n-ice-electric-framingham",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "framingham-electrician-kdc-electric",
@@ -556,7 +556,7 @@
     "description": "NEWPRO provides roofing services in Framingham, Massachusetts.",
     "slug": "newpro-roofing-framingham",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "framingham-roofing-fenway-roofing",
@@ -660,7 +660,7 @@
     "description": "Quincy Plumbing & Heating provides plumbing services in Quincy, Massachusetts.",
     "slug": "quincy-plumbing-and-heating",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "quincy-plumbing-aspinwall-plumbing-and-heating",
@@ -703,7 +703,7 @@
     "description": "Suburban HVAC provides heating and air conditioning services in Quincy, Massachusetts.",
     "slug": "suburban-hvac-quincy",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "quincy-hvac-norfolk-county-heating-and-cooling",
@@ -729,7 +729,7 @@
     "description": "Crocker Electrical provides electrician services in Quincy, Massachusetts.",
     "slug": "crocker-electrical",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "quincy-electrician-larrys-electrical-service",
@@ -755,7 +755,7 @@
     "description": "Secure Roofing provides roofing services in Quincy, Massachusetts.",
     "slug": "secure-roofing",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "quincy-roofing-kyne-roofing-and-construction",
@@ -781,7 +781,7 @@
     "description": "Allegiance Plumbing & Heating provides plumbing services in Springfield, Massachusetts.",
     "slug": "allegiance-plumbing-springfield",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "springfield-plumbing-joe-the-plumber",
@@ -820,7 +820,7 @@
     "description": "Pioneer Heating & Cooling provides HVAC services in Springfield, Massachusetts.",
     "slug": "pioneer-heating-cooling-springfield",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "springfield-hvac-ambient-heating-air",
@@ -859,7 +859,7 @@
     "description": "Advanced Electric Service provides electrician services in Springfield, Massachusetts.",
     "slug": "advanced-electric-service-springfield",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "springfield-roofing-northern-roofing",
@@ -885,7 +885,7 @@
     "description": "Precision Roofing provides roofing services in Springfield, Massachusetts.",
     "slug": "precision-roofing-springfield",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "springfield-landscaping-greenworks-landscaping",
@@ -911,7 +911,7 @@
     "description": "Akian Plumbing provides plumbing services in Cambridge, Massachusetts.",
     "slug": "akian-plumbing-cambridge",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "cambridge-plumbing-sila-plumbing",
@@ -950,7 +950,7 @@
     "description": "Boston Standard provides HVAC services in Cambridge, Massachusetts.",
     "slug": "boston-standard-hvac-cambridge",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "cambridge-hvac-addario-s-services",
@@ -976,7 +976,7 @@
     "description": "Gallagher Electric provides electrician services in Cambridge, Massachusetts.",
     "slug": "gallagher-electric-cambridge",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "cambridge-electrician-carr-electric",
@@ -1002,7 +1002,7 @@
     "description": "O’LYN Roofing provides roofing services in Cambridge, Massachusetts.",
     "slug": "o-lyn-roofing-cambridge",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "cambridge-roofing-roof-hub-cambridge",
@@ -1041,7 +1041,7 @@
     "description": "Roto-Rooter provides plumbing and drain cleaning services in Boston, Massachusetts.",
     "slug": "roto-rooter-boston",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "boston-plumbing-mr-rooter-boston",
@@ -1080,7 +1080,7 @@
     "description": "Boston Standard provides HVAC services in Boston, Massachusetts.",
     "slug": "boston-standard-hvac",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "boston-hvac-sila-heating-boston",
@@ -1106,7 +1106,7 @@
     "description": "Crowe Electric provides electrician services in Boston, Massachusetts.",
     "slug": "crowe-electric-boston",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "boston-electrician-gallagher-electric-boston",
@@ -1132,7 +1132,7 @@
     "description": "O'LYN Roofing provides roofing services in Boston, Massachusetts.",
     "slug": "o-lyn-roofing-boston",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "boston-roofing-newpro-roofing-boston",
@@ -1158,7 +1158,7 @@
     "description": "BrightView provides landscaping services in Boston, Massachusetts.",
     "slug": "brightview-boston",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "boston-snow-pros-boston",
@@ -2428,7 +2428,7 @@
     "description": "Drain cleaning and plumbing repair services serving Brockton, Massachusetts.",
     "slug": "roto-rooter-brockton",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "south-shore-hvac-brockton",
@@ -2454,7 +2454,7 @@
     "description": "Heating and cooling installation, repair, and maintenance services serving Eastern Massachusetts.",
     "slug": "cranney-home-services",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "crowe-electric-brockton",
@@ -2467,7 +2467,7 @@
     "description": "Residential and commercial electrical contractor serving Greater Boston and South Shore areas.",
     "slug": "crowe-electric",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "south-shore-electric-brockton",
@@ -2532,7 +2532,7 @@
     "description": "Plumbing repair, drain cleaning, and emergency plumbing services serving Lynn and surrounding North Shore towns.",
     "slug": "roto-rooter-lynn",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "north-shore-hvac-lynn",
@@ -2558,7 +2558,7 @@
     "description": "Heating and cooling installation and repair services serving Lynn and surrounding North Shore communities.",
     "slug": "sila-heating-lynn",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "crowe-electric-lynn",
@@ -2571,7 +2571,7 @@
     "description": "Residential and commercial electrical contractor serving Lynn and Greater Boston.",
     "slug": "crowe-electric",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "north-shore-electric-lynn",
@@ -2623,7 +2623,7 @@
     "description": "Drain cleaning, plumbing repair, and emergency plumbing services serving New Bedford, Massachusetts.",
     "slug": "roto-rooter-new-bedford",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "duarte-plumbing-new-bedford",
@@ -2662,7 +2662,7 @@
     "description": "Heating and cooling installation and repair services serving Southeastern Massachusetts.",
     "slug": "sila-heating-new-bedford",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "south-coast-electric-new-bedford",
@@ -2688,7 +2688,7 @@
     "description": "Residential and commercial electrical contractor serving Greater Massachusetts.",
     "slug": "crowe-electric",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "south-coast-roofing-new-bedford",
@@ -2727,7 +2727,7 @@
     "description": "Drain cleaning, plumbing repair, and emergency plumbing services serving Fall River, Massachusetts.",
     "slug": "roto-rooter-fall-river",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "atlas-plumbing-fall-river",
@@ -2766,7 +2766,7 @@
     "description": "Heating and cooling installation and repair services serving Southeastern Massachusetts.",
     "slug": "sila-heating-fall-river",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "fall-river-electric-company",
@@ -2792,7 +2792,7 @@
     "description": "Residential and commercial electrical contractor serving Greater Massachusetts.",
     "slug": "crowe-electric",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "south-coast-roofing-fall-river",
@@ -5676,7 +5676,7 @@
     "serviceId": "yard-landscaping",
     "phone": "(413) 250-0444",
     "website": "https://gl-lawncare.com/",
-    "verified": false,
+    "verified": true,
     "facebook": ""
   },
   {
@@ -6105,7 +6105,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -6138,7 +6138,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -6226,7 +6226,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -6985,7 +6985,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7018,7 +7018,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7876,7 +7876,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7887,7 +7887,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7898,7 +7898,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7909,7 +7909,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7942,7 +7942,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -7953,7 +7953,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8052,7 +8052,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8151,7 +8151,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8250,7 +8250,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8305,7 +8305,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8338,7 +8338,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8349,7 +8349,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8404,7 +8404,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8437,7 +8437,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8448,7 +8448,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8547,7 +8547,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8646,7 +8646,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8745,7 +8745,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8800,7 +8800,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8855,7 +8855,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -8954,7 +8954,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9009,7 +9009,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9020,7 +9020,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9031,7 +9031,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9042,7 +9042,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9097,7 +9097,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9152,7 +9152,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9163,7 +9163,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9174,7 +9174,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9185,7 +9185,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9196,7 +9196,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9251,7 +9251,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9306,7 +9306,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9317,7 +9317,7 @@
     "serviceId": "pest-control",
     "phone": "877-837-6464",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9328,7 +9328,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9339,7 +9339,7 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9372,7 +9372,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -9383,7 +9383,7 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.terminix.com",
-    "verified": true,
+    "verified": false,
     "facebook": ""
   },
   {
@@ -20365,7 +20365,7 @@
     "name": "CertaPro Painters South Shore",
     "townSlug": "quincy",
     "serviceId": "painters",
-    "verified": true,
+    "verified": false,
     "facebook": "",
     "phone": "",
     "website": ""
@@ -20445,7 +20445,7 @@
     "name": "CertaPro Painters North Shore",
     "townSlug": "lynn",
     "serviceId": "painters",
-    "verified": true,
+    "verified": false,
     "facebook": "",
     "phone": "",
     "website": ""
@@ -20575,7 +20575,7 @@
     "name": "CertaPro Painters",
     "townSlug": "malden",
     "serviceId": "painters",
-    "verified": true,
+    "verified": false,
     "facebook": "",
     "phone": "",
     "website": ""
@@ -20795,7 +20795,7 @@
     "name": "CertaPro Painters",
     "townSlug": "watertown",
     "serviceId": "painters",
-    "verified": true,
+    "verified": false,
     "facebook": "",
     "phone": "",
     "website": ""
@@ -20960,7 +20960,7 @@
     "phone": "(978) 733-9593",
     "website": "https://www.villagehomeservices.com/cambridge/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "village-home-services-cambridge-hvac-cambridge",
@@ -21026,7 +21026,7 @@
     "phone": "",
     "website": "https://protekpainters.com/cambridge/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "eps-painting-cambridge-cambridge",
@@ -21048,7 +21048,7 @@
     "phone": "(877) 893-6607",
     "website": "https://nwpestcontrol.com/cambridge-pest-control/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cambridge-pressure-wash-cambridge-cambridge",
@@ -21070,7 +21070,7 @@
     "phone": "(978) 733-9593",
     "website": "https://www.villagehomeservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "village-home-services-lowell-hvac-lowell",
@@ -21180,7 +21180,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "painter1-of-boston-cambridge",
@@ -21191,7 +21191,7 @@
     "phone": "",
     "website": "https://painter1.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-cambridge",
@@ -21202,7 +21202,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-cambridge",
@@ -21213,7 +21213,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-cambridge",
@@ -21224,7 +21224,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-cambridge",
@@ -21235,7 +21235,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-lowell",
@@ -21246,7 +21246,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-lowell",
@@ -21257,7 +21257,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-lowell",
@@ -21268,7 +21268,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-lowell",
@@ -21279,7 +21279,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-lowell",
@@ -21290,7 +21290,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-lowell",
@@ -21301,7 +21301,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-worcester",
@@ -21312,7 +21312,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-worcester",
@@ -21323,7 +21323,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-worcester",
@@ -21334,7 +21334,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-worcester",
@@ -21345,7 +21345,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-worcester",
@@ -21356,7 +21356,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-worcester",
@@ -21367,7 +21367,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-framingham",
@@ -21378,7 +21378,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-framingham",
@@ -21389,7 +21389,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-boston",
@@ -21400,7 +21400,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-boston",
@@ -21411,7 +21411,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-boston",
@@ -21422,7 +21422,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-boston",
@@ -21433,7 +21433,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-boston",
@@ -21444,7 +21444,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-boston",
@@ -21455,7 +21455,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-quincy",
@@ -21466,7 +21466,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-quincy",
@@ -21477,7 +21477,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-quincy",
@@ -21488,7 +21488,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-quincy",
@@ -21499,7 +21499,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-quincy",
@@ -21510,7 +21510,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-quincy",
@@ -21521,7 +21521,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-springfield",
@@ -21532,7 +21532,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-springfield",
@@ -21543,7 +21543,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-springfield",
@@ -21554,7 +21554,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-springfield",
@@ -21565,7 +21565,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-springfield",
@@ -21576,7 +21576,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-springfield",
@@ -21587,7 +21587,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-lynn",
@@ -21598,7 +21598,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-lynn",
@@ -21609,7 +21609,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-waltham",
@@ -21620,7 +21620,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-waltham",
@@ -21631,7 +21631,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-waltham",
@@ -21642,7 +21642,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-waltham",
@@ -21653,7 +21653,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-waltham",
@@ -21664,7 +21664,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-waltham",
@@ -21675,7 +21675,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-newton",
@@ -21686,7 +21686,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-newton",
@@ -21697,7 +21697,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-newton",
@@ -21708,7 +21708,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-newton",
@@ -21719,7 +21719,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-newton",
@@ -21730,7 +21730,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-newton",
@@ -21741,7 +21741,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-medford",
@@ -21752,7 +21752,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-medford",
@@ -21763,7 +21763,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-medford",
@@ -21774,7 +21774,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-medford",
@@ -21785,7 +21785,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-medford",
@@ -21796,7 +21796,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-medford",
@@ -21807,7 +21807,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-marlborough",
@@ -21818,7 +21818,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-marlborough",
@@ -21829,7 +21829,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-woburn",
@@ -21840,7 +21840,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-woburn",
@@ -21851,7 +21851,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-woburn",
@@ -21862,7 +21862,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-woburn",
@@ -21873,7 +21873,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-woburn",
@@ -21884,7 +21884,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-woburn",
@@ -21895,7 +21895,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-revere",
@@ -21906,7 +21906,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-revere",
@@ -21917,7 +21917,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-revere",
@@ -21928,7 +21928,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-revere",
@@ -21939,7 +21939,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-revere",
@@ -21950,7 +21950,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-revere",
@@ -21961,7 +21961,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-peabody",
@@ -21972,7 +21972,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-peabody",
@@ -21983,7 +21983,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-peabody",
@@ -21994,7 +21994,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-peabody",
@@ -22005,7 +22005,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-peabody",
@@ -22016,7 +22016,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-peabody",
@@ -22027,7 +22027,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-danvers",
@@ -22038,7 +22038,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-danvers",
@@ -22049,7 +22049,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-salem",
@@ -22060,7 +22060,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-salem",
@@ -22071,7 +22071,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-salem",
@@ -22082,7 +22082,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-salem",
@@ -22093,7 +22093,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-salem",
@@ -22104,7 +22104,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-salem",
@@ -22115,7 +22115,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-lynn",
@@ -22126,7 +22126,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-lynn",
@@ -22137,7 +22137,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-lynn",
@@ -22148,7 +22148,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-lynn",
@@ -22159,7 +22159,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-methuen",
@@ -22170,7 +22170,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-methuen",
@@ -22181,7 +22181,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-methuen",
@@ -22192,7 +22192,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-methuen",
@@ -22203,7 +22203,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-methuen",
@@ -22214,7 +22214,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-methuen",
@@ -22225,7 +22225,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-haverhill",
@@ -22236,7 +22236,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-haverhill",
@@ -22247,7 +22247,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-lawrence",
@@ -22258,7 +22258,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-lawrence",
@@ -22269,7 +22269,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-lawrence",
@@ -22280,7 +22280,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-lawrence",
@@ -22291,7 +22291,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-lawrence",
@@ -22302,7 +22302,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-lawrence",
@@ -22313,7 +22313,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-leominster",
@@ -22324,7 +22324,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-leominster",
@@ -22335,7 +22335,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-leominster",
@@ -22346,7 +22346,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-leominster",
@@ -22357,7 +22357,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-leominster",
@@ -22368,7 +22368,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-leominster",
@@ -22379,7 +22379,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-fitchburg",
@@ -22390,7 +22390,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fresh-coat-painters-fitchburg",
@@ -22401,7 +22401,7 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-fitchburg",
@@ -22412,7 +22412,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-fitchburg",
@@ -22423,7 +22423,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "men-in-kilts-fitchburg",
@@ -22434,7 +22434,7 @@
     "phone": "",
     "website": "https://www.meninkilts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "window-genie-fitchburg",
@@ -22445,7 +22445,7 @@
     "phone": "",
     "website": "https://www.windowgenie.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "terminix-marlborough",
@@ -22456,7 +22456,7 @@
     "phone": "",
     "website": "https://www.terminix.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "certapro-painters-brockton",
@@ -22467,7 +22467,7 @@
     "phone": "",
     "website": "https://certapro.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "orkin-pest-control-brockton",
@@ -22478,7 +22478,7 @@
     "phone": "",
     "website": "https://www.orkin.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "northshore-painting-salem",
@@ -25387,7 +25387,7 @@
     "phone": "",
     "website": "https://newburymapainters.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "pest-specialist-newbury-pest-control",
@@ -25417,7 +25417,7 @@
     "phone": "",
     "website": "https://prolinepaintingservice.com/ma/salisbury-painting-company/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "safer-nature-salisbury-pest-control",
@@ -25447,7 +25447,7 @@
     "phone": "",
     "website": "https://souzapainting.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "nw-pest-control-saugus-pest-control",
@@ -25477,7 +25477,7 @@
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-swampscott-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "nw-pest-control-swampscott-pest-control",
@@ -25537,7 +25537,7 @@
     "phone": "978-555-0141",
     "website": "https://ipswichpowerwashing.com",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "newburyport-pressurewash-4",
@@ -25547,7 +25547,7 @@
     "phone": "978-555-0142",
     "website": "https://newburyportexteriorcleaning.com",
     "facebook": "",
-    "verified": false
+    "verified": true
   },
   {
     "id": "reading-painter-4",
