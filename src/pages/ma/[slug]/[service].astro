@@ -266,12 +266,87 @@ const listingCompanies = companies
       .cards-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 16px;
+        gap: 12px;
+      }
+
+      .company-card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        height: 100%;
+        box-sizing: border-box;
+        border-radius: 16px;
+        padding: 16px;
+      }
+
+      .company-card.standard {
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .company-card.verified {
+        background: #f0fdf4;
+        border: 3px solid #16a34a;
+        box-shadow: 0 12px 28px rgba(22, 163, 74, 0.18);
+      }
+
+      .verified-top-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6px;
+        background: #16a34a;
+        border-top-left-radius: 14px;
+        border-top-right-radius: 14px;
+      }
+
+      .company-name {
+        margin: 0 0 8px;
+        font-size: 18px;
+        line-height: 1.2;
+        min-width: 0;
+      }
+
+      .company-name a {
+        text-decoration: none;
+        color: #111827;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+      }
+
+      .company-name a:hover {
+        text-decoration: underline;
+      }
+
+      .verified-badge-row {
+        margin: 0 0 10px;
+      }
+
+      .based-in {
+        margin: 0 0 10px;
+        color: #4b5563;
+        font-size: 14px;
+        line-height: 1.35;
+      }
+
+      .company-description {
+        margin: 0 0 10px;
+        color: #374151;
+        font-size: 14px;
+        line-height: 1.35;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
 
       .info-line {
-        margin-top: 10px;
-        font-size: 14px;
+        margin-top: 8px;
+        font-size: 13px;
+        line-height: 1.35;
         color: #374151;
         overflow-wrap: anywhere;
         word-break: break-word;
@@ -284,6 +359,30 @@ const listingCompanies = companies
 
       .info-line a:hover {
         text-decoration: underline;
+      }
+
+      .button-wrap {
+        margin-top: auto;
+        padding-top: 12px;
+      }
+
+      .view-company-btn {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        background: #2563eb;
+        color: #ffffff;
+        padding: 10px 12px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+      }
+
+      .view-company-btn:hover {
+        background: #1d4ed8;
       }
 
       .empty-state {
@@ -336,6 +435,7 @@ const listingCompanies = companies
         position: relative;
         display: inline-flex;
         align-items: center;
+        max-width: 100%;
       }
 
       .tooltip-trigger {
@@ -348,6 +448,7 @@ const listingCompanies = companies
         margin: 0;
         cursor: pointer;
         font: inherit;
+        max-width: 100%;
       }
 
       .verified-note .tooltip-trigger {
@@ -394,15 +495,16 @@ const listingCompanies = companies
         display: inline-flex;
         align-items: center;
         gap: 6px;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 700;
         color: #166534;
         background: #dcfce7;
         border: 1px solid #22c55e;
-        padding: 4px 8px;
+        padding: 4px 7px;
         border-radius: 999px;
         cursor: pointer;
         white-space: nowrap;
+        max-width: 100%;
       }
 
       .verified-badge-wrap .tooltip-bubble {
@@ -413,6 +515,31 @@ const listingCompanies = companies
       @media (min-width: 768px) {
         .cards-grid {
           grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 16px;
+        }
+
+        .company-card {
+          padding: 20px;
+        }
+
+        .company-name {
+          font-size: 20px;
+          margin: 0 0 10px;
+        }
+
+        .company-description {
+          font-size: 15px;
+          margin: 0 0 12px;
+        }
+
+        .info-line {
+          margin-top: 10px;
+          font-size: 14px;
+        }
+
+        .verified-badge-trigger {
+          font-size: 12px;
+          padding: 4px 8px;
         }
       }
 
@@ -436,10 +563,6 @@ const listingCompanies = companies
 
         .brand-link img {
           height: 60px;
-        }
-
-        .cards-grid {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
         }
 
         .hero-title {
@@ -523,42 +646,41 @@ const listingCompanies = companies
               const phoneHref = getPhoneHref(company?.phone);
               const languages = splitLanguages(company?.languages);
 
-              const cardStyle = verified
-                ? "background:#f0fdf4;border:3px solid #16a34a;border-radius:16px;padding:20px;box-shadow:0 12px 28px rgba(22,163,74,0.18);position:relative;"
-                : "background:#ffffff;border:1px solid #e5e7eb;border-radius:16px;padding:20px;box-shadow:0 2px 6px rgba(0,0,0,0.05);";
-
               return (
-                <article style={cardStyle}>
-                  {verified && (
-                    <div style="position:absolute;top:0;left:0;right:0;height:6px;background:#16a34a;border-top-left-radius:14px;border-top-right-radius:14px;"></div>
-                  )}
+                <article class={`company-card ${verified ? "verified" : "standard"}`}>
+                  {verified && <div class="verified-top-bar"></div>}
 
-                  <h2 style="margin:0 0 10px;font-size:20px;">
-                    <a href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`} style="text-decoration:none;color:#111827;">
+                  <h2 class="company-name">
+                    <a href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}>
                       {company?.name}
                     </a>
                   </h2>
 
                   {verified && (
-                    <div class="tooltip-wrap verified-badge-wrap">
-                      <button
-                        type="button"
-                        class="tooltip-trigger verified-badge-trigger"
-                        aria-label="What the Verified badge means"
-                      >
-                        <span style="width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;" aria-hidden="true"></span>
-                        <span>Verified</span>
-                      </button>
-                      <div class="tooltip-bubble">{badgeExplanation}</div>
+                    <div class="verified-badge-row">
+                      <div class="tooltip-wrap verified-badge-wrap">
+                        <button
+                          type="button"
+                          class="tooltip-trigger verified-badge-trigger"
+                          aria-label="What the Verified badge means"
+                        >
+                          <span
+                            style="width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;"
+                            aria-hidden="true"
+                          ></span>
+                          <span>Verified</span>
+                        </button>
+                        <div class="tooltip-bubble">{badgeExplanation}</div>
+                      </div>
                     </div>
                   )}
 
-                  <p style="margin:10px 0;color:#4b5563;font-size:14px;">
+                  <p class="based-in">
                     Based in {getTownNameFromSlug(company?.townSlug)}, MA
                   </p>
 
                   {company?.description && (
-                    <p style="margin:0 0 12px;color:#374151;font-size:15px;">
+                    <p class="company-description">
                       {company.description}
                     </p>
                   )}
@@ -595,8 +717,11 @@ const listingCompanies = companies
                     </div>
                   )}
 
-                  <div style="margin-top:14px;">
-                    <a href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`} style="background:#2563eb;color:#fff;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;">
+                  <div class="button-wrap">
+                    <a
+                      href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
+                      class="view-company-btn"
+                    >
                       View company
                     </a>
                   </div>
