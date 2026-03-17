@@ -171,11 +171,30 @@ const listingCompanies = companies
     <title>{pageTitle}</title>
 
     <style>
+      html,
       body {
         margin: 0;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
         font-family: Arial, Helvetica, sans-serif;
         background: #f8fafc;
         color: #111827;
+      }
+
+      img,
+      svg,
+      iframe {
+        max-width: 100%;
+        height: auto;
       }
 
       .site-header {
@@ -190,12 +209,14 @@ const listingCompanies = companies
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 16px;
       }
 
       .brand-link {
         display: inline-flex;
         align-items: center;
         text-decoration: none;
+        min-width: 0;
       }
 
       .brand-link img {
@@ -207,6 +228,8 @@ const listingCompanies = companies
       .nav {
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
+        min-width: 0;
       }
 
       .nav a {
@@ -220,12 +243,15 @@ const listingCompanies = companies
         max-width: 1100px;
         margin: 0 auto;
         padding: 24px 20px 60px;
+        width: 100%;
       }
 
       .breadcrumbs {
         margin: 0 0 14px;
         font-size: 14px;
         color: #6b7280;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .breadcrumbs a {
@@ -246,6 +272,8 @@ const listingCompanies = companies
         margin: 0 0 24px;
         font-size: 34px;
         line-height: 1.15;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .section-head {
@@ -261,12 +289,15 @@ const listingCompanies = companies
         margin: 0;
         font-size: 28px;
         line-height: 1.2;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .cards-grid {
         display: grid;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 12px;
+        width: 100%;
       }
 
       .company-card {
@@ -274,10 +305,11 @@ const listingCompanies = companies
         display: flex;
         flex-direction: column;
         min-width: 0;
+        width: 100%;
         height: 100%;
-        box-sizing: border-box;
         border-radius: 16px;
         padding: 16px;
+        overflow: hidden;
       }
 
       .company-card.standard {
@@ -330,6 +362,8 @@ const listingCompanies = companies
         color: #4b5563;
         font-size: 14px;
         line-height: 1.35;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .company-description {
@@ -355,6 +389,8 @@ const listingCompanies = companies
       .info-line a {
         color: #2563eb;
         text-decoration: none;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .info-line a:hover {
@@ -369,7 +405,6 @@ const listingCompanies = companies
       .view-company-btn {
         display: block;
         width: 100%;
-        box-sizing: border-box;
         text-align: center;
         background: #2563eb;
         color: #ffffff;
@@ -402,6 +437,8 @@ const listingCompanies = companies
         margin: 0 0 12px;
         font-size: 24px;
         line-height: 1.2;
+        overflow-wrap: anywhere;
+        word-break: break-word;
       }
 
       .hiring-tips p {
@@ -552,17 +589,28 @@ const listingCompanies = companies
       @media (max-width: 760px) {
         .header-inner {
           flex-direction: column;
-          align-items: flex-start;
+          align-items: center;
           gap: 12px;
+          text-align: center;
         }
 
         .nav {
-          flex-wrap: wrap;
+          width: 100%;
           gap: 14px;
+          justify-content: center;
+          flex-wrap: wrap;
         }
 
         .brand-link img {
           height: 60px;
+        }
+
+        .page-wrap {
+          padding: 20px 12px 48px;
+        }
+
+        .breadcrumbs {
+          font-size: 13px;
         }
 
         .hero-title {
@@ -575,6 +623,58 @@ const listingCompanies = companies
 
         .hiring-tips h2 {
           font-size: 22px;
+        }
+
+        .cards-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
+
+        .company-card {
+          padding: 10px;
+        }
+
+        .company-name {
+          font-size: 15px;
+          margin: 0 0 6px;
+        }
+
+        .verified-badge-row {
+          margin: 0 0 8px;
+        }
+
+        .verified-badge-trigger {
+          font-size: 10px;
+          padding: 3px 6px;
+        }
+
+        .based-in {
+          margin: 0 0 8px;
+          font-size: 12px;
+          line-height: 1.3;
+        }
+
+        .company-description {
+          margin: 0 0 8px;
+          font-size: 12px;
+          line-height: 1.3;
+          -webkit-line-clamp: 4;
+        }
+
+        .info-line {
+          margin-top: 6px;
+          font-size: 12px;
+          line-height: 1.3;
+        }
+
+        .button-wrap {
+          padding-top: 10px;
+        }
+
+        .view-company-btn {
+          padding: 9px 8px;
+          font-size: 12px;
+          border-radius: 8px;
         }
 
         .verified-note .tooltip-trigger {
