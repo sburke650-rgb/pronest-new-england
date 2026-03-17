@@ -43,6 +43,11 @@ const servicesByTownObj = {};
 for (const [townSlug, set] of servicesByTown.entries()) {
   servicesByTownObj[townSlug] = Array.from(set);
 }
+
+const townsWithProvidersClient = townsWithProviders.map((t) => ({
+  slug: String(t.slug),
+  name: String(t.name),
+}));
 ---
 
 <html lang="en">
@@ -50,9 +55,12 @@ for (const [townSlug, set] of servicesByTown.entries()) {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ProNest New England</title>
-    <meta name="description" content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts." />
+    <meta
+      name="description"
+      content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts."
+    />
 
-    <meta name="build-check" content="INDEX_SEARCH_FIRST_V3_GREEN_BUTTON" />
+    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V4_HOMEPAGE_MESSAGING" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -162,7 +170,7 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         display: grid;
         grid-template-columns: 1fr 1fr auto;
         gap: 10px;
-        align-items: end;
+        align-items: start;
       }
 
       label {
@@ -173,13 +181,102 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         font-weight: 600;
       }
 
-      select {
+      select,
+      .town-input {
         width: 100%;
         padding: 12px 14px;
         border-radius: 14px;
         border: 1px solid #d1d5db;
         background: #fff;
         font-size: 15px;
+        box-sizing: border-box;
+      }
+
+      .town-search-wrap {
+        position: relative;
+      }
+
+      .town-input:focus,
+      select:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.15);
+        outline-offset: 1px;
+        border-color: #93c5fd;
+      }
+
+      .town-results {
+        position: absolute;
+        top: calc(100% + 6px);
+        left: 0;
+        right: 0;
+        z-index: 30;
+        background: #ffffff;
+        border: 1px solid #dbe3ee;
+        border-radius: 14px;
+        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+        overflow: hidden;
+        max-height: 260px;
+      }
+
+      .town-results[hidden] {
+        display: none;
+      }
+
+      .town-results-list {
+        margin: 0;
+        padding: 6px 0;
+        list-style: none;
+        max-height: 260px;
+        overflow-y: auto;
+      }
+
+      .town-results-list li {
+        margin: 0;
+        padding: 0;
+      }
+
+      .town-result-btn {
+        appearance: none;
+        -webkit-appearance: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 11px 14px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+        color: #111827;
+        text-align: left;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.35;
+        cursor: pointer;
+        transition: background-color 0.14s ease;
+      }
+
+      .town-result-btn:hover,
+      .town-result-btn:focus-visible,
+      .town-result-btn.active {
+        background: #eff6ff;
+        color: #111827;
+        outline: none;
+        transform: none;
+      }
+
+      .town-results-list li + li .town-result-btn {
+        border-top: 1px solid #f1f5f9;
+      }
+
+      .town-empty {
+        padding: 12px 14px;
+        font-size: 14px;
+        color: #6b7280;
+      }
+
+      .town-helper {
+        margin-top: 6px;
+        font-size: 12px;
+        color: #6b7280;
       }
 
       button {
@@ -246,6 +343,13 @@ for (const [townSlug, set] of servicesByTown.entries()) {
           transform: translateY(-1px);
           box-shadow: 0 8px 18px rgba(21, 128, 61, 0.22);
         }
+
+        .town-result-btn:hover {
+          background: #eff6ff;
+          border-color: transparent;
+          transform: none;
+          box-shadow: none;
+        }
       }
 
       @media (max-width: 760px) {
@@ -282,6 +386,11 @@ for (const [townSlug, set] of servicesByTown.entries()) {
         .search-card {
           padding: 20px 18px;
         }
+
+        .town-results,
+        .town-results-list {
+          max-height: 220px;
+        }
       }
     </style>
   </head>
@@ -305,11 +414,10 @@ for (const [townSlug, set] of servicesByTown.entries()) {
       <section class="hero">
         <p class="eyebrow">Massachusetts Service Directory</p>
 
-        <h1>Find trusted home and business services in your town</h1>
+        <h1>No Forms. No Spam. Just Local Pros.</h1>
 
         <p class="subtext">
-          Search by town and service to find local providers quickly. When available,
-          verified providers are shown first and marked with a green Verified badge.
+          Search by town and service to find trusted local providers fast. Call or visit their website directly—we don’t get in the way.
         </p>
 
         <div class="search-card">
@@ -318,13 +426,24 @@ for (const [townSlug, set] of servicesByTown.entries()) {
 
           <div class="grid">
             <div>
-              <label for="townSelect">Town</label>
-              <select id="townSelect">
-                <option value="">Select a town</option>
-                {townsWithProviders.map((t) => (
-                  <option value={t.slug}>{t.name}</option>
-                ))}
-              </select>
+              <label for="townSearch">Town</label>
+              <div class="town-search-wrap">
+                <input
+                  id="townSearch"
+                  class="town-input"
+                  type="text"
+                  inputmode="text"
+                  autocomplete="off"
+                  spellcheck="false"
+                  placeholder="Search for a town"
+                  aria-autocomplete="list"
+                  aria-expanded="false"
+                  aria-controls="townResults"
+                />
+                <input id="townSlug" type="hidden" value="" />
+                <div id="townResults" class="town-results" hidden></div>
+              </div>
+              <div class="town-helper">Start typing to find a town faster.</div>
             </div>
 
             <div>
@@ -368,11 +487,19 @@ for (const [townSlug, set] of servicesByTown.entries()) {
       set:html={JSON.stringify(serviceCatalog)}
     ></script>
 
+    <script
+      type="application/json"
+      id="__townCatalog"
+      set:html={JSON.stringify(townsWithProvidersClient)}
+    ></script>
+
     <script is:inline>
       (function () {
         function norm(v) { return String(v || "").trim().toLowerCase(); }
 
-        var townSelect = document.getElementById("townSelect");
+        var townSearch = document.getElementById("townSearch");
+        var townSlugInput = document.getElementById("townSlug");
+        var townResults = document.getElementById("townResults");
         var serviceSelect = document.getElementById("serviceSelect");
         var searchBtn = document.getElementById("searchBtn");
         var errorMsg = document.getElementById("errorMsg");
@@ -396,6 +523,10 @@ for (const [townSlug, set] of servicesByTown.entries()) {
 
         var servicesByTown = readJson("__servicesByTown") || {};
         var catalog = readJson("__serviceCatalog") || [];
+        var townCatalog = readJson("__townCatalog") || [];
+
+        var activeTownIndex = -1;
+        var currentTownMatches = [];
 
         function rebuildServiceOptions(list) {
           var keepValue = serviceSelect.value;
@@ -441,25 +572,203 @@ for (const [townSlug, set] of servicesByTown.entries()) {
           return catalog.filter(function (s) { return allowed.has(norm(s.id)); });
         }
 
-        if (!townSelect || !serviceSelect || !searchBtn) return;
+        function closeTownResults() {
+          activeTownIndex = -1;
+          currentTownMatches = [];
+          townResults.hidden = true;
+          townSearch.setAttribute("aria-expanded", "false");
+          townResults.innerHTML = "";
+        }
 
-        townSelect.addEventListener("change", function () {
+        function selectTown(town) {
+          townSearch.value = town.name;
+          townSlugInput.value = town.slug;
+          rebuildServiceOptions(servicesForTown(town.slug));
+          closeTownResults();
+        }
+
+        function renderTownResults(matches) {
+          currentTownMatches = matches.slice();
+          activeTownIndex = -1;
+          townResults.innerHTML = "";
+
+          if (!matches.length) {
+            var empty = document.createElement("div");
+            empty.className = "town-empty";
+            empty.textContent = "No matching towns found.";
+            townResults.appendChild(empty);
+            townResults.hidden = false;
+            townSearch.setAttribute("aria-expanded", "true");
+            return;
+          }
+
+          var list = document.createElement("ul");
+          list.className = "town-results-list";
+
+          for (var i = 0; i < matches.length; i++) {
+            (function (town, index) {
+              var item = document.createElement("li");
+
+              var btn = document.createElement("button");
+              btn.type = "button";
+              btn.className = "town-result-btn";
+              btn.textContent = town.name;
+              btn.setAttribute("data-index", String(index));
+
+              btn.addEventListener("mousedown", function (e) {
+                e.preventDefault();
+              });
+
+              btn.addEventListener("click", function () {
+                selectTown(town);
+              });
+
+              item.appendChild(btn);
+              list.appendChild(item);
+            })(matches[i], i);
+          }
+
+          townResults.appendChild(list);
+          townResults.hidden = false;
+          townSearch.setAttribute("aria-expanded", "true");
+        }
+
+        function updateActiveTownResult() {
+          var buttons = townResults.querySelectorAll(".town-result-btn");
+          for (var i = 0; i < buttons.length; i++) {
+            if (i === activeTownIndex) {
+              buttons[i].classList.add("active");
+              if (typeof buttons[i].scrollIntoView === "function") {
+                buttons[i].scrollIntoView({ block: "nearest" });
+              }
+            } else {
+              buttons[i].classList.remove("active");
+            }
+          }
+        }
+
+        function filterTowns(query) {
+          var q = norm(query);
+
+          if (!q) {
+            return townCatalog.slice(0, 12);
+          }
+
+          var startsWith = [];
+          var contains = [];
+
+          for (var i = 0; i < townCatalog.length; i++) {
+            var town = townCatalog[i];
+            var townName = norm(town.name);
+
+            if (townName.indexOf(q) === 0) {
+              startsWith.push(town);
+            } else if (townName.indexOf(q) !== -1) {
+              contains.push(town);
+            }
+          }
+
+          return startsWith.concat(contains).slice(0, 12);
+        }
+
+        if (!townSearch || !townSlugInput || !townResults || !serviceSelect || !searchBtn) return;
+
+        townSearch.addEventListener("focus", function () {
+          renderTownResults(filterTowns(townSearch.value));
+        });
+
+        townSearch.addEventListener("input", function () {
           showError("");
-          rebuildServiceOptions(servicesForTown(townSelect.value));
+          townSlugInput.value = "";
+          rebuildServiceOptions(servicesForTown(""));
+          renderTownResults(filterTowns(townSearch.value));
+        });
+
+        townSearch.addEventListener("keydown", function (e) {
+          if (townResults.hidden || !currentTownMatches.length) {
+            if (e.key === "ArrowDown") {
+              renderTownResults(filterTowns(townSearch.value));
+              e.preventDefault();
+            }
+            return;
+          }
+
+          if (e.key === "ArrowDown") {
+            activeTownIndex = Math.min(activeTownIndex + 1, currentTownMatches.length - 1);
+            updateActiveTownResult();
+            e.preventDefault();
+            return;
+          }
+
+          if (e.key === "ArrowUp") {
+            if (activeTownIndex <= 0) {
+              activeTownIndex = 0;
+            } else {
+              activeTownIndex = activeTownIndex - 1;
+            }
+            updateActiveTownResult();
+            e.preventDefault();
+            return;
+          }
+
+          if (e.key === "Enter") {
+            if (activeTownIndex >= 0 && currentTownMatches[activeTownIndex]) {
+              e.preventDefault();
+              selectTown(currentTownMatches[activeTownIndex]);
+            }
+            return;
+          }
+
+          if (e.key === "Escape") {
+            closeTownResults();
+          }
+        });
+
+        townSearch.addEventListener("blur", function () {
+          window.setTimeout(function () {
+            if (!townSlugInput.value) {
+              var typed = norm(townSearch.value);
+              var exact = townCatalog.find(function (t) { return norm(t.name) === typed; });
+              if (exact) {
+                selectTown(exact);
+                return;
+              }
+            }
+            closeTownResults();
+          }, 120);
+        });
+
+        serviceSelect.addEventListener("change", function () {
+          showError("");
         });
 
         searchBtn.addEventListener("click", function () {
           showError("");
 
-          var town = norm(townSelect.value);
+          var town = norm(townSlugInput.value);
           var service = norm(serviceSelect.value);
 
-          if (!town && service) {
-            showError("Select a town first (service-only search is not supported).");
+          if (!townSearch.value.trim()) {
+            showError("Search for and select a town first.");
             return;
           }
+
           if (!town) {
-            showError("Select a town to search.");
+            var typed = norm(townSearch.value);
+            var exact = townCatalog.find(function (t) { return norm(t.name) === typed; });
+            if (exact) {
+              selectTown(exact);
+              town = norm(exact.slug);
+            }
+          }
+
+          if (!town && service) {
+            showError("Select a valid town first (service-only search is not supported).");
+            return;
+          }
+
+          if (!town) {
+            showError("Select a valid town from the search list.");
             return;
           }
 
