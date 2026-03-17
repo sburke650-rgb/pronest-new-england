@@ -111,6 +111,48 @@ const questionsByService = {
   ],
 };
 
+const nearbyTownsMap = {
+  arlington: ["belmont", "cambridge", "lexington", "medford", "somerville", "winchester"],
+  ashland: ["framingham", "holliston", "hopkinton", "marlborough", "natick", "sherborn"],
+  bedford: ["billerica", "burlington", "concord", "lexington", "lincoln", "waltham"],
+  belmont: ["arlington", "cambridge", "lexington", "newton", "waltham", "watertown"],
+  beverly: ["danvers", "hamilton", "manchester-by-the-sea", "peabody", "salem", "wenham"],
+  billerica: ["bedford", "burlington", "chelmsford", "lowell", "tewksbury", "wilmington"],
+  boston: ["brookline", "cambridge", "chelsea", "quincy", "somerville", "watertown"],
+  brookline: ["boston", "cambridge", "newton", "somerville", "watertown"],
+  burlington: ["bedford", "billerica", "lexington", "waltham", "wilmington", "woburn"],
+  cambridge: ["arlington", "belmont", "boston", "somerville", "watertown", "waltham"],
+  chelmsford: ["billerica", "dracut", "littleton", "lowell", "tyngsborough", "westford"],
+  concord: ["bedford", "carlisle", "lexington", "lincoln", "maynard", "sudbury"],
+  danvers: ["beverly", "middleton", "north-reading", "peabody", "salem", "topsfield"],
+  framingham: ["ashland", "holliston", "marlborough", "natick", "southborough", "wayland"],
+  lexington: ["arlington", "bedford", "belmont", "burlington", "concord", "waltham"],
+  lowell: ["billerica", "chelmsford", "dracut", "tewksbury", "tyngsborough", "westford"],
+  lynn: ["malden", "nahant", "revere", "salem", "saugus", "swampscott"],
+  malden: ["everett", "medford", "melrose", "revere", "stoneham", "saugus"],
+  marlborough: ["ashland", "framingham", "hudson", "northborough", "southborough", "sudbury"],
+  medford: ["arlington", "cambridge", "everett", "malden", "somerville", "winchester"],
+  natick: ["framingham", "needham", "newton", "sherborn", "wellesley", "wayland"],
+  newburyport: ["amesbury", "georgetown", "newbury", "rowley", "salisbury", "west-newbury"],
+  newton: ["belmont", "brookline", "needham", "waltham", "watertown", "weston"],
+  peabody: ["beverly", "danvers", "lynnfield", "middleton", "salem", "topsfield"],
+  quincy: ["boston", "braintree", "milton", "randolph", "weymouth"],
+  reading: ["lynnfield", "north-reading", "stoneham", "wakefield", "wilmington", "woburn"],
+  salem: ["beverly", "danvers", "lynn", "marblehead", "peabody", "swampscott"],
+  somerville: ["arlington", "boston", "cambridge", "medford", "everett", "watertown"],
+  tewksbury: ["billerica", "dracut", "lowell", "andover", "wilmington", "chelmsford"],
+  wakefield: ["lynnfield", "melrose", "reading", "stoneham", "saugus", "woburn"],
+  waltham: ["bedford", "belmont", "burlington", "cambridge", "lexington", "watertown"],
+  watertown: ["belmont", "cambridge", "newton", "somerville", "waltham", "weston"],
+  wellesley: ["natick", "needham", "newton", "weston", "dover", "wayland"],
+  westford: ["chelmsford", "groton", "littleton", "lowell", "tyngsborough", "acton"],
+  weston: ["lincoln", "natick", "newton", "waltham", "watertown", "wellesley"],
+  wilmington: ["billerica", "burlington", "reading", "tewksbury", "woburn", "north-reading"],
+  winchester: ["arlington", "lexington", "medford", "stoneham", "woburn", "belmont"],
+  woburn: ["burlington", "reading", "stoneham", "wakefield", "wilmington", "winchester"],
+  worcester: ["auburn", "grafton", "holden", "leicester", "millbury", "shrewsbury"],
+};
+
 export function getStaticPaths() {
   const paths = [];
 
@@ -151,17 +193,45 @@ const pageTitle = `${townName} ${serviceName} Companies | ProNest New England`;
 const badgeExplanation =
   "Listings marked with a green Verified badge indicate businesses with confirmed listing information.";
 
-const listingCompanies = companies
-  .filter(
-    (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
-  )
-  .sort((a, b) => {
+const sortCompanies = (items) =>
+  items.slice().sort((a, b) => {
     const verifiedDiff =
       Number(isVerifiedCompany(b?.verified)) -
       Number(isVerifiedCompany(a?.verified));
     if (verifiedDiff !== 0) return verifiedDiff;
     return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
   });
+
+const listingCompanies = sortCompanies(
+  companies.filter(
+    (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
+  )
+);
+
+const nearbyTownSlugs = nearbyTownsMap[townSlug] ?? [];
+
+const nearbyAll = companies.filter((c) => {
+  const companyTown = norm(c?.townSlug);
+  const companyService = norm(c?.serviceId);
+  return (
+    companyService === serviceId &&
+    nearbyTownSlugs.includes(companyTown)
+  );
+});
+
+const nearbyVerified = nearbyAll.filter((c) =>
+  isVerifiedCompany(c?.verified)
+);
+
+const nearbyProviders =
+  listingCompanies.length === 0
+    ? sortCompanies(
+        nearbyVerified.length > 0 ? nearbyVerified : nearbyAll
+      ).slice(0, 8)
+    : [];
+
+const showingNearbyProviders =
+  listingCompanies.length === 0 && nearbyProviders.length > 0;
 ---
 
 <html lang="en">
@@ -291,6 +361,17 @@ const listingCompanies = companies
         line-height: 1.2;
         overflow-wrap: anywhere;
         word-break: break-word;
+      }
+
+      .nearby-intro {
+        margin: 0 0 16px;
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        border-radius: 16px;
+        padding: 14px 16px;
+        color: #1e3a8a;
+        font-size: 14px;
+        line-height: 1.45;
       }
 
       .cards-grid {
@@ -680,6 +761,11 @@ const listingCompanies = companies
         .verified-note .tooltip-trigger {
           white-space: normal;
         }
+
+        .nearby-intro {
+          font-size: 13px;
+          padding: 12px 14px;
+        }
       }
     </style>
   </head>
@@ -715,7 +801,11 @@ const listingCompanies = companies
       </h1>
 
       <div class="section-head">
-        <h2>{serviceName} Companies in {townName}</h2>
+        <h2>
+          {showingNearbyProviders
+            ? `Nearby ${serviceName} Providers for ${townName}`
+            : `${serviceName} Companies in ${townName}`}
+        </h2>
 
         <div class="verified-note">
           <div class="tooltip-wrap">
@@ -734,13 +824,21 @@ const listingCompanies = companies
       </div>
 
       {
-        listingCompanies.length === 0 ? (
+        showingNearbyProviders && (
+          <p class="nearby-intro">
+            No {serviceName.toLowerCase()} companies are currently listed in {townName}. Showing nearby providers from {nearbyTownSlugs.map(getTownNameFromSlug).join(", ")}.
+          </p>
+        )
+      }
+
+      {
+        listingCompanies.length === 0 && nearbyProviders.length === 0 ? (
           <p class="empty-state">
             No {serviceName.toLowerCase()} companies are listed yet for {townName}, Massachusetts.
           </p>
         ) : (
           <section class="cards-grid">
-            {listingCompanies.map((company) => {
+            {(listingCompanies.length > 0 ? listingCompanies : nearbyProviders).map((company) => {
               const verified = isVerifiedCompany(company?.verified);
               const websiteUrl = normalizeWebsiteUrl(company?.website);
               const phoneHref = getPhoneHref(company?.phone);
