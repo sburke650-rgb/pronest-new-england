@@ -1,0 +1,42 @@
+const companies = require('./src/data/companies/ma-companies.json');
+
+const norm = (v) => String(v || '').trim().toLowerCase();
+
+const rows = {};
+
+for (const c of companies) {
+  const town = norm(c.townSlug);
+  const service = norm(c.serviceId);
+
+  if (!town || !service) continue;
+
+  const key = town + '|' + service;
+
+  if (!rows[key]) rows[key] = 0;
+
+  rows[key]++;
+}
+
+const results = Object.entries(rows)
+  .map(([key, count]) => {
+    const parts = key.split('|');
+    return {
+      town: parts[0],
+      service: parts[1],
+      count: count
+    };
+  })
+  .sort((a, b) =>
+    a.town.localeCompare(b.town) || a.service.localeCompare(b.service)
+  );
+
+console.table(results);
+
+const underFour = results.filter(r => r.count < 4);
+
+if (underFour.length) {
+  console.log('\nPages with LESS than 4 companies:\n');
+  console.table(underFour);
+} else {
+  console.log('\nAll town/service pages have at least 4 companies.\n');
+}
