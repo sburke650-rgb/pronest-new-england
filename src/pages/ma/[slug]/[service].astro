@@ -191,7 +191,7 @@ const hiringQuestions = questionsByService[serviceId] ?? [
 
 const pageTitle = `${townName} ${serviceName} Companies | ProNest New England`;
 const badgeExplanation =
-  "Listings marked with a green Verified badge indicate businesses with confirmed listing information.";
+  "Listings marked with a green Verified badge have confirmed business information.";
 
 const sortCompanies = (items) =>
   items.slice().sort((a, b) => {
@@ -620,14 +620,8 @@ const showingNearbyProviders =
         border: 1px solid #22c55e;
         padding: 4px 7px;
         border-radius: 999px;
-        cursor: pointer;
         white-space: nowrap;
         max-width: 100%;
-      }
-
-      .verified-badge-wrap .tooltip-bubble {
-        left: 0;
-        top: calc(100% + 8px);
       }
 
       @media (min-width: 768px) {
@@ -856,20 +850,13 @@ const showingNearbyProviders =
 
                   {verified && (
                     <div class="verified-badge-row">
-                      <div class="tooltip-wrap verified-badge-wrap">
-                        <button
-                          type="button"
-                          class="tooltip-trigger verified-badge-trigger"
-                          aria-label="What the Verified badge means"
-                        >
-                          <span
-                            style="width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;"
-                            aria-hidden="true"
-                          ></span>
-                          <span>Verified</span>
-                        </button>
-                        <div class="tooltip-bubble">{badgeExplanation}</div>
-                      </div>
+                      <span class="verified-badge-trigger">
+                        <span
+                          style="width:8px;height:8px;border-radius:999px;background:#16a34a;display:inline-block;"
+                          aria-hidden="true"
+                        ></span>
+                        <span>Verified</span>
+                      </span>
                     </div>
                   )}
 
