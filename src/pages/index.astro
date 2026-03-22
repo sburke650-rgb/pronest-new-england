@@ -149,9 +149,9 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       .search-card {
         border: 1px solid #e5e7eb;
         border-radius: 20px;
-        padding: 26px 24px;
+        padding: 28px 26px;
         background: #f8fafc;
-        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.04);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.05);
       }
 
       .search-card h2 {
@@ -169,8 +169,12 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       .grid {
         display: grid;
         grid-template-columns: 1fr 1fr auto;
-        gap: 10px;
+        gap: 14px;
         align-items: start;
+      }
+
+      .grid > div {
+        min-width: 0;
       }
 
       label {
@@ -184,7 +188,8 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       select,
       .town-input {
         width: 100%;
-        padding: 12px 14px;
+        height: 56px;
+        padding: 0 16px;
         border-radius: 14px;
         border: 1px solid #d1d5db;
         background: #fff;
@@ -279,8 +284,15 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         color: #6b7280;
       }
 
+      .search-action {
+        display: flex;
+        align-items: flex-start;
+        padding-top: 29px;
+      }
+
       button {
-        padding: 12px 18px;
+        height: 56px;
+        padding: 0 26px;
         border-radius: 14px;
         border: 1px solid #15803d;
         background: #16a34a;
@@ -288,8 +300,9 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         cursor: pointer;
         font-size: 15px;
         font-weight: 700;
-        transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-        box-shadow: 0 4px 12px rgba(22, 163, 74, 0.18);
+        white-space: nowrap;
+        box-shadow: 0 6px 16px rgba(22, 163, 74, 0.22);
+        transition: all 0.2s ease;
       }
 
       button:focus-visible {
@@ -341,7 +354,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           background: #15803d;
           border-color: #166534;
           transform: translateY(-1px);
-          box-shadow: 0 8px 18px rgba(21, 128, 61, 0.22);
+          box-shadow: 0 10px 22px rgba(21, 128, 61, 0.28);
         }
 
         .town-result-btn:hover {
@@ -379,6 +392,11 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
         .grid {
           grid-template-columns: 1fr;
+        }
+
+        .search-action {
+          width: 100%;
+          padding-top: 0;
         }
 
         button {
@@ -458,7 +476,9 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
               </select>
             </div>
 
-            <button id="searchBtn" type="button">Search</button>
+            <div class="search-action">
+              <button id="searchBtn" type="button">Search</button>
+            </div>
           </div>
 
           <div id="errorMsg" class="error"></div>
