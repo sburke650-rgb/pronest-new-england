@@ -27,8 +27,19 @@ const getServiceNameFromId = (id) => {
 const normalizeWebsiteUrl = (url) => {
   const raw = String(url ?? "").trim();
   if (!raw) return "";
-  if (/^https?:\/\//i.test(raw)) return raw;
-  return `https://${raw}`;
+
+  const cleaned = raw.replace(/\s+/g, "").replace(/\/+$/, "");
+  const withProtocol = /^https?:\/\//i.test(cleaned) ? cleaned : `https://${cleaned}`;
+
+  try {
+    const parsed = new URL(withProtocol);
+    if (!parsed.hostname || parsed.hostname === "localhost") return "";
+    parsed.hash = "";
+    if (parsed.pathname === "/") parsed.pathname = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return "";
+  }
 };
 
 const getPhoneHref = (phone) => {
@@ -36,6 +47,45 @@ const getPhoneHref = (phone) => {
   if (!raw) return "";
   const digits = raw.replace(/[^\d+]/g, "");
   return digits ? `tel:${digits}` : "";
+};
+
+const normalizeFacebookUrl = (url) => {
+  const raw = String(url ?? "").trim();
+  if (!raw) return "";
+
+  const cleaned = raw.replace(/\s+/g, "").replace(/\/+$/, "");
+  const withProtocol = /^https?:\/\//i.test(cleaned) ? cleaned : `https://${cleaned}`;
+
+  try {
+    const parsed = new URL(withProtocol);
+    const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    const path = parsed.pathname.replace(/\/+$/, "");
+
+    if (host !== "facebook.com" && host !== "m.facebook.com") return "";
+    if (!path || path === "/") return "";
+
+    parsed.hash = "";
+    return parsed.toString().replace(/\/$/, "");
+  } catch {
+    return "";
+  }
+};
+
+const isDisplayableWebsite = (url) => {
+  const normalized = normalizeWebsiteUrl(url);
+  if (!normalized) return false;
+
+  try {
+    const parsed = new URL(normalized);
+    const host = parsed.hostname.toLowerCase().replace(/^www\./, "");
+    return host !== "facebook.com" && host !== "m.facebook.com";
+  } catch {
+    return false;
+  }
+};
+
+const isDisplayableFacebook = (url) => {
+  return normalizeFacebookUrl(url) !== "";
 };
 
 const formatLanguages = (langs) => {
@@ -835,6 +885,9 @@ const showingNearbyProviders =
             {(listingCompanies.length > 0 ? listingCompanies : nearbyProviders).map((company) => {
               const verified = isVerifiedCompany(company?.verified);
               const websiteUrl = normalizeWebsiteUrl(company?.website);
+              const facebookUrl = normalizeFacebookUrl(company?.facebook);
+              const showWebsite = isDisplayableWebsite(company?.website);
+              const showFacebook = isDisplayableFacebook(company?.facebook);
               const phoneHref = getPhoneHref(company?.phone);
               const languages = splitLanguages(company?.languages);
 
@@ -870,26 +923,26 @@ const showingNearbyProviders =
                     </p>
                   )}
 
-                  {company?.phone && (
+                  {company?.phone && phoneHref && (
                     <div class="info-line">
                       <strong>Phone:</strong>{" "}
                       <a href={phoneHref}>{company.phone}</a>
                     </div>
                   )}
 
-                  {company?.website && (
+                  {showWebsite && (
                     <div class="info-line">
                       <strong>Website:</strong>{" "}
-                      <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
-                        {company.website}
+                      <a href={websiteUrl} target="_blank" rel="nofollow noopener noreferrer">
+                        {websiteUrl}
                       </a>
                     </div>
                   )}
 
-                  {company?.facebook && (
+                  {showFacebook && (
                     <div class="info-line">
                       <strong>Facebook:</strong>{" "}
-                      <a href={company.facebook} target="_blank" rel="noopener noreferrer">
+                      <a href={facebookUrl} target="_blank" rel="nofollow noopener noreferrer">
                         Facebook Page
                       </a>
                     </div>
