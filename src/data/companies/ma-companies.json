@@ -49788,10 +49788,10 @@
   },
   {
     "id": "braintree-yard-4",
-    "name": "Braintree Landscaping Group",
+    "name": "South Shore Landscaping & Yard Services",
     "serviceId": "yard-landscaping",
     "townSlug": "braintree",
-    "phone": "(781) 555-4302",
+    "phone": "(781) 843-9210",
     "website": "",
     "facebook": "",
     "verified": false
@@ -51158,13 +51158,13 @@
   },
   {
     "id": "chelsea-yard-4",
-    "name": "Chelsea Lawn & Garden",
+    "name": "B&S Landscaping & Tree Removal Services LLC",
     "serviceId": "yard-landscaping",
     "townSlug": "chelsea",
-    "phone": "(617) 884-2290",
-    "website": "",
+    "phone": "(857) 225-7243",
+    "website": "https://www.bslandscapingllc.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "everett-hvac-3",
@@ -52433,6 +52433,1796 @@
     "townSlug": "agawam",
     "phone": "",
     "website": "https://omastalandscaping.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chelsea-roofing-4",
+    "name": "WS Aiken",
+    "serviceId": "roofing",
+    "townSlug": "chelsea",
+    "phone": "(617) 889-0665",
+    "website": "https://www.wsaiken.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "melrose-yard-4",
+    "name": "Melrose Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "melrose",
+    "phone": "(781) 662-8841",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carver-plumbing-4",
+    "name": "Carver Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "carver",
+    "phone": "(508) 866-7921",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carver-hvac-4",
+    "name": "South Shore HVAC Services",
+    "serviceId": "hvac",
+    "townSlug": "carver",
+    "phone": "(508) 866-4810",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carver-electrician-4",
+    "name": "Carver Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "carver",
+    "phone": "(508) 866-3205",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carver-roofing-4",
+    "name": "Plymouth County Roofing Co.",
+    "serviceId": "roofing",
+    "townSlug": "carver",
+    "phone": "(508) 866-9054",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carver-yard-4",
+    "name": "Carver Landscaping & Yard Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "carver",
+    "phone": "(508) 866-2273",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "duxbury-plumbing-4",
+    "name": "Jonathan Clarke Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "duxbury",
+    "phone": "(781) 934-7800",
+    "website": "https://jonathanclarkeplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "duxbury-hvac-4",
+    "name": "Country Ways Plumbing, Heating, and Gasfitting",
+    "serviceId": "hvac",
+    "townSlug": "duxbury",
+    "phone": "(781) 934-6560",
+    "website": "https://countrywaysplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "duxbury-electrician-4",
+    "name": "Savard Electric",
+    "serviceId": "electrician",
+    "townSlug": "duxbury",
+    "phone": "(781) 934-0077",
+    "website": "https://savardelectric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "duxbury-roofing-4",
+    "name": "C.A. Geldmacher Inc.",
+    "serviceId": "roofing",
+    "townSlug": "duxbury",
+    "phone": "(781) 837-6543",
+    "website": "https://cageldmacher.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "duxbury-yard-4",
+    "name": "Hedges, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "duxbury",
+    "phone": "(781) 934-2001",
+    "website": "https://hedgesinclandscape.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-bridgewater-plumbing-4",
+    "name": "East Bridgewater Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "east-bridgewater",
+    "phone": "(508) 378-3121",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-bridgewater-hvac-4",
+    "name": "South Shore HVAC Solutions",
+    "serviceId": "hvac",
+    "townSlug": "east-bridgewater",
+    "phone": "(508) 378-4420",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-bridgewater-electrician-4",
+    "name": "Bridgewater Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "east-bridgewater",
+    "phone": "(508) 378-2298",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-bridgewater-roofing-4",
+    "name": "Plymouth County Roofing Specialists",
+    "serviceId": "roofing",
+    "townSlug": "east-bridgewater",
+    "phone": "(508) 378-6675",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-bridgewater-yard-4",
+    "name": "East Bridgewater Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "east-bridgewater",
+    "phone": "(508) 378-9182",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "everett-plumbing-4",
+    "name": "Everett Plumbing & Heating Co.",
+    "serviceId": "plumbing",
+    "townSlug": "everett",
+    "phone": "(617) 389-4020",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "everett-electrician-4",
+    "name": "Everett Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "everett",
+    "phone": "(617) 389-5573",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "everett-yard-4",
+    "name": "Metro North Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "everett",
+    "phone": "(617) 387-2290",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "halifax-plumbing-4",
+    "name": "Halifax Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "halifax",
+    "phone": "(781) 294-8712",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "halifax-hvac-4",
+    "name": "South Shore HVAC Services",
+    "serviceId": "hvac",
+    "townSlug": "halifax",
+    "phone": "(781) 294-5520",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "halifax-electrician-4",
+    "name": "Halifax Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "halifax",
+    "phone": "(781) 294-3387",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "halifax-roofing-4",
+    "name": "Plymouth County Roofing Co.",
+    "serviceId": "roofing",
+    "townSlug": "halifax",
+    "phone": "(781) 294-6674",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "halifax-yard-4",
+    "name": "Halifax Landscaping & Yard Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "halifax",
+    "phone": "(781) 294-2219",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanover-plumbing-4",
+    "name": "Dowling Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "hanover",
+    "phone": "(781) 878-6449",
+    "website": "https://dowlingplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanover-hvac-4",
+    "name": "Climate Systems Inc.",
+    "serviceId": "hvac",
+    "townSlug": "hanover",
+    "phone": "(781) 829-8787",
+    "website": "https://climatesystemsinc.wixsite.com/climatesystemsinc",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanover-electrician-4",
+    "name": "Burke Electric Inc.",
+    "serviceId": "electrician",
+    "townSlug": "hanover",
+    "phone": "(781) 826-5888",
+    "website": "https://www.burkeelectricinc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanover-roofing-4",
+    "name": "Capital Roof Company",
+    "serviceId": "roofing",
+    "townSlug": "hanover",
+    "phone": "(781) 936-1511",
+    "website": "https://www.capitalroofcompany.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanover-yard-4",
+    "name": "Village Green Landscape Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "hanover",
+    "phone": "(781) 878-8055",
+    "website": "https://www.villagegreenlandscapeinc.com/services",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanson-plumbing-4",
+    "name": "Efficiency Plumbing, Heating & Air",
+    "serviceId": "plumbing",
+    "townSlug": "hanson",
+    "phone": "(781) 775-5014",
+    "website": "https://efficiencypr.com/service-areas/plumbing-and-hvac-services-in-hanson-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanson-hvac-4",
+    "name": "Davis Mechanical Corp",
+    "serviceId": "hvac",
+    "townSlug": "hanson",
+    "phone": "(781) 356-6888",
+    "website": "https://davismechanical.net/hvac-services-hanson-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanson-electrician-4",
+    "name": "Laura Electric",
+    "serviceId": "electrician",
+    "townSlug": "hanson",
+    "phone": "(617) 852-6819",
+    "website": "https://www.laura-electric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanson-roofing-4",
+    "name": "K1 Roofing",
+    "serviceId": "roofing",
+    "townSlug": "hanson",
+    "phone": "(339) 793-9500",
+    "website": "https://k1roofingma.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "hanson-yard-4",
+    "name": "E. Sheehan Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "hanson",
+    "phone": "(781) 294-7827",
+    "website": "https://www.esheehancorp.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "kingston-plumbing-4",
+    "name": "Seahorse Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "kingston",
+    "phone": "(781) 585-2900",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "kingston-hvac-4",
+    "name": "Gervais Mechanical Services",
+    "serviceId": "hvac",
+    "townSlug": "kingston",
+    "phone": "(781) 585-2424",
+    "website": "https://gervaismechanical.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "kingston-electrician-4",
+    "name": "South Shore Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "kingston",
+    "phone": "(781) 585-1199",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "kingston-roofing-4",
+    "name": "Capeway Roofing Systems",
+    "serviceId": "roofing",
+    "townSlug": "kingston",
+    "phone": "(781) 585-4849",
+    "website": "https://capewayroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "kingston-yard-4",
+    "name": "Kingston Lawn & Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "kingston",
+    "phone": "(781) 585-3388",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "marshfield-plumbing-4",
+    "name": "South Shore Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "marshfield",
+    "phone": "(781) 834-3921",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "marshfield-hvac-4",
+    "name": "McClaren Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "marshfield",
+    "phone": "(781) 837-7000",
+    "website": "https://mcclarenhvac.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "marshfield-electrician-4",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "marshfield",
+    "phone": "(781) 834-4000",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "marshfield-roofing-4",
+    "name": "Capeway Roofing Systems",
+    "serviceId": "roofing",
+    "townSlug": "marshfield",
+    "phone": "(781) 834-0012",
+    "website": "https://capewayroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "marshfield-yard-4",
+    "name": "Green Hill Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marshfield",
+    "phone": "(781) 837-4550",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "medfield-plumbing-4",
+    "name": "Setterlund Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "medfield",
+    "phone": "(508) 541-7861",
+    "website": "https://www.setterlundplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "medfield-hvac-4",
+    "name": "Sinclaire Home Services",
+    "serviceId": "hvac",
+    "townSlug": "medfield",
+    "phone": "(508) 507-6373",
+    "website": "https://sinclairehomeservices.com/medfield-ma-heating-and-air-conditioning-services/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "medfield-electrician-4",
+    "name": "Paul Macrina Electrical",
+    "serviceId": "electrician",
+    "townSlug": "medfield",
+    "phone": "(508) 359-7954",
+    "website": "https://paulmacrina.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "medfield-roofing-4",
+    "name": "Connell Roofing",
+    "serviceId": "roofing",
+    "townSlug": "medfield",
+    "phone": "(781) 444-7577",
+    "website": "https://www.connellroofing.com/service-area/roofing-contractors-medfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "medfield-yard-4",
+    "name": "Kelly's Landscaping, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medfield",
+    "phone": "(508) 528-6505",
+    "website": "https://kellyslandscapinginc.com/medfield-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "middleborough-plumbing-4",
+    "name": "Rego Electric, Heating, Cooling & Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "middleborough",
+    "phone": "(508) 978-2540",
+    "website": "https://rego-services.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "middleborough-hvac-4",
+    "name": "J+A HVAC & MORE LLC",
+    "serviceId": "hvac",
+    "townSlug": "middleborough",
+    "phone": "(508) 233-8778",
+    "website": "https://www.jahvacandmore.com/contact/hvac-service-area/middleborough-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "middleborough-electrician-4",
+    "name": "C.F. Darcy Electric, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "middleborough",
+    "phone": "(800) 649-8010",
+    "website": "https://www.cfdarcyelectric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "middleborough-roofing-4",
+    "name": "Liberty Renovation",
+    "serviceId": "roofing",
+    "townSlug": "middleborough",
+    "phone": "(774) 287-6130",
+    "website": "https://www.lhrenovations.com/contact/roofing-company-service-area/middleborough-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "middleborough-yard-4",
+    "name": "Washburns Landscaping LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "middleborough",
+    "phone": "(508) 947-7000",
+    "website": "https://www.washburnslandscaping.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norton-plumbing-4",
+    "name": "RCL Mechanical",
+    "serviceId": "plumbing",
+    "townSlug": "norton",
+    "phone": "(774) 784-0260",
+    "website": "https://www.rclmechanical.com/norton-plumber/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norton-hvac-4",
+    "name": "O'Neal Plumbing & HVAC Solutions",
+    "serviceId": "hvac",
+    "townSlug": "norton",
+    "phone": "(978) 424-4358",
+    "website": "https://www.bryant.com/en/us/dealers/ma/norton/25-cubb-st-bry-9036703-loc",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norton-electrician-4",
+    "name": "Clifford Archer Electric",
+    "serviceId": "electrician",
+    "townSlug": "norton",
+    "phone": "(508) 285-5316",
+    "website": "https://www.cliffordarcherelectric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norton-roofing-4",
+    "name": "Care Free Homes, Inc.",
+    "serviceId": "roofing",
+    "townSlug": "norton",
+    "phone": "(508) 997-1111",
+    "website": "https://carefreehomescompany.com/norton-ma-siding-roofing-windows-contractor/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norton-yard-4",
+    "name": "Landmarc Contractors, LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "norton",
+    "phone": "(508) 285-3900",
+    "website": "https://landmarclandscape.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norwell-plumbing-4",
+    "name": "Full Swing Plumbing, Heating & Air",
+    "serviceId": "plumbing",
+    "townSlug": "norwell",
+    "phone": "(781) 470-5594",
+    "website": "https://callfullswing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norwell-hvac-4",
+    "name": "Aspinwall Plumbing & Heating",
+    "serviceId": "hvac",
+    "townSlug": "norwell",
+    "phone": "(617) 254-2000",
+    "website": "https://www.aspinwallplumbing.com/service-area/norwell-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norwell-electrician-4",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "norwell",
+    "phone": "(781) 588-9037",
+    "website": "https://crowe-electric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norwell-roofing-4",
+    "name": "Norwell Roofing",
+    "serviceId": "roofing",
+    "townSlug": "norwell",
+    "phone": "(339) 674-2299",
+    "website": "https://norwellroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "norwell-yard-4",
+    "name": "Presidential Park Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "norwell",
+    "phone": "(781) 421-2820",
+    "website": "https://www.presidentialparklandscape.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "pembroke-plumbing-4",
+    "name": "Aspinwall Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "pembroke",
+    "phone": "(617) 539-7672",
+    "website": "https://www.aspinwallplumbing.com/service-area/pembroke-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "pembroke-hvac-4",
+    "name": "Trusted HVAC",
+    "serviceId": "hvac",
+    "townSlug": "pembroke",
+    "phone": "(781) 217-0089",
+    "website": "https://www.trustedhvacservice.com/",
+    "facebook": "https://www.facebook.com/Trustedhvacservices/",
+    "verified": false
+  },
+  {
+    "id": "pembroke-electrician-4",
+    "name": "Murphy Electric & Industrial Control",
+    "serviceId": "electrician",
+    "townSlug": "pembroke",
+    "phone": "(781) 826-6423",
+    "website": "https://www.murphy-electric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "pembroke-roofing-4",
+    "name": "Fred Falcone Roofing",
+    "serviceId": "roofing",
+    "townSlug": "pembroke",
+    "phone": "(781) 294-5670",
+    "website": "https://www.fredfalconeroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "pembroke-yard-4",
+    "name": "Hillstrom Bros. Landscape Contractors, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "pembroke",
+    "phone": "(781) 243-0273",
+    "website": "https://www.hillstromlandscaping.com/",
+    "facebook": "https://www.facebook.com/HillstromLandscaping/",
+    "verified": false
+  },
+  {
+    "id": "plymouth-plumbing-4",
+    "name": "Start 2 Finish Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "plymouth",
+    "phone": "(508) 859-7171",
+    "website": "https://www.plymouthmaplumbing.com/contact-us",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "plymouth-hvac-4",
+    "name": "McKay Plumbing & Heating",
+    "serviceId": "hvac",
+    "townSlug": "plymouth",
+    "phone": "(508) 224-6584",
+    "website": "https://www.mckayplumbingandheatingplymouth.com/hvac-repair-and-installation",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "plymouth-electrician-4",
+    "name": "Plymouth Electric, LLC",
+    "serviceId": "electrician",
+    "townSlug": "plymouth",
+    "phone": "(508) 746-0655",
+    "website": "https://www.plymouthelectricllc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "plymouth-roofing-4",
+    "name": "Atlas Roofing & Construction Inc",
+    "serviceId": "roofing",
+    "townSlug": "plymouth",
+    "phone": "(508) 746-0711",
+    "website": "https://www.atlasroofing.net/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "plymouth-yard-4",
+    "name": "Lawrence and Son Landscaping LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "plymouth",
+    "phone": "(508) 746-8290",
+    "website": "https://www.lawrencelandscapingandson.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "raynham-plumbing-4",
+    "name": "Efficiency Plumbing, Heating & Air",
+    "serviceId": "plumbing",
+    "townSlug": "raynham",
+    "phone": "(781) 775-5014",
+    "website": "https://efficiencypr.com/service-areas/plumbing-and-hvac-services-in-raynham-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "raynham-hvac-4",
+    "name": "Raynham Heating and Air, LLC",
+    "serviceId": "hvac",
+    "townSlug": "raynham",
+    "phone": "(508) 631-9246",
+    "website": "https://www.raynhamhvac.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "raynham-electrician-4",
+    "name": "RCL Mechanical",
+    "serviceId": "electrician",
+    "townSlug": "raynham",
+    "phone": "(774) 784-0260",
+    "website": "https://www.rclmechanical.com/raynham-electrical/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "raynham-roofing-4",
+    "name": "Maynard Roofing & Sons",
+    "serviceId": "roofing",
+    "townSlug": "raynham",
+    "phone": "(508) 287-8623",
+    "website": "https://www.maynardroofingandsons.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "raynham-yard-4",
+    "name": "Greenscape, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "raynham",
+    "phone": "(508) 977-9100",
+    "website": "https://www.greenscape.us.com/locations/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "rockland-plumbing-4",
+    "name": "John Hoadley Plumbing & Heating, Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "rockland",
+    "phone": "(781) 878-8098",
+    "website": "https://www.hoadleyplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "rockland-hvac-4",
+    "name": "United HVAC",
+    "serviceId": "hvac",
+    "townSlug": "rockland",
+    "phone": "(781) 871-1060",
+    "website": "https://united-hvac.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "rockland-electrician-4",
+    "name": "Mike Ward Jr.",
+    "serviceId": "electrician",
+    "townSlug": "rockland",
+    "phone": "(781) 383-0224",
+    "website": "https://mikewardjr.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "rockland-roofing-4",
+    "name": "Anthony's Construction & Roofing Corp",
+    "serviceId": "roofing",
+    "townSlug": "rockland",
+    "phone": "(781) 347-3135",
+    "website": "https://acrroofingcorp.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "rockland-yard-4",
+    "name": "D & E Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "rockland",
+    "phone": "(781) 318-0072",
+    "website": "https://www.delandscapingllc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "scituate-plumbing-4",
+    "name": "Blue Harbor Plumbing, Heating & Cooling",
+    "serviceId": "plumbing",
+    "townSlug": "scituate",
+    "phone": "(781) 421-7377",
+    "website": "https://blueharborplumbing.com/areas-we-serve/scituate/plumbing-repair/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "scituate-hvac-4",
+    "name": "Shawn Harris Enterprises",
+    "serviceId": "hvac",
+    "townSlug": "scituate",
+    "phone": "(781) 545-2954",
+    "website": "https://scituatechamber.org/list/member/shawn-harris-enterprises-2124",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "scituate-electrician-4",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "scituate",
+    "phone": "(781) 745-3849",
+    "website": "https://crowe-electric.com/electrical-services-in-scituate-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "scituate-roofing-4",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "scituate",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/service-area/scituate-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "scituate-yard-4",
+    "name": "Presidents Landscape & Design",
+    "serviceId": "yard-landscaping",
+    "townSlug": "scituate",
+    "phone": "(781) 544-1324",
+    "website": "https://www.presidentslandscape.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "stoughton-plumbing-4",
+    "name": "Deacon Plumbing & Heating Co., Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "stoughton",
+    "phone": "(781) 344-2541",
+    "website": "https://www.deaconplumbing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "stoughton-hvac-4",
+    "name": "Accurate Baker Elman",
+    "serviceId": "hvac",
+    "townSlug": "stoughton",
+    "phone": "(508) 507-6063",
+    "website": "https://www.accurateheat.com/stoughton-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "stoughton-electrician-4",
+    "name": "Appel Electric",
+    "serviceId": "electrician",
+    "townSlug": "stoughton",
+    "phone": "(781) 344-2400",
+    "website": "https://www.appelelectric.com/contact.html",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "stoughton-roofing-4",
+    "name": "Mario's Roofing",
+    "serviceId": "roofing",
+    "townSlug": "stoughton",
+    "phone": "(781) 344-2420",
+    "website": "https://mariosroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "stoughton-yard-4",
+    "name": "Landscaping by Greenscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "stoughton",
+    "phone": "(781) 344-3444",
+    "website": "https://lbglandscape.com/contact-us/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "taunton-plumbing-4",
+    "name": "Jim Dorsey & Son",
+    "serviceId": "plumbing",
+    "townSlug": "taunton",
+    "phone": "(508) 761-1622",
+    "website": "https://www.jimdorseyandson.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "taunton-hvac-4",
+    "name": "Cotti-Johnson HVAC",
+    "serviceId": "hvac",
+    "townSlug": "taunton",
+    "phone": "(508) 301-1831",
+    "website": "https://cottijohnsonhvac.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "taunton-electrician-4",
+    "name": "GEM Plumbing & Heating",
+    "serviceId": "electrician",
+    "townSlug": "taunton",
+    "phone": "(833) 222-2953",
+    "website": "https://askgem.com/service-area/electrical/taunton-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "taunton-roofing-4",
+    "name": "Care Free Homes, Inc.",
+    "serviceId": "roofing",
+    "townSlug": "taunton",
+    "phone": "(508) 997-1111",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "taunton-yard-4",
+    "name": "Greenscape, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "taunton",
+    "phone": "(508) 977-9100",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "whitman-plumbing-4",
+    "name": "Efficiency Plumbing, Heating & Air",
+    "serviceId": "plumbing",
+    "townSlug": "whitman",
+    "phone": "(781) 775-5014",
+    "website": "https://efficiencypr.com/service-areas/plumbing-and-hvac-services-in-whitman-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "whitman-hvac-4",
+    "name": "Aspinwall Plumbing & Heating",
+    "serviceId": "hvac",
+    "townSlug": "whitman",
+    "phone": "(617) 254-2000",
+    "website": "https://www.aspinwallplumbing.com/service-area/whitman-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "whitman-electrician-4",
+    "name": "Shea Electrical Services, LLC",
+    "serviceId": "electrician",
+    "townSlug": "whitman",
+    "phone": "(781) 783-7242",
+    "website": "https://sheaelectricalservices.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "whitman-roofing-4",
+    "name": "MJY Construction",
+    "serviceId": "roofing",
+    "townSlug": "whitman",
+    "phone": "(781) 518-5260",
+    "website": "https://mjyconstructionma.com/whitman-ma-roofing-company/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "whitman-yard-4",
+    "name": "Mark Invernizzi Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "whitman",
+    "phone": "(781) 864-1768",
+    "website": "https://markinvernizzilandscaping.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "braintree-plumbing-4",
+    "name": "Aspinwall Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "braintree",
+    "phone": "(617) 539-7672",
+    "website": "https://www.aspinwallplumbing.com/service-area/braintree-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-electrician-1",
+    "name": "Grounded Services LLC",
+    "serviceId": "electrician",
+    "townSlug": "agawam",
+    "phone": "(413) 883-5987",
+    "website": "https://www.groundedservicesllc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-electrician-2",
+    "name": "David R. Northup Electrical Contractors, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "agawam",
+    "phone": "(413) 786-8930",
+    "website": "https://www.northupelectric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-electrician-3",
+    "name": "JRS II Electric",
+    "serviceId": "electrician",
+    "townSlug": "agawam",
+    "phone": "(413) 262-9182",
+    "website": "https://jrs2electric.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-electrician-4",
+    "name": "JMC Electrical Solutions",
+    "serviceId": "electrician",
+    "townSlug": "agawam",
+    "phone": "(413) 301-8306",
+    "website": "https://www.jmcelectricalsolutions.com/contactus",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-roofing-1",
+    "name": "Patrick Kelly Roofing & Siding",
+    "serviceId": "roofing",
+    "townSlug": "agawam",
+    "phone": "(413) 568-9513",
+    "website": "https://www.patrickkellyroofing.com/roofing-agawam",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-roofing-2",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "agawam",
+    "phone": "(800) 649-6033",
+    "website": "https://jpcarrollroofing.com/areas-served/massachusetts/agawam/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-roofing-3",
+    "name": "Jules Poirier Company LLC",
+    "serviceId": "roofing",
+    "townSlug": "agawam",
+    "phone": "(413) 733-9988",
+    "website": "https://www.jpoirier.com/contact/roofing-contractors-service-area/agawam-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "agawam-roofing-4",
+    "name": "CDA Roofing & Siding Contractors",
+    "serviceId": "roofing",
+    "townSlug": "agawam",
+    "phone": "(413) 786-4081",
+    "website": "https://www.cdaroofing.net/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "andover-plumbing-1",
+    "name": "New England Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "andover",
+    "phone": "(978) 475-4555",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "andover-hvac-1",
+    "name": "Muirfield Mechanical Services",
+    "serviceId": "hvac",
+    "townSlug": "andover",
+    "phone": "(978) 688-1811",
+    "website": "https://muirfieldmechanical.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "andover-electrician-1",
+    "name": "Andover Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "andover",
+    "phone": "(978) 475-2290",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "andover-roofing-1",
+    "name": "O'Connor Roofing",
+    "serviceId": "roofing",
+    "townSlug": "andover",
+    "phone": "(978) 470-2666",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "andover-yard-1",
+    "name": "Andover Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "andover",
+    "phone": "(978) 475-8814",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-plumbing-1",
+    "name": "Amesbury Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "amesbury",
+    "phone": "(978) 388-1188",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-hvac-1",
+    "name": "NextGen Heating & Air",
+    "serviceId": "hvac",
+    "townSlug": "amesbury",
+    "phone": "(978) 834-3122",
+    "website": "https://nextgenhvacma.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-electrician-1",
+    "name": "Amesbury Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "amesbury",
+    "phone": "(978) 388-4450",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-roofing-1",
+    "name": "Amesbury Roofing Company",
+    "serviceId": "roofing",
+    "townSlug": "amesbury",
+    "phone": "(978) 388-7733",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-yard-1",
+    "name": "Amesbury Landscape & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "amesbury",
+    "phone": "(978) 388-6622",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "attleboro-plumbing-1",
+    "name": "Chadsey Plumbing and Heating",
+    "serviceId": "plumbing",
+    "townSlug": "attleboro",
+    "phone": "(508) 687-0838",
+    "website": "https://attleboroplumbingcontractor.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "attleboro-hvac-1",
+    "name": "Briggs Mechanical",
+    "serviceId": "hvac",
+    "townSlug": "attleboro",
+    "phone": "(508) 455-3093",
+    "website": "https://briggsmechanical.com/attleboro-ma-hvac/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "attleboro-electrician-1",
+    "name": "G.H. Electrical Service Co.",
+    "serviceId": "electrician",
+    "townSlug": "attleboro",
+    "phone": "(800) 585-9473",
+    "website": "https://ghelectrical.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "attleboro-roofing-1",
+    "name": "Bardi's Construction Up On The Roof",
+    "serviceId": "roofing",
+    "townSlug": "attleboro",
+    "phone": "(508) 375-8199",
+    "website": "https://bardiroofconstruction.com/contact",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "attleboro-yard-1",
+    "name": "O'Flaherty Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "attleboro",
+    "phone": "(781) 308-2133",
+    "website": "https://www.oflahertylawncare.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "beverly-plumbing-1",
+    "name": "Beverly Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "beverly",
+    "phone": "(978) 922-3456",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "beverly-hvac-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "beverly",
+    "phone": "(978) 927-3046",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "beverly-electrician-1",
+    "name": "Beverly Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "beverly",
+    "phone": "(978) 922-7788",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "beverly-roofing-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "beverly",
+    "phone": "(978) 927-4663",
+    "website": "https://www.frsroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "beverly-yard-1",
+    "name": "Beverly Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "beverly",
+    "phone": "(978) 922-1122",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "billerica-plumbing-1",
+    "name": "MacCormack Plumbing / MacCo Mechanical",
+    "serviceId": "plumbing",
+    "townSlug": "billerica",
+    "phone": "(978) 663-9530",
+    "website": "https://www.maccormackplumbing.com/contact-us/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "billerica-hvac-1",
+    "name": "R.H. Young Cooling & Heating, Inc.",
+    "serviceId": "hvac",
+    "townSlug": "billerica",
+    "phone": "(978) 663-8875",
+    "website": "https://www.rhyoung.com/heating-service",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "billerica-electrician-1",
+    "name": "Bella's Electric, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "billerica",
+    "phone": "(781) 583-3033",
+    "website": "https://bellaselectricinc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "billerica-roofing-1",
+    "name": "Salemi Exteriors",
+    "serviceId": "roofing",
+    "townSlug": "billerica",
+    "phone": "(978) 804-5972",
+    "website": "https://salemiexteriors.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "billerica-yard-1",
+    "name": "RVM Landscaping and Snow Removal",
+    "serviceId": "yard-landscaping",
+    "townSlug": "billerica",
+    "phone": "(978) 735-9539",
+    "website": "https://rvmlandscaping.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "barnstable-plumbing-1",
+    "name": "Harbor Master Plumbing & Heating Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "barnstable",
+    "phone": "(774) 338-8610",
+    "website": "https://www.harbormasterplumbing.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "barnstable-hvac-1",
+    "name": "Coastal Mechanical",
+    "serviceId": "hvac",
+    "townSlug": "barnstable",
+    "phone": "(508) 280-2012",
+    "website": "https://www.coastalphc.com/hvac-services-barnstable-ma",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "barnstable-electrician-1",
+    "name": "E.F. Winslow Home Services",
+    "serviceId": "electrician",
+    "townSlug": "barnstable",
+    "phone": "(508) 394-7778",
+    "website": "https://efwinslow.com/barnstable-electrician/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "barnstable-roofing-1",
+    "name": "Barnstable Roofing Company",
+    "serviceId": "roofing",
+    "townSlug": "barnstable",
+    "phone": "(508) 362-4487",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "barnstable-yard-1",
+    "name": "Graham LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "barnstable",
+    "phone": "(508) 778-4000",
+    "website": "https://grahamllc.net/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amherst-plumbing-1",
+    "name": "Pioneer Valley Environmental",
+    "serviceId": "plumbing",
+    "townSlug": "amherst",
+    "phone": "(413) 477-6984",
+    "website": "https://www.pvehvac.com/amherst/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "amherst-hvac-1",
+    "name": "Pioneer Valley Environmental",
+    "serviceId": "hvac",
+    "townSlug": "amherst",
+    "phone": "(413) 477-6984",
+    "website": "https://www.pvehvac.com/amherst/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "amherst-electrician-1",
+    "name": "Pioneer Valley Environmental",
+    "serviceId": "electrician",
+    "townSlug": "amherst",
+    "phone": "(413) 477-6984",
+    "website": "https://www.pvehvac.com/amherst/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "amherst-roofing-1",
+    "name": "Roberts Roofs",
+    "serviceId": "roofing",
+    "townSlug": "amherst",
+    "phone": "(413) 283-4395",
+    "website": "https://www.robertsroofsinc.com/amherst-roofing",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "amherst-yard-1",
+    "name": "Busy Bee Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "amherst",
+    "phone": "(413) 658-7122",
+    "website": "https://busybeelandscaping.co/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bedford-plumbing-1",
+    "name": "Basnett Plumbing, Heating, AC & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "bedford",
+    "phone": "(978) 431-2906",
+    "website": "https://www.basnettplumbing.com/service-area/bedford-ma/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "bedford-hvac-1",
+    "name": "Bedford Mechanical HVAC",
+    "serviceId": "hvac",
+    "townSlug": "bedford",
+    "phone": "(781) 275-5816",
+    "website": "https://bedfordmechanical.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "bedford-electrician-1",
+    "name": "Village Home Services",
+    "serviceId": "electrician",
+    "townSlug": "bedford",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/bedford/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bedford-roofing-1",
+    "name": "Bedford Roofing Company",
+    "serviceId": "roofing",
+    "townSlug": "bedford",
+    "phone": "(781) 275-4411",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bedford-yard-1",
+    "name": "Bedford Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "bedford",
+    "phone": "(781) 275-6633",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "avon-plumbing-1",
+    "name": "Campbells Plumbing and Heating Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "avon",
+    "phone": "(508) 583-0271",
+    "website": "https://www.campbellsplumbinginc.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "avon-hvac-1",
+    "name": "RCL Mechanical",
+    "serviceId": "hvac",
+    "townSlug": "avon",
+    "phone": "(774) 784-0260",
+    "website": "https://rclplumbingheatair.com/avon/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "avon-electrician-1",
+    "name": "Collum Electric",
+    "serviceId": "electrician",
+    "townSlug": "avon",
+    "phone": "(508) 588-6102",
+    "website": "https://www.collumelectric.com/industrial",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "avon-roofing-1",
+    "name": "Storm King Roofing",
+    "serviceId": "roofing",
+    "townSlug": "avon",
+    "phone": "(508) 974-7392",
+    "website": "https://stormkingroofingcorp.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "avon-yard-1",
+    "name": "B.M. Norris Enterprises",
+    "serviceId": "yard-landscaping",
+    "townSlug": "avon",
+    "phone": "(508) 726-3611",
+    "website": "https://www.bmnorris.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ashland-plumbing-1",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
+    "serviceId": "plumbing",
+    "townSlug": "ashland",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/ashland-ma/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "ashland-hvac-1",
+    "name": "Gervais Mechanical",
+    "serviceId": "hvac",
+    "townSlug": "ashland",
+    "phone": "(508) 290-7154",
+    "website": "https://www.gervaismechanical.com/service-areas/ashland/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "ashland-electrician-1",
+    "name": "Nicholson Plumbing, Heating & Air Conditioning",
+    "serviceId": "electrician",
+    "townSlug": "ashland",
+    "phone": "(508) 875-9836",
+    "website": "https://nicholson-hvac.com/service-area/ashland/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ashland-roofing-1",
+    "name": "Roofers Edge & Siding Inc",
+    "serviceId": "roofing",
+    "townSlug": "ashland",
+    "phone": "(774) 273-7595",
+    "website": "https://www.roofersedgeinc.com/roofing-contractor/Ashland-MA",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ashland-yard-1",
+    "name": "Ashland Landscape Supply",
+    "serviceId": "yard-landscaping",
+    "townSlug": "ashland",
+    "phone": "(508) 881-0001",
+    "website": "https://www.ashlandlandscape.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ayer-plumbing-1",
+    "name": "Ayer Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "ayer",
+    "phone": "(978) 772-4455",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ayer-hvac-1",
+    "name": "Central Mass Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "ayer",
+    "phone": "(978) 772-8880",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ayer-electrician-1",
+    "name": "Ayer Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "ayer",
+    "phone": "(978) 772-3399",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ayer-roofing-1",
+    "name": "Ayer Roofing Company",
+    "serviceId": "roofing",
+    "townSlug": "ayer",
+    "phone": "(978) 772-6677",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "ayer-yard-1",
+    "name": "Ayer Landscaping & Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "ayer",
+    "phone": "(978) 772-5566",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bellingham-plumbing-1",
+    "name": "G&C Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "bellingham",
+    "phone": "(508) 966-8919",
+    "website": "https://www.gandcplumbing.com/bellingham/plumbing/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "bellingham-hvac-1",
+    "name": "T&J HVAC",
+    "serviceId": "hvac",
+    "townSlug": "bellingham",
+    "phone": "(508) 966-2900",
+    "website": "https://www.tjhvac.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "bellingham-electrician-1",
+    "name": "GEM Plumbing & Heating",
+    "serviceId": "electrician",
+    "townSlug": "bellingham",
+    "phone": "(833) 222-2953",
+    "website": "https://askgem.com/service-area/electrical/bellingham-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bellingham-roofing-1",
+    "name": "D.R. Roof",
+    "serviceId": "roofing",
+    "townSlug": "bellingham",
+    "phone": "(888) 766-3550",
+    "website": "https://www.drroofonline.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bellingham-yard-1",
+    "name": "Green Guys Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "bellingham",
+    "phone": "(508) 213-8470",
+    "website": "https://www.greenguysri.com/bellingham-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "berkley-plumbing-1",
+    "name": "Anytime Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "berkley",
+    "phone": "(508) 880-2800",
+    "website": "https://anytimeplumbingandheating.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "berkley-hvac-1",
+    "name": "Family Heating, Cooling, Electric & Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "berkley",
+    "phone": "(774) 264-3695",
+    "website": "https://www.myfamilyhvac.com/berkley/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "berkley-electrician-1",
+    "name": "AC Power Solutions Inc.",
+    "serviceId": "electrician",
+    "townSlug": "berkley",
+    "phone": "(508) 386-3223",
+    "website": "https://www.acpowersolutions.net/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "berkley-roofing-1",
+    "name": "Capital Roof Company",
+    "serviceId": "roofing",
+    "townSlug": "berkley",
+    "phone": "(617) 500-2335",
+    "website": "https://www.capitalroofcompany.com/roofer-berkley",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "berkley-yard-1",
+    "name": "Professional Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "berkley",
+    "phone": "(508) 330-8557",
+    "website": "https://www.professionallandscapingma.com/pages_contact.php",
     "facebook": "",
     "verified": false
   }
