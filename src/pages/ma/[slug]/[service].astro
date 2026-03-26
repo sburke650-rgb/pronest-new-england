@@ -310,6 +310,11 @@ const displayCompanies =
       : statewideProviders;
 
 const canonicalUrl = `https://pronestne.com/ma/${townSlug}/${serviceId}/`;
+
+const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
+  slug,
+  name: getTownNameFromSlug(slug),
+}));
 ---
 
 <html lang="en">
@@ -418,11 +423,28 @@ const canonicalUrl = `https://pronestne.com/ma/${townSlug}/${serviceId}/`;
       }
 
       .hero-title {
-        margin: 0 0 24px;
+        margin: 0 0 10px;
         font-size: 34px;
         line-height: 1.15;
         overflow-wrap: anywhere;
         word-break: break-word;
+      }
+
+      .page-intro {
+        margin: 0 0 18px;
+        font-size: 15px;
+        color: #4b5563;
+        max-width: 760px;
+        line-height: 1.6;
+      }
+
+      .page-intro a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+
+      .page-intro a:hover {
+        text-decoration: underline;
       }
 
       .section-head {
@@ -771,6 +793,11 @@ const canonicalUrl = `https://pronestne.com/ma/${townSlug}/${serviceId}/`;
           font-size: 28px;
         }
 
+        .page-intro {
+          font-size: 14px;
+          margin: 0 0 16px;
+        }
+
         .section-head h2 {
           font-size: 22px;
         }
@@ -872,6 +899,27 @@ const canonicalUrl = `https://pronestne.com/ma/${townSlug}/${serviceId}/`;
       <h1 class="hero-title">
         {townName}, Massachusetts {serviceName} Companies
       </h1>
+
+      <p class="page-intro">
+        Find trusted {serviceName.toLowerCase()} companies in {townName}, Massachusetts.
+        {nearbyLinkTowns.length > 0 && (
+          <>
+            {" "}Browse nearby {serviceName.toLowerCase()} services in{" "}
+            {nearbyLinkTowns.map((place, index) => (
+              <>
+                <a href={`/ma/${place.slug}/${serviceId}/`}>{place.name}</a>
+                {index < nearbyLinkTowns.length - 2
+                  ? ", "
+                  : index === nearbyLinkTowns.length - 2
+                    ? ", and "
+                    : ""}
+              </>
+            ))}
+            .{" "}
+          </>
+        )}
+        Compare local providers, services, and contact details to choose the right professional for your home or business.
+      </p>
 
       <div class="section-head">
         <h2>
