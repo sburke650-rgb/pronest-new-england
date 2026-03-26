@@ -641,6 +641,14 @@ const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
         margin-top: 6px;
       }
 
+      .seo-block {
+        margin-top: 28px;
+        max-width: 760px;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #6b7280;
+      }
+
       .verified-dot {
         width: 10px;
         height: 10px;
@@ -1066,6 +1074,11 @@ const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
           {hiringQuestions.map((item) => <li>{item}</li>)}
         </ul>
       </section>
+
+      <p class="seo-block">
+        {serviceName} services in {townName}, Massachusetts include a range of residential and commercial work tailored to local needs. Homeowners and businesses in {townName} rely on experienced professionals for quality service, timely response, and reliable results. Many {serviceName.toLowerCase()} companies in {townName} also serve nearby areas, helping ensure consistent coverage throughout the region.
+      </p>
+
     </main>
   </body>
 </html>
