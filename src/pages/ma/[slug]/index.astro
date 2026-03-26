@@ -39,6 +39,11 @@ const servicesInTown = services
   .slice()
   .sort((a, b) => String(a.name).localeCompare(String(b.name)));
 
+// All services for crawl/internal linking
+const allServices = services
+  .slice()
+  .sort((a, b) => String(a.name).localeCompare(String(b.name)));
+
 // Local providers
 const providersSorted = companiesInTown
   .slice()
@@ -134,6 +139,34 @@ const canonicalUrl = `https://pronestne.com/ma/${townSlug}/`;
         border-radius: 18px;
       }
 
+      .services-grid {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 10px;
+      }
+
+      .services-grid li {
+        margin: 0;
+      }
+
+      .service-link {
+        display: block;
+        padding: 14px;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #111827;
+        font-weight: 600;
+        background: #f9fafb;
+      }
+
+      .service-link:hover {
+        background: #f3f4f6;
+      }
+
       .providers-list {
         list-style: none;
         padding: 0;
@@ -191,6 +224,24 @@ const canonicalUrl = `https://pronestne.com/ma/${townSlug}/`;
         <p class="intro">
           Browse service categories and local providers in {townName}.
         </p>
+      </section>
+
+      <section class="section">
+        <h2>Service Categories</h2>
+        <p>
+          Browse all service categories available for {townName}, including pages
+          with nearby or statewide fallback coverage where local listings are still growing.
+        </p>
+
+        <ul class="services-grid">
+          {allServices.map((s) => (
+            <li>
+              <a class="service-link" href={`/ma/${townSlug}/${norm(s.id)}/`}>
+                {s.name}
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* ✅ LOCAL PROVIDERS */}
