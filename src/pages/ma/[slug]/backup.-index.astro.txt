@@ -39,33 +39,15 @@ const servicesInTown = services
   .slice()
   .sort((a, b) => String(a.name).localeCompare(String(b.name)));
 
-// Local providers
+// Recent/featured provider list sorted by verified first, then name
 const providersSorted = companiesInTown
   .slice()
   .sort((a, b) => {
-    const aVerified =
-      a?.verified === true || norm(a?.claimStatus) === "verified" ? 1 : 0;
-    const bVerified =
-      b?.verified === true || norm(b?.claimStatus) === "verified" ? 1 : 0;
+    const aVerified = a?.verified === true ? 1 : 0;
+    const bVerified = b?.verified === true ? 1 : 0;
     if (bVerified !== aVerified) return bVerified - aVerified;
     return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
   });
-
-// 🔥 STATEWIDE FALLBACK (only when NO local providers)
-const fallbackProviders =
-  providersSorted.length === 0
-    ? companies
-        .slice()
-        .sort((a, b) => {
-          const aVerified =
-            a?.verified === true || norm(a?.claimStatus) === "verified" ? 1 : 0;
-          const bVerified =
-            b?.verified === true || norm(b?.claimStatus) === "verified" ? 1 : 0;
-          if (bVerified !== aVerified) return bVerified - aVerified;
-          return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
-        })
-        .slice(0, 10)
-    : [];
 ---
 
 <html lang="en">
@@ -108,6 +90,10 @@ const fallbackProviders =
         border-bottom: 1px solid rgba(0, 0, 0, 0.15);
       }
 
+      .breadcrumbs a:hover {
+        border-bottom-color: rgba(0, 0, 0, 0.35);
+      }
+
       .hero {
         margin-bottom: 26px;
       }
@@ -115,12 +101,15 @@ const fallbackProviders =
       h1 {
         margin: 0 0 10px 0;
         font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
       }
 
       .intro {
         margin: 0;
         max-width: 760px;
         font-size: 17px;
+        line-height: 1.7;
         color: #374151;
       }
 
@@ -129,82 +118,191 @@ const fallbackProviders =
         padding: 22px;
         border: 1px solid #e5e7eb;
         border-radius: 18px;
+        background: #fff;
+      }
+
+      .section h2 {
+        margin: 0 0 12px 0;
+        font-size: 24px;
+        line-height: 1.2;
+      }
+
+      .section p {
+        margin: 0 0 16px 0;
+        color: #4b5563;
+        line-height: 1.6;
+      }
+
+      .services-grid {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 10px;
+      }
+
+      .services-grid li {
+        margin: 0;
+      }
+
+      .service-link {
+        display: block;
+        padding: 14px 16px;
+        border: 1px solid #e5e7eb;
+        border-radius: 12px;
+        text-decoration: none;
+        color: #111827;
+        background: #f9fafb;
+        font-weight: 700;
+      }
+
+      .service-link:hover {
+        background: #f3f4f6;
       }
 
       .providers-list {
         list-style: none;
+        margin: 0;
         padding: 0;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         gap: 10px;
       }
 
+      .providers-list li {
+        margin: 0;
+      }
+
       .provider-link {
         display: block;
-        padding: 14px;
+        padding: 14px 16px;
         border: 1px solid #e5e7eb;
         border-radius: 12px;
         text-decoration: none;
         color: #111827;
+        background: #ffffff;
+      }
+
+      .provider-link:hover {
+        background: #f9fafb;
       }
 
       .provider-name {
+        display: block;
         font-weight: 700;
+        margin-bottom: 4px;
       }
 
       .provider-meta {
+        display: block;
         font-size: 14px;
         color: #6b7280;
       }
 
       .verified-badge {
         display: inline-block;
-        margin-top: 6px;
+        margin-top: 8px;
         font-size: 12px;
+        font-weight: 700;
         padding: 4px 8px;
         border-radius: 999px;
+        border: 1px solid rgba(34, 197, 94, 0.45);
         background: rgba(34, 197, 94, 0.12);
         color: rgb(22, 101, 52);
       }
 
-      .nearby-badge {
+      .empty-note {
+        color: #4b5563;
+      }
+
+      .browse-ma {
         display: inline-block;
-        margin-top: 6px;
-        margin-right: 6px;
-        font-size: 12px;
-        padding: 4px 8px;
-        border-radius: 999px;
-        background: rgba(59, 130, 246, 0.08);
-        color: #1d4ed8;
+        margin-top: 14px;
+        font-weight: 600;
+        color: #111827;
+      }
+
+      @media (max-width: 640px) {
+        .wrap {
+          padding: 26px 14px 44px;
+        }
+
+        h1 {
+          font-size: 30px;
+        }
+
+        .section {
+          padding: 18px;
+        }
       }
     </style>
   </head>
 
   <body>
     <main class="wrap">
+      <div class="breadcrumbs">
+        <a href="/">Home</a>
+        &nbsp;/&nbsp;
+        <a href="/ma/">Massachusetts</a>
+        &nbsp;/&nbsp;
+        <span>{townName}</span>
+      </div>
 
       <section class="hero">
         <h1>{townName}, Massachusetts</h1>
         <p class="intro">
-          Browse service categories and local providers in {townName}.
+          Browse service categories and local providers in {townName}. Select a
+          service to view companies in this town.
         </p>
       </section>
 
-      {/* ✅ LOCAL PROVIDERS */}
+      {servicesInTown.length === 0 ? (
+        <section class="section">
+          <h2>Services in {townName}</h2>
+          <p class="empty-note">
+            We’re expanding coverage in {townName}. Check back soon as we continue
+            adding more local service providers.
+          </p>
+
+          <a class="browse-ma" href="/ma/">Browse Massachusetts directory</a>
+        </section>
+      ) : (
+        <section class="section">
+          <h2>Browse services in {townName}</h2>
+          <p>Select a service category to view local providers.</p>
+
+          <ul class="services-grid">
+            {servicesInTown.map((s) => (
+              <li>
+                <a class="service-link" href={`/ma/${townSlug}/${s.id}/`}>
+                  {s.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {providersSorted.length > 0 && (
         <section class="section">
-          <h2>Local providers</h2>
+          <h2>Local providers in {townName}</h2>
+          <p>
+            Browse local companies in {townName}. Verified providers are shown first.
+          </p>
 
           <ul class="providers-list">
             {providersSorted.map((c) => {
               const serviceObj = services.find((s) => norm(s.id) === norm(c.serviceId));
               const serviceName = serviceObj?.name ?? c.serviceId;
-              const isVerified =
-                c?.verified === true || norm(c?.claimStatus) === "verified";
+              const isVerified = c?.verified === true || c?.claimStatus === "verified";
 
               return (
                 <li>
-                  <a href={`/ma/${townSlug}/${norm(c.serviceId)}/${c.id}/`} class="provider-link">
+                  <a
+                    class="provider-link"
+                    href={`/ma/${townSlug}/${norm(c.serviceId)}/${c.id}/`}
+                  >
                     <span class="provider-name">{c.name}</span>
                     <span class="provider-meta">{serviceName}</span>
                     {isVerified && <span class="verified-badge">Verified</span>}
@@ -215,43 +313,6 @@ const fallbackProviders =
           </ul>
         </section>
       )}
-
-      {/* 🔥 FALLBACK */}
-      {providersSorted.length === 0 && fallbackProviders.length > 0 && (
-        <section class="section">
-          <h2>Nearby providers</h2>
-          <p>
-            We’re expanding coverage in {townName}. Here are providers from nearby areas.
-          </p>
-
-          <ul class="providers-list">
-            {fallbackProviders.map((c) => {
-              const serviceObj = services.find((s) => norm(s.id) === norm(c.serviceId));
-              const serviceName = serviceObj?.name ?? c.serviceId;
-              const providerTown =
-                towns.find((t) => norm(t.slug) === norm(c.townSlug))?.name ??
-                c.townSlug;
-
-              const isVerified =
-                c?.verified === true || norm(c?.claimStatus) === "verified";
-
-              return (
-                <li>
-                  <a href={`/ma/${norm(c.townSlug)}/${norm(c.serviceId)}/${c.id}/`} class="provider-link">
-                    <span class="provider-name">{c.name}</span>
-                    <span class="provider-meta">
-                      {serviceName} • {providerTown}
-                    </span>
-                    <span class="nearby-badge">Nearby</span>
-                    {isVerified && <span class="verified-badge">Verified</span>}
-                  </a>
-                </li>
-              );
-            })}
-          </ul>
-        </section>
-      )}
-
     </main>
   </body>
 </html>

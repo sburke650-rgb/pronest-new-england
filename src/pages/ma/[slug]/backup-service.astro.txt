@@ -263,7 +263,10 @@ const nearbyTownSlugs = nearbyTownsMap[townSlug] ?? [];
 const nearbyAll = companies.filter((c) => {
   const companyTown = norm(c?.townSlug);
   const companyService = norm(c?.serviceId);
-  return companyService === serviceId && nearbyTownSlugs.includes(companyTown);
+  return (
+    companyService === serviceId &&
+    nearbyTownSlugs.includes(companyTown)
+  );
 });
 
 const nearbyVerified = nearbyAll.filter((c) =>
@@ -277,37 +280,8 @@ const nearbyProviders =
       ).slice(0, 8)
     : [];
 
-const statewideAll = companies.filter(
-  (c) => norm(c?.serviceId) === serviceId
-);
-
-const statewideVerified = statewideAll.filter((c) =>
-  isVerifiedCompany(c?.verified)
-);
-
-const statewideProviders =
-  listingCompanies.length === 0 && nearbyProviders.length === 0
-    ? sortCompanies(
-        statewideVerified.length > 0 ? statewideVerified : statewideAll
-      )
-        .filter((c) => norm(c?.townSlug) !== townSlug)
-        .slice(0, 8)
-    : [];
-
 const showingNearbyProviders =
   listingCompanies.length === 0 && nearbyProviders.length > 0;
-
-const showingStatewideProviders =
-  listingCompanies.length === 0 &&
-  nearbyProviders.length === 0 &&
-  statewideProviders.length > 0;
-
-const displayCompanies =
-  listingCompanies.length > 0
-    ? listingCompanies
-    : nearbyProviders.length > 0
-      ? nearbyProviders
-      : statewideProviders;
 ---
 
 <html lang="en">
@@ -874,9 +848,7 @@ const displayCompanies =
         <h2>
           {showingNearbyProviders
             ? `Nearby ${serviceName} Providers for ${townName}`
-            : showingStatewideProviders
-              ? `${serviceName} Providers for ${townName}`
-              : `${serviceName} Companies in ${townName}`}
+            : `${serviceName} Companies in ${townName}`}
         </h2>
 
         <div class="verified-note">
@@ -904,21 +876,13 @@ const displayCompanies =
       }
 
       {
-        showingStatewideProviders && (
-          <p class="nearby-intro">
-            No {serviceName.toLowerCase()} companies are currently listed in {townName}, and no nearby-town matches were found. Showing providers from other Massachusetts towns.
-          </p>
-        )
-      }
-
-      {
-        displayCompanies.length === 0 ? (
+        listingCompanies.length === 0 && nearbyProviders.length === 0 ? (
           <p class="empty-state">
             No {serviceName.toLowerCase()} companies are listed yet for {townName}, Massachusetts.
           </p>
         ) : (
           <section class="cards-grid">
-            {displayCompanies.map((company) => {
+            {(listingCompanies.length > 0 ? listingCompanies : nearbyProviders).map((company) => {
               const verified = isVerifiedCompany(company?.verified);
               const websiteUrl = normalizeWebsiteUrl(company?.website);
               const facebookUrl = normalizeFacebookUrl(company?.facebook);
