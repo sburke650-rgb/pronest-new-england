@@ -66,6 +66,8 @@ const fallbackProviders =
         })
         .slice(0, 10)
     : [];
+
+const canonicalUrl = `https://pronestne.com/ma/${townSlug}/`;
 ---
 
 <html lang="en">
@@ -77,6 +79,7 @@ const fallbackProviders =
       name="description"
       content={`Browse service categories and local providers in ${townName}, Massachusetts.`}
     />
+    <link rel="canonical" href={canonicalUrl} />
 
     <style>
       :root {
