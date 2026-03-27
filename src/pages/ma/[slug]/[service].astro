@@ -157,14 +157,22 @@ const questionsByService = {
 };
 
 const nearbyTownsMap = {
+  acushnet: ["fairhaven", "freetown", "new-bedford", "dartmouth", "mattapoisett", "rochester"],
   acton: ["boxborough", "concord", "littleton", "maynard", "stow", "westford"],
+  adams: ["cheshire", "north-adams", "williamstown", "lenox", "pittsfield", "lanesborough"],
+  agawam: ["west-springfield", "springfield", "longmeadow", "westfield", "southwick", "holyoke"],
+  amesbury: ["newburyport", "salisbury", "merrimac", "west-newbury", "georgetown", "haverhill"],
+  andover: ["north-andover", "lawrence", "tewksbury", "wilmington", "reading", "andover"],
   arlington: ["belmont", "cambridge", "lexington", "medford", "somerville", "winchester"],
   ashland: ["framingham", "holliston", "hopkinton", "marlborough", "natick", "sherborn"],
+  attleboro: ["north-attleborough", "mansfield", "foxborough", "rehoboth", "seekonk", "plainville"],
+  auburn: ["worcester", "millbury", "oxford", "leicester", "shrewsbury", "grafton"],
   bedford: ["billerica", "burlington", "concord", "lexington", "lincoln", "waltham"],
   belmont: ["arlington", "cambridge", "lexington", "newton", "waltham", "watertown"],
   beverly: ["danvers", "hamilton", "manchester-by-the-sea", "peabody", "salem", "wenham"],
   billerica: ["bedford", "burlington", "chelmsford", "lowell", "tewksbury", "wilmington"],
   boston: ["brookline", "cambridge", "chelsea", "quincy", "somerville", "watertown"],
+  braintree: ["quincy", "weymouth", "milton", "randolph", "holbrook", "brookline"],
   brookline: ["boston", "cambridge", "newton", "somerville", "watertown"],
   burlington: ["bedford", "billerica", "lexington", "waltham", "wilmington", "woburn"],
   cambridge: ["arlington", "belmont", "boston", "somerville", "watertown", "waltham"],
@@ -311,6 +319,22 @@ const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
   slug,
   name: getTownNameFromSlug(slug),
 }));
+
+const nearbyLinksHtml = nearbyLinkTowns
+  .map((place, index) => {
+    const isLast = index === nearbyLinkTowns.length - 1;
+    const isSecondLast = index === nearbyLinkTowns.length - 2;
+    const separator = isLast
+      ? ""
+      : isSecondLast
+        ? nearbyLinkTowns.length > 2
+          ? ", and "
+          : " and "
+        : ", ";
+
+    return `<a href="/ma/${place.slug}/${serviceId}/">${place.name}</a>${separator}`;
+  })
+  .join("");
 ---
 
 <html lang="en">
@@ -908,18 +932,7 @@ const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
         Find trusted {serviceName.toLowerCase()} companies in {townName}, Massachusetts.
         {nearbyLinkTowns.length > 0 && (
           <>
-            {" "}Browse nearby {serviceName.toLowerCase()} services in{" "}
-            {nearbyLinkTowns.map((place, index) => (
-              <>
-                <a href={`/ma/${place.slug}/${serviceId}/`}>{place.name}</a>
-                {index < nearbyLinkTowns.length - 2
-                  ? ", "
-                  : index === nearbyLinkTowns.length - 2
-                    ? ", and "
-                    : ""}
-              </>
-            ))}
-            .{" "}
+            {" "}Browse nearby {serviceName.toLowerCase()} services in <Fragment set:html={nearbyLinksHtml} />.{" "}
           </>
         )}
         Compare local providers, services, and contact details to choose the right professional for your home or business.
