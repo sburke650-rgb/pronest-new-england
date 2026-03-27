@@ -19,11 +19,6 @@ const getTownNameFromSlug = (slug) => {
   return town?.name ?? titleCaseFromSlug(slug);
 };
 
-const getServiceNameFromId = (id) => {
-  const service = services.find((s) => norm(s.id) === norm(id));
-  return service?.name ?? titleCaseFromSlug(id);
-};
-
 const normalizeWebsiteUrl = (url) => {
   const raw = String(url ?? "").trim();
   if (!raw) return "";
@@ -162,6 +157,7 @@ const questionsByService = {
 };
 
 const nearbyTownsMap = {
+  acton: ["boxborough", "concord", "littleton", "maynard", "stow", "westford"],
   arlington: ["belmont", "cambridge", "lexington", "medford", "somerville", "winchester"],
   ashland: ["framingham", "holliston", "hopkinton", "marlborough", "natick", "sherborn"],
   bedford: ["billerica", "burlington", "concord", "lexington", "lincoln", "waltham"],
