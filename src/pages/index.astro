@@ -60,7 +60,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts."
     />
 
-    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V4_HOMEPAGE_MESSAGING" />
+    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V5_MOBILE_DROPDOWN_SCROLL_FIX" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -219,7 +219,9 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         border-radius: 14px;
         box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
         overflow: hidden;
-        max-height: 260px;
+        max-height: min(260px, 40vh);
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
       }
 
       .town-results[hidden] {
@@ -230,8 +232,10 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         margin: 0;
         padding: 6px 0;
         list-style: none;
-        max-height: 260px;
+        max-height: min(260px, 40vh);
         overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
       }
 
       .town-results-list li {
@@ -407,9 +411,27 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           padding: 20px 18px;
         }
 
-        .town-results,
+        .town-results {
+          max-height: min(240px, 32vh);
+        }
+
         .town-results-list {
-          max-height: 220px;
+          max-height: min(240px, 32vh);
+        }
+      }
+
+      @media (max-width: 520px) {
+        .town-results {
+          max-height: min(200px, 28vh);
+        }
+
+        .town-results-list {
+          max-height: min(200px, 28vh);
+        }
+
+        .town-result-btn {
+          padding: 12px 14px;
+          font-size: 16px;
         }
       }
     </style>
