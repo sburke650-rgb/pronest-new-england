@@ -313,7 +313,8 @@ const displayCompanies =
       ? nearbyProviders
       : statewideProviders;
 
-const canonicalUrl = `https://pronestne.com/ma/${townSlug}/${serviceId}/`;
+const canonicalUrlRaw = `https://pronestne.com/ma/${townSlug}/${serviceId}/`.toLowerCase();
+const canonicalHref = canonicalUrlRaw.replace(/\/+$/, "") + "/";
 
 const nearbyLinkTowns = nearbyTownSlugs.slice(0, 3).map((slug) => ({
   slug,
@@ -366,7 +367,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
-    <link rel="canonical" href={canonicalUrl} />
+    <link rel="canonical" href={canonicalHref} />
 
     <style>
       html,
