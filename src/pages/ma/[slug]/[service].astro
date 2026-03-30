@@ -335,6 +335,30 @@ const nearbyLinksHtml = nearbyLinkTowns
     return `<a href="/ma/${place.slug}/${serviceId}/">${place.name}</a>${separator}`;
   })
   .join("");
+
+const sameTownServiceLinks = services
+  .filter((s) => norm(s?.id) !== serviceId)
+  .map((s) => ({
+    id: String(s.id),
+    name: String(s.name),
+    href: `/ma/${townSlug}/${String(s.id)}/`,
+  }));
+
+const sameTownServiceLinksHtml = sameTownServiceLinks
+  .map((item, index) => {
+    const isLast = index === sameTownServiceLinks.length - 1;
+    const isSecondLast = index === sameTownServiceLinks.length - 2;
+    const separator = isLast
+      ? ""
+      : isSecondLast
+        ? sameTownServiceLinks.length > 2
+          ? ", and "
+          : " and "
+        : ", ";
+
+    return `<a href="${item.href}">${item.name}</a>${separator}`;
+  })
+  .join("");
 ---
 
 <html lang="en">
@@ -464,6 +488,26 @@ const nearbyLinksHtml = nearbyLinkTowns
       }
 
       .page-intro a:hover {
+        text-decoration: underline;
+      }
+
+      .service-links-box {
+        margin: 0 0 18px;
+        background: #ffffff;
+        border: 1px solid #e5e7eb;
+        border-radius: 16px;
+        padding: 14px 16px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #374151;
+      }
+
+      .service-links-box a {
+        color: #2563eb;
+        text-decoration: none;
+      }
+
+      .service-links-box a:hover {
         text-decoration: underline;
       }
 
@@ -826,6 +870,11 @@ const nearbyLinksHtml = nearbyLinkTowns
           margin: 0 0 16px;
         }
 
+        .service-links-box {
+          font-size: 13px;
+          padding: 12px 14px;
+        }
+
         .section-head h2 {
           font-size: 22px;
         }
@@ -937,6 +986,12 @@ const nearbyLinksHtml = nearbyLinkTowns
         )}
         Compare local providers, services, and contact details to choose the right professional for your home or business.
       </p>
+
+      {sameTownServiceLinks.length > 0 && (
+        <div class="service-links-box">
+          Also explore other home services in {townName}: <Fragment set:html={sameTownServiceLinksHtml} />.
+        </div>
+      )}
 
       <div class="section-head">
         <h2>
