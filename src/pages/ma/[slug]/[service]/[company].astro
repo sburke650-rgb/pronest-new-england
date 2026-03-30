@@ -57,7 +57,8 @@ const description =
     ? String(company.description)
     : `${company.name} offers professional ${serviceName.toLowerCase()} services in ${townName}, Massachusetts. Contact them today for local service.`;
 
-const companyUrl = `https://pronestne.com/ma/${company.townSlug}/${company.serviceId}/${company.id}`;
+const canonicalRaw = `https://pronestne.com/ma/${company.townSlug}/${company.serviceId}/${company.id}/`.toLowerCase();
+const canonicalHref = canonicalRaw.replace(/\/+$/, "") + "/";
 
 const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
 
@@ -78,6 +79,7 @@ const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${googleM
 
 <title>{title}</title>
 <meta name="description" content={description} />
+<link rel="canonical" href={canonicalHref} />
 
 <script type="application/ld+json" set:html={JSON.stringify({
   "@context": "https://schema.org",
@@ -85,7 +87,7 @@ const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${googleM
   "name": company.name,
   "description": description,
   "telephone": company.phone ?? undefined,
-  "url": companyUrl,
+  "url": canonicalHref,
   "address": {
     "@type": "PostalAddress",
     "addressLocality": townName,
