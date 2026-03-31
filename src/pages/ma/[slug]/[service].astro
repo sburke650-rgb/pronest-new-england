@@ -243,7 +243,8 @@ const hiringQuestions = questionsByService[serviceId] ?? [
   "Do you offer a warranty on your work?",
 ];
 
-const pageTitle = `${townName} ${serviceName} Companies | ProNest New England`;
+const pageTitle = `${serviceName} in ${townName}, MA | Compare Local Providers`;
+const metaDescription = `Looking for ${serviceName.toLowerCase()} in ${townName}, MA? Compare local providers, view phone numbers, and connect with trusted professionals near you.`;
 const badgeExplanation =
   "Listings marked with a green Verified badge have confirmed business information.";
 
@@ -367,6 +368,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
+    <meta name="description" content={metaDescription} />
     <link rel="canonical" href={canonicalHref} />
 
     <style>
@@ -979,13 +981,12 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
       </h1>
 
       <p class="page-intro">
-        Find trusted {serviceName.toLowerCase()} companies in {townName}, Massachusetts.
+        Looking for {serviceName.toLowerCase()} in {townName}, MA? Compare local providers, view phone numbers, and connect with trusted professionals near you.
         {nearbyLinkTowns.length > 0 && (
           <>
             {" "}Browse nearby {serviceName.toLowerCase()} services in <Fragment set:html={nearbyLinksHtml} />.{" "}
           </>
         )}
-        Compare local providers, services, and contact details to choose the right professional for your home or business.
       </p>
 
       {sameTownServiceLinks.length > 0 && (
