@@ -44,6 +44,9 @@ const getPhoneHref = (phone) => {
   return digits ? `tel:${digits}` : "";
 };
 
+const normalizePhoneForDedupe = (phone) =>
+  String(phone ?? "").replace(/\D/g, "").trim();
+
 const normalizeFacebookUrl = (url) => {
   const raw = String(url ?? "").trim();
   if (!raw) return "";
@@ -257,7 +260,56 @@ const sortCompanies = (items) =>
     return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
   });
 
-const listingCompanies = sortCompanies(
+const scoreCompanyForPhoneDedupe = (company) => {
+  let score = 0;
+  if (isVerifiedCompany(company?.verified)) score += 100;
+  if (isDisplayableWebsite(company?.website)) score += 20;
+  if (isDisplayableFacebook(company?.facebook)) score += 5;
+  if (String(company?.description ?? "").trim()) score += 3;
+  if (String(company?.name ?? "").trim()) score += 1;
+  return score;
+};
+
+const dedupeCompaniesByPhone = (items) => {
+  const bestByPhone = new Map();
+  const noPhone = [];
+
+  for (const item of items) {
+    const phoneKey = normalizePhoneForDedupe(item?.phone);
+
+    if (!phoneKey) {
+      noPhone.push(item);
+      continue;
+    }
+
+    const existing = bestByPhone.get(phoneKey);
+
+    if (!existing) {
+      bestByPhone.set(phoneKey, item);
+      continue;
+    }
+
+    const existingScore = scoreCompanyForPhoneDedupe(existing);
+    const itemScore = scoreCompanyForPhoneDedupe(item);
+
+    if (itemScore > existingScore) {
+      bestByPhone.set(phoneKey, item);
+      continue;
+    }
+
+    if (itemScore === existingScore) {
+      const existingName = String(existing?.name ?? "");
+      const itemName = String(item?.name ?? "");
+      if (itemName.localeCompare(existingName) < 0) {
+        bestByPhone.set(phoneKey, item);
+      }
+    }
+  }
+
+  return sortCompanies([...bestByPhone.values(), ...noPhone]);
+};
+
+const listingCompanies = dedupeCompaniesByPhone(
   companies.filter(
     (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
   )
@@ -277,7 +329,7 @@ const nearbyVerified = nearbyAll.filter((c) =>
 
 const nearbyProviders =
   listingCompanies.length === 0
-    ? sortCompanies(
+    ? dedupeCompaniesByPhone(
         nearbyVerified.length > 0 ? nearbyVerified : nearbyAll
       ).slice(0, 8)
     : [];
@@ -292,11 +344,11 @@ const statewideVerified = statewideAll.filter((c) =>
 
 const statewideProviders =
   listingCompanies.length === 0 && nearbyProviders.length === 0
-    ? sortCompanies(
-        statewideVerified.length > 0 ? statewideVerified : statewideAll
-      )
-        .filter((c) => norm(c?.townSlug) !== townSlug)
-        .slice(0, 8)
+    ? dedupeCompaniesByPhone(
+        (nearbyVerified.length > 0 ? statewideVerified : statewideAll).filter(
+          (c) => norm(c?.townSlug) !== townSlug
+        )
+      ).slice(0, 8)
     : [];
 
 const showingNearbyProviders =
