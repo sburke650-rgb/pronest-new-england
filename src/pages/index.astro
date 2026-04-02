@@ -60,7 +60,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts."
     />
 
-    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V6_FULLSCREEN_MOBILE_PICKER_GLOBAL_FIX" />
+    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V7_FULLSCREEN_MOBILE_PICKER_POLISH" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -357,6 +357,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         background: #ffffff;
         display: none;
         flex-direction: column;
+        height: 100dvh;
       }
 
       .mobile-town-picker[hidden] {
@@ -365,6 +366,13 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
       .mobile-town-picker.is-open {
         display: flex;
+      }
+
+      .mobile-town-picker-top {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background: #ffffff;
       }
 
       .mobile-town-picker-header {
@@ -399,7 +407,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       }
 
       .mobile-town-picker-search {
-        padding: 14px 16px 10px;
+        padding: 14px 16px 12px;
         border-bottom: 1px solid #e5e7eb;
         background: #ffffff;
       }
@@ -426,6 +434,8 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
         background: #ffffff;
+        padding-bottom: calc(180px + env(safe-area-inset-bottom, 0px));
+        scroll-padding-top: 120px;
       }
 
       :global(.mobile-town-picker-list) {
@@ -446,7 +456,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         display: block;
         width: 100%;
         min-height: 56px;
-        padding: 14px 16px;
+        padding: 15px 16px;
         margin: 0;
         border: 0;
         border-bottom: 1px solid #f1f5f9;
@@ -463,7 +473,8 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
       :global(.mobile-town-picker-btn:focus-visible),
       :global(.mobile-town-picker-btn:active),
-      :global(.mobile-town-picker-btn:hover) {
+      :global(.mobile-town-picker-btn:hover),
+      :global(.mobile-town-picker-btn.is-current) {
         outline: none;
         background: #eff6ff;
         color: #111827;
@@ -473,6 +484,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
       body.mobile-picker-open {
         overflow: hidden;
+        overscroll-behavior: none;
       }
 
       @media (hover: hover) and (pointer: fine) {
@@ -651,28 +663,30 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       hidden
       aria-hidden="true"
     >
-      <div class="mobile-town-picker-header">
-        <h3 class="mobile-town-picker-title">Select Town</h3>
-        <button
-          id="mobileTownPickerClose"
-          class="mobile-town-picker-close"
-          type="button"
-          aria-label="Close town picker"
-        >
-          Close
-        </button>
-      </div>
+      <div class="mobile-town-picker-top">
+        <div class="mobile-town-picker-header">
+          <h3 class="mobile-town-picker-title">Select Town</h3>
+          <button
+            id="mobileTownPickerClose"
+            class="mobile-town-picker-close"
+            type="button"
+            aria-label="Close town picker"
+          >
+            Close
+          </button>
+        </div>
 
-      <div class="mobile-town-picker-search">
-        <input
-          id="mobileTownSearch"
-          class="mobile-town-picker-input"
-          type="text"
-          inputmode="text"
-          autocomplete="off"
-          spellcheck="false"
-          placeholder="Search for a town"
-        />
+        <div class="mobile-town-picker-search">
+          <input
+            id="mobileTownSearch"
+            class="mobile-town-picker-input"
+            type="text"
+            inputmode="text"
+            autocomplete="off"
+            spellcheck="false"
+            placeholder="Search for a town"
+          />
+        </div>
       </div>
 
       <div id="mobileTownResults" class="mobile-town-picker-results"></div>
@@ -801,6 +815,24 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           townResults.innerHTML = "";
         }
 
+        function scrollCurrentMobileTownIntoView() {
+          if (!mobileTownResults || !townSlugInput.value) return;
+
+          var currentSlug = norm(townSlugInput.value);
+          var buttons = mobileTownResults.querySelectorAll(".mobile-town-picker-btn");
+
+          for (var i = 0; i < buttons.length; i++) {
+            var btn = buttons[i];
+            if (norm(btn.getAttribute("data-town-slug")) === currentSlug) {
+              btn.classList.add("is-current");
+              if (typeof btn.scrollIntoView === "function") {
+                btn.scrollIntoView({ block: "center" });
+              }
+              return;
+            }
+          }
+        }
+
         function openMobileTownPicker() {
           if (!mobileTownPicker || !mobileTownSearch || !mobileTownResults) return;
           mobileTownPicker.hidden = false;
@@ -812,6 +844,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           window.setTimeout(function () {
             mobileTownSearch.focus();
             mobileTownSearch.select();
+            scrollCurrentMobileTownIntoView();
           }, 10);
         }
 
@@ -902,6 +935,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
               btn.type = "button";
               btn.className = "mobile-town-picker-btn";
               btn.textContent = town.name;
+              btn.setAttribute("data-town-slug", town.slug);
 
               btn.addEventListener("click", function () {
                 selectTown(town);
