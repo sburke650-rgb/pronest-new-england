@@ -60,7 +60,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts."
     />
 
-    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V4_HOMEPAGE_MESSAGING" />
+    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V5_FULLSCREEN_MOBILE_PICKER_SAFE" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -349,6 +349,127 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         line-height: 1.6;
       }
 
+      .mobile-town-picker {
+        position: fixed;
+        inset: 0;
+        z-index: 2000;
+        background: #ffffff;
+        display: none;
+        flex-direction: column;
+      }
+
+      .mobile-town-picker[hidden] {
+        display: none !important;
+      }
+
+      .mobile-town-picker.is-open {
+        display: flex;
+      }
+
+      .mobile-town-picker-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 16px;
+        border-bottom: 1px solid #e5e7eb;
+        background: #ffffff;
+      }
+
+      .mobile-town-picker-title {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: #111827;
+      }
+
+      .mobile-town-picker-close {
+        appearance: none;
+        -webkit-appearance: none;
+        width: auto;
+        height: auto;
+        min-height: 44px;
+        padding: 10px 14px;
+        border-radius: 12px;
+        border: 1px solid #d1d5db;
+        background: #ffffff;
+        color: #111827;
+        box-shadow: none;
+      }
+
+      .mobile-town-picker-search {
+        padding: 14px 16px 10px;
+        border-bottom: 1px solid #e5e7eb;
+        background: #ffffff;
+      }
+
+      .mobile-town-picker-input {
+        width: 100%;
+        height: 52px;
+        padding: 0 14px;
+        border-radius: 14px;
+        border: 1px solid #d1d5db;
+        background: #fff;
+        font-size: 16px;
+        box-sizing: border-box;
+      }
+
+      .mobile-town-picker-input:focus {
+        outline: 3px solid rgba(37, 99, 235, 0.15);
+        outline-offset: 1px;
+        border-color: #93c5fd;
+      }
+
+      .mobile-town-picker-results {
+        flex: 1;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        background: #ffffff;
+      }
+
+      .mobile-town-picker-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .mobile-town-picker-item {
+        margin: 0;
+        padding: 0;
+      }
+
+      .mobile-town-picker-btn {
+        appearance: none;
+        -webkit-appearance: none;
+        display: block;
+        width: 100%;
+        min-height: 56px;
+        padding: 14px 16px;
+        border: 0;
+        border-bottom: 1px solid #f1f5f9;
+        border-radius: 0;
+        background: #ffffff;
+        color: #111827;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.35;
+        box-shadow: none;
+        cursor: pointer;
+      }
+
+      .mobile-town-picker-btn:focus-visible,
+      .mobile-town-picker-btn:active {
+        outline: none;
+        background: #eff6ff;
+        color: #111827;
+        transform: none;
+      }
+
+      body.mobile-picker-open {
+        overflow: hidden;
+      }
+
       @media (hover: hover) and (pointer: fine) {
         button:hover {
           background: #15803d;
@@ -360,6 +481,20 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         .town-result-btn:hover {
           background: #eff6ff;
           border-color: transparent;
+          transform: none;
+          box-shadow: none;
+        }
+
+        .mobile-town-picker-close:hover {
+          background: #f9fafb;
+          border-color: #cbd5e1;
+          transform: none;
+          box-shadow: none;
+        }
+
+        .mobile-town-picker-btn:hover {
+          background: #eff6ff;
+          color: #111827;
           transform: none;
           box-shadow: none;
         }
@@ -410,6 +545,14 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         .town-results,
         .town-results-list {
           max-height: 220px;
+        }
+
+        .town-results {
+          display: none !important;
+        }
+
+        .town-helper {
+          display: none;
         }
       }
     </style>
@@ -497,6 +640,39 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       </section>
     </main>
 
+    <div
+      id="mobileTownPicker"
+      class="mobile-town-picker"
+      hidden
+      aria-hidden="true"
+    >
+      <div class="mobile-town-picker-header">
+        <h3 class="mobile-town-picker-title">Select Town</h3>
+        <button
+          id="mobileTownPickerClose"
+          class="mobile-town-picker-close"
+          type="button"
+          aria-label="Close town picker"
+        >
+          Close
+        </button>
+      </div>
+
+      <div class="mobile-town-picker-search">
+        <input
+          id="mobileTownSearch"
+          class="mobile-town-picker-input"
+          type="text"
+          inputmode="text"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Search for a town"
+        />
+      </div>
+
+      <div id="mobileTownResults" class="mobile-town-picker-results"></div>
+    </div>
+
     <script
       type="application/json"
       id="__servicesByTown"
@@ -526,6 +702,11 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         var searchBtn = document.getElementById("searchBtn");
         var errorMsg = document.getElementById("errorMsg");
 
+        var mobileTownPicker = document.getElementById("mobileTownPicker");
+        var mobileTownSearch = document.getElementById("mobileTownSearch");
+        var mobileTownResults = document.getElementById("mobileTownResults");
+        var mobileTownPickerClose = document.getElementById("mobileTownPickerClose");
+
         function showError(msg) {
           if (!errorMsg) return;
           if (!msg) {
@@ -549,6 +730,19 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
         var activeTownIndex = -1;
         var currentTownMatches = [];
+
+        function isMobileViewport() {
+          return window.matchMedia("(max-width: 760px)").matches;
+        }
+
+        function syncTownInputMode() {
+          if (!townSearch) return;
+          if (isMobileViewport()) {
+            townSearch.setAttribute("readonly", "readonly");
+          } else {
+            townSearch.removeAttribute("readonly");
+          }
+        }
 
         function rebuildServiceOptions(list) {
           var keepValue = serviceSelect.value;
@@ -602,11 +796,34 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           townResults.innerHTML = "";
         }
 
+        function openMobileTownPicker() {
+          if (!mobileTownPicker || !mobileTownSearch || !mobileTownResults) return;
+          mobileTownPicker.hidden = false;
+          mobileTownPicker.classList.add("is-open");
+          mobileTownPicker.setAttribute("aria-hidden", "false");
+          document.body.classList.add("mobile-picker-open");
+          mobileTownSearch.value = townSearch.value || "";
+          renderMobileTownResults(filterTowns(mobileTownSearch.value));
+          window.setTimeout(function () {
+            mobileTownSearch.focus();
+            mobileTownSearch.select();
+          }, 10);
+        }
+
+        function closeMobileTownPicker() {
+          if (!mobileTownPicker) return;
+          mobileTownPicker.classList.remove("is-open");
+          mobileTownPicker.setAttribute("aria-hidden", "true");
+          mobileTownPicker.hidden = true;
+          document.body.classList.remove("mobile-picker-open");
+        }
+
         function selectTown(town) {
           townSearch.value = town.name;
           townSlugInput.value = town.slug;
           rebuildServiceOptions(servicesForTown(town.slug));
           closeTownResults();
+          closeMobileTownPicker();
         }
 
         function renderTownResults(matches) {
@@ -655,6 +872,44 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           townSearch.setAttribute("aria-expanded", "true");
         }
 
+        function renderMobileTownResults(matches) {
+          if (!mobileTownResults) return;
+
+          mobileTownResults.innerHTML = "";
+
+          if (!matches.length) {
+            var empty = document.createElement("div");
+            empty.className = "town-empty";
+            empty.textContent = "No matching towns found.";
+            mobileTownResults.appendChild(empty);
+            return;
+          }
+
+          var list = document.createElement("ul");
+          list.className = "mobile-town-picker-list";
+
+          for (var i = 0; i < matches.length; i++) {
+            (function (town) {
+              var item = document.createElement("li");
+              item.className = "mobile-town-picker-item";
+
+              var btn = document.createElement("button");
+              btn.type = "button";
+              btn.className = "mobile-town-picker-btn";
+              btn.textContent = town.name;
+
+              btn.addEventListener("click", function () {
+                selectTown(town);
+              });
+
+              item.appendChild(btn);
+              list.appendChild(item);
+            })(matches[i]);
+          }
+
+          mobileTownResults.appendChild(list);
+        }
+
         function updateActiveTownResult() {
           var buttons = townResults.querySelectorAll(".town-result-btn");
           for (var i = 0; i < buttons.length; i++) {
@@ -695,11 +950,27 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
 
         if (!townSearch || !townSlugInput || !townResults || !serviceSelect || !searchBtn) return;
 
+        syncTownInputMode();
+        window.addEventListener("resize", syncTownInputMode);
+
         townSearch.addEventListener("focus", function () {
+          if (isMobileViewport()) {
+            openMobileTownPicker();
+            townSearch.blur();
+            return;
+          }
           renderTownResults(filterTowns(townSearch.value));
         });
 
+        townSearch.addEventListener("click", function (e) {
+          if (isMobileViewport()) {
+            e.preventDefault();
+            openMobileTownPicker();
+          }
+        });
+
         townSearch.addEventListener("input", function () {
+          if (isMobileViewport()) return;
           showError("");
           townSlugInput.value = "";
           rebuildServiceOptions(servicesForTown(""));
@@ -707,6 +978,14 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         });
 
         townSearch.addEventListener("keydown", function (e) {
+          if (isMobileViewport()) {
+            if (e.key === "Enter" || e.key === " " || e.key === "ArrowDown") {
+              e.preventDefault();
+              openMobileTownPicker();
+            }
+            return;
+          }
+
           if (townResults.hidden || !currentTownMatches.length) {
             if (e.key === "ArrowDown") {
               renderTownResults(filterTowns(townSearch.value));
@@ -747,6 +1026,8 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         });
 
         townSearch.addEventListener("blur", function () {
+          if (isMobileViewport()) return;
+
           window.setTimeout(function () {
             if (!townSlugInput.value) {
               var typed = norm(townSearch.value);
@@ -759,6 +1040,25 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
             closeTownResults();
           }, 120);
         });
+
+        if (mobileTownSearch) {
+          mobileTownSearch.addEventListener("input", function () {
+            renderMobileTownResults(filterTowns(mobileTownSearch.value));
+          });
+
+          mobileTownSearch.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+              e.preventDefault();
+              closeMobileTownPicker();
+            }
+          });
+        }
+
+        if (mobileTownPickerClose) {
+          mobileTownPickerClose.addEventListener("click", function () {
+            closeMobileTownPicker();
+          });
+        }
 
         serviceSelect.addEventListener("change", function () {
           showError("");
