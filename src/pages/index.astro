@@ -60,7 +60,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
       content="ProNest New England connects homeowners and businesses with reliable local service providers across Massachusetts."
     />
 
-    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V5_FULLSCREEN_MOBILE_PICKER_SAFE" />
+    <meta name="build-check" content="INDEX_SEARCHABLE_TOWN_V6_FULLSCREEN_MOBILE_PICKER_GLOBAL_FIX" />
 
     <style>
       :root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
@@ -226,7 +226,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         display: none;
       }
 
-      .town-results-list {
+      :global(.town-results-list) {
         margin: 0;
         padding: 6px 0;
         list-style: none;
@@ -234,12 +234,13 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         overflow-y: auto;
       }
 
-      .town-results-list li {
+      :global(.town-results-list li) {
         margin: 0;
         padding: 0;
+        list-style: none;
       }
 
-      .town-result-btn {
+      :global(.town-result-btn) {
         appearance: none;
         -webkit-appearance: none;
         display: block;
@@ -259,20 +260,20 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         transition: background-color 0.14s ease;
       }
 
-      .town-result-btn:hover,
-      .town-result-btn:focus-visible,
-      .town-result-btn.active {
+      :global(.town-result-btn:hover),
+      :global(.town-result-btn:focus-visible),
+      :global(.town-result-btn.active) {
         background: #eff6ff;
         color: #111827;
         outline: none;
         transform: none;
       }
 
-      .town-results-list li + li .town-result-btn {
+      :global(.town-results-list li + li .town-result-btn) {
         border-top: 1px solid #f1f5f9;
       }
 
-      .town-empty {
+      :global(.town-empty) {
         padding: 12px 14px;
         font-size: 14px;
         color: #6b7280;
@@ -427,24 +428,26 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         background: #ffffff;
       }
 
-      .mobile-town-picker-list {
+      :global(.mobile-town-picker-list) {
         margin: 0;
         padding: 0;
         list-style: none;
       }
 
-      .mobile-town-picker-item {
+      :global(.mobile-town-picker-item) {
         margin: 0;
         padding: 0;
+        list-style: none;
       }
 
-      .mobile-town-picker-btn {
+      :global(.mobile-town-picker-btn) {
         appearance: none;
         -webkit-appearance: none;
         display: block;
         width: 100%;
         min-height: 56px;
         padding: 14px 16px;
+        margin: 0;
         border: 0;
         border-bottom: 1px solid #f1f5f9;
         border-radius: 0;
@@ -458,12 +461,14 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         cursor: pointer;
       }
 
-      .mobile-town-picker-btn:focus-visible,
-      .mobile-town-picker-btn:active {
+      :global(.mobile-town-picker-btn:focus-visible),
+      :global(.mobile-town-picker-btn:active),
+      :global(.mobile-town-picker-btn:hover) {
         outline: none;
         background: #eff6ff;
         color: #111827;
         transform: none;
+        box-shadow: none;
       }
 
       body.mobile-picker-open {
@@ -478,7 +483,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           box-shadow: 0 10px 22px rgba(21, 128, 61, 0.28);
         }
 
-        .town-result-btn:hover {
+        :global(.town-result-btn:hover) {
           background: #eff6ff;
           border-color: transparent;
           transform: none;
@@ -492,7 +497,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
           box-shadow: none;
         }
 
-        .mobile-town-picker-btn:hover {
+        :global(.mobile-town-picker-btn:hover) {
           background: #eff6ff;
           color: #111827;
           transform: none;
@@ -543,7 +548,7 @@ const townsWithProvidersClient = townsWithProviders.map((t) => ({
         }
 
         .town-results,
-        .town-results-list {
+        :global(.town-results-list) {
           max-height: 220px;
         }
 
