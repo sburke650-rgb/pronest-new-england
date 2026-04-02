@@ -671,7 +671,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
       .company-card.verified {
         background: #f0fdf4;
         border: 3px solid #16a34a;
-        box-shadow: 0 12px 28px rgba(22, 163, 74, 0.18);
+        box-shadow: 0 14px 32px rgba(22, 163, 74, 0.2);
       }
 
       .verified-top-bar {
@@ -720,11 +720,35 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         margin: 0 0 10px;
         color: #374151;
         font-size: 14px;
-        line-height: 1.35;
+        line-height: 1.4;
         display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         overflow: hidden;
+        min-height: 58px;
+      }
+
+      .phone-primary {
+        margin-top: 10px;
+      }
+
+      .phone-btn {
+        display: block;
+        width: 100%;
+        background: #16a34a;
+        color: #ffffff;
+        text-align: center;
+        padding: 11px 12px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        box-shadow: 0 8px 18px rgba(22, 163, 74, 0.2);
+      }
+
+      .phone-btn:hover {
+        background: #15803d;
       }
 
       .info-line {
@@ -756,7 +780,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         display: block;
         width: 100%;
         text-align: center;
-        background: #2563eb;
+        background: #3b82f6;
         color: #ffffff;
         padding: 10px 12px;
         border-radius: 10px;
@@ -767,7 +791,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
       }
 
       .view-company-btn:hover {
-        background: #1d4ed8;
+        background: #2563eb;
       }
 
       .empty-state {
@@ -919,6 +943,12 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         .company-description {
           font-size: 15px;
           margin: 0 0 12px;
+          min-height: 64px;
+        }
+
+        .phone-btn {
+          font-size: 15px;
+          padding: 12px 14px;
         }
 
         .info-line {
@@ -1021,6 +1051,17 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
           font-size: 12px;
           line-height: 1.3;
           -webkit-line-clamp: 4;
+          min-height: 62px;
+        }
+
+        .phone-primary {
+          margin-top: 8px;
+        }
+
+        .phone-btn {
+          padding: 9px 8px;
+          font-size: 12px;
+          border-radius: 8px;
         }
 
         .info-line {
@@ -1179,16 +1220,15 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
                     Based in {getTownNameFromSlug(company?.townSlug)}, MA
                   </p>
 
-                  {company?.description && (
-                    <p class="company-description">
-                      {company.description}
-                    </p>
-                  )}
+                  <p class="company-description">
+                    {company?.description
+                      ? company.description
+                      : `Local ${serviceName.toLowerCase()} services in ${townName}, MA.`}
+                  </p>
 
                   {company?.phone && phoneHref && (
-                    <div class="info-line">
-                      <strong>Phone:</strong>{" "}
-                      <a href={phoneHref}>{company.phone}</a>
+                    <div class="phone-primary">
+                      <a href={phoneHref} class="phone-btn">📞 {company.phone}</a>
                     </div>
                   )}
 
