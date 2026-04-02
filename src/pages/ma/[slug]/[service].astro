@@ -44,8 +44,10 @@ const getPhoneHref = (phone) => {
   return digits ? `tel:${digits}` : "";
 };
 
-const normalizePhoneForDedupe = (phone) =>
-  String(phone ?? "").replace(/\D/g, "").trim();
+const normalizePhoneForDedupe = (phone) => {
+  const digits = String(phone ?? "").replace(/\D/g, "").trim();
+  return digits.length === 11 && digits.startsWith("1") ? digits.slice(1) : digits;
+};
 
 const normalizeFacebookUrl = (url) => {
   const raw = String(url ?? "").trim();
@@ -68,6 +70,30 @@ const normalizeFacebookUrl = (url) => {
     return "";
   }
 };
+
+const normalizeWebsiteDomainForDedupe = (url) => {
+  const normalized = normalizeWebsiteUrl(url);
+  if (!normalized) return "";
+
+  try {
+    const parsed = new URL(normalized);
+    return parsed.hostname.toLowerCase().replace(/^www\./, "").trim();
+  } catch {
+    return "";
+  }
+};
+
+const normalizeNameForDedupe = (name) =>
+  String(name ?? "")
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(
+      /\b(inc|incorporated|llc|l l c|co|company|corp|corporation|ltd|limited)\b/g,
+      " "
+    )
+    .replace(/\s+/g, " ")
+    .trim();
 
 const isDisplayableWebsite = (url) => {
   const normalized = normalizeWebsiteUrl(url);
@@ -246,8 +272,8 @@ const hiringQuestions = questionsByService[serviceId] ?? [
   "Do you offer a warranty on your work?",
 ];
 
-const pageTitle = `${serviceName} in ${townName}, MA | Compare Local Providers`;
-const metaDescription = `Looking for ${serviceName.toLowerCase()} in ${townName}, MA? Compare local providers, view phone numbers, and connect with trusted professionals near you.`;
+const pageTitle = `Top ${serviceName} Companies in ${townName}, MA | Compare Local Pros`;
+const metaDescription = `Find top ${serviceName.toLowerCase()} companies in ${townName}, MA. Compare local pros, view phone numbers, and choose the right provider near you.`;
 const badgeExplanation =
   "Listings marked with a green Verified badge have confirmed business information.";
 
@@ -260,7 +286,7 @@ const sortCompanies = (items) =>
     return String(a?.name ?? "").localeCompare(String(b?.name ?? ""));
   });
 
-const scoreCompanyForPhoneDedupe = (company) => {
+const scoreCompanyForDedupe = (company) => {
   let score = 0;
   if (isVerifiedCompany(company?.verified)) score += 100;
   if (isDisplayableWebsite(company?.website)) score += 20;
@@ -270,49 +296,76 @@ const scoreCompanyForPhoneDedupe = (company) => {
   return score;
 };
 
-const dedupeCompaniesByPhone = (items) => {
-  const bestByPhone = new Map();
-  const noPhone = [];
+const shouldReplaceCompany = (incoming, existing) => {
+  const incomingScore = scoreCompanyForDedupe(incoming);
+  const existingScore = scoreCompanyForDedupe(existing);
+
+  if (incomingScore !== existingScore) {
+    return incomingScore > existingScore;
+  }
+
+  const incomingName = String(incoming?.name ?? "");
+  const existingName = String(existing?.name ?? "");
+  if (incomingName !== existingName) {
+    return incomingName.localeCompare(existingName) < 0;
+  }
+
+  return String(incoming?.id ?? "").localeCompare(String(existing?.id ?? "")) < 0;
+};
+
+const dedupeCompaniesByPriority = (items) => {
+  const selected = [];
 
   for (const item of items) {
+    const websiteKey = normalizeWebsiteDomainForDedupe(item?.website);
     const phoneKey = normalizePhoneForDedupe(item?.phone);
+    const nameKey = normalizeNameForDedupe(item?.name);
 
-    if (!phoneKey) {
-      noPhone.push(item);
+    const matchIndex = selected.findIndex((existing) => {
+      const existingWebsiteKey = normalizeWebsiteDomainForDedupe(existing?.website);
+      const existingPhoneKey = normalizePhoneForDedupe(existing?.phone);
+      const existingNameKey = normalizeNameForDedupe(existing?.name);
+
+      return (
+        (websiteKey && existingWebsiteKey && websiteKey === existingWebsiteKey) ||
+        (phoneKey && existingPhoneKey && phoneKey === existingPhoneKey) ||
+        (nameKey && existingNameKey && nameKey === existingNameKey)
+      );
+    });
+
+    if (matchIndex === -1) {
+      selected.push(item);
       continue;
     }
 
-    const existing = bestByPhone.get(phoneKey);
-
-    if (!existing) {
-      bestByPhone.set(phoneKey, item);
-      continue;
-    }
-
-    const existingScore = scoreCompanyForPhoneDedupe(existing);
-    const itemScore = scoreCompanyForPhoneDedupe(item);
-
-    if (itemScore > existingScore) {
-      bestByPhone.set(phoneKey, item);
-      continue;
-    }
-
-    if (itemScore === existingScore) {
-      const existingName = String(existing?.name ?? "");
-      const itemName = String(item?.name ?? "");
-      if (itemName.localeCompare(existingName) < 0) {
-        bestByPhone.set(phoneKey, item);
-      }
+    if (shouldReplaceCompany(item, selected[matchIndex])) {
+      selected[matchIndex] = item;
     }
   }
 
-  return sortCompanies([...bestByPhone.values(), ...noPhone]);
+  return sortCompanies(selected);
 };
 
-const listingCompanies = dedupeCompaniesByPhone(
-  companies.filter(
-    (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
-  )
+const limitStatewideFallback = (items, maxItems = 5) => {
+  const deduped = dedupeCompaniesByPriority(items);
+  const selected = [];
+  const seenTowns = new Set();
+
+  for (const item of deduped) {
+    const townKey = norm(item?.townSlug);
+    if (!townKey || seenTowns.has(townKey)) continue;
+
+    seenTowns.add(townKey);
+    selected.push(item);
+
+    if (selected.length >= maxItems) break;
+  }
+
+  return selected;
+};
+
+const listingCompanies = companies.filter(
+  (c) => norm(c?.townSlug) === townSlug && norm(c?.serviceId) === serviceId
 );
 
 const nearbyTownSlugs = nearbyTownsMap[townSlug] ?? [];
@@ -329,9 +382,7 @@ const nearbyVerified = nearbyAll.filter((c) =>
 
 const nearbyProviders =
   listingCompanies.length === 0
-    ? dedupeCompaniesByPhone(
-        nearbyVerified.length > 0 ? nearbyVerified : nearbyAll
-      ).slice(0, 8)
+    ? (nearbyVerified.length > 0 ? nearbyVerified : nearbyAll)
     : [];
 
 const statewideAll = companies.filter(
@@ -344,11 +395,9 @@ const statewideVerified = statewideAll.filter((c) =>
 
 const statewideProviders =
   listingCompanies.length === 0 && nearbyProviders.length === 0
-    ? dedupeCompaniesByPhone(
-        (nearbyVerified.length > 0 ? statewideVerified : statewideAll).filter(
-          (c) => norm(c?.townSlug) !== townSlug
-        )
-      ).slice(0, 8)
+    ? (nearbyVerified.length > 0 ? statewideVerified : statewideAll).filter(
+        (c) => norm(c?.townSlug) !== townSlug
+      )
     : [];
 
 const showingNearbyProviders =
@@ -361,10 +410,10 @@ const showingStatewideProviders =
 
 const displayCompanies =
   listingCompanies.length > 0
-    ? listingCompanies
+    ? dedupeCompaniesByPriority(listingCompanies).slice(0, 8)
     : nearbyProviders.length > 0
-      ? nearbyProviders
-      : statewideProviders;
+      ? dedupeCompaniesByPriority(nearbyProviders).slice(0, 8)
+      : limitStatewideFallback(statewideProviders, 5);
 
 const canonicalUrlRaw = `https://pronestne.com/ma/${townSlug}/${serviceId}/`.toLowerCase();
 const canonicalHref = canonicalUrlRaw.replace(/\/+$/, "") + "/";
@@ -1083,7 +1132,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
       {
         showingStatewideProviders && (
           <p class="nearby-intro">
-            No {serviceName.toLowerCase()} companies are currently listed in {townName}, and no nearby-town matches were found. Showing providers from other Massachusetts towns.
+            No {serviceName.toLowerCase()} companies are currently listed in {townName}, and no nearby-town matches were found. Showing a limited selection of providers from other Massachusetts towns.
           </p>
         )
       }

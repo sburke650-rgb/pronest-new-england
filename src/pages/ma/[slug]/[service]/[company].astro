@@ -50,20 +50,23 @@ const serviceName = serviceObj?.name ?? company.serviceId;
 const isVerified = company?.verified === true || company?.claimStatus === "verified";
 const isClaimed = company?.claimed === true || company?.claimStatus === "claimed";
 
-const title = `${company.name} — ${serviceName} in ${townName}, MA`;
+/* ✅ NEW CTR-OPTIMIZED TITLE */
+const title = isVerified
+  ? `${company.name} – ${townName}, MA | Verified ${serviceName} (Phone & Services)`
+  : `${company.name} – ${townName}, MA | Phone, Services & Local Info`;
 
+/* ✅ NEW CTR META DESCRIPTION */
 const description =
   company?.description && company.description.trim().length > 0
     ? String(company.description)
-    : `${company.name} offers professional ${serviceName.toLowerCase()} services in ${townName}, Massachusetts. Contact them today for local service.`;
+    : `Call ${company.name} in ${townName}, MA for ${serviceName.toLowerCase()} services. View phone number, services, and business details. Compare with other local providers near you.`;
 
 const canonicalRaw = `https://pronestne.com/ma/${company.townSlug}/${company.serviceId}/${company.id}/`.toLowerCase();
 const canonicalHref = canonicalRaw.replace(/\/+$/, "") + "/";
 
 const cleanPhone = String(company?.phone ?? "").replace(/[^0-9+]/g, "");
 
-/* Make Google Maps search more specific:
-   company name + service + town + MA */
+/* Make Google Maps search more specific */
 const googleMapsQuery = encodeURIComponent(
   `${company.name} ${serviceName} ${townName} MA`
 );
