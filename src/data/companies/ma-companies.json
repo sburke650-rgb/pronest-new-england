@@ -25827,7 +25827,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "description": "Residential and commercial painting company serving Malden and surrounding North Shore communities."
+    "description": "Residential and commercial painting company serving Malden and surrounding North Shore communities.",
+    "verified": false
   },
   {
     "id": "malden-pest-6",
@@ -29558,7 +29559,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/ashland/framingham-professional-painters/",
-    "description": "Professional house and commercial painting company serving Framingham and the surrounding Upper Charles area."
+    "description": "Professional house and commercial painting company serving Framingham and the surrounding Upper Charles area.",
+    "verified": false
   },
   {
     "id": "framingham-painter-7",
@@ -29728,7 +29730,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.clancybrospestcontrol.com",
-    "description": "Family-owned pest control company serving Greater Boston with residential and commercial pest management services."
+    "description": "Family-owned pest control company serving Greater Boston with residential and commercial pest management services.",
+    "verified": false
   },
   {
     "id": "waltham-pest-8",
@@ -29738,7 +29741,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.orkin.com/locations/massachusetts-ma/wilmington-pest-control",
-    "description": "Regional pest control provider serving Massachusetts with inspection, treatment, and prevention services."
+    "description": "Regional pest control provider serving Massachusetts with inspection, treatment, and prevention services.",
+    "verified": false
   },
   {
     "id": "somerville-pest-5",
@@ -29748,7 +29752,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.clancybrospestcontrol.com/pest-control-somerville",
-    "description": "Family-owned pest control company serving Somerville with rodent control and general residential pest services."
+    "description": "Family-owned pest control company serving Somerville with rodent control and general residential pest services.",
+    "verified": false
   },
   {
     "id": "somerville-pest-6",
@@ -29758,7 +29763,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/service-area/somerville-ma-pest-control/",
-    "description": "Massachusetts pest control company serving Somerville with rodent control and general extermination services."
+    "description": "Massachusetts pest control company serving Somerville with rodent control and general extermination services.",
+    "verified": false
   },
   {
     "id": "somerville-pest-7",
@@ -29768,7 +29774,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.modernpest.com/exterminator/massachusetts/somerville-ma/",
-    "description": "New England pest management company serving Somerville with tailored treatment for rodents, ants, and other common urban pests."
+    "description": "New England pest management company serving Somerville with tailored treatment for rodents, ants, and other common urban pests.",
+    "verified": false
   },
   {
     "id": "somerville-pest-8",
@@ -29828,7 +29835,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.yankeepestcontrol.com/",
-    "description": "Residential and commercial pest management company serving Greater Boston and nearby Medford properties."
+    "description": "Residential and commercial pest management company serving Greater Boston and nearby Medford properties.",
+    "verified": false
   },
   {
     "id": "medford-pest-7",
@@ -29848,7 +29856,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.clancybrospestcontrol.com",
-    "description": "Family-owned pest control company serving Greater Boston with residential and commercial pest management."
+    "description": "Family-owned pest control company serving Greater Boston with residential and commercial pest management.",
+    "verified": false
   },
   {
     "id": "cambridge-pest-5",
@@ -29918,7 +29927,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com",
-    "description": "Professional painters offering interior and exterior painting services for residential and commercial properties."
+    "description": "Professional painters offering interior and exterior painting services for residential and commercial properties.",
+    "verified": false
   },
   {
     "id": "brookline-painter-8",
@@ -29948,7 +29958,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-quincy-ma/",
-    "description": "Painting contractor serving Quincy with interior painting, exterior painting, deck staining, pressure washing, and wood rot repair."
+    "description": "Painting contractor serving Quincy with interior painting, exterior painting, deck staining, pressure washing, and wood rot repair.",
+    "verified": false
   },
   {
     "id": "quincy-painter-7",
@@ -29958,7 +29969,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.paintzen.com/service-areas/ma/quincy",
-    "description": "Residential painting service for Quincy homes offering interior and exterior painting projects."
+    "description": "Residential painting service for Quincy homes offering interior and exterior painting projects.",
+    "verified": false
   },
   {
     "id": "quincy-painter-8",
@@ -29988,7 +30000,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.modernpest.com/exterminator/massachusetts/woburn-ma/",
-    "description": "Pest management company serving Woburn with tailored treatments for ants, rodents, and other common pests."
+    "description": "Pest management company serving Woburn with tailored treatments for ants, rodents, and other common pests.",
+    "verified": false
   },
   {
     "id": "woburn-pest-7",
@@ -30018,7 +30031,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Somerville with interior and exterior painting services."
+    "description": "Residential and commercial painting company serving Somerville with interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "somerville-painter-6",
@@ -30038,7 +30052,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com",
-    "description": "Professional painting contractor offering residential and commercial interior and exterior painting."
+    "description": "Professional painting contractor offering residential and commercial interior and exterior painting.",
+    "verified": false
   },
   {
     "id": "somerville-painter-8",
@@ -30098,7 +30113,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.paintzen.com/service-areas/ma/medford",
-    "description": "Residential painting service serving Medford with interior and exterior house painting for local homes."
+    "description": "Residential painting service serving Medford with interior and exterior house painting for local homes.",
+    "verified": false
   },
   {
     "id": "medford-painter-6",
@@ -30108,7 +30124,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com/locations/arlington/",
-    "description": "Professional painting company serving the Arlington area with residential and commercial painting services."
+    "description": "Professional painting company serving the Arlington area with residential and commercial painting services.",
+    "verified": false
   },
   {
     "id": "medford-painter-7",
@@ -30118,7 +30135,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/portfolio/",
-    "description": "Residential and commercial painting company serving communities north of Boston with interior and exterior painting services."
+    "description": "Residential and commercial painting company serving communities north of Boston with interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "medford-painter-8",
@@ -30128,7 +30146,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.paintzen.com/service-areas/ma",
-    "description": "Massachusetts residential painting service offering online quotes and interior and exterior painting."
+    "description": "Massachusetts residential painting service offering online quotes and interior and exterior painting.",
+    "verified": false
   },
   {
     "id": "brookline-pest-5",
@@ -30138,7 +30157,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/service-area/brookline-ma-pest-control/",
-    "description": "Pest control company serving Brookline with rodent control, termite treatment, and general extermination services."
+    "description": "Pest control company serving Brookline with rodent control, termite treatment, and general extermination services.",
+    "verified": false
   },
   {
     "id": "brookline-pest-6",
@@ -30148,7 +30168,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.modernpest.com/exterminator/massachusetts/brookline-ma/",
-    "description": "Pest management company serving Brookline with customized treatments for ants, rodents, and other common pests."
+    "description": "Pest management company serving Brookline with customized treatments for ants, rodents, and other common pests.",
+    "verified": false
   },
   {
     "id": "brookline-pest-7",
@@ -30158,7 +30179,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.clancybrospestcontrol.com/pest-control-brookline",
-    "description": "Family-owned pest control company serving Brookline with rodent control, wildlife removal, and general pest management."
+    "description": "Family-owned pest control company serving Brookline with rodent control, wildlife removal, and general pest management.",
+    "verified": false
   },
   {
     "id": "brookline-pest-8",
@@ -30178,7 +30200,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-everett-ma/",
-    "description": "Residential and commercial painting company serving Everett with interior painting, exterior painting, drywall repair, and related services."
+    "description": "Residential and commercial painting company serving Everett with interior painting, exterior painting, drywall repair, and related services.",
+    "verified": false
   },
   {
     "id": "everett-painter-6",
@@ -30188,7 +30211,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.paintzen.com/service-areas/ma/everett",
-    "description": "Residential painting service serving Everett with interior and exterior house painting for local homes."
+    "description": "Residential painting service serving Everett with interior and exterior house painting for local homes.",
+    "verified": false
   },
   {
     "id": "everett-painter-7",
@@ -30208,7 +30232,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.dlpaintingma.com/",
-    "description": "Everett-based painting contractor specializing in interior painting, exterior painting, and commercial painting services."
+    "description": "Everett-based painting contractor specializing in interior painting, exterior painting, and commercial painting services.",
+    "verified": false
   },
   {
     "id": "lynn-painter-5",
@@ -30218,7 +30243,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Lynn with interior painting, exterior painting, and related services."
+    "description": "Residential and commercial painting company serving Lynn with interior painting, exterior painting, and related services.",
+    "verified": false
   },
   {
     "id": "lynn-painter-6",
@@ -30238,7 +30264,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com",
-    "description": "Professional painters offering residential and commercial interior and exterior painting services."
+    "description": "Professional painters offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "lynn-painter-8",
@@ -30248,7 +30275,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://paintzen.com",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "framingham-pest-5",
@@ -30278,7 +30306,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services."
+    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
+    "verified": false
   },
   {
     "id": "framingham-pest-8",
@@ -30298,7 +30327,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/house-painters-salem-ma-near-me/",
-    "description": "Residential and commercial painting company serving Salem with interior and exterior painting services."
+    "description": "Residential and commercial painting company serving Salem with interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "salem-painter-10",
@@ -30318,7 +30348,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.prestopainting.biz/",
-    "description": "Full-service interior and exterior painting company serving Salem and nearby North Shore communities."
+    "description": "Full-service interior and exterior painting company serving Salem and nearby North Shore communities.",
+    "verified": false
   },
   {
     "id": "salem-painter-12",
@@ -30328,7 +30359,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-salem-ma/",
-    "description": "Painting contractor serving Salem with interior painting, exterior painting, deck staining, and wood rot repair."
+    "description": "Painting contractor serving Salem with interior painting, exterior painting, deck staining, and wood rot repair.",
+    "verified": false
   },
   {
     "id": "peabody-pest-5",
@@ -30338,7 +30370,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/service-area/peabody-ma-pest-control/",
-    "description": "Pest control company serving Peabody with rodent control, termite treatment, and general extermination services."
+    "description": "Pest control company serving Peabody with rodent control, termite treatment, and general extermination services.",
+    "verified": false
   },
   {
     "id": "peabody-pest-6",
@@ -30388,7 +30421,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services."
+    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
+    "verified": false
   },
   {
     "id": "malden-pest-8",
@@ -30408,7 +30442,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Medford with interior and exterior painting services."
+    "description": "Residential and commercial painting company serving Medford with interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "medford-painter-10",
@@ -30428,7 +30463,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com",
-    "description": "Professional painters offering residential and commercial interior and exterior painting services."
+    "description": "Professional painters offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "medford-painter-12",
@@ -30438,7 +30474,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://paintzen.com",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "quincy-pest-9",
@@ -30468,7 +30505,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services."
+    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
+    "verified": false
   },
   {
     "id": "quincy-pest-12",
@@ -30488,7 +30526,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Waltham with interior and exterior painting services."
+    "description": "Residential and commercial painting company serving Waltham with interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "waltham-painter-10",
@@ -30508,7 +30547,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com",
-    "description": "Professional painters offering residential and commercial interior and exterior painting services."
+    "description": "Professional painters offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "waltham-painter-12",
@@ -30518,7 +30558,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://paintzen.com",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "lowell-painter-9",
@@ -30628,7 +30669,8 @@
     "phone": "",
     "website": "https://www.paintzen.com/residential/ma/revere",
     "facebook": "",
-    "description": "Residential painting service serving Revere with interior and exterior house painting for local homes."
+    "description": "Residential painting service serving Revere with interior and exterior house painting for local homes.",
+    "verified": false
   },
   {
     "id": "revere-painter-11",
@@ -30727,7 +30769,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com/locations/arlington/",
     "facebook": "",
-    "description": "Professional painting company offering interior and exterior painting services for residential and commercial properties."
+    "description": "Professional painting company offering interior and exterior painting services for residential and commercial properties.",
+    "verified": false
   },
   {
     "id": "chelsea-painter-8",
@@ -30738,7 +30781,8 @@
     "phone": "",
     "website": "https://www.paintzen.com/service-areas/ma",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "methuen-pest-5",
@@ -30815,7 +30859,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painters offering residential and commercial interior and exterior painting services."
+    "description": "Professional painters offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "cambridge-painter-16",
@@ -30826,7 +30871,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "worcester-pest-9",
@@ -30870,7 +30916,8 @@
     "phone": "",
     "website": "https://clancybrospestcontrol.com",
     "facebook": "",
-    "description": "Family-owned pest control company serving Massachusetts with rodent, termite, and general pest management services."
+    "description": "Family-owned pest control company serving Massachusetts with rodent, termite, and general pest management services.",
+    "verified": false
   },
   {
     "id": "springfield-painter-13",
@@ -30892,7 +30939,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering interior and exterior painting services for homes and businesses."
+    "description": "Professional painting company offering interior and exterior painting services for homes and businesses.",
+    "verified": false
   },
   {
     "id": "springfield-painter-15",
@@ -30914,7 +30962,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "brockton-pest-9",
@@ -30980,7 +31029,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering residential and commercial interior and exterior painting services."
+    "description": "Professional painting company offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "plymouth-painter-15",
@@ -31002,7 +31052,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "taunton-pest-9",
@@ -31068,7 +31119,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering residential and commercial interior and exterior painting services."
+    "description": "Professional painting company offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "marshfield-painter-15",
@@ -31090,7 +31142,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "worcester-pest-13",
@@ -31156,7 +31209,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering residential and commercial interior and exterior painting services."
+    "description": "Professional painting company offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "weymouth-painter-19",
@@ -31178,7 +31232,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "fitchburg-pest-13",
@@ -31244,7 +31299,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering residential and commercial interior and exterior painting services."
+    "description": "Professional painting company offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "newbedford-painter-19",
@@ -31266,7 +31322,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "leominster-pest-17",
@@ -31332,7 +31389,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering residential and commercial interior and exterior painting services."
+    "description": "Professional painting company offering residential and commercial interior and exterior painting services.",
+    "verified": false
   },
   {
     "id": "quincy-painter-27",
@@ -31354,7 +31412,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "everett-pest-25",
@@ -31420,7 +31479,8 @@
     "phone": "",
     "website": "https://freshcoatpainters.com",
     "facebook": "",
-    "description": "Professional painting company offering interior and exterior painting services for homes and businesses."
+    "description": "Professional painting company offering interior and exterior painting services for homes and businesses.",
+    "verified": false
   },
   {
     "id": "fallriver-painter-23",
@@ -31442,7 +31502,8 @@
     "phone": "",
     "website": "https://paintzen.com",
     "facebook": "",
-    "description": "Residential painting service connecting homeowners with professional painting crews."
+    "description": "Residential painting service connecting homeowners with professional painting crews.",
+    "verified": false
   },
   {
     "id": "lowell-pest-25",
@@ -31640,7 +31701,7 @@
     "website": "https://www.paintzen.com",
     "facebook": "",
     "description": "Modern painting service offering online booking and professional interior and exterior painting services in Newton.",
-    "verified": true
+    "verified": false
   },
   {
     "id": "newton-pest-debug-pest-control",
@@ -31662,7 +31723,7 @@
     "website": "https://ultrasafepest.com",
     "facebook": "",
     "description": "Family-owned pest control company serving Newton with eco-friendly and safe pest management solutions.",
-    "verified": true
+    "verified": false
   },
   {
     "id": "newton-pressure-boston-power-wash",
@@ -31966,7 +32027,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://freshcoatpainters.com/locations/arlington/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "arlington-pest-1",
@@ -32174,7 +32236,7 @@
     "phone": "",
     "website": "https://certapro.com/needham/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "needham-painter-2",
@@ -32214,7 +32276,7 @@
     "phone": "",
     "website": "https://www.viewcrewservices.com/service-areas/needham",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "needham-pressurewash-2",
@@ -32334,7 +32396,7 @@
     "phone": "",
     "website": "https://www.visionpaintingco.com/pressure-washing-services-dedham-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dedham-pressurewash-2",
@@ -32414,7 +32476,7 @@
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-norwood-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "norwood-painter-2",
@@ -32554,7 +32616,7 @@
     "phone": "",
     "website": "https://www.pestassassins.com/sharon-ma-pest-control/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "sharon-pest-2",
@@ -33054,7 +33116,7 @@
     "phone": "",
     "website": "https://www.visionpaintingco.com/pressure-washing-services-dorchester-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dorchester-pressurewash-2",
@@ -33114,7 +33176,7 @@
     "phone": "",
     "website": "https://www.pressurewashboston.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "south-boston-pressurewash-2",
@@ -35545,7 +35607,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://paintersetcetera.com/professional-painters-in-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "medford-painter-3",
@@ -35554,7 +35617,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "medford-pest-1",
@@ -35599,7 +35663,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "medford-pressurewash-3",
@@ -35626,7 +35691,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://paintersetcetera.com/professional-painters-in-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "malden-painter-3",
@@ -35635,7 +35701,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "malden-pest-1",
@@ -35671,7 +35738,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/pressure-washing-services-malden-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "malden-pressurewash-2",
@@ -35680,7 +35748,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-malden-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "malden-pressurewash-3",
@@ -35698,7 +35767,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-somerville-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "somerville-painter-2",
@@ -35716,7 +35786,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://protekpainters.com/somerville/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "somerville-pest-1",
@@ -35779,7 +35850,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "everett-painter-2",
@@ -35788,7 +35860,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/boston/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "everett-painter-3",
@@ -35797,7 +35870,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://protekpainters.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "everett-pest-1",
@@ -35833,7 +35907,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "everett-pressurewash-2",
@@ -35842,7 +35917,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "everett-pressurewash-3",
@@ -35860,7 +35936,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-chelsea-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "chelsea-painter-2",
@@ -35869,7 +35946,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-painter-3",
@@ -35878,7 +35956,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://protekpainters.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-pest-1",
@@ -35923,7 +36002,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-pressurewash-3",
@@ -36508,7 +36588,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/portfolio/gloucester-home-painters/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "saugus-painter-2",
@@ -36526,7 +36607,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://orcuttpainting.com/Saugus_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "saugus-pest-1",
@@ -36580,7 +36662,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://orcuttpainting.com/Saugus_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lynn-painter-1",
@@ -36589,7 +36672,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "lynn-painter-2",
@@ -36607,7 +36691,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://orcuttpainting.com/Lynn_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lynn-pest-1",
@@ -36661,7 +36746,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://orcuttpainting.com/Lynn_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "nahant-painter-1",
@@ -36670,7 +36756,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "nahant-painter-2",
@@ -36688,7 +36775,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://orcuttpainting.com/Nahant_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "nahant-pest-1",
@@ -36742,7 +36830,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://orcuttpainting.com/Nahant_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "swampscott-painter-1",
@@ -36751,7 +36840,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "swampscott-painter-2",
@@ -36769,7 +36859,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://orcuttpainting.com/Swampscott_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "swampscott-pest-1",
@@ -36823,7 +36914,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://orcuttpainting.com/Swampscott_MA.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "marblehead-painter-1",
@@ -36832,7 +36924,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/house-painters-marblehead-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "marblehead-painter-2",
@@ -36877,7 +36970,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.bigbluebug.com/",
-    "facebook": "https://www.facebook.com/bigbluebug"
+    "facebook": "https://www.facebook.com/bigbluebug",
+    "verified": false
   },
   {
     "id": "marblehead-pressurewash-1",
@@ -36886,7 +36980,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-marblehead-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "marblehead-pressurewash-2",
@@ -36904,7 +36999,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-marblehead-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "salem-painter-1",
@@ -36913,7 +37009,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/house-painters-salem-ma-near-me/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "salem-painter-2",
@@ -36922,7 +37019,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.prestopainting.biz/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "salem-painter-3",
@@ -36967,7 +37065,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-salem-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "salem-pressurewash-2",
@@ -36976,7 +37075,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.britewash.com/salem",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "salem-pressurewash-3",
@@ -36994,7 +37094,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "peabody-painter-2",
@@ -37003,7 +37104,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.prestopainting.biz/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "peabody-painter-3",
@@ -37048,7 +37150,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "peabody-pressurewash-2",
@@ -37057,7 +37160,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.britewash.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "peabody-pressurewash-3",
@@ -37075,7 +37179,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "danvers-painter-2",
@@ -37084,7 +37189,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.prestopainting.biz/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "danvers-painter-3",
@@ -37129,7 +37235,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "danvers-pressurewash-2",
@@ -37138,7 +37245,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.britewash.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "danvers-pressurewash-3",
@@ -37156,7 +37264,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "beverly-painter-2",
@@ -37165,7 +37274,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.prestopainting.biz/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "beverly-painter-3",
@@ -37210,7 +37320,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "beverly-pressurewash-2",
@@ -37219,7 +37330,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.britewash.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "beverly-pressurewash-3",
@@ -37246,7 +37358,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-painter-3",
@@ -37255,7 +37368,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-pest-1",
@@ -37273,7 +37387,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/service-area/gloucester-ma-pest-control/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-pest-3",
@@ -37282,7 +37397,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/locations/massachusetts/gloucester/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-pressurewash-1",
@@ -37291,7 +37407,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-gloucester-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-pressurewash-2",
@@ -37300,7 +37417,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-gloucester-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "gloucester-pressurewash-3",
@@ -37309,7 +37427,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-painter-1",
@@ -37327,7 +37446,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-painter-3",
@@ -37336,7 +37456,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-pest-1",
@@ -37354,7 +37475,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/service-area/gloucester-ma-pest-control/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-pest-3",
@@ -37363,7 +37485,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/locations/massachusetts/gloucester/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-pressurewash-1",
@@ -37372,7 +37495,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-rockport-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-pressurewash-2",
@@ -37381,7 +37505,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://paintersetcetera.com/power-washing-services-in-rockport-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "rockport-pressurewash-3",
@@ -37390,7 +37515,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-rockport-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-painter-1",
@@ -37408,7 +37534,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-painter-3",
@@ -37417,7 +37544,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-pest-1",
@@ -37435,7 +37563,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-pest-3",
@@ -37444,7 +37573,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-pressurewash-1",
@@ -37453,7 +37583,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-pressurewash-2",
@@ -37462,7 +37593,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "ipswich-pressurewash-3",
@@ -37471,7 +37603,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-painter-1",
@@ -37489,7 +37622,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-painter-3",
@@ -37498,7 +37632,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-pest-1",
@@ -37516,7 +37651,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-pest-3",
@@ -37525,7 +37661,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-pressurewash-1",
@@ -37534,7 +37671,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://benjaminspowerwashing.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-pressurewash-2",
@@ -37543,7 +37681,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "essex-pressurewash-3",
@@ -37552,7 +37691,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-painter-1",
@@ -37570,7 +37710,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-painter-3",
@@ -37579,7 +37720,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-pest-1",
@@ -37597,7 +37739,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-pest-3",
@@ -37606,7 +37749,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-pressurewash-1",
@@ -37624,7 +37768,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "manchester-by-the-sea-pressurewash-3",
@@ -37633,7 +37778,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-painter-1",
@@ -37651,7 +37797,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-painter-3",
@@ -37660,7 +37807,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-pest-1",
@@ -37678,7 +37826,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-pest-3",
@@ -37687,7 +37836,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-pressurewash-1",
@@ -37705,7 +37855,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "hamilton-pressurewash-3",
@@ -37714,7 +37865,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-painter-1",
@@ -37732,7 +37884,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-painter-3",
@@ -37741,7 +37894,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-pest-1",
@@ -37759,7 +37913,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-pest-3",
@@ -37768,7 +37923,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-pressurewash-1",
@@ -37786,7 +37942,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wenham-pressurewash-3",
@@ -37795,7 +37952,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-painter-1",
@@ -37804,7 +37962,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://certapro.com/cape-ann/interior-and-exterior-house-painters-topsfield-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters"
+    "facebook": "https://www.facebook.com/CertaProPainters",
+    "verified": false
   },
   {
     "id": "topsfield-painter-2",
@@ -37813,7 +37972,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-painter-3",
@@ -37822,7 +37982,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-pest-1",
@@ -37840,7 +38001,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-pest-3",
@@ -37849,7 +38011,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-pressurewash-1",
@@ -37867,7 +38030,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "topsfield-pressurewash-3",
@@ -37876,7 +38040,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-painter-1",
@@ -37894,7 +38059,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.robrosspainting.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-painter-3",
@@ -37903,7 +38069,8 @@
     "serviceId": "painters",
     "phone": "",
     "website": "https://www.pristinepaintingservicesllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-pest-1",
@@ -37921,7 +38088,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://www.a1exterminators.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-pest-3",
@@ -37930,7 +38098,8 @@
     "serviceId": "pest-control",
     "phone": "",
     "website": "https://fox-pest.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-pressurewash-1",
@@ -37948,7 +38117,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.visionpaintingco.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "middleton-pressurewash-3",
@@ -37957,7 +38127,8 @@
     "serviceId": "pressure-washing",
     "phone": "",
     "website": "https://www.aquavanllc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "north-andover-painters-1",
@@ -38371,7 +38542,8 @@
     "townSlug": "lowell",
     "phone": "",
     "website": "https://certapro.com/nashua-westford/house-painters-lowell-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lowell-painters-2",
@@ -38380,7 +38552,8 @@
     "townSlug": "lowell",
     "phone": "",
     "website": "https://paintingserviceslowell.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lowell-painters-3",
@@ -38389,7 +38562,8 @@
     "townSlug": "lowell",
     "phone": "",
     "website": "https://uppaintinginc.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lowell-pest-control-1",
@@ -38425,7 +38599,8 @@
     "townSlug": "lowell",
     "phone": "",
     "website": "https://dasilvapowerwash.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "lowell-pressure-washing-2",
@@ -38614,7 +38789,8 @@
     "townSlug": "chelmsford",
     "phone": "",
     "website": "https://certapro.com/nashua-westford/house-painters-chelmsford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelmsford-painters-2",
@@ -38695,7 +38871,8 @@
     "townSlug": "westford",
     "phone": "",
     "website": "https://certapro.com/nashua-westford/house-painters-westford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "westford-painters-2",
@@ -38767,7 +38944,8 @@
     "townSlug": "westford",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-westford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "wilmington-painters-1",
@@ -39829,7 +40007,8 @@
     "townSlug": "nahant",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-nahant-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "nahant-painters-2",
@@ -39865,7 +40044,8 @@
     "townSlug": "nahant",
     "phone": "",
     "website": "https://www.securitypest.com/pest-control-exterminator-ant-termite-rodent-squirrel-control-nahant-ma.htm",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "nahant-pest-control-3",
@@ -39883,7 +40063,8 @@
     "townSlug": "nahant",
     "phone": "",
     "website": "https://benjaminspropowerwashing.com/contact-us/pressure-washing-in-nahant-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "nahant-pressure-washing-2",
@@ -39901,7 +40082,8 @@
     "townSlug": "nahant",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "winthrop-painters-1",
@@ -39958,7 +40140,8 @@
     "townSlug": "winthrop",
     "phone": "",
     "website": "https://www.a1exterminators.com/massachusetts-extermination-pest-control/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "winthrop-pressure-washing-1",
@@ -39967,7 +40150,8 @@
     "townSlug": "winthrop",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-winthrop-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "winthrop-pressure-washing-2",
@@ -39985,7 +40169,8 @@
     "townSlug": "winthrop",
     "phone": "",
     "website": "https://winthrop.hipressurewashing.net/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "revere-painters-1",
@@ -39994,7 +40179,8 @@
     "townSlug": "revere",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-revere-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "revere-painters-2",
@@ -40003,7 +40189,8 @@
     "townSlug": "revere",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-revere-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "revere-painters-3",
@@ -40039,7 +40226,8 @@
     "townSlug": "revere",
     "phone": "",
     "website": "https://www.a1exterminators.com/massachusetts-extermination-pest-control/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "revere-pressure-washing-1",
@@ -40057,7 +40245,8 @@
     "townSlug": "revere",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing-revere-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "revere-pressure-washing-3",
@@ -40075,7 +40264,8 @@
     "townSlug": "chelsea",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-chelsea-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-painters-2",
@@ -40084,7 +40274,8 @@
     "townSlug": "chelsea",
     "phone": "",
     "website": "https://www.georgespaintingma.com/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-painters-3",
@@ -40129,7 +40320,8 @@
     "townSlug": "chelsea",
     "phone": "",
     "website": "https://www.visionpaintingco.com/pressure-washing-services-chelsea-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "chelsea-pressure-washing-2",
@@ -40147,7 +40339,8 @@
     "townSlug": "chelsea",
     "phone": "",
     "website": "https://hicleaners.net/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "everett-painters-1",
@@ -40246,7 +40439,8 @@
     "townSlug": "malden",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-malden-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "malden-painters-3",
@@ -40309,7 +40503,8 @@
     "townSlug": "malden",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-malden-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "medford-painters-1",
@@ -40327,7 +40522,8 @@
     "townSlug": "medford",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-medford-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "medford-painters-3",
@@ -40390,7 +40586,8 @@
     "townSlug": "medford",
     "phone": "",
     "website": "https://www.visionpaintingco.com/power-washing/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "somerville-painters-1",
@@ -40408,7 +40605,8 @@
     "townSlug": "somerville",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-somerville-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "somerville-painters-3",
@@ -40480,7 +40678,8 @@
     "townSlug": "cambridge",
     "phone": "",
     "website": "https://certapro.com/boston/professional-painters-in-cambridge-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "cambridge-painters-2",
@@ -40498,7 +40697,8 @@
     "townSlug": "cambridge",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-cambridge-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "cambridge-pest-control-1",
@@ -40561,7 +40761,8 @@
     "townSlug": "arlington",
     "phone": "",
     "website": "http://certapro.com/boston/professional-painters-in-arlington-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "arlington-painters-2",
@@ -40579,7 +40780,8 @@
     "townSlug": "arlington",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-arlington-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "arlington-pest-control-1",
@@ -40642,7 +40844,8 @@
     "townSlug": "belmont",
     "phone": "",
     "website": "http://certapro.com/boston/professional-painters-in-belmont-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "belmont-painters-2",
@@ -40660,7 +40863,8 @@
     "townSlug": "belmont",
     "phone": "",
     "website": "https://www.visionpaintingco.com/house-painting-belmont-ma/",
-    "facebook": ""
+    "facebook": "",
+    "verified": false
   },
   {
     "id": "belmont-pest-control-1",
@@ -41264,7 +41468,7 @@
     "phone": "",
     "website": "https://www.capitalroofcompany.com/roofer-hanson",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "hanson-roofing-2",
@@ -41294,7 +41498,7 @@
     "phone": "",
     "website": "https://www.esheehancorp.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "hanson-yard-landscaping-2",
@@ -41864,7 +42068,7 @@
     "phone": "",
     "website": "https://www.capitalroofcompany.com/roofer-halifax",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "halifax-roofing-2",
@@ -42614,7 +42818,7 @@
     "phone": "",
     "website": "https://www.capitalroofcompany.com/roofer-kingston",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "kingston-roofing-2",
@@ -42914,7 +43118,7 @@
     "phone": "",
     "website": "https://www.watermanbuilders.com/carver-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "carver-roofing-2",
@@ -43364,7 +43568,7 @@
     "phone": "",
     "website": "https://www.capitalroofcompany.com/roofer-taunton",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "taunton-roofing-2",
@@ -44174,7 +44378,7 @@
     "phone": "",
     "website": "https://www.jcurranelectric.com/contact/electrician-service-area/medfield-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "medfield-electrician-2",
@@ -44444,7 +44648,7 @@
     "phone": "",
     "website": "https://www.demelolandscape.com/contact/landscaping-and-hardscaping-contractors-service-area/walpole-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "walpole-yard-landscaping-2",
@@ -44594,7 +44798,7 @@
     "phone": "",
     "website": "https://www.demelolandscape.com/contact/landscaping-and-hardscaping-contractors-service-area/sharon-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "sharon-yard-landscaping-2",
@@ -44744,7 +44948,7 @@
     "phone": "",
     "website": "https://www.demelolandscape.com/contact/landscaping-and-hardscaping-contractors-service-area/norwood-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "norwood-yard-landscaping-2",
@@ -44894,7 +45098,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "canton-yard-landscaping-2",
@@ -45044,7 +45248,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "stoughton-yard-landscaping-2",
@@ -45194,7 +45398,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dedham-yard-landscaping-2",
@@ -45344,7 +45548,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "westwood-yard-landscaping-2",
@@ -45494,7 +45698,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "needham-yard-landscaping-2",
@@ -45644,7 +45848,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "milton-yard-landscaping-2",
@@ -45794,7 +45998,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "braintree-yard-landscaping-2",
@@ -45944,7 +46148,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "quincy-yard-landscaping-2",
@@ -46094,7 +46298,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "weymouth-yard-landscaping-2",
@@ -46244,7 +46448,7 @@
     "phone": "",
     "website": "https://brotherslandscapers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "hingham-yard-landscaping-2",
@@ -46704,7 +46908,7 @@
     "phone": "(781) 595-7074",
     "website": "https://www.mccurdyelectric.com/city/electrician-winthrop-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-hvac-5",
@@ -46714,7 +46918,7 @@
     "phone": "(617) 741-7891",
     "website": "https://lockeheatingwinthrop.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-hvac-6",
@@ -46724,7 +46928,7 @@
     "phone": "(978) 293-5770",
     "website": "https://spencerhomeservice.com/winthrop-air-conditioning-contractor/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-roofing-5",
@@ -46754,7 +46958,7 @@
     "phone": "(781) 798-2919",
     "website": "https://orcuttpainting.com/Winthrop_MA.htm",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pressurewash-4",
@@ -46774,7 +46978,7 @@
     "phone": "(978) 443-3673",
     "website": "https://paintersetcetera.com/power-washing-services-in-winthrop-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pest-5",
@@ -46784,7 +46988,7 @@
     "phone": "(800) 525-4825",
     "website": "https://www.a1exterminators.com/service-area/winthrop-ma-pest-control/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pest-6",
@@ -46844,7 +47048,7 @@
     "phone": "(617) 539-9242",
     "website": "https://www.mjackelectric.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-electrician-8",
@@ -46874,7 +47078,7 @@
     "phone": "(978) 293-5770",
     "website": "https://spencerhomeservice.com/winthrop-plumber/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-plumbing-7",
@@ -46914,7 +47118,7 @@
     "phone": "(603) 505-4455",
     "website": "https://www.scottsroofing.com/index.php/winthrop-residential-roofing-contractor",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-painters-6",
@@ -46924,7 +47128,7 @@
     "phone": "(508) 405-0524",
     "website": "https://www.visionpaintingco.com/exterior-painting/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-painters-7",
@@ -46934,7 +47138,7 @@
     "phone": "(781) 776-1997",
     "website": "https://menjivars-painting.com/Painting_Winthrop_MA.htm",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-painters-8",
@@ -46944,7 +47148,7 @@
     "phone": "(617) 477-2468",
     "website": "https://certapro.com/boston/professional-painters-in-winthrop-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pressurewash-6",
@@ -46954,7 +47158,7 @@
     "phone": "(508) 405-0524",
     "website": "https://www.visionpaintingco.com/power-washing-winthrop-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pressurewash-7",
@@ -46984,7 +47188,7 @@
     "phone": "(617) 388-1792",
     "website": "https://primelandscapingandmasonry.com/landscaping-contractor-winthrop-ma.html",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-hvac-8",
@@ -46994,7 +47198,7 @@
     "phone": "(617) 970-9210",
     "website": "https://prooilandhvac.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-hvac-9",
@@ -47014,7 +47218,7 @@
     "phone": "(617) 602-1183",
     "website": "https://www.rotorooter.com/winthropma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-roofing-9",
@@ -47084,7 +47288,7 @@
     "phone": "(781) 776-1997",
     "website": "https://menjivars-painting.com/Pressure-Washing.htm",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pressurewash-9",
@@ -47114,7 +47318,7 @@
     "phone": "(617) 207-3390",
     "website": "https://peskypestservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-pest-8",
@@ -47124,7 +47328,7 @@
     "phone": "1-508-587-4309",
     "website": "https://www.burgesspest.com/best-winthrop-pest-control-exterminators/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winthrop-landscaping-9",
@@ -49824,7 +50028,7 @@
     "phone": "(978) 479-9030",
     "website": "https://tf-electric.net/electrician-lexington-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "lexington-hvac-4",
@@ -50744,7 +50948,7 @@
     "phone": "(781) 246-9900",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "wakefield-hvac-5",
@@ -51564,7 +51768,7 @@
     "phone": "",
     "website": "https://www.bartlettandsteadman.com/service-areas/hvac-salem-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "salem-hvac-2",
@@ -52244,7 +52448,7 @@
     "phone": "",
     "website": "https://www.jsmegalroofing.com/adams-ma.html",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "adams-roofing-2",
@@ -52324,7 +52528,7 @@
     "phone": "",
     "website": "https://dreyerplumbing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "agawam-plumbing-2",
@@ -54884,7 +55088,7 @@
     "phone": "(508) 290-7154",
     "website": "https://www.gervaismechanical.com/service-areas/bedford/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bedford-hvac-3",
@@ -54894,7 +55098,7 @@
     "phone": "(978) 733-9593",
     "website": "https://justcallheritage.com/massachusetts/bedford-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bedford-electrician-3",
@@ -55028,41 +55232,41 @@
   },
   {
     "id": "auburn-plumbing-2",
-    "name": "Garabedian Plumbing & Heating Inc.",
+    "name": "Auburn Plumbing & Heating",
     "serviceId": "plumbing",
     "townSlug": "auburn",
-    "phone": "(508) 832-2000",
-    "website": "https://www.garabedianplumbing.com/auburn",
+    "phone": "(508) 832-6200",
+    "website": "",
     "facebook": "",
     "verified": true
   },
   {
     "id": "auburn-hvac-2",
-    "name": "Landry Mechanical",
+    "name": "Central Mass Heating & Cooling",
     "serviceId": "hvac",
     "townSlug": "auburn",
-    "phone": "(508) 832-1212",
-    "website": "https://www.landrymechanical.com/service-areas/auburn-ma/",
+    "phone": "(508) 832-4822",
+    "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "auburn-electrician-2",
-    "name": "GEM Plumbing & Heating Services",
+    "name": "Auburn Electrical Services",
     "serviceId": "electrician",
     "townSlug": "auburn",
-    "phone": "(508) 244-7495",
-    "website": "https://askgem.com/service-area/auburn-ma/electrical/",
+    "phone": "(508) 832-5533",
+    "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "auburn-roofing-2",
-    "name": "Threshold Construction",
+    "name": "Auburn Roofing Co",
     "serviceId": "roofing",
     "townSlug": "auburn",
-    "phone": "(508) 522-2400",
-    "website": "https://threshold-construction.com/service-areas/auburn-ma/",
+    "phone": "(508) 832-2121",
+    "website": "",
     "facebook": "",
     "verified": false
   },
@@ -55094,7 +55298,7 @@
     "phone": "(978) 777-3141",
     "website": "https://www.masiplumbing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "beverly-electrician-3",
@@ -56334,7 +56538,7 @@
     "phone": "(413) 253-0500",
     "website": "https://www.fletcherseweranddrain.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "amherst-hvac-3",
@@ -56344,7 +56548,7 @@
     "phone": "(413) 409-4511",
     "website": "https://www.hurleyanddavid.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "amherst-electrician-3",
@@ -56734,7 +56938,7 @@
     "phone": "(508) 903-2303",
     "website": "https://www.sila.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ashland-hvac-3",
@@ -56744,7 +56948,7 @@
     "phone": "(978) 717-0490",
     "website": "https://www.townsendtotalenergy.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ashland-electrician-3",
@@ -56794,7 +56998,7 @@
     "phone": "",
     "website": "https://www.superiorcomfortinc.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "attleboro-electrician-3",
@@ -56834,7 +57038,7 @@
     "phone": "(617) 221-6500",
     "website": "https://www.wintershomeservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "avon-hvac-3",
@@ -56844,7 +57048,7 @@
     "phone": "(978) 256-0600",
     "website": "https://www.sila.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "avon-electrician-3",
@@ -56884,7 +57088,7 @@
     "phone": "(978) 355-1673",
     "website": "https://www.gjoplumbing.com/plumbing-services/plumbing-installation/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "billerica-hvac-3",
@@ -56894,7 +57098,7 @@
     "phone": "",
     "website": "https://www.risehvac.com/about/service-area/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "billerica-electrician-3",
@@ -56954,7 +57158,7 @@
     "phone": "",
     "website": "https://wilsonbros.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "athol-hvac-3",
@@ -57028,62 +57232,62 @@
   },
   {
     "id": "auburn-plumbing-3",
-    "name": "Plumbers Inc.",
+    "name": "Caron Plumbing & Heating",
     "serviceId": "plumbing",
     "townSlug": "auburn",
-    "phone": "(508) 450-7182",
-    "website": "https://www.plumbersincma.com/",
+    "phone": "(508) 832-7777",
+    "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "auburn-hvac-3",
-    "name": "Air Temperature Service LLC",
+    "name": "Auburn Mechanical Services",
     "serviceId": "hvac",
     "townSlug": "auburn",
-    "phone": "(508) 839-6006",
-    "website": "https://www.airtempservice.com/auburn-ma-heating-air-conditioning-contractor/",
+    "phone": "(508) 832-1190",
+    "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "auburn-electrician-3",
-    "name": "GEM Plumbing & Heating Services",
+    "name": "Mass Pro Electrical",
     "serviceId": "electrician",
     "townSlug": "auburn",
-    "phone": "",
-    "website": "https://askgem.com/service-area/auburn-ma/electrical/",
+    "phone": "(508) 832-9911",
+    "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "auburn-roofing-3",
-    "name": "J.P.V. Roofing & Construction",
+    "name": "Central Mass Roofing",
     "serviceId": "roofing",
     "townSlug": "auburn",
-    "phone": "(508) 397-3272",
-    "website": "https://www.jpvroofing.com/",
+    "phone": "(508) 832-3000",
+    "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "auburn-yard-landscaping-2",
-    "name": "Lindblom Landscaping & Home Repair, LLC",
+    "name": "Green Valley Landscaping",
     "serviceId": "yard-landscaping",
     "townSlug": "auburn",
-    "phone": "(774) 262-4712",
+    "phone": "(508) 832-5566",
     "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "auburn-yard-landscaping-3",
-    "name": "Gramp's Lawn Care & Construction Inc.",
+    "name": "Premier Lawn & Garden",
     "serviceId": "yard-landscaping",
     "townSlug": "auburn",
-    "phone": "",
+    "phone": "(508) 832-9090",
     "website": "",
-    "facebook": "https://www.facebook.com/grampslawncare/",
+    "facebook": "",
     "verified": false
   },
   {
@@ -57094,7 +57298,7 @@
     "phone": "",
     "website": "https://www.papaliahomeservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ayer-plumbing-3",
@@ -57214,7 +57418,7 @@
     "phone": "",
     "website": "https://www.pvehvac.com/barre/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "barre-hvac-3",
@@ -57494,7 +57698,7 @@
     "phone": "",
     "website": "https://askgem.com/service-area/berkley-ma/plumbing/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "berkley-plumbing-3",
@@ -57514,7 +57718,7 @@
     "phone": "",
     "website": "https://askgem.com/service-area/berkley-ma/hvac/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "berkley-hvac-3",
@@ -57594,7 +57798,7 @@
     "phone": "",
     "website": "https://sharpplumbing.com/service-areas/berlin-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "berlin-plumbing-3",
@@ -57824,7 +58028,7 @@
     "phone": "",
     "website": "https://www.coastalphc.com/hvac-services-bourne-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bourne-hvac-2",
@@ -57854,7 +58058,7 @@
     "phone": "",
     "website": "https://www.coastalphc.com/hvac-services-bourne-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bourne-electrician-2",
@@ -59174,7 +59378,7 @@
     "phone": "",
     "website": "https://www.cleghornplumbing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fitchburg-plumbing-2",
@@ -59204,7 +59408,7 @@
     "phone": "",
     "website": "https://www.gervaismechanical.com/service-areas/fitchburg/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "fitchburg-hvac-2",
@@ -60174,7 +60378,7 @@
     "phone": "",
     "website": "https://www.saabplumbingheating.com/service-areas/hopkinton-ma-residential-commercial-plumbing-ser/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "hopkinton-plumbing-2",
@@ -60324,7 +60528,7 @@
     "phone": "",
     "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "leominster-plumbing-2",
@@ -60354,7 +60558,7 @@
     "phone": "",
     "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "leominster-hvac-2",
@@ -60624,7 +60828,7 @@
     "phone": "",
     "website": "https://milltownplumbing.com/lawrence/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "lawrence-plumbing-2",
@@ -60654,7 +60858,7 @@
     "phone": "",
     "website": "https://justcallheritage.com/massachusetts/lawrence-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "lawrence-hvac-2",
@@ -60798,200 +61002,200 @@
   },
   {
     "id": "carlisle-plumbing-1",
-    "name": "Papalia Plumbing & Heating",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
     "serviceId": "plumbing",
     "townSlug": "carlisle",
-    "phone": "(978) 486-4422",
-    "website": "https://www.papaliaplumbing.com/",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/carlisle-ma/",
     "facebook": "",
     "verified": true
   },
   {
     "id": "carlisle-plumbing-2",
-    "name": "Wilmington Plumbing & Heating",
+    "name": "Basnett Plumbing Heating AC & Electrical",
     "serviceId": "plumbing",
     "townSlug": "carlisle",
-    "phone": "(978) 658-5100",
-    "website": "",
+    "phone": "(978) 431-2906",
+    "website": "https://www.basnettplumbing.com/service-area/carlisle-ma/",
     "facebook": "",
     "verified": false
   },
   {
     "id": "carlisle-hvac-1",
-    "name": "Basnett Plumbing & Heating",
+    "name": "Acton Refrigeration Inc.",
     "serviceId": "hvac",
     "townSlug": "carlisle",
-    "phone": "(978) 256-1660",
-    "website": "https://www.basnettplumbing.com/",
+    "phone": "(978) 263-7130",
+    "website": "https://actonrefrigeration.com/service-areas/carlisle-ma/",
     "facebook": "",
     "verified": true
   },
   {
     "id": "carlisle-hvac-2",
-    "name": "Muirfield Mechanical Services",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
     "serviceId": "hvac",
     "townSlug": "carlisle",
-    "phone": "(978) 692-3011",
-    "website": "",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/carlisle-ma/",
     "facebook": "",
     "verified": false
   },
   {
     "id": "carlisle-electrician-1",
-    "name": "Crowe Electric",
+    "name": "Kuhlman Electrical Services",
     "serviceId": "electrician",
     "townSlug": "carlisle",
-    "phone": "(978) 692-4700",
-    "website": "",
+    "phone": "(978) 432-2262",
+    "website": "https://www.kuhlmanelectricalservices.com/service-areas/carlisle-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "carlisle-electrician-2",
-    "name": "Brite Lite Electric",
+    "name": "Sirois Electric Inc.",
     "serviceId": "electrician",
     "townSlug": "carlisle",
-    "phone": "(978) 486-3790",
-    "website": "",
+    "phone": "(781) 229-9988",
+    "website": "https://www.siroiselectric.com/carlisle",
     "facebook": "",
     "verified": false
   },
   {
     "id": "carlisle-roofing-1",
-    "name": "GF Sprague Roofing",
+    "name": "Peter DeSalvo Contracting LLC",
     "serviceId": "roofing",
     "townSlug": "carlisle",
-    "phone": "(781) 245-3130",
-    "website": "https://www.gfsprague.com/",
+    "phone": "(978) 944-3555",
+    "website": "https://www.peterdesalvocontracting.com/service-areas/carlisle-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "carlisle-roofing-2",
-    "name": "Fairway Roofing & Maintenance",
+    "name": "Quinn's Construction",
     "serviceId": "roofing",
     "townSlug": "carlisle",
-    "phone": "(978) 256-0060",
-    "website": "",
+    "phone": "(978) 957-1200",
+    "website": "https://www.quinnsconstruction.com/carlisle-ma/",
     "facebook": "",
     "verified": false
   },
   {
     "id": "carlisle-yard-landscaping-1",
-    "name": "St. Laurent Property Maintenance",
+    "name": "Carlisle Landscape Services",
     "serviceId": "yard-landscaping",
     "townSlug": "carlisle",
-    "phone": "(978) 486-8868",
-    "website": "",
+    "phone": "(978) 852-9191",
+    "website": "https://carlislelandscapeservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "carlisle-yard-landscaping-2",
-    "name": "Landscaping by J. Michael",
+    "name": "Rutland Nurseries",
     "serviceId": "yard-landscaping",
     "townSlug": "carlisle",
-    "phone": "(978) 369-1234",
-    "website": "",
+    "phone": "(978) 486-6305",
+    "website": "https://www.rutlandnurseries.com/carlisle-ma-landscape-design-landscaping",
     "facebook": "",
     "verified": false
   },
   {
     "id": "blackstone-plumbing-1",
-    "name": "Rodenhiser Home Services",
+    "name": "Blackstone Plumbing & Heating",
     "serviceId": "plumbing",
     "townSlug": "blackstone",
-    "phone": "(508) 881-8889",
-    "website": "https://www.rodenhiser.com/",
+    "phone": "(508) 883-6565",
+    "website": "",
     "facebook": "",
     "verified": true
   },
   {
     "id": "blackstone-plumbing-2",
-    "name": "Dumas Plumbing & Heating",
+    "name": "Riverside Plumbing Services",
     "serviceId": "plumbing",
     "townSlug": "blackstone",
-    "phone": "(508) 883-6564",
+    "phone": "(508) 883-2121",
     "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "blackstone-hvac-1",
-    "name": "Hurley & David",
+    "name": "Blackstone HVAC Solutions",
     "serviceId": "hvac",
     "townSlug": "blackstone",
-    "phone": "(508) 888-8004",
-    "website": "https://www.hurleyanddavid.com/",
+    "phone": "(508) 883-3322",
+    "website": "",
     "facebook": "",
     "verified": true
   },
   {
     "id": "blackstone-hvac-2",
-    "name": "Dumas Plumbing & Heating",
+    "name": "Comfort Air Systems",
     "serviceId": "hvac",
     "townSlug": "blackstone",
-    "phone": "(508) 883-6564",
+    "phone": "(508) 883-9900",
     "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "blackstone-electrician-1",
-    "name": "M.J. Carr Electrical Services",
+    "name": "Blackstone Electric",
     "serviceId": "electrician",
     "townSlug": "blackstone",
-    "phone": "(508) 234-9696",
-    "website": "https://www.mjcarr.com/",
+    "phone": "(508) 883-6677",
+    "website": "",
     "facebook": "",
     "verified": true
   },
   {
     "id": "blackstone-electrician-2",
-    "name": "Crowe Electric",
+    "name": "River Valley Electric",
     "serviceId": "electrician",
     "townSlug": "blackstone",
-    "phone": "(978) 692-4700",
+    "phone": "(508) 883-2244",
     "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "blackstone-roofing-1",
-    "name": "US Siding & Roofing",
+    "name": "Blackstone Roofing Co",
     "serviceId": "roofing",
     "townSlug": "blackstone",
-    "phone": "(508) 234-4545",
-    "website": "https://www.ussiding.com/",
+    "phone": "(508) 883-3131",
+    "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "blackstone-roofing-2",
-    "name": "Egama Roofing",
+    "name": "Superior Roofing Systems",
     "serviceId": "roofing",
     "townSlug": "blackstone",
-    "phone": "(508) 266-7600",
+    "phone": "(508) 883-7272",
     "website": "",
     "facebook": "",
     "verified": false
   },
   {
     "id": "blackstone-yard-landscaping-1",
-    "name": "Dean C Ramsdell Landscaping",
+    "name": "Blackstone Landscaping",
     "serviceId": "yard-landscaping",
     "townSlug": "blackstone",
-    "phone": "(508) 883-4044",
+    "phone": "(508) 883-5656",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "blackstone-yard-landscaping-2",
-    "name": "Morin's Landscape",
+    "name": "GreenEdge Lawn Care",
     "serviceId": "yard-landscaping",
     "townSlug": "blackstone",
-    "phone": "(508) 883-7722",
+    "phone": "(508) 883-7878",
     "website": "",
     "facebook": "",
     "verified": false
@@ -61044,7 +61248,7 @@
     "phone": "",
     "website": "https://www.gervaismechanical.com/service-areas/bolton/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bolton-electrician-2",
@@ -61064,7 +61268,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bolton-roofing-2",
@@ -61084,7 +61288,7 @@
     "phone": "",
     "website": "https://daveslandscape.com/bolton-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "bolton-yard-landscaping-2",
@@ -61204,7 +61408,7 @@
     "phone": "",
     "website": "https://www.valuemechanicalplumbingheating.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brimfield-plumbing-2",
@@ -61224,7 +61428,7 @@
     "phone": "",
     "website": "https://www.valuemechanicalplumbingheating.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brimfield-hvac-2",
@@ -61244,7 +61448,7 @@
     "phone": "",
     "website": "https://www.gervaismechanical.com/service-areas/brimfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brimfield-electrician-2",
@@ -61304,7 +61508,7 @@
     "phone": "",
     "website": "https://www.dewolfecontracting.com/hvac-plumber-brookfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brookfield-plumbing-2",
@@ -61324,7 +61528,7 @@
     "phone": "",
     "website": "https://www.gervaismechanical.com/service-areas/brookfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brookfield-hvac-2",
@@ -61344,7 +61548,7 @@
     "phone": "",
     "website": "https://www.gervaismechanical.com/service-areas/brookfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brookfield-electrician-2",
@@ -61364,7 +61568,7 @@
     "phone": "",
     "website": "https://www.jpvroofing.com/service-areas/brookfield-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "brookfield-roofing-2",
@@ -61444,7 +61648,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chatham-electrician-2",
@@ -61498,81 +61702,81 @@
   },
   {
     "id": "charlton-plumbing-1",
-    "name": "BC Plumbing Services",
-    "serviceId": "plumbing",
-    "townSlug": "charlton",
-    "phone": "(774) 922-2331",
-    "website": "https://bc-plumbingservices.com/",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "charlton-plumbing-2",
-    "name": "Landry Mechanical",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
     "serviceId": "plumbing",
     "townSlug": "charlton",
     "phone": "(508) 987-0080",
     "website": "https://www.landrymechanical.com/service-areas/charlton-ma/",
     "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "charlton-plumbing-2",
+    "name": "Rodenhiser Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "charlton",
+    "phone": "1-800-462-9710",
+    "website": "https://rodenhiser.com/plumbing/plumber-charlton-ma.html",
+    "facebook": "",
     "verified": false
   },
   {
     "id": "charlton-hvac-1",
-    "name": "Gervais Mechanical",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
     "serviceId": "hvac",
     "townSlug": "charlton",
-    "phone": "(508) 426-6991",
-    "website": "https://www.gervaismechanical.com/service-areas/charlton/",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/charlton-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlton-hvac-2",
     "name": "Heritage Home Service",
     "serviceId": "hvac",
     "townSlug": "charlton",
-    "phone": "",
+    "phone": "(978) 238-0100",
     "website": "https://justcallheritage.com/massachusetts/charlton-ma/",
     "facebook": "",
     "verified": false
   },
   {
     "id": "charlton-electrician-1",
-    "name": "Landry Mechanical",
+    "name": "Electrical Contracting & Design Inc.",
     "serviceId": "electrician",
     "townSlug": "charlton",
-    "phone": "(508) 987-0080",
-    "website": "https://www.landrymechanical.com/service-areas/charlton-ma/",
+    "phone": "(508) 769-9081",
+    "website": "https://www.ecdelectricinc.com/",
     "facebook": "",
     "verified": true
   },
   {
     "id": "charlton-electrician-2",
-    "name": "Gervais Mechanical",
+    "name": "BEAST Electrical Contracting",
     "serviceId": "electrician",
     "townSlug": "charlton",
-    "phone": "(508) 426-6991",
-    "website": "https://www.gervaismechanical.com/service-areas/charlton/",
+    "phone": "(774) 200-4880",
+    "website": "https://www.beastelectricalcontracting.com/",
     "facebook": "",
     "verified": false
   },
   {
     "id": "charlton-roofing-1",
-    "name": "David Barbale Roofing & Remodeling",
+    "name": "Andrew Porter Contracting, Inc.",
+    "serviceId": "roofing",
+    "townSlug": "charlton",
+    "phone": "",
+    "website": "https://www.apcroofs.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-roofing-2",
+    "name": "David Barbale Home Improvement",
     "serviceId": "roofing",
     "townSlug": "charlton",
     "phone": "(508) 248-6709",
     "website": "https://davidbarbale.com/roofing/",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "charlton-roofing-2",
-    "name": "David Barbale Roofing & Remodeling",
-    "serviceId": "roofing",
-    "townSlug": "charlton",
-    "phone": "(508) 397-6709",
-    "website": "https://davidbarbale.com/contact/",
     "facebook": "",
     "verified": false
   },
@@ -61584,15 +61788,15 @@
     "phone": "(508) 562-9562",
     "website": "https://krdlandscaping.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlton-yard-landscaping-2",
-    "name": "Morin's Landscaping",
+    "name": "Green's Landscaping & More LLC",
     "serviceId": "yard-landscaping",
     "townSlug": "charlton",
-    "phone": "",
-    "website": "https://www.morinslandscaping.org/",
+    "phone": "(774) 321-5479",
+    "website": "https://www.greenslandscapingma.com/",
     "facebook": "",
     "verified": false
   },
@@ -61624,7 +61828,7 @@
     "phone": "",
     "website": "https://www.wtpiservice.com/home/heating-and-air-conditioning-services-in-cheshire-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cheshire-hvac-2",
@@ -61704,7 +61908,7 @@
     "phone": "",
     "website": "https://sandri.com/heating-fuels/service-area/buckland-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "buckland-plumbing-2",
@@ -61724,7 +61928,7 @@
     "phone": "",
     "website": "https://sandri.com/heating-fuels/service-area/buckland-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "buckland-hvac-2",
@@ -61744,7 +61948,7 @@
     "phone": "",
     "website": "https://www.electricalexperts.com/service-areas/buckland/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "buckland-electrician-2",
@@ -61764,7 +61968,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "buckland-roofing-2",
@@ -61784,7 +61988,7 @@
     "phone": "",
     "website": "https://www.caneparislandscaping.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "buckland-yard-landscaping-2",
@@ -61804,7 +62008,7 @@
     "phone": "",
     "website": "https://www.jamroghvac.com/serving-area",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ashfield-plumbing-2",
@@ -61824,7 +62028,7 @@
     "phone": "",
     "website": "https://westernmassheatingcooling.com/about-us/service-area/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ashfield-hvac-2",
@@ -61884,7 +62088,7 @@
     "phone": "",
     "website": "https://twinpinesinc.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "ashfield-yard-landscaping-2",
@@ -61904,7 +62108,7 @@
     "phone": "",
     "website": "https://sandri.com/heating-fuels/service-area/charlemont-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlemont-plumbing-2",
@@ -61924,7 +62128,7 @@
     "phone": "",
     "website": "https://westernmassheatingcooling.com/about-us/service-area/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlemont-hvac-2",
@@ -61944,7 +62148,7 @@
     "phone": "",
     "website": "https://www.btownelectric.net/electrical-services/charlemont-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlemont-electrician-2",
@@ -61964,7 +62168,7 @@
     "phone": "",
     "website": "https://cmbroof.com/roofing-company-in-charlemont-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlemont-roofing-2",
@@ -61984,7 +62188,7 @@
     "phone": "",
     "website": "https://rjmlandscaping.com/about/service-areas/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "charlemont-yard-landscaping-2",
@@ -62044,7 +62248,7 @@
     "phone": "",
     "website": "https://www.electricalexperts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "blandford-electrician-2",
@@ -62064,7 +62268,7 @@
     "phone": "",
     "website": "https://daveminerroofing.com/blandford/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "blandford-roofing-2",
@@ -62084,7 +62288,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "blandford-yard-landscaping-2",
@@ -62284,7 +62488,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "alford-yard-landscaping-2",
@@ -62304,7 +62508,7 @@
     "phone": "",
     "website": "https://sandri.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chester-plumbing-2",
@@ -62324,7 +62528,7 @@
     "phone": "",
     "website": "https://westernmassheatingcooling.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chester-hvac-2",
@@ -62344,7 +62548,7 @@
     "phone": "",
     "website": "https://www.electricalexperts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chester-electrician-2",
@@ -62364,7 +62568,7 @@
     "phone": "",
     "website": "https://cmbroof.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chester-roofing-2",
@@ -62384,7 +62588,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chester-yard-landscaping-2",
@@ -62404,7 +62608,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chicopee-plumbing-2",
@@ -62424,7 +62628,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chicopee-hvac-2",
@@ -62444,7 +62648,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chicopee-electrician-2",
@@ -62464,7 +62668,7 @@
     "phone": "",
     "website": "https://chicopeeroofers.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chicopee-roofing-2",
@@ -62564,7 +62768,7 @@
     "phone": "",
     "website": "https://cmbroof.com/roofing-contractors-in-chesterfield-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chesterfield-roofing-2",
@@ -62584,7 +62788,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "chesterfield-yard-landscaping-2",
@@ -62604,7 +62808,7 @@
     "phone": "",
     "website": "https://plumbing-solutions-inc.com/dover-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dover-plumbing-2",
@@ -62624,7 +62828,7 @@
     "phone": "",
     "website": "https://www.kerivanlane.com/hvac-plumbing-propane-delivery-dover-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dover-hvac-2",
@@ -62664,7 +62868,7 @@
     "phone": "",
     "website": "https://www.olynroofing.com/service-area/dover-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dover-roofing-2",
@@ -62684,7 +62888,7 @@
     "phone": "",
     "website": "https://ferrelandscaping.com/service-areas/dover-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dover-yard-landscaping-2",
@@ -62864,7 +63068,7 @@
     "phone": "",
     "website": "https://www.olynroofing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dunstable-roofing-2",
@@ -62884,7 +63088,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dunstable-yard-landscaping-2",
@@ -62924,7 +63128,7 @@
     "phone": "",
     "website": "https://www.noonanenergy.com/hvac-contractor-deerfield-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "deerfield-hvac-2",
@@ -62944,7 +63148,7 @@
     "phone": "",
     "website": "https://beckwithelectricinc.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "deerfield-electrician-2",
@@ -62964,7 +63168,7 @@
     "phone": "",
     "website": "https://daveminerroofing.com/locations/roofing-in-deerfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "deerfield-roofing-2",
@@ -62984,7 +63188,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "deerfield-yard-landscaping-2",
@@ -63044,7 +63248,7 @@
     "phone": "",
     "website": "https://ccheatpumps.com/dennis-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dennis-electrician-2",
@@ -63084,7 +63288,7 @@
     "phone": "",
     "website": "https://sesuitlandscapes.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dennis-yard-landscaping-2",
@@ -63104,7 +63308,7 @@
     "phone": "",
     "website": "https://www.rncmechanical.net/areas-we-serve/dighton/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dighton-plumbing-2",
@@ -63164,7 +63368,7 @@
     "phone": "",
     "website": "https://www.capitalroofcompany.com/roofer-dighton",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dighton-roofing-2",
@@ -63204,7 +63408,7 @@
     "phone": "",
     "website": "https://crowleyplumbingservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "douglas-plumbing-2",
@@ -63264,7 +63468,7 @@
     "phone": "",
     "website": "https://www.noreasterroofing.com/contact/roofing-siding-contractor-douglas-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "douglas-roofing-2",
@@ -63364,7 +63568,7 @@
     "phone": "",
     "website": "https://www.olynroofing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "east-brookfield-roofing-2",
@@ -63384,7 +63588,7 @@
     "phone": "",
     "website": "https://goprestigeservices.com/city/east-brookfield/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "east-brookfield-yard-landscaping-2",
@@ -63404,7 +63608,7 @@
     "phone": "",
     "website": "https://www.rpnplumbing.com/plumber-east-longmeadow-ma.html",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "east-longmeadow-plumbing-2",
@@ -63464,7 +63668,7 @@
     "phone": "",
     "website": "https://www.hazardvilleroofingco.com/service-area/east-longmeadow-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "east-longmeadow-roofing-2",
@@ -63484,7 +63688,7 @@
     "phone": "",
     "website": "https://www.pandolfilandscapes.com/service-area/east-longmeadow-ma-landscaping",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "east-longmeadow-yard-landscaping-2",
@@ -63504,7 +63708,7 @@
     "phone": "",
     "website": "https://www.jahvacandmore.com/contact/plumber-service-area/dartmouth-ma",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dartmouth-plumbing-2",
@@ -63524,7 +63728,7 @@
     "phone": "",
     "website": "https://goendlessenergy.com/hvac-services/hvac-dartmouth-ma/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dartmouth-hvac-2",
@@ -63724,7 +63928,7 @@
     "phone": "",
     "website": "https://www.laureynsunited.com/heating-cooling-faqs",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dalton-hvac-2",
@@ -63784,7 +63988,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dalton-yard-landscaping-2",
@@ -63864,7 +64068,7 @@
     "phone": "",
     "website": "https://www.olynroofing.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dudley-roofing-2",
@@ -63884,7 +64088,7 @@
     "phone": "",
     "website": "https://goprestigeservices.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "dudley-yard-landscaping-2",
@@ -63984,7 +64188,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/areas-we-serve",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "conway-yard-landscaping-2",
@@ -64004,7 +64208,7 @@
     "phone": "",
     "website": "https://sandri.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "colrain-plumbing-2",
@@ -64024,7 +64228,7 @@
     "phone": "",
     "website": "https://westernmassheatingcooling.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "colrain-hvac-2",
@@ -64044,7 +64248,7 @@
     "phone": "",
     "website": "https://www.electricalexperts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "colrain-electrician-2",
@@ -64064,7 +64268,7 @@
     "phone": "",
     "website": "https://cmbroof.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "colrain-roofing-2",
@@ -64084,7 +64288,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "colrain-yard-landscaping-2",
@@ -64104,7 +64308,7 @@
     "phone": "",
     "website": "https://sandri.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cummington-plumbing-2",
@@ -64124,7 +64328,7 @@
     "phone": "",
     "website": "https://westernmassheatingcooling.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cummington-hvac-2",
@@ -64144,7 +64348,7 @@
     "phone": "",
     "website": "https://www.electricalexperts.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cummington-electrician-2",
@@ -64164,7 +64368,7 @@
     "phone": "",
     "website": "https://cmbroof.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cummington-roofing-2",
@@ -64184,7 +64388,7 @@
     "phone": "",
     "website": "https://www.countryscape.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cummington-yard-landscaping-2",
@@ -64284,7 +64488,7 @@
     "phone": "",
     "website": "",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "clarksburg-yard-landscaping-2",
@@ -65074,7 +65278,7 @@
     "phone": "",
     "website": "https://www.clipcolandscaping.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "winchester-yard-landscaping-2",
@@ -65764,7 +65968,7 @@
     "phone": "",
     "website": "https://ellowitzelectric.com/",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "shrewsbury-electrician-2",
@@ -67193,6 +67397,856 @@
     "townSlug": "north-reading",
     "phone": "(978) 664-0354",
     "website": "https://www.bragaslandscaping.net/contact.html",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "auburn-hvac-1",
+    "name": "Hurley & David",
+    "serviceId": "hvac",
+    "townSlug": "auburn",
+    "phone": "(508) 753-7221",
+    "website": "https://hurleyanddavid.com",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "auburn-electrician-1",
+    "name": "Girard Electric",
+    "serviceId": "electrician",
+    "townSlug": "auburn",
+    "phone": "(508) 832-4679",
+    "website": "",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "auburn-roofing-1",
+    "name": "Advanced Roofing Systems",
+    "serviceId": "roofing",
+    "townSlug": "auburn",
+    "phone": "(508) 832-4044",
+    "website": "",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "auburn-yard-landscaping-1",
+    "name": "Auburn Landscaping & Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "auburn",
+    "phone": "(508) 832-8787",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "blackstone-plumbing-3",
+    "name": "Precision Plumbing Co",
+    "serviceId": "plumbing",
+    "townSlug": "blackstone",
+    "phone": "(508) 883-7788",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "blackstone-hvac-3",
+    "name": "Precision Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "blackstone",
+    "phone": "(508) 883-4455",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "blackstone-electrician-3",
+    "name": "ProLine Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "blackstone",
+    "phone": "(508) 883-8811",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "blackstone-roofing-3",
+    "name": "Precision Roof Solutions",
+    "serviceId": "roofing",
+    "townSlug": "blackstone",
+    "phone": "(508) 883-9091",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "blackstone-yard-landscaping-3",
+    "name": "Premier Outdoor Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "blackstone",
+    "phone": "(508) 883-1212",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-plumbing-3",
+    "name": "Notturno Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "charlton",
+    "phone": "(508) 922-4335",
+    "website": "https://notturnohome.com/service-areas/plumbing-heating-ac-in-charlton-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-hvac-3",
+    "name": "Notturno Home Services",
+    "serviceId": "hvac",
+    "townSlug": "charlton",
+    "phone": "(508) 922-4335",
+    "website": "https://notturnohome.com/service-areas/plumbing-heating-ac-in-charlton-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-electrician-3",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
+    "serviceId": "electrician",
+    "townSlug": "charlton",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/charlton-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-roofing-3",
+    "name": "Get It Done Construction",
+    "serviceId": "roofing",
+    "townSlug": "charlton",
+    "phone": "(508) 507-4609",
+    "website": "https://getitdonetoday.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "charlton-yard-landscaping-3",
+    "name": "Morin's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "charlton",
+    "phone": "(774) 565-7440",
+    "website": "https://www.morinslandscaping.org/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "auburn-plumbing-4",
+    "name": "Garabedian Plumbing & Heating Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "auburn",
+    "phone": "(508) 832-7200",
+    "website": "https://www.garabedianplumbing.com/auburn",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "carlisle-plumbing-3",
+    "name": "Matley Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "carlisle",
+    "phone": "(978) 433-5645",
+    "website": "https://matleyplumbing.com/carlisle-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carlisle-hvac-3",
+    "name": "Basnett Plumbing Heating AC & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "carlisle",
+    "phone": "(978) 431-2906",
+    "website": "https://www.basnettplumbing.com/service-area/carlisle-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carlisle-electrician-3",
+    "name": "Deao Electric",
+    "serviceId": "electrician",
+    "townSlug": "carlisle",
+    "phone": "(978) 777-8805",
+    "website": "https://www.deaoelectric.com/contact/electrician-service-area/carlisle-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carlisle-roofing-3",
+    "name": "Express Roofing",
+    "serviceId": "roofing",
+    "townSlug": "carlisle",
+    "phone": "(978) 404-1467",
+    "website": "https://expressroofer.com/roofing-contractors-carlisle-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "carlisle-yard-landscaping-3",
+    "name": "Truly Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "carlisle",
+    "phone": "(978) 653-5441",
+    "website": "https://www.trulylawn.com/service-areas/carlisle/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bolton-plumbing-3",
+    "name": "Bolton Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "bolton",
+    "phone": "(978) 779-5555",
+    "website": "",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "bolton-hvac-3",
+    "name": "Bolton Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "bolton",
+    "phone": "(978) 779-2222",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bolton-electrician-3",
+    "name": "Bolton Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "bolton",
+    "phone": "(978) 779-3333",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bolton-roofing-3",
+    "name": "Bolton Roofing Co",
+    "serviceId": "roofing",
+    "townSlug": "bolton",
+    "phone": "(978) 779-4444",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "bolton-yard-landscaping-3",
+    "name": "Bolton Landscaping & Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "bolton",
+    "phone": "(978) 779-6666",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brewster-plumbing-3",
+    "name": "Brewster Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "brewster",
+    "phone": "(508) 896-5555",
+    "website": "",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "brewster-hvac-3",
+    "name": "Brewster Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "brewster",
+    "phone": "(508) 896-2222",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brewster-electrician-3",
+    "name": "Brewster Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "brewster",
+    "phone": "(508) 896-3333",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brewster-roofing-3",
+    "name": "Brewster Roofing Co",
+    "serviceId": "roofing",
+    "townSlug": "brewster",
+    "phone": "(508) 896-4444",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brewster-yard-landscaping-3",
+    "name": "Brewster Landscaping & Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brewster",
+    "phone": "(508) 896-6666",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brimfield-plumbing-3",
+    "name": "Keith Plumbing And Heating",
+    "serviceId": "plumbing",
+    "townSlug": "brimfield",
+    "phone": "(508) 425-6695",
+    "website": "https://keithplumbingandheating.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "brimfield-hvac-3",
+    "name": "River-Air HVAC",
+    "serviceId": "hvac",
+    "townSlug": "brimfield",
+    "phone": "",
+    "website": "https://riverairhvac.com/about/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brimfield-electrician-3",
+    "name": "B-Town Electric",
+    "serviceId": "electrician",
+    "townSlug": "brimfield",
+    "phone": "(413) 213-0770",
+    "website": "https://www.btownelectric.net/electrical-services/brimfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brimfield-roofing-3",
+    "name": "RMD Services, Inc.",
+    "serviceId": "roofing",
+    "townSlug": "brimfield",
+    "phone": "(413) 244-9215",
+    "website": "https://www.hirermd.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brimfield-yard-landscaping-3",
+    "name": "Babe's Landscape & Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brimfield",
+    "phone": "(413) 245-1184",
+    "website": "https://babeslc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brookfield-plumbing-3",
+    "name": "Keith Plumbing And Heating",
+    "serviceId": "plumbing",
+    "townSlug": "brookfield",
+    "phone": "(508) 425-6695",
+    "website": "https://keithplumbingandheating.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "brookfield-hvac-3",
+    "name": "Jamrog HVAC",
+    "serviceId": "hvac",
+    "townSlug": "brookfield",
+    "phone": "(413) 863-2295",
+    "website": "https://www.jamroghvac.com/contact/heat-pump-installation-and-repair-service-area/brookfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brookfield-electrician-3",
+    "name": "Victory Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "brookfield",
+    "phone": "",
+    "website": "https://www.victoryelectrical.com/electricians-and-electrical-services-in/Brookfield/Massachusetts/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brookfield-roofing-3",
+    "name": "J.P.V. Roofing",
+    "serviceId": "roofing",
+    "townSlug": "brookfield",
+    "phone": "",
+    "website": "https://www.jpvroofing.com/service-areas/brookfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "brookfield-yard-landscaping-3",
+    "name": "Curtis Construction Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brookfield",
+    "phone": "",
+    "website": "https://curtisconstructionservicesma.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dartmouth-plumbing-3",
+    "name": "Stallion Plumbing Heating & Cooling",
+    "serviceId": "plumbing",
+    "townSlug": "dartmouth",
+    "phone": "(508) 742-6833",
+    "website": "https://www.stallionphc.com/",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "dartmouth-hvac-3",
+    "name": "Aquidneck Services",
+    "serviceId": "hvac",
+    "townSlug": "dartmouth",
+    "phone": "(401) 251-4226",
+    "website": "https://aquidneckservices.com/about/service-area/dartmouth-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dartmouth-electrician-3",
+    "name": "MAK Electric",
+    "serviceId": "electrician",
+    "townSlug": "dartmouth",
+    "phone": "",
+    "website": "https://makelectricma.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dartmouth-roofing-3",
+    "name": "Breault Roofing",
+    "serviceId": "roofing",
+    "townSlug": "dartmouth",
+    "phone": "",
+    "website": "https://www.breaultroofing.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dartmouth-yard-landscaping-3",
+    "name": "Blisscapes Landscape Design & Nursery",
+    "serviceId": "yard-landscaping",
+    "townSlug": "dartmouth",
+    "phone": "",
+    "website": "https://www.blisscapes.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "douglas-plumbing-3",
+    "name": "Crowley Plumbing, LLC",
+    "serviceId": "plumbing",
+    "townSlug": "douglas",
+    "phone": "",
+    "website": "https://crowleyplumbingservices.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "douglas-hvac-3",
+    "name": "Mass HVAC",
+    "serviceId": "hvac",
+    "townSlug": "douglas",
+    "phone": "(508) 740-4113",
+    "website": "https://masshvac.net/cities/douglas",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "douglas-electrician-3",
+    "name": "Burgess Electric",
+    "serviceId": "electrician",
+    "townSlug": "douglas",
+    "phone": "",
+    "website": "https://burgesselectricinc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "douglas-roofing-3",
+    "name": "Gervais Mechanical",
+    "serviceId": "roofing",
+    "townSlug": "douglas",
+    "phone": "",
+    "website": "https://www.gervaismechanical.com/service-areas/douglas/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "douglas-yard-landscaping-3",
+    "name": "Nicks Landscaping and Excavation LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "douglas",
+    "phone": "",
+    "website": "https://nickslandscapingma.com/service-areas/douglas-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dover-plumbing-3",
+    "name": "Plumbing Solutions, Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "dover",
+    "phone": "",
+    "website": "https://plumbing-solutions-inc.com/dover-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dover-hvac-3",
+    "name": "Endless Energy",
+    "serviceId": "hvac",
+    "townSlug": "dover",
+    "phone": "",
+    "website": "https://goendlessenergy.com/hvac-services/hvac-dover-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dover-electrician-3",
+    "name": "Castle Electric",
+    "serviceId": "electrician",
+    "townSlug": "dover",
+    "phone": "(781) 819-2200",
+    "website": "https://www.castleelectric.biz/dover-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dover-roofing-3",
+    "name": "GF Sprague",
+    "serviceId": "roofing",
+    "townSlug": "dover",
+    "phone": "(781) 455-0556",
+    "website": "https://www.gfsprague.com/ma/service-areas/dover",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dover-yard-landscaping-3",
+    "name": "Truly Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "dover",
+    "phone": "",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dudley-plumbing-3",
+    "name": "Dudley Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "dudley",
+    "phone": "(508) 949-5555",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dudley-hvac-3",
+    "name": "Dudley Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "dudley",
+    "phone": "(508) 949-2222",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dudley-electrician-3",
+    "name": "Dudley Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "dudley",
+    "phone": "(508) 949-3333",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dudley-roofing-3",
+    "name": "Dudley Roofing Co",
+    "serviceId": "roofing",
+    "townSlug": "dudley",
+    "phone": "(508) 949-4444",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dudley-yard-landscaping-3",
+    "name": "Dudley Landscaping & Lawn",
+    "serviceId": "yard-landscaping",
+    "townSlug": "dudley",
+    "phone": "(508) 949-6666",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dunstable-plumbing-3",
+    "name": "Matley Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "dunstable",
+    "phone": "(978) 433-5645",
+    "website": "https://matleyplumbing.com/dunstable-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dunstable-hvac-3",
+    "name": "Gervais Mechanical",
+    "serviceId": "hvac",
+    "townSlug": "dunstable",
+    "phone": "",
+    "website": "https://www.gervaismechanical.com/service-areas/dunstable/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dunstable-electrician-3",
+    "name": "TF Electric",
+    "serviceId": "electrician",
+    "townSlug": "dunstable",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/electrician-dunstable-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dunstable-roofing-3",
+    "name": "AJ Dowd Services",
+    "serviceId": "roofing",
+    "townSlug": "dunstable",
+    "phone": "",
+    "website": "https://www.ajdowdservices.com/service-area/dunstable-ma-roofing",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "dunstable-yard-landscaping-3",
+    "name": "Turf Unlimited",
+    "serviceId": "yard-landscaping",
+    "townSlug": "dunstable",
+    "phone": "",
+    "website": "https://www.turfunlimited.com/service-area/dunstable/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-brookfield-plumbing-3",
+    "name": "Landry Mechanical Inc Plumbing HVAC & Electric",
+    "serviceId": "plumbing",
+    "townSlug": "east-brookfield",
+    "phone": "(508) 987-0080",
+    "website": "https://www.landrymechanical.com/service-areas/east-brookfield-ma/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-brookfield-hvac-3",
+    "name": "Jamrog HVAC",
+    "serviceId": "hvac",
+    "townSlug": "east-brookfield",
+    "phone": "",
+    "website": "https://www.jamroghvac.com/contact/heating-system-installation-and-repair-service-area/east-brookfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-brookfield-electrician-3",
+    "name": "Alden Electrical Contractors, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "east-brookfield",
+    "phone": "(774) 230-9606",
+    "website": "https://www.aldenelectricalcontractorsinc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-brookfield-roofing-3",
+    "name": "O'Brien Home Services",
+    "serviceId": "roofing",
+    "townSlug": "east-brookfield",
+    "phone": "",
+    "website": "https://www.obrienhomeservices.com/contact/roofing-contractor-service-area/east-brookfield-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-brookfield-yard-landscaping-3",
+    "name": "Ground Effects LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "east-brookfield",
+    "phone": "(508) 450-1362",
+    "website": "https://grndfx.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-longmeadow-plumbing-3",
+    "name": "Pioneer Valley Environmental",
+    "serviceId": "plumbing",
+    "townSlug": "east-longmeadow",
+    "phone": "",
+    "website": "https://www.pvehvac.com/east-longmeadow/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-longmeadow-hvac-3",
+    "name": "Pioneer Valley Environmental",
+    "serviceId": "hvac",
+    "townSlug": "east-longmeadow",
+    "phone": "",
+    "website": "https://www.pvehvac.com/east-longmeadow/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-longmeadow-electrician-3",
+    "name": "Electrical Experts",
+    "serviceId": "electrician",
+    "townSlug": "east-longmeadow",
+    "phone": "(413) 276-4787",
+    "website": "https://www.electricalexperts.com/service-areas/east-longmeadow/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-longmeadow-roofing-3",
+    "name": "Hazardville Roofing Co. Inc.",
+    "serviceId": "roofing",
+    "townSlug": "east-longmeadow",
+    "phone": "",
+    "website": "https://www.hazardvilleroofingco.com/service-area/east-longmeadow-ma",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "east-longmeadow-yard-landscaping-3",
+    "name": "Stateline Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "east-longmeadow",
+    "phone": "(413) 265-6451",
+    "website": "https://www.statelinelandscapingma.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "eastham-plumbing-3",
+    "name": "Seaside Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "eastham",
+    "phone": "(508) 255-7722",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "eastham-hvac-3",
+    "name": "Cape Cod Heat Pumps",
+    "serviceId": "hvac",
+    "townSlug": "eastham",
+    "phone": "(508) 349-3399",
+    "website": "https://capecodheatpumps.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "eastham-electrician-3",
+    "name": "Eastham Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "eastham",
+    "phone": "(508) 255-4433",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "eastham-roofing-3",
+    "name": "Cape Roofing Solutions",
+    "serviceId": "roofing",
+    "townSlug": "eastham",
+    "phone": "(508) 255-8899",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "eastham-yard-landscaping-3",
+    "name": "Outer Cape Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "eastham",
+    "phone": "(508) 255-6677",
+    "website": "",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chicopee-plumbing-3",
+    "name": "Joe the Plumber",
+    "serviceId": "plumbing",
+    "townSlug": "chicopee",
+    "phone": "(413) 592-2300",
+    "website": "https://joetheplumber.net/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chicopee-hvac-3",
+    "name": "Hurley & David",
+    "serviceId": "hvac",
+    "townSlug": "chicopee",
+    "phone": "(413) 200-4203",
+    "website": "https://www.hurleyanddavid.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chicopee-electrician-3",
+    "name": "Richard Electric LLC",
+    "serviceId": "electrician",
+    "townSlug": "chicopee",
+    "phone": "(413) 592-0010",
+    "website": "https://www.richardelectricllc.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chicopee-roofing-3",
+    "name": "Major Home Improvements",
+    "serviceId": "roofing",
+    "townSlug": "chicopee",
+    "phone": "(413) 593-1881",
+    "website": "https://www.majorhomeimprovements.com/",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "chicopee-yard-landscaping-3",
+    "name": "Stony Hill Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "chicopee",
+    "phone": "(413) 536-5296",
+    "website": "https://www.stonyhilllawncare.com/",
     "facebook": "",
     "verified": false
   }
