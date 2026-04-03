@@ -37,6 +37,18 @@ const normalizeWebsiteUrl = (url) => {
   }
 };
 
+const getDisplayDomain = (url) => {
+  const normalized = normalizeWebsiteUrl(url);
+  if (!normalized) return "";
+
+  try {
+    const parsed = new URL(normalized);
+    return parsed.hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
+};
+
 const getPhoneHref = (phone) => {
   const raw = String(phone ?? "").trim();
   if (!raw) return "";
@@ -660,11 +672,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         border-radius: 18px;
         padding: 16px;
         overflow: hidden;
-        transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
-      }
-
-      .company-card:hover {
-        transform: translateY(-2px);
+        transition: box-shadow 0.16s ease, border-color 0.16s ease;
       }
 
       .company-card.standard {
@@ -760,10 +768,13 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         font-size: 14px;
         line-height: 1.2;
         box-shadow: 0 8px 18px rgba(22, 163, 74, 0.22);
+        transition: all 0.15s ease;
       }
 
       .phone-btn:hover {
         background: #15803d;
+        transform: translateY(-1px);
+        box-shadow: 0 10px 20px rgba(22, 163, 74, 0.3);
       }
 
       .info-line {
@@ -803,10 +814,13 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         font-weight: 700;
         font-size: 14px;
         line-height: 1.2;
+        transition: all 0.15s ease;
       }
 
       .view-company-btn:hover {
         background: #2563eb;
+        transform: translateY(-1px);
+        box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
       }
 
       .empty-state {
@@ -1253,7 +1267,7 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
                     <div class="info-line">
                       <strong>Website:</strong>{" "}
                       <a href={websiteUrl} target="_blank" rel="nofollow noopener noreferrer">
-                        {websiteUrl}
+                        {getDisplayDomain(company?.website)}
                       </a>
                     </div>
                   )}
