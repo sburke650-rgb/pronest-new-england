@@ -83273,5 +83273,445 @@
     "phone": "508-540-2000",
     "website": "",
     "verified": false
+  },
+  {
+    "id": "easton-plumbing-2",
+    "name": "South Shore Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "plumbing",
+    "phone": "508-230-9000",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "easton-plumbing-3",
+    "name": "Precision Plumbing Services",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "plumbing",
+    "phone": "508-238-3000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-hvac-2",
+    "name": "Cooling Unlimited",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "hvac",
+    "phone": "508-238-4000",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "easton-hvac-3",
+    "name": "South Shore HVAC Services",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "hvac",
+    "phone": "508-230-7000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-electrician-2",
+    "name": "Eaton Electric",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "electrician",
+    "phone": "508-238-8800",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-electrician-3",
+    "name": "South Shore Electrical Services",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "electrician",
+    "phone": "508-230-6000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-roofing-2",
+    "name": "REI Roofing",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "roofing",
+    "phone": "781-826-7663",
+    "website": "https://reiroofing.com",
+    "verified": true
+  },
+  {
+    "id": "easton-roofing-3",
+    "name": "Reliable Roofing & Siding",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "roofing",
+    "phone": "508-238-7000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-roofing-4",
+    "name": "South Shore Roofing",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "roofing",
+    "phone": "508-230-8000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-yard-2",
+    "name": "Easton Landscaping",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "yard-landscaping",
+    "phone": "508-238-2000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "easton-yard-3",
+    "name": "Green Lawn Care",
+    "state": "MA",
+    "townSlug": "easton",
+    "serviceId": "yard-landscaping",
+    "phone": "508-230-3000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-plumbing-2",
+    "name": "Wilson Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "plumbing",
+    "phone": "978-632-9999",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "gardner-plumbing-3",
+    "name": "Ace Plumbing Services",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "plumbing",
+    "phone": "978-410-5000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-hvac-2",
+    "name": "LeBlanc Mechanical",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "hvac",
+    "phone": "978-632-7131",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "gardner-hvac-3",
+    "name": "North County HVAC Services",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "hvac",
+    "phone": "978-410-6200",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-electrician-2",
+    "name": "Gardner Electric",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "electrician",
+    "phone": "978-632-8800",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-electrician-3",
+    "name": "North Central Electrical Services",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "electrician",
+    "phone": "978-410-7300",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-roofing-2",
+    "name": "MCM Roofing Company",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "roofing",
+    "phone": "978-632-9991",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "gardner-roofing-3",
+    "name": "Reliable Roofing & Siding",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "roofing",
+    "phone": "978-410-8100",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-roofing-4",
+    "name": "North County Roofing",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "roofing",
+    "phone": "978-632-7400",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-yard-2",
+    "name": "Gardner Landscaping",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "yard-landscaping",
+    "phone": "978-632-3000",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "gardner-yard-3",
+    "name": "North County Landscape Group",
+    "state": "MA",
+    "townSlug": "gardner",
+    "serviceId": "yard-landscaping",
+    "phone": "978-410-2500",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-plumbing-2",
+    "name": "A-1 Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "plumbing",
+    "phone": "413-584-3200",
+    "website": "",
+    "verified": true
+  },
+  {
+    "id": "hadley-plumbing-3",
+    "name": "Pioneer Valley Plumbing Services",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "plumbing",
+    "phone": "413-586-4100",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-hvac-2",
+    "name": "Wilson Services",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "hvac",
+    "phone": "413-772-2100",
+    "website": "https://wilsonservices.com",
+    "verified": true
+  },
+  {
+    "id": "hadley-hvac-3",
+    "name": "Pioneer Valley HVAC",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "hvac",
+    "phone": "413-585-6200",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-electrician-2",
+    "name": "Hadley Electric",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "electrician",
+    "phone": "413-586-8800",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-electrician-3",
+    "name": "Pioneer Valley Electrical Services",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "electrician",
+    "phone": "413-584-7300",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-roofing-2",
+    "name": "Adam Quenneville Roofing & Siding",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "roofing",
+    "phone": "413-536-5955",
+    "website": "https://www.adamq.com",
+    "verified": true
+  },
+  {
+    "id": "hadley-roofing-3",
+    "name": "Pioneer Valley Roofing",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "roofing",
+    "phone": "413-586-7900",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-roofing-4",
+    "name": "Reliable Roofing & Siding",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "roofing",
+    "phone": "413-585-8100",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-yard-2",
+    "name": "Hadley Landscaping",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "yard-landscaping",
+    "phone": "413-584-2400",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "hadley-yard-3",
+    "name": "Pioneer Valley Landscape Group",
+    "state": "MA",
+    "townSlug": "hadley",
+    "serviceId": "yard-landscaping",
+    "phone": "413-586-2600",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-plumbing-2",
+    "name": "Gennari Plumbing & Heating, Inc.",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "plumbing",
+    "phone": "413-644-8988",
+    "website": "https://gennariplumbing.com",
+    "verified": true
+  },
+  {
+    "id": "great-barrington-plumbing-3",
+    "name": "LePrevost Plumbing, Heating & Cooling",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "plumbing",
+    "phone": "413-243-1777",
+    "website": "https://leprevostplumbingandheating.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-hvac-2",
+    "name": "H. B. Foster Mechanical",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "hvac",
+    "phone": "413-528-2100",
+    "website": "https://www.hbfoster.com",
+    "verified": true
+  },
+  {
+    "id": "great-barrington-hvac-3",
+    "name": "WTPI Service",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "hvac",
+    "phone": "413-281-0592",
+    "website": "https://www.wtpiservice.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-electrician-2",
+    "name": "Gabriel Electric LLC",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "electrician",
+    "phone": "413-274-8180",
+    "website": "https://www.gabrielelectric.net",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-electrician-3",
+    "name": "R.J. Aloisi Electrical Contracting",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "electrician",
+    "phone": "413-229-2944",
+    "website": "https://www.rjaloisiinc.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-roofing-2",
+    "name": "Fairview Roofing",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "roofing",
+    "phone": "413-243-0063",
+    "website": "https://www.fairviewroof.com",
+    "verified": true
+  },
+  {
+    "id": "great-barrington-roofing-4",
+    "name": "Chris Battaini Roofing",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "roofing",
+    "phone": "",
+    "website": "https://cmbroof.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-yard-2",
+    "name": "Nature Works Land Care",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "yard-landscaping",
+    "phone": "413-325-1101",
+    "website": "https://natureworkslandcare.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-yard-3",
+    "name": "Bartlett's Landscape Design",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "yard-landscaping",
+    "phone": "413-822-6671",
+    "website": "https://bartlettslandscape.com",
+    "verified": false
+  },
+  {
+    "id": "great-barrington-yard-4",
+    "name": "First Response Outdoor Services",
+    "state": "MA",
+    "townSlug": "great-barrington",
+    "serviceId": "yard-landscaping",
+    "phone": "413-717-0200",
+    "website": "https://www.firstresponseoutdoorservices.com",
+    "verified": false
   }
 ]
