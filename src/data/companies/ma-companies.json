@@ -46785,39 +46785,6 @@
     "description": "Looking for plumbing in Carver, MA? J+A HVAC & MORE offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "carver-roofing-1",
-    "name": "Waterman Building & Remodeling",
-    "serviceId": "roofing",
-    "townSlug": "carver",
-    "phone": "",
-    "website": "https://www.watermanbuilders.com/carver-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Waterman Building & Remodeling provides professional roofing services in Carver, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "carver-roofing-2",
-    "name": "Cranmarsh General Contractors",
-    "serviceId": "roofing",
-    "townSlug": "carver",
-    "phone": "",
-    "website": "https://cranmarshgc.com/about-us/service-area/carver-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Cranmarsh General Contractors provides professional roofing services in Carver, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "carver-roofing-3",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "carver",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Carver, Massachusetts, Capital Roof Company specializes in roofing services for residential and commercial needs."
-  },
-  {
     "id": "carver-yard-landscaping-1",
     "name": "Landscaping by J Michael",
     "serviceId": "yard-landscaping",
@@ -85113,6 +85080,39 @@
     "phone": "508-405-0524",
     "website": "https://www.visionpaintingco.com/pressure-washing-services-easton-ma/",
     "description": "Pressure washing services in Easton for siding, exterior surfaces, and home cleanup.",
+    "verified": false
+  },
+  {
+    "id": "carver-roofing-martins-roofing",
+    "name": "Martin's Roofing",
+    "state": "MA",
+    "townSlug": "carver",
+    "serviceId": "roofing",
+    "phone": "508-746-0010",
+    "website": "https://www.martinsroofing.com",
+    "description": "Local roofing company serving Carver, MA with roof repair, replacement, and installation services.",
+    "verified": true
+  },
+  {
+    "id": "carver-roofing-ambrose-roofing",
+    "name": "Ambrose Roofing",
+    "state": "MA",
+    "townSlug": "carver",
+    "serviceId": "roofing",
+    "phone": "508-866-7900",
+    "website": "https://www.ambroseroofing.com",
+    "description": "Professional roofing services in Carver, MA including asphalt shingles, roof repair, and full replacements.",
+    "verified": false
+  },
+  {
+    "id": "carver-roofing-trinity-roofing",
+    "name": "Trinity Roofing & Construction",
+    "state": "MA",
+    "townSlug": "carver",
+    "serviceId": "roofing",
+    "phone": "781-585-5000",
+    "website": "https://www.trinityroofingconstruction.com",
+    "description": "Trusted roofing contractor serving Carver and surrounding areas with residential roofing and exterior services.",
     "verified": false
   }
 ]
