@@ -15828,105 +15828,6 @@
     "description": "Serving Marshfield, Massachusetts, Pro Exterior Cleaning specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "duxbury-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "duxbury",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Golden Brush Painting is a local painters company serving Duxbury, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "duxbury-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "duxbury",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Elite Painting Services offers expert painters services in Duxbury, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "duxbury-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "duxbury",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for painters in Duxbury, MA? Precision Coat Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "duxbury-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "duxbury",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Modern Pest Services is a local pest control company serving Duxbury, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "duxbury-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "duxbury",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Orkin Pest Control provides professional pest control services in Duxbury, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "duxbury-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "duxbury",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Duxbury, Massachusetts, Terminix Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "duxbury-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "duxbury",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Duxbury, Massachusetts, Clean Slate Pressure Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "duxbury-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "duxbury",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Duxbury, MA? New England Power Wash offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "duxbury-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "duxbury",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Duxbury, MA? Pro Exterior Cleaning offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "kingston-painters-001",
     "name": "Golden Brush Painting",
     "townSlug": "kingston",
@@ -28976,17 +28877,6 @@
     "description": "Beantown Painters offers expert painters services in Duxbury, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "duxbury-pest-4",
-    "name": "Fox Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://fox-pest.com/locations/massachusetts/boston/",
-    "facebook": "",
-    "verified": false,
-    "description": "Fox Pest Control offers expert pest control services in Duxbury, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "duxbury-pressurewash-4",
     "name": "Packard Power Washing LLC",
     "serviceId": "pressure-washing",
@@ -36254,28 +36144,6 @@
     "description": "Pilgrim Pest Professionals offers expert pest control services in Duxbury, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "duxbury-pest-2",
-    "name": "Burgess Pest Management",
-    "serviceId": "pest-control",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://www.burgesspest.com/best-duxbury-pest-control/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Duxbury, Massachusetts, Burgess Pest Management specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "duxbury-pressurewash-1",
-    "name": "Packard Power Washing LLC",
-    "serviceId": "pressure-washing",
-    "townSlug": "duxbury",
-    "phone": "(774) 226-5906",
-    "website": "https://packardpowerwash.com/pressure-washing-duxbury-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Duxbury, MA? Packard Power Washing LLC offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "duxbury-pressurewash-2",
     "name": "Painter's Etcetera",
     "serviceId": "pressure-washing",
@@ -37838,17 +37706,6 @@
     "description": "Looking for pressure washing in Scituate, MA? Nice Mobile Washing offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "duxbury-painter-3",
-    "name": "Vision Painting",
-    "serviceId": "painters",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/house-painting-duxbury-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting provides professional painters services in Duxbury, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "duxbury-pest-3",
     "name": "Waltham Pest Services",
     "serviceId": "pest-control",
@@ -37858,17 +37715,6 @@
     "facebook": "",
     "verified": false,
     "description": "Waltham Pest Services provides professional pest control services in Duxbury, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "duxbury-pressurewash-3",
-    "name": "Vision Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/pressure-washing-services-duxbury-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting offers expert pressure washing services in Duxbury, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "plymouth-painter-3",
@@ -45630,17 +45476,6 @@
     "description": "Serving Halifax, Massachusetts, GEM Plumbing & Heating Services specializes in plumbing services for residential and commercial needs."
   },
   {
-    "id": "halifax-roofing-1",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "halifax",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roofer-halifax",
-    "facebook": "",
-    "verified": false,
-    "description": "Capital Roof Company provides professional roofing services in Halifax, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "halifax-roofing-2",
     "name": "REI Roofing",
     "serviceId": "roofing",
@@ -45815,17 +45650,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Marshfield, Massachusetts, REI Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "marshfield-roofing-3",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "marshfield",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roofer-marshfield",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Marshfield, MA? Capital Roof Company offers trusted local services for homeowners and businesses."
   },
   {
     "id": "marshfield-yard-landscaping-1",
@@ -46301,28 +46125,6 @@
     "description": "Giannini Roofing and Siding offers expert roofing services in Duxbury, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "duxbury-roofing-2",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roofer-duxbury",
-    "facebook": "",
-    "verified": false,
-    "description": "Capital Roof Company is a local roofing company serving Duxbury, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "duxbury-roofing-3",
-    "name": "REI Roofing",
-    "serviceId": "roofing",
-    "townSlug": "duxbury",
-    "phone": "",
-    "website": "https://reiroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Duxbury, MA? REI Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "duxbury-yard-landscaping-1",
     "name": "Landscaping by J Michael",
     "serviceId": "yard-landscaping",
@@ -46455,17 +46257,6 @@
     "description": "Looking for plumbing in Kingston, MA? J+A HVAC & MORE offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "kingston-roofing-1",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "kingston",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roofer-kingston",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Kingston, Massachusetts, Capital Roof Company specializes in roofing services for residential and commercial needs."
-  },
-  {
     "id": "kingston-roofing-2",
     "name": "Giannini Roofing and Siding",
     "serviceId": "roofing",
@@ -46475,17 +46266,6 @@
     "facebook": "",
     "verified": false,
     "description": "Giannini Roofing and Siding offers expert roofing services in Kingston, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "kingston-roofing-3",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "kingston",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roof-repair",
-    "facebook": "",
-    "verified": false,
-    "description": "Capital Roof Company provides professional roofing services in Kingston, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "kingston-yard-landscaping-1",
@@ -46629,28 +46409,6 @@
     "facebook": "",
     "verified": true,
     "description": "Looking for roofing in Plymouth, MA? Capital Roof Company offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "plymouth-roofing-2",
-    "name": "Giannini Roofing and Siding",
-    "serviceId": "roofing",
-    "townSlug": "plymouth",
-    "phone": "",
-    "website": "https://gianniniroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Plymouth, Massachusetts, Giannini Roofing and Siding specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "plymouth-roofing-3",
-    "name": "REI Roofing",
-    "serviceId": "roofing",
-    "townSlug": "plymouth",
-    "phone": "",
-    "website": "https://reiroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "REI Roofing is a local roofing company serving Plymouth, MA with dependable service and quality workmanship."
   },
   {
     "id": "plymouth-yard-landscaping-1",
@@ -46926,17 +46684,6 @@
     "facebook": "",
     "verified": true,
     "description": "Giannini Roofing and Siding offers expert roofing services in Bridgewater, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "bridgewater-roofing-2",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "bridgewater",
-    "phone": "",
-    "website": "https://www.capitalroofcompany.com/roofer-bridgewater",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Bridgewater, Massachusetts, Capital Roof Company specializes in roofing services for residential and commercial needs."
   },
   {
     "id": "bridgewater-roofing-3",
@@ -48411,17 +48158,6 @@
     "facebook": "",
     "verified": true,
     "description": "Serving Walpole, Massachusetts, Capital Roof Company specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "walpole-roofing-2",
-    "name": "Capital Roof Company",
-    "serviceId": "roofing",
-    "townSlug": "walpole",
-    "phone": "(617) 500-2335",
-    "website": "https://www.capitalroofcompany.com/ice-dam-removal-walpole--ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Capital Roof Company is a local roofing company serving Walpole, MA with dependable service and quality workmanship."
   },
   {
     "id": "walpole-roofing-3",
@@ -54870,17 +54606,6 @@
     "description": "Serving Watertown, Massachusetts, Watertown Heating & Cooling specializes in hvac services for residential and commercial needs."
   },
   {
-    "id": "watertown-plumbing-4",
-    "name": "Watertown Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "watertown",
-    "phone": "(617) 924-3300",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Watertown Plumbing & Heating offers expert plumbing services in Watertown, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "watertown-roofing-4",
     "name": "Watertown Roofing Specialists",
     "serviceId": "roofing",
@@ -55143,50 +54868,6 @@
     "facebook": "",
     "verified": false,
     "description": "Walsh Landscaping offers expert yard landscaping services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "walpole-electrician-4",
-    "name": "Walpole Electric Services",
-    "serviceId": "electrician",
-    "townSlug": "walpole",
-    "phone": "(508) 668-1100",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Serving Walpole, Massachusetts, Walpole Electric Services specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "walpole-hvac-4",
-    "name": "Walpole Heating & Cooling",
-    "serviceId": "hvac",
-    "townSlug": "walpole",
-    "phone": "(508) 660-2200",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Walpole Heating & Cooling offers expert hvac services in Walpole, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "walpole-plumbing-4",
-    "name": "Walpole Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "walpole",
-    "phone": "(508) 668-3300",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Walpole Plumbing & Heating offers expert plumbing services in Walpole, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "walpole-roofing-4",
-    "name": "Walpole Roofing Company",
-    "serviceId": "roofing",
-    "townSlug": "walpole",
-    "phone": "(508) 660-4400",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Walpole, MA? Walpole Roofing Company offers trusted local services for homeowners and businesses."
   },
   {
     "id": "walpole-yard-landscaping-4",
@@ -55495,17 +55176,6 @@
     "facebook": "",
     "verified": false,
     "description": "DMB Plumbing & Heating Inc. offers expert plumbing services in Bridgewater, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "bridgewater-roofing-4",
-    "name": "Giannini Roofing",
-    "serviceId": "roofing",
-    "townSlug": "bridgewater",
-    "phone": "(781) 347-6002",
-    "website": "https://gianniniroofing.com/roofing-company-bridgewater-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Giannini Roofing offers expert roofing services in Bridgewater, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "bridgewater-yard-landscaping-4",
@@ -85114,5 +84784,225 @@
     "website": "https://www.trinityroofingconstruction.com",
     "description": "Trusted roofing contractor serving Carver and surrounding areas with residential roofing and exterior services.",
     "verified": false
+  },
+  {
+    "id": "duxbury-roofing-ambrose",
+    "name": "Ambrose Roofing",
+    "state": "MA",
+    "townSlug": "duxbury",
+    "serviceId": "roofing",
+    "phone": "508-866-7900",
+    "website": "https://www.ambroseroofing.com",
+    "description": "Professional roofing services in Duxbury, MA including roof repair and replacement.",
+    "verified": false
+  },
+  {
+    "id": "duxbury-roofing-trinity",
+    "name": "Trinity Roofing & Construction",
+    "state": "MA",
+    "townSlug": "duxbury",
+    "serviceId": "roofing",
+    "phone": "781-585-5000",
+    "website": "https://www.trinityroofingconstruction.com",
+    "description": "Residential roofing contractor serving Duxbury and surrounding South Shore towns.",
+    "verified": false
+  },
+  {
+    "id": "duxbury-pressurewash-strong-1",
+    "name": "Shoreline Pressure Washing",
+    "townSlug": "duxbury",
+    "serviceId": "pressure-washing",
+    "phone": "(781) 934-5050",
+    "website": "https://shorelinepressurewashingma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Shoreline Pressure Washing provides professional exterior cleaning services in Duxbury, MA. Call for residential and commercial pressure washing with reliable local service."
+  },
+  {
+    "id": "duxbury-pressurewash-strong-2",
+    "name": "South Shore SoftWash",
+    "townSlug": "duxbury",
+    "serviceId": "pressure-washing",
+    "phone": "(781) 724-9274",
+    "website": "https://southshoresoftwash.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "South Shore SoftWash offers expert pressure washing and soft washing services in Duxbury, Massachusetts. Trusted local provider for siding, roofs, and exterior cleaning."
+  },
+  {
+    "id": "duxbury-pest-strong-1",
+    "name": "Debug Pest Control",
+    "townSlug": "duxbury",
+    "serviceId": "pest-control",
+    "phone": "(781) 341-3031",
+    "website": "https://debugpest.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Debug Pest Control provides professional pest control services in Duxbury, MA. Trusted local experts for residential and commercial pest solutions."
+  },
+  {
+    "id": "duxbury-pest-strong-2",
+    "name": "Big Blue Bug Solutions",
+    "townSlug": "duxbury",
+    "serviceId": "pest-control",
+    "phone": "(888) 258-3284",
+    "website": "https://www.bigbluebug.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Big Blue Bug Solutions offers reliable pest control services in Duxbury, Massachusetts. Call for fast, professional service from a well-established regional provider."
+  },
+  {
+    "id": "halifax-roofing-strong-1",
+    "name": "Carpe Diem Contracting, LLC",
+    "townSlug": "halifax",
+    "serviceId": "roofing",
+    "phone": "(617) 903-2304",
+    "website": "https://carpediemcontracting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Carpe Diem Contracting, LLC provides professional roofing services in Halifax, MA, including roof installation and roof repair for homeowners across the South Shore."
+  },
+  {
+    "id": "bridgewater-roofing-strong-1",
+    "name": "Kevin Lyman Roofing Company",
+    "townSlug": "bridgewater",
+    "serviceId": "roofing",
+    "phone": "(508) 813-0389",
+    "website": "https://lymanroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Kevin Lyman Roofing Company provides professional roofing services in Bridgewater, MA. Local contractor with residential roofing service and direct phone contact for estimates."
+  },
+  {
+    "id": "bridgewater-roofing-strong-2",
+    "name": "Mac Roofing Co Inc",
+    "townSlug": "bridgewater",
+    "serviceId": "roofing",
+    "phone": "(508) 342-5373",
+    "website": "https://www.mac-roofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mac Roofing Co Inc offers professional roofing services in Bridgewater, Massachusetts. Established local roofing contractor serving homeowners across the area."
+  },
+  {
+    "id": "plymouth-roofing-strong-1",
+    "name": "Adam Quenneville Roofing & Siding",
+    "townSlug": "plymouth",
+    "serviceId": "roofing",
+    "phone": "(508) 866-7663",
+    "website": "https://www.aqrs.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Adam Quenneville Roofing & Siding provides professional roofing services in Plymouth, MA. Trusted contractor for roof replacement, repair, and exterior services."
+  },
+  {
+    "id": "plymouth-roofing-strong-2",
+    "name": "All-Star Home Improvement",
+    "townSlug": "plymouth",
+    "serviceId": "roofing",
+    "phone": "(508) 746-2000",
+    "website": "https://allstarhi.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All-Star Home Improvement offers expert roofing services in Plymouth, Massachusetts. Local contractor with reliable service and direct phone contact for estimates."
+  },
+  {
+    "id": "marshfield-roofing-strong-1",
+    "name": "RCH Roofing Corporation",
+    "townSlug": "marshfield",
+    "serviceId": "roofing",
+    "phone": "(781) 834-9000",
+    "website": "https://rchroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "RCH Roofing Corporation provides professional roofing services in Marshfield, MA. Established local contractor with direct phone contact for residential and commercial roofing work."
+  },
+  {
+    "id": "kingston-roofing-strong-1",
+    "name": "A1 Roofing & Construction LLC",
+    "townSlug": "kingston",
+    "serviceId": "roofing",
+    "phone": "(508) 746-1114",
+    "website": "https://a1roofingconstruction.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "A1 Roofing & Construction LLC provides professional roofing services in Kingston, MA. Local contractor offering roof replacement, repair, and exterior services with direct phone contact."
+  },
+  {
+    "id": "kingston-roofing-strong-2",
+    "name": "Roof Masters",
+    "townSlug": "kingston",
+    "serviceId": "roofing",
+    "phone": "(508) 747-4004",
+    "website": "https://roofmastersma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Roof Masters offers expert roofing services in Kingston, Massachusetts. Trusted local roofing contractor providing residential roofing solutions and reliable service."
+  },
+  {
+    "id": "walpole-plumbing-strong-1",
+    "name": "Winters Home Services",
+    "townSlug": "walpole",
+    "serviceId": "plumbing",
+    "phone": "(617) 221-3663",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides professional plumbing services in Walpole, MA. Established local company offering repairs, installations, and emergency plumbing service."
+  },
+  {
+    "id": "walpole-hvac-strong-1",
+    "name": "Winters Home Services",
+    "townSlug": "walpole",
+    "serviceId": "hvac",
+    "phone": "(617) 221-3663",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides professional HVAC services in Walpole, MA. Trusted local company offering heating, cooling, and emergency repair services."
+  },
+  {
+    "id": "walpole-electrician-strong-1",
+    "name": "Castle Electric Inc.",
+    "townSlug": "walpole",
+    "serviceId": "electrician",
+    "phone": "(508) 660-8050",
+    "website": "https://www.castleelectric.biz/",
+    "facebook": "",
+    "verified": true,
+    "description": "Castle Electric Inc. provides professional electrician services in Walpole, MA. Trusted local electrical contractor offering residential and commercial electrical work."
+  },
+  {
+    "id": "walpole-roofing-strong-1",
+    "name": "O'LYN Roofing",
+    "townSlug": "walpole",
+    "serviceId": "roofing",
+    "phone": "781-769-8599",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides professional roofing services in Walpole, MA. Trusted local contractor offering roof replacement, repair, and exterior services."
+  },
+  {
+    "id": "walpole-roofing-strong-2",
+    "name": "Cechinel Siding & Roofing",
+    "townSlug": "walpole",
+    "serviceId": "roofing",
+    "phone": "(781) 844-9000",
+    "website": "https://www.cechinel.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Cechinel Siding & Roofing offers expert roofing services in Walpole, Massachusetts. Established local contractor with direct phone contact for estimates and repairs."
+  },
+  {
+    "id": "watertown-plumbing-strong-1",
+    "name": "Winters Home Services",
+    "townSlug": "watertown",
+    "serviceId": "plumbing",
+    "phone": "(617) 221-3663",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides professional plumbing services in Watertown, MA. Trusted company offering repairs, installations, and emergency plumbing service."
   }
 ]
