@@ -7156,42 +7156,6 @@
     "description": "Serving Medford, Massachusetts, Guardian Pest Control specializes in pest control services for residential and commercial needs."
   },
   {
-    "id": "medford-pressure-washing-medford-power-wash",
-    "name": "Medford Power Washing",
-    "state": "MA",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Medford Power Washing provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-pressure-washing-clean-slate",
-    "name": "Clean Slate Pressure Washing",
-    "state": "MA",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Medford, MA? Clean Slate Pressure Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "medford-pressure-washing-new-england-power-wash",
-    "name": "New England Power Wash",
-    "state": "MA",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "New England Power Wash is a local pressure washing company serving Medford, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "revere-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -7262,42 +7226,6 @@
     "verified": false,
     "facebook": "",
     "description": "Guardian Pest Control is a local pest control company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "revere-pressure-washing-revere-power-wash",
-    "name": "Revere Power Washing",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Revere Power Washing is a local pressure washing company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "revere-pressure-washing-clean-slate",
-    "name": "Clean Slate Pressure Washing",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Clean Slate Pressure Washing provides professional pressure washing services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "revere-pressure-washing-new-england-power-wash",
-    "name": "New England Power Wash",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Revere, MA? New England Power Wash offers trusted local services for homeowners and businesses."
   },
   {
     "id": "taunton-painters-certa-pro",
@@ -7420,30 +7348,6 @@
     "description": "Serving Everett, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
   },
   {
-    "id": "everett-painters-golden-brush",
-    "name": "Golden Brush Painting",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Golden Brush Painting is a local painters company serving Everett, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "everett-painters-elite-painting",
-    "name": "Elite Painting Services",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Elite Painting Services is a local painters company serving Everett, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "everett-pest-control-orkin",
     "name": "Orkin Pest Control",
     "state": "MA",
@@ -7466,54 +7370,6 @@
     "verified": false,
     "facebook": "",
     "description": "Modern Pest Services offers expert pest control services in Everett, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "everett-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pest control in Everett, MA? Guardian Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "everett-pressure-washing-everett-power-wash",
-    "name": "Everett Power Washing",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Everett Power Washing is a local pressure washing company serving Everett, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "everett-pressure-washing-clean-slate",
-    "name": "Clean Slate Pressure Washing",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Clean Slate Pressure Washing provides professional pressure washing services in Everett, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "everett-pressure-washing-new-england-power-wash",
-    "name": "New England Power Wash",
-    "state": "MA",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "New England Power Wash is a local pressure washing company serving Everett, MA with dependable service and quality workmanship."
   },
   {
     "id": "chelsea-painters-certa-pro",
@@ -9998,17 +9854,6 @@
     "description": "Terminix Pest Control provides professional pest control services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "medford-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, Pro Exterior Cleaning specializes in pressure washing services for residential and commercial needs."
-  },
-  {
     "id": "malden-painters-001",
     "name": "Golden Brush Painting",
     "townSlug": "malden",
@@ -10040,72 +9885,6 @@
     "website": "",
     "verified": false,
     "description": "Serving Malden, Massachusetts, Precision Coat Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "malden-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Modern Pest Services provides professional pest control services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "malden-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Orkin Pest Control offers expert pest control services in Malden, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "malden-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Terminix Pest Control is a local pest control company serving Malden, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "malden-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Clean Slate Pressure Washing offers expert pressure washing services in Malden, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "malden-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "New England Power Wash provides professional pressure washing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "malden-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Pro Exterior Cleaning offers expert pressure washing services in Malden, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "waltham-painters-003",
@@ -10161,50 +9940,6 @@
     "website": "",
     "verified": false,
     "description": "Terminix Pest Control provides professional pest control services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "revere-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Pro Exterior Cleaning offers expert pressure washing services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "everett-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Everett, Massachusetts, Precision Coat Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "everett-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Terminix Pest Control offers expert pest control services in Everett, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "everett-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Everett, MA? Pro Exterior Cleaning offers trusted local services for homeowners and businesses."
   },
   {
     "id": "watertown-painters-001",
@@ -10667,39 +10402,6 @@
     "website": "",
     "verified": false,
     "description": "GreenHome Pest Defense offers expert pest control services in Medford, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "medford-pressure-washing-004",
-    "name": "Atlantic Power Washing",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, Atlantic Power Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "medford-pressure-washing-005",
-    "name": "Boston Exterior Wash",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Boston Exterior Wash provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-pressure-washing-006",
-    "name": "Superior Surface Cleaning",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Superior Surface Cleaning provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "cambridge-painters-001",
@@ -22142,39 +21844,6 @@
     "description": "Serving Malden, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
   },
   {
-    "id": "debug-pest-control-malden-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Debug Pest Control offers expert pest control services in Malden, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "ladybug-pest-control-malden-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control offers expert pest control services in Malden, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "rolling-suds-malden-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Rolling Suds Power Washing provides professional pressure washing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "debug-pest-control-medford-ma",
     "name": "Debug Pest Control",
     "townSlug": "medford",
@@ -22195,17 +21864,6 @@
     "phone": "",
     "website": "",
     "description": "Looking for pest control in Medford, MA? Ladybug Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "rolling-suds-medford-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Rolling Suds Power Washing offers expert pressure washing services in Medford, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "debug-pest-control-waltham-ma",
@@ -22294,50 +21952,6 @@
     "phone": "",
     "website": "",
     "description": "Ladybug Pest Control offers expert pest control services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "rolling-suds-revere-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Rolling Suds Power Washing offers expert pressure washing services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "debug-pest-control-everett-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Everett, Massachusetts, Debug Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "ladybug-pest-control-everett-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control offers expert pest control services in Everett, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "rolling-suds-everett-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Looking for pressure washing in Everett, MA? Rolling Suds Power Washing offers trusted local services for homeowners and businesses."
   },
   {
     "id": "debug-pest-control-chelsea-ma",
@@ -23461,30 +23075,6 @@
     "description": "Terminix is a local pest control company serving Medford, MA with dependable service and quality workmanship."
   },
   {
-    "id": "men-in-kilts-medford",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "window-genie-medford",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Medford, MA? Window Genie offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "certapro-painters-marlborough",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -23627,30 +23217,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for pest control in Revere, MA? Terminix offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "men-in-kilts-revere",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Revere, Massachusetts, Men In Kilts specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "window-genie-revere",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Revere, MA? Window Genie offers trusted local services for homeowners and businesses."
   },
   {
     "id": "certapro-painters-peabody",
@@ -32578,28 +32144,6 @@
     "description": "Regional pest control provider serving Brookline with residential and commercial pest protection plans."
   },
   {
-    "id": "everett-painter-5",
-    "name": "CertaPro Painters of Boston, MA",
-    "townSlug": "everett",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/boston/professional-painters-in-everett-ma/",
-    "description": "Residential and commercial painting company serving Everett with interior painting, exterior painting, drywall repair, and related services.",
-    "verified": false
-  },
-  {
-    "id": "everett-painter-6",
-    "name": "Paintzen Everett",
-    "townSlug": "everett",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.paintzen.com/service-areas/ma/everett",
-    "description": "Residential painting service serving Everett with interior and exterior house painting for local homes.",
-    "verified": false
-  },
-  {
     "id": "everett-painter-7",
     "name": "Aldana Painting Inc",
     "townSlug": "everett",
@@ -32608,17 +32152,6 @@
     "phone": "(781) 521-2563",
     "website": "https://aldanapaintingboston.com/served-areas/everett/",
     "description": "Painting contractor serving Everett with interior painting and exterior painting services for homes and businesses."
-  },
-  {
-    "id": "everett-painter-8",
-    "name": "DL Painting Services Inc.",
-    "townSlug": "everett",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.dlpaintingma.com/",
-    "description": "Everett-based painting contractor specializing in interior painting, exterior painting, and commercial painting services.",
-    "verified": false
   },
   {
     "id": "lynn-painter-5",
@@ -32797,17 +32330,6 @@
     "phone": "(781) 592-2731",
     "website": "https://a1exterminators.com",
     "description": "Massachusetts pest control company offering termite treatment, rodent removal, and bed bug extermination."
-  },
-  {
-    "id": "malden-pest-7",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "malden",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
-    "verified": false
   },
   {
     "id": "malden-pest-8",
@@ -33810,17 +33332,6 @@
     "website": "https://a1exterminators.com",
     "facebook": "",
     "description": "Massachusetts pest control company providing termite treatment, rodent removal, and bed bug extermination."
-  },
-  {
-    "id": "everett-pest-26",
-    "name": "Modern Pest Services",
-    "townSlug": "everett",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(800) 323-7378",
-    "website": "https://modernpest.com",
-    "facebook": "",
-    "description": "Regional pest management company providing residential and commercial pest control services."
   },
   {
     "id": "everett-pest-27",
@@ -38379,37 +37890,6 @@
     "description": "Serving Medford, Massachusetts, Big Blue Bug Solutions specializes in pest control services for residential and commercial needs."
   },
   {
-    "id": "medford-pressurewash-1",
-    "name": "Pacific Power Washing & Painting",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "(781) 696-2420",
-    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-medford-ma/",
-    "facebook": "",
-    "description": "Looking for pressure washing in Medford, MA? Pacific Power Washing & Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "medford-pressurewash-2",
-    "name": "Benjamin's Power Washing",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Benjamin's Power Washing provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-pressurewash-3",
-    "name": "Painter's Etcetera",
-    "townSlug": "medford",
-    "serviceId": "pressure-washing",
-    "phone": "(978) 443-3673",
-    "website": "https://paintersetcetera.com/power-washing-services-in-medford-ma/",
-    "facebook": "",
-    "description": "Painter's Etcetera is a local pressure washing company serving Medford, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "malden-painter-1",
     "name": "House Painting in Medford MA",
     "townSlug": "malden",
@@ -38440,58 +37920,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Malden, Massachusetts, Vision Painting Contractors specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "malden-pest-1",
-    "name": "Modern Pest Services",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "phone": "(800) 323-7378",
-    "website": "https://www.modernpest.com",
-    "facebook": "",
-    "description": "Serving Malden, Massachusetts, Modern Pest Services specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "malden-pest-2",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "phone": "(781) 893-9111",
-    "website": "https://www.clancybrospestcontrol.com/",
-    "facebook": "",
-    "description": "Serving Malden, Massachusetts, Clancy Brothers Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "malden-pest-3",
-    "name": "Big Blue Bug Solutions",
-    "townSlug": "malden",
-    "serviceId": "pest-control",
-    "phone": "(888) 258-3284",
-    "website": "https://www.bigbluebug.com/",
-    "facebook": "https://www.facebook.com/bigbluebug",
-    "description": "Serving Malden, Massachusetts, Big Blue Bug Solutions specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "malden-pressurewash-1",
-    "name": "Vision Painting Contractors",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/pressure-washing-services-malden-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting Contractors provides professional pressure washing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "malden-pressurewash-2",
-    "name": "Benjamin's Power Washing",
-    "townSlug": "malden",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-malden-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Malden, MA? Benjamin's Power Washing offers trusted local services for homeowners and businesses."
   },
   {
     "id": "malden-pressurewash-3",
@@ -38594,91 +38022,6 @@
     "website": "https://benjaminspowerwashing.com/",
     "facebook": "",
     "description": "Serving Somerville, Massachusetts, Benjamin's Power Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "everett-painter-1",
-    "name": "Bay State Painting & Power Washing",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Bay State Painting & Power Washing is a local painters company serving Everett, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "everett-painter-2",
-    "name": "CertaPro Painters of Boston",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/boston/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "verified": false,
-    "description": "Looking for painters in Everett, MA? CertaPro Painters of Boston offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "everett-painter-3",
-    "name": "ProTEK Painters",
-    "townSlug": "everett",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://protekpainters.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "ProTEK Painters provides professional painters services in Everett, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "everett-pest-1",
-    "name": "Modern Pest Services",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "phone": "(800) 323-7378",
-    "website": "https://www.modernpest.com/",
-    "facebook": "",
-    "description": "Serving Everett, Massachusetts, Modern Pest Services specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "everett-pest-2",
-    "name": "NW Pest Control",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "phone": "(877) 893-6607",
-    "website": "https://nwpestcontrol.com/",
-    "facebook": "",
-    "description": "Looking for pest control in Everett, MA? NW Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "everett-pest-3",
-    "name": "Big Blue Bug Solutions",
-    "townSlug": "everett",
-    "serviceId": "pest-control",
-    "phone": "(888) 258-3284",
-    "website": "https://www.bigbluebug.com/",
-    "facebook": "https://www.facebook.com/bigbluebug",
-    "description": "Looking for pest control in Everett, MA? Big Blue Bug Solutions offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "everett-pressurewash-1",
-    "name": "Bay State Painting & Power Washing",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.baystatepaintingandpowerwashing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Everett, MA? Bay State Painting & Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "everett-pressurewash-2",
-    "name": "Benjamin's Power Washing",
-    "townSlug": "everett",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://benjaminspowerwashing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Benjamin's Power Washing offers expert pressure washing services in Everett, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "everett-pressurewash-3",
@@ -43466,17 +42809,6 @@
     "description": "HiCleaners Pressure Washing offers expert pressure washing services in Revere, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "revere-pressure-washing-2",
-    "name": "Vision Painting Contractors",
-    "serviceId": "pressure-washing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/power-washing-revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting Contractors is a local pressure washing company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "revere-pressure-washing-3",
     "name": "Pacific Power Washing & Painting",
     "serviceId": "pressure-washing",
@@ -43582,43 +42914,33 @@
   },
   {
     "id": "everett-painters-1",
-    "name": "Boston Pro Quality Service",
+    "name": "CertaPro Painters",
     "serviceId": "painters",
     "townSlug": "everett",
-    "phone": "(617) 431-5931",
-    "website": "http://www.paintereverettma.com/",
-    "facebook": "",
-    "description": "Boston Pro Quality Service provides professional painters services in Everett, Massachusetts. Contact them for reliable local service and expert solutions."
+    "phone": "800-462-3782",
+    "website": "https://certapro.com",
+    "verified": true,
+    "description": "CertaPro Painters provides professional residential and commercial painting services in Everett, MA."
   },
   {
     "id": "everett-painters-2",
+    "name": "Aldana Painting Inc",
+    "serviceId": "painters",
+    "townSlug": "everett",
+    "phone": "(781) 521-2563",
+    "website": "https://aldanapaintingboston.com/served-areas/everett/",
+    "verified": false,
+    "description": "Aldana Painting Inc offers interior and exterior painting services in Everett, MA."
+  },
+  {
+    "id": "everett-painters-3",
     "name": "AMT Painting Inc.",
     "serviceId": "painters",
     "townSlug": "everett",
     "phone": "(781) 520-0762",
     "website": "https://www.amtpaintinginc.com/painter/everett-ma",
-    "facebook": "",
-    "description": "AMT Painting Inc. provides professional painters services in Everett, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "everett-painters-3",
-    "name": "Beantown Painters",
-    "serviceId": "painters",
-    "townSlug": "everett",
-    "phone": "(781) 836-5336",
-    "website": "https://beantownpainters.com/painters-in-everett-ma",
-    "facebook": "",
-    "description": "Serving Everett, Massachusetts, Beantown Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "everett-pest-control-1",
-    "name": "A1 Exterminators",
-    "serviceId": "pest-control",
-    "townSlug": "everett",
-    "phone": "(800) 525-4825",
-    "website": "https://www.a1exterminators.com/service-area/everett-ma-pest-control/",
-    "facebook": "",
-    "description": "A1 Exterminators is a local pest control company serving Everett, MA with dependable service and quality workmanship."
+    "verified": false,
+    "description": "AMT Painting Inc. provides residential and commercial painting services in Everett, MA."
   },
   {
     "id": "everett-pest-control-2",
@@ -43722,16 +43044,6 @@
     "description": "Fox Pest Control offers expert pest control services in Malden, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "malden-pest-control-3",
-    "name": "Colonial Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "malden",
-    "phone": "(800) 525-8084",
-    "website": "https://www.colonialpest.com/service-areas/",
-    "facebook": "",
-    "description": "Looking for pest control in Malden, MA? Colonial Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "malden-pressure-washing-1",
     "name": "HiCleaners Pressure Washing",
     "serviceId": "pressure-washing",
@@ -43750,17 +43062,6 @@
     "website": "https://www.josespainting.co/cities-towns/power-washing-in-malden-ma",
     "facebook": "",
     "description": "Jose's Painting provides professional pressure washing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "malden-pressure-washing-3",
-    "name": "Vision Painting Contractors",
-    "serviceId": "pressure-washing",
-    "townSlug": "malden",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/house-painting-malden-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Malden, Massachusetts, Vision Painting Contractors specializes in pressure washing services for residential and commercial needs."
   },
   {
     "id": "medford-painters-1",
@@ -43822,37 +43123,6 @@
     "website": "https://www.a1exterminators.com/service-area/medford-ma-pest-control/",
     "facebook": "",
     "description": "A1 Exterminators offers expert pest control services in Medford, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "medford-pressure-washing-1",
-    "name": "HiCleaners Pressure Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "medford",
-    "phone": "(781) 333-8758",
-    "website": "https://medford.hipressurewashing.net/",
-    "facebook": "",
-    "description": "HiCleaners Pressure Washing provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-pressure-washing-2",
-    "name": "Jose's Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "medford",
-    "phone": "(774) 285-9484",
-    "website": "https://www.josespainting.co/cities-towns/power-washing-in-medford-ma",
-    "facebook": "",
-    "description": "Jose's Painting provides professional pressure washing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-pressure-washing-3",
-    "name": "Vision Painting Contractors",
-    "serviceId": "pressure-washing",
-    "townSlug": "medford",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/power-washing/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting Contractors is a local pressure washing company serving Medford, MA with dependable service and quality workmanship."
   },
   {
     "id": "somerville-painters-1",
@@ -51141,17 +50411,6 @@
     "description": "Chris' Lawn Maintenance provides professional yard landscaping services in Winthrop, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "revere-electrician-1",
-    "name": "Heritage Home Service",
-    "serviceId": "electrician",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://justcallheritage.com/massachusetts/revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Heritage Home Service provides professional electrician services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "revere-electrician-2",
     "name": "Home Mechanics",
     "serviceId": "electrician",
@@ -51185,39 +50444,6 @@
     "description": "Air Experts Inc offers expert hvac services in Revere, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "revere-hvac-3",
-    "name": "Pann Home Services",
-    "serviceId": "hvac",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.pannhomeservices.com/ma/revere-contractor/",
-    "facebook": "",
-    "verified": false,
-    "description": "Pann Home Services offers expert hvac services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "revere-hvac-4",
-    "name": "Gervais Mechanical",
-    "serviceId": "hvac",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/revere/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Revere, Massachusetts, Gervais Mechanical specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "revere-plumbing-1",
-    "name": "Heritage Home Service",
-    "serviceId": "plumbing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://justcallheritage.com/massachusetts/revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Heritage Home Service is a local plumbing company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "revere-plumbing-2",
     "name": "Home Mechanics",
     "serviceId": "plumbing",
@@ -51227,28 +50453,6 @@
     "facebook": "",
     "verified": false,
     "description": "Home Mechanics provides professional plumbing services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "revere-plumbing-3",
-    "name": "Pann Home Services",
-    "serviceId": "plumbing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.pannhomeservices.com/ma/revere-contractor/",
-    "facebook": "",
-    "verified": false,
-    "description": "Pann Home Services is a local plumbing company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "revere-plumbing-4",
-    "name": "Gervais Mechanical",
-    "serviceId": "plumbing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/revere/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Revere, MA? Gervais Mechanical offers trusted local services for homeowners and businesses."
   },
   {
     "id": "revere-roofing-1",
@@ -51304,28 +50508,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Revere, MA? A & D Landscape Service Inc offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "revere-electrician-3",
-    "name": "Deao Electric",
-    "serviceId": "electrician",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.deaoelectric.com/contact/electrician-service-area/revere-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Revere, Massachusetts, Deao Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "revere-electrician-4",
-    "name": "All-Tech Electric",
-    "serviceId": "electrician",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://alltechelectric.com/electrical-services-revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "All-Tech Electric provides professional electrician services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "revere-roofing-3",
@@ -51603,17 +50785,6 @@
     "description": "Berardino Plumbing & Heating provides professional plumbing services in Everett, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "everett-plumbing-3",
-    "name": "Evolved Mechanical",
-    "serviceId": "plumbing",
-    "townSlug": "everett",
-    "phone": "",
-    "website": "https://www.evolvedmechanical.com/plumbing/everett/",
-    "facebook": "",
-    "verified": false,
-    "description": "Evolved Mechanical is a local plumbing company serving Everett, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "everett-roofing-1",
     "name": "Scott's Roofing Services",
     "serviceId": "roofing",
@@ -51779,17 +50950,6 @@
     "description": "Looking for plumbing in Malden, MA? Berardino Plumbing & Heating offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "malden-plumbing-3",
-    "name": "Evolved Mechanical",
-    "serviceId": "plumbing",
-    "townSlug": "malden",
-    "phone": "",
-    "website": "https://www.evolvedmechanical.com/plumbing/malden/",
-    "facebook": "",
-    "verified": false,
-    "description": "Evolved Mechanical provides professional plumbing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "malden-roofing-1",
     "name": "O'LYN Roofing",
     "serviceId": "roofing",
@@ -51933,17 +51093,6 @@
     "description": "Winters Home Services provides professional hvac services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "medford-hvac-4",
-    "name": "SumZero Energy Systems",
-    "serviceId": "hvac",
-    "townSlug": "medford",
-    "phone": "",
-    "website": "https://www.sumzeroenergysystems.com/service-area/medford-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, SumZero Energy Systems specializes in hvac services for residential and commercial needs."
-  },
-  {
     "id": "medford-plumbing-1",
     "name": "Medford Plumbing & Heating",
     "serviceId": "plumbing",
@@ -51997,28 +51146,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Medford, Massachusetts, Mass Roofing & Gutters specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "medford-landscaping-1",
-    "name": "Mike's Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "",
-    "website": "https://mikeslandscapingco.com/landscape-maintenance-companies-medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Medford, MA? Mike's Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "medford-landscaping-2",
-    "name": "Cassidy Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "",
-    "website": "https://cassidylandscaping.com/landscape-design-medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, Cassidy Landscaping specializes in yard landscaping services for residential and commercial needs."
   },
   {
     "id": "melrose-electrician-1",
@@ -54078,17 +53205,6 @@
     "description": "Serving Medford, Massachusetts, Premiere Roofing specializes in roofing services for residential and commercial needs."
   },
   {
-    "id": "medford-yard-3",
-    "name": "Medford Lawn & Landscape",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "(781) 555-5402",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Medford Lawn & Landscape offers expert yard landscaping services in Medford, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "lexington-electrician-4",
     "name": "TF Electric",
     "serviceId": "electrician",
@@ -54507,28 +53623,6 @@
     "description": "Looking for yard landscaping in Needham, MA? Gold Landscaping offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "medford-plumbing-4",
-    "name": "In A Flash Heating & Plumbing",
-    "serviceId": "plumbing",
-    "townSlug": "medford",
-    "phone": "(781) 572-2575",
-    "website": "https://www.flash-plumbing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, In A Flash Heating & Plumbing specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "medford-yard-landscaping-3",
-    "name": "MAS Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "(617) 952-9982",
-    "website": "https://maslandscaping.com/medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "MAS Landscaping is a local yard landscaping company serving Medford, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "westwood-electrician-4",
     "name": "TSD Electric LLC",
     "serviceId": "electrician",
@@ -54637,17 +53731,6 @@
     "facebook": "",
     "verified": false,
     "description": "Medford Roofing Company is a local roofing company serving Medford, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "medford-yard-landscaping-4",
-    "name": "Medford Landscape Pros",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "(781) 395-7700",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Medford Landscape Pros provides professional yard landscaping services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "norwood-electrician-4",
@@ -70314,28 +69397,6 @@
     "description": "Boston's Tree Removal and Landscaping provides professional yard landscaping services in Watertown, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "medford-yard-landscaping-1",
-    "name": "Crowley's Concepts",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "(781) 396-3990",
-    "website": "https://www.crowleysclippers.com/About-Landscaping-Medford-MA",
-    "facebook": "",
-    "verified": false,
-    "description": "Crowley's Concepts provides professional yard landscaping services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "medford-yard-landscaping-2",
-    "name": "Medford Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "medford",
-    "phone": "(857) 392-9377",
-    "website": "https://landscapersmedford.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Medford, Massachusetts, Medford Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
     "id": "gloucester-plumbing-1",
     "name": "A-1 Plumbing & Heating",
     "serviceId": "plumbing",
@@ -85004,5 +84065,119 @@
     "facebook": "",
     "verified": true,
     "description": "Winters Home Services provides professional plumbing services in Watertown, MA. Trusted company offering repairs, installations, and emergency plumbing service."
+  },
+  {
+    "id": "everett-painters-4",
+    "name": "Beantown Painters",
+    "serviceId": "painters",
+    "townSlug": "everett",
+    "phone": "(781) 836-5336",
+    "website": "https://beantownpainters.com/painters-in-everett-ma",
+    "verified": false,
+    "description": "Beantown Painters delivers professional painting services to homeowners in Everett, MA."
+  },
+  {
+    "id": "everett-pressure-1",
+    "name": "Purple Suds Property Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "everett",
+    "phone": "(508) 593-5008",
+    "website": "https://purplesudspressurewashing.com/",
+    "verified": false,
+    "description": "Purple Suds Property Services provides professional pressure washing services in Everett, MA."
+  },
+  {
+    "id": "everett-pressure-2",
+    "name": "HiCleaners Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "everett",
+    "phone": "(781) 333-8758",
+    "website": "https://everett.hipressurewashing.net/",
+    "verified": false,
+    "description": "HiCleaners Pressure Washing offers exterior cleaning and pressure washing services in Everett, MA."
+  },
+  {
+    "id": "everett-pressure-3",
+    "name": "Jose's Painting",
+    "serviceId": "pressure-washing",
+    "townSlug": "everett",
+    "phone": "(774) 285-9484",
+    "website": "https://www.josespainting.co/cities-towns/power-washing-in-everett-ma",
+    "verified": false,
+    "description": "Jose's Painting provides painting and pressure washing services in Everett, MA."
+  },
+  {
+    "id": "everett-pressure-4",
+    "name": "Painters Etcetera",
+    "serviceId": "pressure-washing",
+    "townSlug": "everett",
+    "phone": "(978) 443-3673",
+    "website": "https://paintersetcetera.com/power-washing-services-in-everett-ma/",
+    "verified": false,
+    "description": "Painters Etcetera offers professional power washing services in Everett, MA."
+  },
+  {
+    "id": "everett-plumbing-5",
+    "name": "Roto-Rooter Plumbing & Water Cleanup",
+    "serviceId": "plumbing",
+    "townSlug": "everett",
+    "phone": "(781) 233-1200",
+    "website": "https://www.rotorooter.com/",
+    "verified": true,
+    "description": "Roto-Rooter provides emergency plumbing and drain cleaning services in Everett, MA."
+  },
+  {
+    "id": "everett-plumbing-6",
+    "name": "Sila Heating, Air Conditioning & Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "everett",
+    "phone": "(857) 317-1443",
+    "website": "https://sila.com/",
+    "verified": false,
+    "description": "Sila offers plumbing, heating, and air conditioning services to homeowners in Everett, MA."
+  },
+  {
+    "id": "medford-yard-3",
+    "name": "Medford Lawn & Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(781) 555-5402",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Medford Lawn & Landscape offers expert yard landscaping services in Medford, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "medford-yard-landscaping-3",
+    "name": "MAS Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(617) 952-9982",
+    "website": "https://maslandscaping.com/medford-ma/",
+    "facebook": "",
+    "verified": true,
+    "description": "MAS Landscaping is a local yard landscaping company serving Medford, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "medford-yard-landscaping-4",
+    "name": "Medford Landscape Pros",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(781) 395-7700",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Medford Landscape Pros provides professional yard landscaping services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "medford-yard-landscaping-1",
+    "name": "Crowley's Concepts",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(781) 396-3990",
+    "website": "https://www.crowleysclippers.com/About-Landscaping-Medford-MA",
+    "facebook": "",
+    "verified": false,
+    "description": "Crowley's Concepts provides professional yard landscaping services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   }
 ]
