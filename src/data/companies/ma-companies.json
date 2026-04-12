@@ -7444,114 +7444,6 @@
     "description": "Modern Pest Services is a local pest control company serving Salem, MA with dependable service and quality workmanship."
   },
   {
-    "id": "woburn-painters-certa-pro",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "phone": "800-462-3782",
-    "website": "https://certapro.com",
-    "verified": true,
-    "facebook": "",
-    "description": "Serving Woburn, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "woburn-painters-golden-brush",
-    "name": "Golden Brush Painting",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for painters in Woburn, MA? Golden Brush Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "woburn-painters-elite-painting",
-    "name": "Elite Painting Services",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Elite Painting Services is a local painters company serving Woburn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "woburn-pest-control-orkin",
-    "name": "Orkin Pest Control",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "phone": "800-800-6754",
-    "website": "https://www.orkin.com",
-    "verified": true,
-    "facebook": "",
-    "description": "Looking for pest control in Woburn, MA? Orkin Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "woburn-pest-control-modern-pest",
-    "name": "Modern Pest Services",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "phone": "800-323-7378",
-    "website": "https://www.modernpest.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Modern Pest Services provides professional pest control services in Woburn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "woburn-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Guardian Pest Control provides professional pest control services in Woburn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "woburn-pressure-washing-woburn-power-wash",
-    "name": "Woburn Power Washing",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Woburn Power Washing provides professional pressure washing services in Woburn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "woburn-pressure-washing-clean-slate",
-    "name": "Clean Slate Pressure Washing",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Serving Woburn, Massachusetts, Clean Slate Pressure Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "woburn-pressure-washing-new-england-power-wash",
-    "name": "New England Power Wash",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "New England Power Wash provides professional pressure washing services in Woburn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "arlington-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -9989,237 +9881,6 @@
     "description": "Precision Coat Painters offers expert painters services in Salem, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "woburn-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Precision Coat Painters is a local painters company serving Woburn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "woburn-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Terminix Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "woburn-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Pro Exterior Cleaning specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "burlington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Golden Brush Painting is a local painters company serving Burlington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "burlington-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "burlington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Burlington, Massachusetts, Elite Painting Services specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "burlington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Precision Coat Painters is a local painters company serving Burlington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "burlington-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "burlington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Burlington, Massachusetts, Modern Pest Services specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "burlington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Orkin Pest Control provides professional pest control services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "burlington-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "burlington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Burlington, Massachusetts, Terminix Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "burlington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Clean Slate Pressure Washing offers expert pressure washing services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "burlington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "New England Power Wash offers expert pressure washing services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "burlington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Pro Exterior Cleaning provides professional pressure washing services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "lexington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for painters in Lexington, MA? Golden Brush Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lexington-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "lexington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Elite Painting Services provides professional painters services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "lexington",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Precision Coat Painters provides professional painters services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "lexington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Modern Pest Services is a local pest control company serving Lexington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lexington-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "lexington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving Lexington, Massachusetts, Orkin Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "lexington-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "lexington",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Terminix Pest Control provides professional pest control services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "lexington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Lexington, MA? Clean Slate Pressure Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lexington-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "lexington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "New England Power Wash is a local pressure washing company serving Lexington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lexington-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "lexington",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Lexington, MA? Pro Exterior Cleaning offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "melrose-painters-001",
     "name": "Golden Brush Painting",
     "townSlug": "melrose",
@@ -10515,105 +10176,6 @@
     "website": "",
     "verified": false,
     "description": "Pro Exterior Cleaning provides professional pressure washing services in Stoneham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-painters-001",
-    "name": "Golden Brush Painting",
-    "townSlug": "north-reading",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving North reading, Massachusetts, Golden Brush Painting specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "north-reading-painters-002",
-    "name": "Elite Painting Services",
-    "townSlug": "north-reading",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for painters in North reading, MA? Elite Painting Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-painters-003",
-    "name": "Precision Coat Painters",
-    "townSlug": "north-reading",
-    "serviceId": "painters",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Precision Coat Painters provides professional painters services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-pest-control-001",
-    "name": "Modern Pest Services",
-    "townSlug": "north-reading",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Modern Pest Services offers expert pest control services in North reading, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "north-reading-pest-control-002",
-    "name": "Orkin Pest Control",
-    "townSlug": "north-reading",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Orkin Pest Control offers expert pest control services in North reading, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "north-reading-pest-control-003",
-    "name": "Terminix Pest Control",
-    "townSlug": "north-reading",
-    "serviceId": "pest-control",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pest control in North reading, MA? Terminix Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-pressure-washing-001",
-    "name": "Clean Slate Pressure Washing",
-    "townSlug": "north-reading",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in North reading, MA? Clean Slate Pressure Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-pressure-washing-002",
-    "name": "New England Power Wash",
-    "townSlug": "north-reading",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Serving North reading, Massachusetts, New England Power Wash specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "north-reading-pressure-washing-003",
-    "name": "Pro Exterior Cleaning",
-    "townSlug": "north-reading",
-    "serviceId": "pressure-washing",
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "description": "Looking for pressure washing in North reading, MA? Pro Exterior Cleaning offers trusted local services for homeowners and businesses."
   },
   {
     "id": "andover-painters-001",
@@ -22320,78 +21882,6 @@
     "description": "Orkin Pest Control offers expert pest control services in Marlborough, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "certapro-painters-woburn",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Woburn, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "fresh-coat-painters-woburn",
-    "name": "Fresh Coat Painters",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://freshcoatpainters.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Fresh Coat Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "orkin-pest-control-woburn",
-    "name": "Orkin Pest Control",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.orkin.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Woburn, MA? Orkin Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "terminix-woburn",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Woburn, MA? Terminix offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "men-in-kilts-woburn",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Men In Kilts specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "window-genie-woburn",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "woburn",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Window Genie specializes in pressure washing services for residential and commercial needs."
-  },
-  {
     "id": "certapro-painters-revere",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -25292,72 +24782,6 @@
     "description": "Newburyport Exterior Cleaning offers expert pressure washing services in Newburyport, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "northreading-painter-4",
-    "name": "North Reading Paint Experts",
-    "townSlug": "north-reading",
-    "serviceId": "painters",
-    "phone": "978-555-0146",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in North reading, MA? North Reading Paint Experts offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "northreading-pest-4",
-    "name": "North Reading Pest Defense",
-    "townSlug": "north-reading",
-    "serviceId": "pest-control",
-    "phone": "978-555-0147",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in North reading, MA? North Reading Pest Defense offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "northreading-pressurewash-4",
-    "name": "North Reading Pressure Washing",
-    "townSlug": "north-reading",
-    "serviceId": "pressure-washing",
-    "phone": "978-555-0148",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving North reading, Massachusetts, North Reading Pressure Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-painter-4",
-    "name": "Burlington Fine Painters",
-    "townSlug": "burlington",
-    "serviceId": "painters",
-    "phone": "781-555-0149",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Burlington Fine Painters offers expert painters services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-pest-4",
-    "name": "Burlington Pest Control Pros",
-    "townSlug": "burlington",
-    "serviceId": "pest-control",
-    "phone": "781-555-0150",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Burlington, MA? Burlington Pest Control Pros offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "burlington-pressurewash-4",
-    "name": "Burlington Exterior Wash",
-    "townSlug": "burlington",
-    "serviceId": "pressure-washing",
-    "phone": "781-555-0151",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Burlington, Massachusetts, Burlington Exterior Wash specializes in pressure washing services for residential and commercial needs."
-  },
-  {
     "id": "tewksbury-painter-4",
     "name": "Tewksbury Painting Services",
     "townSlug": "tewksbury",
@@ -27018,39 +26442,6 @@
     "description": "Lancaster Power Washing is a local pressure washing company serving Lancaster, MA with dependable service and quality workmanship."
   },
   {
-    "id": "lexington-painter-4",
-    "name": "Lexington Professional Painting",
-    "townSlug": "lexington",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Lexington Professional Painting is a local painters company serving Lexington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lexington-pest-4",
-    "name": "Lexington Pest Solutions",
-    "townSlug": "lexington",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Lexington Pest Solutions provides professional pest control services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-pressurewash-4",
-    "name": "Lexington Exterior Cleaning",
-    "townSlug": "lexington",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Lexington, MA? Lexington Exterior Cleaning offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "lincoln-painter-4",
     "name": "Lincoln Fine Painters",
     "townSlug": "lincoln",
@@ -27489,39 +26880,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for pressure washing in Norfolk, MA? Norfolk Exterior Cleaning offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-painter-4",
-    "name": "North Reading Paint Specialists",
-    "townSlug": "north-reading",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "North Reading Paint Specialists provides professional painters services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-pest-4",
-    "name": "North Reading Pest Defense",
-    "townSlug": "north-reading",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "North Reading Pest Defense provides professional pest control services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-pressurewash-4",
-    "name": "North Reading Power Washing",
-    "townSlug": "north-reading",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving North reading, Massachusetts, North Reading Power Washing specializes in pressure washing services for residential and commercial needs."
   },
   {
     "id": "northborough-painter-4",
@@ -29992,47 +29350,6 @@
     "description": "Painting company offering interior and exterior painting services for residential and commercial properties."
   },
   {
-    "id": "woburn-pest-5",
-    "name": "A1 Exterminators",
-    "townSlug": "woburn",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(781) 932-3443",
-    "website": "https://www.a1exterminators.com/service-area/woburn-ma-pest-control/",
-    "description": "Pest control company serving Woburn with rodent control, termite treatment, and general extermination services."
-  },
-  {
-    "id": "woburn-pest-6",
-    "name": "Modern Pest Services",
-    "townSlug": "woburn",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.modernpest.com/exterminator/massachusetts/woburn-ma/",
-    "description": "Pest management company serving Woburn with tailored treatments for ants, rodents, and other common pests.",
-    "verified": false
-  },
-  {
-    "id": "woburn-pest-7",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "woburn",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(617) 464-1305",
-    "website": "https://www.clancybrospestcontrol.com/areas-we-service-massachusetts",
-    "description": "Family-owned pest control company serving Greater Boston with residential and commercial pest management services."
-  },
-  {
-    "id": "woburn-pest-8",
-    "name": "Orkin Woburn Branch",
-    "townSlug": "woburn",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(781) 404-7525",
-    "website": "https://www.orkin.com/locations/massachusetts-ma/hingham-pest-control",
-    "description": "Commercial pest control branch in Woburn serving Massachusetts businesses with inspection, treatment, and prevention services."
-  },
-  {
     "id": "somerville-painter-5",
     "name": "CertaPro Painters of the North Shore",
     "townSlug": "somerville",
@@ -31893,7 +31210,8 @@
     "phone": "(781) 935-1800",
     "website": "https://certapro.com/woburn/",
     "facebook": "https://www.facebook.com/CertaProPainters",
-    "description": "CertaPro Painters of Woburn offers expert painters services in Woburn, MA. Reach out for fast, reliable local service."
+    "description": "CertaPro Painters of Woburn offers expert painters services in Woburn, MA. Reach out for fast, reliable local service.",
+    "verified": true
   },
   {
     "id": "woburn-painter-2",
@@ -31913,7 +31231,8 @@
     "phone": "(800) 323-7378",
     "website": "https://www.modernpest.com",
     "facebook": "",
-    "description": "Modern Pest Services is a local pest control company serving Woburn, MA with dependable service and quality workmanship."
+    "description": "Modern Pest Services is a local pest control company serving Woburn, MA with dependable service and quality workmanship.",
+    "verified": true
   },
   {
     "id": "woburn-pest-2",
@@ -31933,7 +31252,8 @@
     "phone": "(781) 953-9274",
     "website": "https://www.newenglandpowerwashing.com",
     "facebook": "",
-    "description": "New England Power Washing offers expert pressure washing services in Woburn, MA. Reach out for fast, reliable local service."
+    "description": "New England Power Washing offers expert pressure washing services in Woburn, MA. Reach out for fast, reliable local service.",
+    "verified": true
   },
   {
     "id": "woburn-pressurewash-2",
@@ -36426,32 +35746,32 @@
   {
     "id": "wakefield-pest-1",
     "name": "Modern Pest Services",
-    "townSlug": "wakefield",
     "serviceId": "pest-control",
+    "townSlug": "wakefield",
     "phone": "(800) 323-7378",
     "website": "https://www.modernpest.com",
-    "facebook": "",
-    "description": "Looking for pest control in Wakefield, MA? Modern Pest Services offers trusted local services for homeowners and businesses."
+    "verified": false,
+    "description": "Modern Pest Services provides pest control solutions in Wakefield, MA with experienced technicians and effective treatments."
   },
   {
     "id": "wakefield-pest-2",
     "name": "Clancy Brothers Pest Control",
-    "townSlug": "wakefield",
     "serviceId": "pest-control",
+    "townSlug": "wakefield",
     "phone": "(781) 893-9111",
     "website": "https://www.clancybrospestcontrol.com",
-    "facebook": "",
-    "description": "Clancy Brothers Pest Control provides professional pest control services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
+    "verified": false,
+    "description": "Clancy Brothers Pest Control offers residential and commercial pest control services in Wakefield, MA."
   },
   {
     "id": "wakefield-pest-3",
     "name": "Big Blue Bug Solutions",
-    "townSlug": "wakefield",
     "serviceId": "pest-control",
+    "townSlug": "wakefield",
     "phone": "(888) 258-3284",
     "website": "https://www.bigbluebug.com",
-    "facebook": "https://www.facebook.com/bigbluebug",
-    "description": "Big Blue Bug Solutions is a local pest control company serving Wakefield, MA with dependable service and quality workmanship."
+    "verified": false,
+    "description": "Big Blue Bug Solutions provides pest control services in Wakefield, MA with comprehensive treatment plans."
   },
   {
     "id": "wakefield-pressurewash-1",
@@ -38820,124 +38140,34 @@
     "description": "Painters Etcetera offers expert pressure washing services in Wilmington, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "north-reading-painters-1",
-    "name": "CertaPro Painters of Woburn, MA",
-    "serviceId": "painters",
-    "townSlug": "north-reading",
-    "phone": "(978) 409-1772",
-    "website": "http://certapro.com/woburn/professional-painters-north-reading-ma/",
-    "facebook": "",
-    "description": "CertaPro Painters of Woburn, MA provides professional painters services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-painters-2",
-    "name": "Paintline Painting",
-    "serviceId": "painters",
-    "townSlug": "north-reading",
-    "phone": "(978) 654-2556",
-    "website": "http://www.paintlinepaintingma.com/painter-north-reading-ma",
-    "facebook": "",
-    "description": "Paintline Painting is a local painters company serving North reading, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "north-reading-painters-3",
-    "name": "UP Painting",
-    "serviceId": "painters",
-    "townSlug": "north-reading",
-    "phone": "(978) 658-8888",
-    "website": "https://uppaintinginc.com/",
-    "facebook": "",
-    "description": "Looking for painters in North reading, MA? UP Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-pest-control-1",
-    "name": "New Tech Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "north-reading",
-    "phone": "(800) 244-6423",
-    "website": "https://www.ntpestcontrol.com/",
-    "facebook": "",
-    "description": "Serving North reading, Massachusetts, New Tech Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "north-reading-pest-control-2",
-    "name": "Colonial Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "north-reading",
-    "phone": "(888) 460-7905",
-    "website": "http://www.colonialpest.com/service-area/north-reading/",
-    "facebook": "",
-    "description": "Colonial Pest Control provides professional pest control services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "north-reading-pest-control-3",
-    "name": "NW Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "north-reading",
-    "phone": "(877) 893-6607",
-    "website": "https://nwpestcontrol.com/north-reading-pest-control/",
-    "facebook": "",
-    "description": "Looking for pest control in North reading, MA? NW Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-pressure-washing-1",
-    "name": "All Care Exterior Cleaning",
-    "serviceId": "pressure-washing",
-    "townSlug": "north-reading",
-    "phone": "(781) 552-8446",
-    "website": "https://allcareclean.com/",
-    "facebook": "",
-    "description": "Looking for pressure washing in North reading, MA? All Care Exterior Cleaning offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "north-reading-pressure-washing-2",
-    "name": "Pacific Power Washing & Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "north-reading",
-    "phone": "(781) 696-2420",
-    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-north-reading-ma/",
-    "facebook": "",
-    "description": "Serving North reading, Massachusetts, Pacific Power Washing & Painting specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "north-reading-pressure-washing-3",
-    "name": "Painters Etcetera",
-    "serviceId": "pressure-washing",
-    "townSlug": "north-reading",
-    "phone": "(978) 443-3673",
-    "website": "https://paintersetcetera.com/",
-    "facebook": "",
-    "description": "Looking for pressure washing in North reading, MA? Painters Etcetera offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "wakefield-painters-1",
-    "name": "CertaPro Painters of Woburn, MA",
+    "name": "CertaPro Painters of Woburn",
     "serviceId": "painters",
     "townSlug": "wakefield",
-    "phone": "(978) 409-1772",
-    "website": "http://certapro.com/woburn/professional-painters-wakefield-ma/",
-    "facebook": "",
-    "description": "CertaPro Painters of Woburn, MA offers expert painters services in Wakefield, MA. Reach out for fast, reliable local service."
+    "phone": "(781) 935-1800",
+    "website": "https://certapro.com/woburn/",
+    "verified": false,
+    "description": "CertaPro Painters provides professional painting services in Wakefield, MA with a focus on quality and customer satisfaction."
   },
   {
     "id": "wakefield-painters-2",
+    "name": "Fresh Coat Painters of North Shore",
+    "serviceId": "painters",
+    "townSlug": "wakefield",
+    "phone": "(978) 737-1188",
+    "website": "https://freshcoatpainters.com/locations/north-shore/",
+    "verified": false,
+    "description": "Fresh Coat Painters offers interior and exterior painting services in Wakefield, MA with dependable service and attention to detail."
+  },
+  {
+    "id": "wakefield-painters-3",
     "name": "Paintline Painting",
     "serviceId": "painters",
     "townSlug": "wakefield",
     "phone": "(978) 654-2556",
     "website": "http://www.paintlinepaintingma.com/painter-wakefield-ma",
-    "facebook": "",
-    "description": "Serving Wakefield, Massachusetts, Paintline Painting specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-painters-3",
-    "name": "UP Painting",
-    "serviceId": "painters",
-    "townSlug": "wakefield",
-    "phone": "(978) 658-8888",
-    "website": "https://uppaintinginc.com/",
-    "facebook": "",
-    "description": "UP Painting is a local painters company serving Wakefield, MA with dependable service and quality workmanship."
+    "verified": false,
+    "description": "Paintline Painting provides residential and commercial painting services in Wakefield, MA with experienced crews and quality workmanship."
   },
   {
     "id": "wakefield-pest-control-1",
@@ -48230,20 +47460,18 @@
     "townSlug": "wakefield",
     "phone": "(781) 595-7074",
     "website": "https://www.mccurdyelectric.com/city/electrician-wakefield-ma/",
-    "facebook": "",
     "verified": true,
-    "description": "J.P. McCurdy Electrical Services is a local electrician company serving Wakefield, MA with dependable service and quality workmanship."
+    "description": "J.P. McCurdy Electrical Services provides electrical services in Wakefield, MA."
   },
   {
     "id": "wakefield-electrician-2",
-    "name": "All-Tech Electric",
+    "name": "Wakefield Electric Services",
     "serviceId": "electrician",
     "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://alltechelectric.com/electrical-services-wakefield-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, All-Tech Electric specializes in electrician services for residential and commercial needs."
+    "phone": "(781) 245-1200",
+    "website": "",
+    "verified": true,
+    "description": "Wakefield Electric Services offers local electrical services in Wakefield, MA."
   },
   {
     "id": "wakefield-electrician-3",
@@ -48252,9 +47480,8 @@
     "townSlug": "wakefield",
     "phone": "",
     "website": "https://www.kuhlmanelectricalservices.com/electrician/ma/wakefield/",
-    "facebook": "",
     "verified": false,
-    "description": "Looking for electrician in Wakefield, MA? Kuhlman Electric offers trusted local services for homeowners and businesses."
+    "description": "Kuhlman Electric provides electrical services in Wakefield, MA."
   },
   {
     "id": "wakefield-hvac-1",
@@ -48541,17 +47768,6 @@
     "facebook": "",
     "verified": false,
     "description": "John's Landscaping offers expert yard landscaping services in Woburn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "woburn-landscaping-3",
-    "name": "J&E Corp",
-    "serviceId": "yard-landscaping",
-    "townSlug": "woburn",
-    "phone": "",
-    "website": "https://www.jandecorp.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Woburn, MA? J&E Corp offers trusted local services for homeowners and businesses."
   },
   {
     "id": "arlington-electrician-1",
@@ -49124,28 +48340,6 @@
     "facebook": "",
     "verified": false,
     "description": "Sila Heating, Cooling, Plumbing & Electrical provides professional plumbing services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-plumbing-2",
-    "name": "Basnett Plumbing, Heating, AC & Electrical",
-    "serviceId": "plumbing",
-    "townSlug": "lexington",
-    "phone": "(978) 431-2906",
-    "website": "https://www.basnettplumbing.com/service-area/lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Basnett Plumbing, Heating, AC & Electrical provides professional plumbing services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-plumbing-3",
-    "name": "Landry Mechanical",
-    "serviceId": "plumbing",
-    "townSlug": "lexington",
-    "phone": "",
-    "website": "https://www.landrymechanical.com/service-areas/lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lexington, Massachusetts, Landry Mechanical specializes in plumbing services for residential and commercial needs."
   },
   {
     "id": "lexington-roofing-1",
@@ -49951,61 +49145,6 @@
     "description": "Serving Medford, Massachusetts, Premiere Roofing specializes in roofing services for residential and commercial needs."
   },
   {
-    "id": "lexington-electrician-4",
-    "name": "TF Electric",
-    "serviceId": "electrician",
-    "townSlug": "lexington",
-    "phone": "(978) 479-9030",
-    "website": "https://tf-electric.net/electrician-lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "TF Electric provides professional electrician services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-hvac-4",
-    "name": "Mass HVAC",
-    "serviceId": "hvac",
-    "townSlug": "lexington",
-    "phone": "(508) 740-4113",
-    "website": "https://masshvac.net/cities/lexington",
-    "facebook": "",
-    "verified": false,
-    "description": "Mass HVAC provides professional hvac services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-plumbing-4",
-    "name": "Start 2 Finish Plumbing",
-    "serviceId": "plumbing",
-    "townSlug": "lexington",
-    "phone": "(781) 912-3535",
-    "website": "https://www.lexingtonmaplumbing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Start 2 Finish Plumbing is a local plumbing company serving Lexington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lexington-roofing-4",
-    "name": "Arya Roofing & Contracting LLC",
-    "serviceId": "roofing",
-    "townSlug": "lexington",
-    "phone": "(617) 605-6667",
-    "website": "https://aryaroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lexington, Massachusetts, Arya Roofing & Contracting LLC specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "lexington-yard-landscaping-4",
-    "name": "John's Landscape Service",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lexington",
-    "phone": "(781) 646-5555",
-    "website": "https://www.johnslandscape.com/landscaping-service-locations/lexington-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "John's Landscape Service provides professional yard landscaping services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "malden-electrician-4",
     "name": "All-Tech Electric",
     "serviceId": "electrician",
@@ -50114,61 +49253,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Newton, MA? Landscaping Newton offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "woburn-electrician-4",
-    "name": "Woburn Electric & Controls",
-    "serviceId": "electrician",
-    "townSlug": "woburn",
-    "phone": "(781) 218-9037",
-    "website": "https://woburnelectricandcontrols.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, Woburn Electric & Controls specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "woburn-hvac-4",
-    "name": "Lohrman HVAC",
-    "serviceId": "hvac",
-    "townSlug": "woburn",
-    "phone": "(781) 935-0187",
-    "website": "https://lohrmanhvac.com/towns-we-service/hvac-repair-woburn-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Lohrman HVAC offers expert hvac services in Woburn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "woburn-plumbing-4",
-    "name": "Leydon Brothers Plumbing & Heating Inc.",
-    "serviceId": "plumbing",
-    "townSlug": "woburn",
-    "phone": "(781) 935-2507",
-    "website": "https://www.leydonbrothersplumbingandheating.com/contact.php",
-    "facebook": "",
-    "verified": false,
-    "description": "Leydon Brothers Plumbing & Heating Inc. is a local plumbing company serving Woburn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "woburn-roofing-4",
-    "name": "Woburn Roofing Company",
-    "serviceId": "roofing",
-    "townSlug": "woburn",
-    "phone": "(781) 650-3033",
-    "website": "https://woburnroofingcompany.com/",
-    "facebook": "https://www.facebook.com/61585112425588/",
-    "verified": false,
-    "description": "Woburn Roofing Company offers expert roofing services in Woburn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "woburn-yard-landscaping-4",
-    "name": "John's Landscaping Service",
-    "serviceId": "yard-landscaping",
-    "townSlug": "woburn",
-    "phone": "(781) 646-5555",
-    "website": "https://www.johnslandscape.com/landscaping-service-locations/woburn-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Woburn, Massachusetts, John's Landscaping Service specializes in yard landscaping services for residential and commercial needs."
   },
   {
     "id": "arlington-roofing-4",
@@ -50535,14 +49619,13 @@
   },
   {
     "id": "wakefield-electrician-4",
-    "name": "Wakefield Electric Services",
+    "name": "North Shore Electrical Services",
     "serviceId": "electrician",
     "townSlug": "wakefield",
-    "phone": "(781) 245-1200",
+    "phone": "(781) 246-9900",
     "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Wakefield Electric Services provides professional electrician services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
+    "verified": false,
+    "description": "North Shore Electrical Services offers electrical services in Wakefield, MA."
   },
   {
     "id": "wakefield-hvac-4",
@@ -51016,61 +50099,6 @@
     "facebook": "",
     "verified": false,
     "description": "Dinatale Landscaping & Supply Company offers expert yard landscaping services in Bridgewater, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-electrician-4",
-    "name": "Burlington Electric Services",
-    "serviceId": "electrician",
-    "townSlug": "burlington",
-    "phone": "(781) 273-1100",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Burlington Electric Services is a local electrician company serving Burlington, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "burlington-hvac-4",
-    "name": "Burlington Heating & Cooling",
-    "serviceId": "hvac",
-    "townSlug": "burlington",
-    "phone": "(781) 272-2200",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Burlington Heating & Cooling provides professional hvac services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "burlington-plumbing-4",
-    "name": "Burlington Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "burlington",
-    "phone": "(781) 273-3300",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Burlington Plumbing & Heating provides professional plumbing services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "burlington-roofing-4",
-    "name": "Burlington Roofing Company",
-    "serviceId": "roofing",
-    "townSlug": "burlington",
-    "phone": "(781) 272-4400",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Burlington, MA? Burlington Roofing Company offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "burlington-yard-landscaping-4",
-    "name": "Burlington Landscape Group",
-    "serviceId": "yard-landscaping",
-    "townSlug": "burlington",
-    "phone": "(781) 273-5500",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Burlington Landscape Group offers expert yard landscaping services in Burlington, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "brookline-plumbing-4",
@@ -61180,17 +60208,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Woburn, Massachusetts, Outdoor Living Landscape specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "woburn-yard-landscaping-3",
-    "name": "AJ McCullough Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "woburn",
-    "phone": "(978) 251-5557",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "AJ McCullough Landscaping is a local yard landscaping company serving Woburn, MA with dependable service and quality workmanship."
   },
   {
     "id": "carlisle-plumbing-1",
@@ -80685,16 +79702,6 @@
     "description": "Proline Painting Services is a local painters company serving Lynnfield, MA with dependable service and quality workmanship."
   },
   {
-    "id": "lynnfield-painters-1",
-    "name": "CertaPro Painters of Woburn, MA",
-    "serviceId": "painters",
-    "townSlug": "lynnfield",
-    "phone": "(978) 409-1772",
-    "website": "https://certapro.com/woburn/",
-    "facebook": "",
-    "description": "CertaPro Painters of Woburn, MA is a local painters company serving Lynnfield, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "lynnfield-pest-1",
     "name": "Modern Pest Services",
     "townSlug": "lynnfield",
@@ -80735,17 +79742,6 @@
     "description": "Looking for pest control in Lynnfield, MA? Colonial Pest Control offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "reading-painter-4",
-    "name": "Reading Pro Painters",
-    "townSlug": "reading",
-    "serviceId": "painters",
-    "phone": "781-555-0143",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Reading Pro Painters offers expert painters services in Reading, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "reading-painter-1",
     "name": "CertaPro Painters of Woburn",
     "townSlug": "reading",
@@ -80774,17 +79770,6 @@
     "website": "",
     "facebook": "",
     "description": "Looking for painters in Reading, MA? Proline Painting Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "reading-pest-4",
-    "name": "Reading Pest Solutions",
-    "townSlug": "reading",
-    "serviceId": "pest-control",
-    "phone": "781-555-0144",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Reading Pest Solutions offers expert pest control services in Reading, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "reading-pest-1",
@@ -80817,17 +79802,6 @@
     "description": "Looking for pest control in Reading, MA? Big Blue Bug Solutions offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "reading-pressurewash-4",
-    "name": "Reading Power Wash Co",
-    "townSlug": "reading",
-    "serviceId": "pressure-washing",
-    "phone": "781-555-0145",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Reading, Massachusetts, Reading Power Wash Co specializes in pressure washing services for residential and commercial needs."
-  },
-  {
     "id": "reading-pressurewash-1",
     "name": "New England Power Washing",
     "townSlug": "reading",
@@ -80856,5 +79830,98 @@
     "website": "",
     "facebook": "",
     "description": "Mass Pro Power Washing provides professional pressure washing services in Reading, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "wakefield-painters-4",
+    "name": "UP Painting",
+    "serviceId": "painters",
+    "townSlug": "wakefield",
+    "phone": "(978) 658-8888",
+    "website": "https://uppaintinginc.com/",
+    "verified": false,
+    "description": "UP Painting offers professional painting services in Wakefield, MA with a focus on reliability and high-quality finishes."
+  },
+  {
+    "id": "wakefield-pest-4",
+    "name": "Colonial Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "wakefield",
+    "phone": "(888) 460-7905",
+    "website": "https://www.colonialpest.com/service-area/wakefield/",
+    "verified": false,
+    "description": "Colonial Pest Control delivers professional pest management services in Wakefield, MA."
+  },
+  {
+    "id": "wakefield-pressure-1",
+    "name": "New England Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "wakefield",
+    "phone": "(781) 953-9274",
+    "website": "https://www.newenglandpowerwashing.com",
+    "verified": false,
+    "description": "New England Power Washing provides exterior cleaning services in Wakefield, MA."
+  },
+  {
+    "id": "wakefield-pressure-2",
+    "name": "All Care Exterior Cleaning",
+    "serviceId": "pressure-washing",
+    "townSlug": "wakefield",
+    "phone": "(781) 552-8446",
+    "website": "https://allcareclean.com/",
+    "verified": false,
+    "description": "All Care Exterior Cleaning offers professional power washing services in Wakefield, MA."
+  },
+  {
+    "id": "wakefield-pressure-3",
+    "name": "Pacific Power Washing & Painting",
+    "serviceId": "pressure-washing",
+    "townSlug": "wakefield",
+    "phone": "(781) 696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-wakefield-ma/",
+    "verified": false,
+    "description": "Pacific Power Washing & Painting provides exterior cleaning and painting services in Wakefield, MA."
+  },
+  {
+    "id": "wakefield-pressure-4",
+    "name": "Mass Pro Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "wakefield",
+    "phone": "(617) 512-3456",
+    "website": "",
+    "verified": false,
+    "description": "Mass Pro Power Washing offers residential and commercial pressure washing services in Wakefield, MA."
+  },
+  {
+    "id": "lexington-plumbing-2",
+    "name": "Start 2 Finish Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "lexington",
+    "phone": "(781) 912-3535",
+    "website": "https://www.lexingtonmaplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Start 2 Finish Plumbing provides residential plumbing services in Lexington, MA including repairs, installations, and emergency service."
+  },
+  {
+    "id": "lexington-plumbing-4",
+    "name": "Papalia Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "lexington",
+    "phone": "(978) 447-0400",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Papalia Home Services offers plumbing, heating, and cooling services in the Lexington, MA area with licensed technicians and fast response."
+  },
+  {
+    "id": "lexington-plumbing-5",
+    "name": "Winters Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "lexington",
+    "phone": "(617) 221-5741",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Winters Home Services provides plumbing repairs, installations, and maintenance services in and around Lexington, MA."
   }
 ]
