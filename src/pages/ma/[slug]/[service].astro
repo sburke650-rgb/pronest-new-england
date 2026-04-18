@@ -1171,12 +1171,12 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
 
       <div class="section-head">
         <h2>
-          {showingNearbyProviders
-            ? `Nearby ${serviceName} Providers for ${townName}`
-            : showingStatewideProviders
-              ? `${serviceName} Providers for ${townName}`
-              : `${serviceName} Companies in ${townName}`}
-        </h2>
+  {showingNearbyProviders
+    ? `Nearby ${serviceName} in ${townName}, MA`
+    : showingStatewideProviders
+      ? `${serviceName} in ${townName}, MA`
+      : `${serviceName} in ${townName}, MA`}
+</h2>
 
         <div class="verified-note">
           <div class="tooltip-wrap">
