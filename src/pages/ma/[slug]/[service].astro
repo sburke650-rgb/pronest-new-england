@@ -799,10 +799,10 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
         text-decoration: underline;
       }
 
-      .button-wrap {
-        margin-top: auto;
-        padding-top: 6px;
-      }
+      .company-card {
+  display: flex;
+  flex-direction: column;
+}
 
       .view-company-btn {
         display: inline-block;
@@ -1151,11 +1151,12 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
       </nav>
 
       <h1 class="hero-title">
-  {serviceName} in {townName}, MA – Compare Local Companies
-</h1>
+        {serviceName} in {townName}, MA – Compare Local Companies
+      </h1>
 
       <p class="page-intro">
-  Need {serviceName.toLowerCase()} in {townName}, MA? Compare local companies, see phone numbers instantly, and choose a trusted provider near you.
+        Need {serviceName.toLowerCase()} in {townName}, MA? Compare local companies, see phone
+        numbers instantly, and choose a trusted provider near you.
         {nearbyLinkTowns.length > 0 && (
           <>
             {" "}Browse nearby {serviceName.toLowerCase()} services in <Fragment set:html={nearbyLinksHtml} />.{" "}
@@ -1171,12 +1172,12 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
 
       <div class="section-head">
         <h2>
-  {showingNearbyProviders
-    ? `Nearby ${serviceName} Companies in ${townName}, MA`
-    : showingStatewideProviders
-      ? `${serviceName} Companies in ${townName}, MA`
-      : `${serviceName} Companies in ${townName}, MA`}
-</h2>
+          {showingNearbyProviders
+            ? `Nearby ${serviceName} Companies in ${townName}, MA`
+            : showingStatewideProviders
+              ? `${serviceName} Companies in ${townName}, MA`
+              : `${serviceName} Companies in ${townName}, MA`}
+        </h2>
 
         <div class="verified-note">
           <div class="tooltip-wrap">
@@ -1265,18 +1266,18 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
                   )}
 
                   {showWebsite && (
-  <div class="info-line">
-  <a
-    href={websiteUrl}
-    target="_blank"
-    rel="nofollow noopener noreferrer"
-    aria-label={`Visit website for ${company?.name}`}
-    style="display:inline-block;margin-top:8px;margin-bottom:4px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
-  >
-    Visit Website →
-  </a>
-</div>
-)}
+                    <div class="info-line">
+                      <a
+                        href={websiteUrl}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                        aria-label={`Visit website for ${company?.name}`}
+                        style="display:inline-block;margin-top:8px;margin-bottom:4px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
+                      >
+                        Visit Website →
+                      </a>
+                    </div>
+                  )}
 
                   {showFacebook && (
                     <div class="info-line">
@@ -1296,12 +1297,11 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
 
                   <div class="button-wrap">
                     <a
-  href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
-  class="view-company-btn"
-  style="display:inline-block;margin-top:6px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
->
+                      href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
+                      class="view-company-btn"
+                      style="display:inline-block;margin-top:6px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
                     >
-                      View company
+                      View company 
                     </a>
                   </div>
                 </article>
