@@ -1265,13 +1265,18 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
                   )}
 
                   {showWebsite && (
-                    <div class="info-line">
-                      <strong>Website:</strong>{" "}
-                      <a href={websiteUrl} target="_blank" rel="nofollow noopener noreferrer">
-                        {getDisplayDomain(company?.website)}
-                      </a>
-                    </div>
-                  )}
+  <div class="info-line">
+  <a
+    href={websiteUrl}
+    target="_blank"
+    rel="nofollow noopener noreferrer"
+    aria-label={`Visit website for ${company?.name}`}
+    style="display:inline-block;margin-top:8px;margin-bottom:4px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
+  >
+    Visit Website →
+  </a>
+</div>
+)}
 
                   {showFacebook && (
                     <div class="info-line">
@@ -1291,8 +1296,10 @@ const sameTownServiceLinksHtml = sameTownServiceLinks
 
                   <div class="button-wrap">
                     <a
-                      href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
-                      class="view-company-btn"
+  href={`/ma/${company.townSlug}/${company.serviceId}/${company.id}/`}
+  class="view-company-btn"
+  style="display:inline-block;margin-top:6px;padding:6px 10px;font-size:14px;background:#e5e7eb;color:#111827;border-radius:6px;text-decoration:none;border:1px solid #d1d5db;"
+>
                     >
                       View company
                     </a>
