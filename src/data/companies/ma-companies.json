@@ -65324,28 +65324,6 @@
     "description": "CPS Heating & Cooling offers expert hvac services in Shrewsbury, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "shrewsbury-electrician-1",
-    "name": "Ellowitz Electric",
-    "serviceId": "electrician",
-    "townSlug": "shrewsbury",
-    "phone": "",
-    "website": "https://ellowitzelectric.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Ellowitz Electric offers expert electrician services in Shrewsbury, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "shrewsbury-electrician-2",
-    "name": "Kuhlman Electric",
-    "serviceId": "electrician",
-    "townSlug": "shrewsbury",
-    "phone": "",
-    "website": "https://www.kuhlmanelectricalservices.com/service-areas/shrewsbury-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Kuhlman Electric is a local electrician company serving Shrewsbury, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "shrewsbury-electrician-3",
     "name": "Arsenault Electric",
     "serviceId": "electrician",
@@ -69542,19 +69520,6 @@
     "website": "",
     "facebook": "",
     "description": "Greenfield landscaping company providing lawn care, yard maintenance, and outdoor property services.",
-    "verified": false
-  },
-  {
-    "id": "ma-groton-plumbing-basnett-plumbing-heating-ac-and-electrical",
-    "slug": "basnett-plumbing-heating-ac-and-electrical",
-    "name": "Basnett Plumbing, Heating, AC & Electrical",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "plumbing",
-    "phone": "978-431-2906",
-    "website": "https://www.basnettplumbing.com/service-area/groton-ma/",
-    "facebook": "",
-    "description": "Plumbing company serving Groton with plumbing repair, drain service, fixture work, and installation services.",
     "verified": false
   },
   {
@@ -77197,16 +77162,6 @@
     "verified": false
   },
   {
-    "id": "harvard-yard-2",
-    "name": "Chestnut Tree and Landscape",
-    "state": "MA",
-    "townSlug": "harvard",
-    "serviceId": "yard-landscaping",
-    "phone": "978-570-8277",
-    "website": "https://chestnuttreeandlandscape.com/",
-    "verified": false
-  },
-  {
     "id": "harvard-yard-3",
     "name": "Three Seasons Landscape",
     "state": "MA",
@@ -77684,16 +77639,6 @@
     "serviceId": "electrician",
     "phone": "1-800-462-9710",
     "website": "https://rodenhiser.com/electrician-framingham/groton-electricians.html",
-    "verified": false
-  },
-  {
-    "id": "groton-yard-landscaping-2",
-    "name": "Gardner's Landscaping, LLC",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "yard-landscaping",
-    "phone": "978-758-7066",
-    "website": "https://www.gardnerslandscapingllc.com/",
     "verified": false
   },
   {
@@ -79683,17 +79628,6 @@
     "description": "Wilson Bros Electric provides licensed electrical services in Gardner including wiring, panel upgrades, and electrical system work for residential properties."
   },
   {
-    "id": "gardner-electrician-5",
-    "name": "Wilson Bros Electric",
-    "serviceId": "electrician",
-    "townSlug": "gardner",
-    "phone": "(978) 343-7744",
-    "website": "https://wilsonbros.com/",
-    "facebook": "",
-    "verified": true,
-    "description": "Wilson Bros Electric provides licensed electrical services in Gardner including wiring, panel upgrades, and electrical system work for residential properties."
-  },
-  {
     "id": "gardner-yard-landscaping-4",
     "name": "Brooks Landscaping",
     "serviceId": "yard-landscaping",
@@ -79761,14 +79695,14 @@
   },
   {
     "id": "groton-hvac-4",
-    "name": "Nashoba Air & BoilerWorks",
+    "name": "Heritage Home Service",
     "serviceId": "hvac",
     "townSlug": "groton",
-    "phone": "(978) 772-4328",
-    "website": "https://nashobaair.com/",
+    "phone": "(978) 487-3100",
+    "website": "https://justcallheritage.com/massachusetts/heating-cooling/",
     "facebook": "",
-    "verified": true,
-    "description": "Nashoba Air & BoilerWorks provides heating and air conditioning services in Groton including system installation, repair, and maintenance."
+    "verified": false,
+    "description": "Heritage Home Service provides heating and cooling services for Massachusetts homeowners, including repairs, replacements, and indoor comfort solutions near Groton, MA."
   },
   {
     "id": "groton-electrician-4",
@@ -79816,14 +79750,14 @@
   },
   {
     "id": "groton-yard-landscaping-5",
-    "name": "Landscaping by J. Michael",
+    "name": "Chicopee Row Landscaping, LLC",
     "serviceId": "yard-landscaping",
     "townSlug": "groton",
-    "phone": "(978) 433-4933",
-    "website": "",
+    "phone": "(978) 434-6102",
+    "website": "https://www.chicopeerow.com/",
     "facebook": "",
     "verified": false,
-    "description": "Landscaping by J. Michael provides lawn care and landscaping services in the Groton area including maintenance, planting, and property upkeep."
+    "description": "Chicopee Row Landscaping, LLC provides landscaping and property services for homeowners in Groton, MA."
   },
   {
     "id": "hadley-plumbing-4",
@@ -80022,5 +79956,423 @@
     "facebook": "",
     "verified": false,
     "description": "Green Valley Landscape & Design provides landscaping services in Grafton including design, installation, and lawn maintenance."
+  },
+  {
+    "id": "harvard-plumbing-4",
+    "name": "Papalia Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "harvard",
+    "phone": "(978) 568-7373",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Papalia Home Services provides plumbing services in Harvard including repairs, installations, and maintenance for residential systems."
+  },
+  {
+    "id": "harvard-hvac-4",
+    "name": "Nashoba Air & BoilerWorks",
+    "serviceId": "hvac",
+    "townSlug": "harvard",
+    "phone": "(978) 772-4328",
+    "website": "https://nashobaair.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Nashoba Air & BoilerWorks provides heating and air conditioning services in Harvard including installation, repair, and maintenance."
+  },
+  {
+    "id": "harvard-electrician-4",
+    "name": "Village Home Services",
+    "serviceId": "electrician",
+    "townSlug": "harvard",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Village Home Services provides electrical services in Harvard including wiring, panel upgrades, troubleshooting, and residential electrical work."
+  },
+  {
+    "id": "harvard-yard-landscaping-4",
+    "name": "C&C Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "harvard",
+    "phone": "(978) 456-7287",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "C&C Landscaping provides lawn care, seasonal cleanups, and general landscaping services for homeowners in Harvard, MA."
+  },
+  {
+    "id": "harvard-yard-landscaping-5",
+    "name": "Northeast Landscape Contractors",
+    "serviceId": "yard-landscaping",
+    "townSlug": "harvard",
+    "phone": "(978) 779-6400",
+    "website": "https://northeastlandscapecontractors.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Northeast Landscape Contractors offers professional landscaping, design, and maintenance services in Harvard and surrounding areas."
+  },
+  {
+    "id": "harvard-yard-landscaping-6",
+    "name": "Greenhow Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "harvard",
+    "phone": "(978) 368-9900",
+    "website": "https://greenhow.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Greenhow Landscaping is a well-established landscaping company providing lawn care, design, and maintenance services near Harvard, MA."
+  },
+  {
+    "id": "harvard-yard-landscaping-8",
+    "name": "C.S. Bailey Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "harvard",
+    "phone": "(339) 368-2442",
+    "website": "https://www.csbaileylandscape.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "C.S. Bailey Landscape provides landscape design, construction, maintenance, and gardening services for Harvard properties."
+  },
+  {
+    "id": "easton-electrician-4",
+    "name": "Castle Electric, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "easton",
+    "phone": "(508) 230-7722",
+    "website": "https://www.castleelectric.biz/",
+    "facebook": "",
+    "verified": true,
+    "description": "Castle Electric, Inc. provides residential and commercial electrical services for homeowners and businesses in Easton, MA."
+  },
+  {
+    "id": "groton-hvac-6",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "groton",
+    "phone": "(978) 597-2100",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Townsend Energy provides heating, cooling, and HVAC services for homeowners in Groton, MA and surrounding areas."
+  },
+  {
+    "id": "groton-yard-landscaping-10",
+    "name": "New England Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "groton",
+    "phone": "(978) 692-8228",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "New England Lawn Care offers lawn maintenance and landscaping services for residential properties in Groton, MA."
+  },
+  {
+    "id": "great-barrington-plumbing-4",
+    "name": "George Propane, Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "great-barrington",
+    "phone": "(413) 528-0080",
+    "website": "https://www.georgepropane.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "George Propane, Inc. provides plumbing and home service solutions for residents in Great Barrington, MA."
+  },
+  {
+    "id": "great-barrington-hvac-4",
+    "name": "A.B. Plumbing & Heating",
+    "serviceId": "hvac",
+    "townSlug": "great-barrington",
+    "phone": "(413) 528-0080",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "A.B. Plumbing & Heating provides heating and HVAC services for homeowners in Great Barrington, MA."
+  },
+  {
+    "id": "great-barrington-electrician-4",
+    "name": "Berkshire Electric Company",
+    "serviceId": "electrician",
+    "townSlug": "great-barrington",
+    "phone": "(413) 528-2700",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Berkshire Electric Company offers residential and commercial electrical services in Great Barrington, MA."
+  },
+  {
+    "id": "great-barrington-plumbing-5",
+    "name": "Berkshire Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "great-barrington",
+    "phone": "(413) 528-5252",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Berkshire Plumbing Services provides residential plumbing repairs and installations for homeowners in Great Barrington, MA."
+  },
+  {
+    "id": "hampden-plumbing-4",
+    "name": "A-1 Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "hampden",
+    "phone": "(413) 566-8700",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "A-1 Plumbing & Heating provides residential plumbing services for homeowners in Hampden, MA."
+  },
+  {
+    "id": "hampden-hvac-4",
+    "name": "Hurley & David HVAC",
+    "serviceId": "hvac",
+    "townSlug": "hampden",
+    "phone": "(413) 218-1027",
+    "website": "https://www.hurleyanddavid.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Hurley & David provides heating and cooling services for homeowners in Hampden, MA and surrounding areas."
+  },
+  {
+    "id": "hampden-electrician-4",
+    "name": "Erwin Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "hampden",
+    "phone": "(413) 566-5678",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Erwin Electrical Services provides residential electrical work and repairs in Hampden, MA."
+  },
+  {
+    "id": "hampden-yard-landscaping-4",
+    "name": "Pioneer Valley Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "hampden",
+    "phone": "(413) 596-4010",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Pioneer Valley Lawn Care provides lawn maintenance and landscaping services in Hampden, MA."
+  },
+  {
+    "id": "hampden-plumbing-5",
+    "name": "Pioneer Valley Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "hampden",
+    "phone": "(413) 596-4010",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Pioneer Valley Plumbing & Heating provides plumbing repairs and installations for homeowners in Hampden, MA."
+  },
+  {
+    "id": "north-andover-plumbing-4",
+    "name": "Maffei Services",
+    "serviceId": "plumbing",
+    "townSlug": "north-andover",
+    "phone": "(978) 685-1900",
+    "website": "https://www.maffeiservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Maffei Services provides plumbing services for homeowners in North Andover, MA and surrounding areas."
+  },
+  {
+    "id": "north-andover-hvac-4",
+    "name": "Merrimack Valley HVAC",
+    "serviceId": "hvac",
+    "townSlug": "north-andover",
+    "phone": "(978) 682-2300",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Merrimack Valley HVAC provides heating and cooling services for residential customers in North Andover, MA."
+  },
+  {
+    "id": "north-andover-electrician-4",
+    "name": "A & B Electric",
+    "serviceId": "electrician",
+    "townSlug": "north-andover",
+    "phone": "(978) 686-5400",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "A & B Electric provides electrical services and repairs for homes and businesses in North Andover, MA."
+  },
+  {
+    "id": "north-andover-yard-landscaping-4",
+    "name": "Brothers Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "north-andover",
+    "phone": "(978) 685-4100",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Brothers Landscaping provides lawn care and landscaping services for residential properties in North Andover, MA."
+  },
+  {
+    "id": "reading-plumbing-4",
+    "name": "TJM Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "reading",
+    "phone": "1-866-99PLUMB",
+    "website": "https://www.tjmplumbingheating.com/service-areas/reading-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "TJM Plumbing & Heating provides plumbing and heating services for homeowners in Reading, MA."
+  },
+  {
+    "id": "reading-hvac-4",
+    "name": "Brooks & Brooks HVAC",
+    "serviceId": "hvac",
+    "townSlug": "reading",
+    "phone": "(781) 942-1092",
+    "website": "https://www.brooksandbrookshvac.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Brooks & Brooks HVAC is a family-owned heating and air conditioning company based in Reading, MA."
+  },
+  {
+    "id": "reading-electrician-4",
+    "name": "Sartell Electrical Services, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "reading",
+    "phone": "(781) 944-4433",
+    "website": "https://sartellelectrical.com/contact/",
+    "facebook": "",
+    "verified": false,
+    "description": "Sartell Electrical Services, Inc. provides licensed electrical services for homes and businesses in Reading, MA."
+  },
+  {
+    "id": "reading-yard-landscaping-4",
+    "name": "K.M. Earle Land and Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "reading",
+    "phone": "(781) 779-1323",
+    "website": "https://www.kmearle.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "K.M. Earle Land and Lawn Care provides landscaping and lawn care services in Reading, MA."
+  },
+  {
+    "id": "shrewsbury-plumbing-4",
+    "name": "Gabriele Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "shrewsbury",
+    "phone": "(508) 842-6678",
+    "website": "https://www.gabrieleplumbing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Gabriele Plumbing & Heating provides plumbing services for homeowners in Shrewsbury, MA."
+  },
+  {
+    "id": "shrewsbury-hvac-4",
+    "name": "CPS Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "shrewsbury",
+    "phone": "(508) 501-8848",
+    "website": "https://www.cpshvac.com/shrewsbury-hvac-services/",
+    "facebook": "",
+    "verified": false,
+    "description": "CPS Heating & Cooling provides heating and air conditioning services for homeowners in Shrewsbury, MA."
+  },
+  {
+    "id": "shrewsbury-electrician-4",
+    "name": "Ellowitz Electric",
+    "serviceId": "electrician",
+    "townSlug": "shrewsbury",
+    "phone": "(774) 317-5884",
+    "website": "https://ellowitzelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Ellowitz Electric provides licensed residential and commercial electrical services in Shrewsbury, MA."
+  },
+  {
+    "id": "shrewsbury-electrician-5",
+    "name": "Jason A. Curran Licensed Electrician",
+    "serviceId": "electrician",
+    "townSlug": "shrewsbury",
+    "phone": "(508) 735-1786",
+    "website": "https://www.jcurranelectric.com/contact/electrician-service-area/shrewsbury-ma",
+    "facebook": "",
+    "verified": false,
+    "description": "Jason A. Curran Licensed Electrician provides residential and commercial electrical services in Shrewsbury, MA."
+  },
+  {
+    "id": "shrewsbury-electrician-6",
+    "name": "Rodenhiser Home Services",
+    "serviceId": "electrician",
+    "townSlug": "shrewsbury",
+    "phone": "1-800-462-9710",
+    "website": "https://rodenhiser.com/electrician-framingham/shrewsbury-electricians.html",
+    "facebook": "",
+    "verified": false,
+    "description": "Rodenhiser Home Services provides electrical services for homeowners in Shrewsbury, MA."
+  },
+  {
+    "id": "shrewsbury-yard-landscaping-4",
+    "name": "Warren Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "shrewsbury",
+    "phone": "(508) 320-3799",
+    "website": "https://www.warrenlandscapingco.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Warren Landscaping provides lawn care and landscape services for properties in Shrewsbury, MA."
+  },
+  {
+    "id": "sudbury-plumbing-4",
+    "name": "Sudbury Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "sudbury",
+    "phone": "(978) 218-8960",
+    "website": "https://www.sudburyplumbingheating.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Sudbury Plumbing & Heating provides local plumbing and heating services for homeowners in Sudbury, MA."
+  },
+  {
+    "id": "sudbury-hvac-4",
+    "name": "Chaves Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "sudbury",
+    "phone": "(978) 562-5309",
+    "website": "https://www.chaveshvac.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Chaves Heating & Air Conditioning provides heating and cooling services for homes in Sudbury, MA and nearby towns."
+  },
+  {
+    "id": "sudbury-electrician-4",
+    "name": "New England Plumbing & Electric",
+    "serviceId": "electrician",
+    "townSlug": "sudbury",
+    "phone": "(781) 318-6535",
+    "website": "https://www.neplumbingandelectric.com/contact/electricians-service-area/sudbury-ma",
+    "facebook": "",
+    "verified": false,
+    "description": "New England Plumbing & Electric provides licensed electrical services for homeowners in Sudbury, MA."
+  },
+  {
+    "id": "sudbury-yard-landscaping-4",
+    "name": "R.N.H. Landscape and Design, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "sudbury",
+    "phone": "(978) 443-7699",
+    "website": "https://www.rnhlandscape.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "R.N.H. Landscape and Design, Inc. provides landscaping and outdoor property services in Sudbury, MA."
+  },
+  {
+    "id": "sudbury-plumbing-5",
+    "name": "Drain Flow Solutions",
+    "serviceId": "plumbing",
+    "townSlug": "sudbury",
+    "phone": "(978) 897-9200",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Drain Flow Solutions provides plumbing and drain services for homeowners in Sudbury, MA."
   }
 ]
