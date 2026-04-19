@@ -57844,17 +57844,6 @@
     "description": "Rodenhiser Plumbing offers expert plumbing services in Grafton, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "grafton-plumbing-3",
-    "name": "Adi Reda Plumbing",
-    "serviceId": "plumbing",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.adiredaplumbing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Grafton, MA? Adi Reda Plumbing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "grafton-hvac-1",
     "name": "Landry Mechanical",
     "serviceId": "hvac",
@@ -57864,17 +57853,6 @@
     "facebook": "",
     "verified": true,
     "description": "Landry Mechanical offers expert hvac services in Grafton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "grafton-hvac-2",
-    "name": "Precision Home Services",
-    "serviceId": "hvac",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.phcprecision.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Precision Home Services is a local hvac company serving Grafton, MA with dependable service and quality workmanship."
   },
   {
     "id": "grafton-hvac-3",
@@ -57888,17 +57866,6 @@
     "description": "Air Temperature Service, LLC is a local hvac company serving Grafton, MA with dependable service and quality workmanship."
   },
   {
-    "id": "grafton-electrician-1",
-    "name": "Precision Home Services",
-    "serviceId": "electrician",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.phcprecision.com/electrical/",
-    "facebook": "",
-    "verified": false,
-    "description": "Precision Home Services provides professional electrician services in Grafton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "grafton-electrician-2",
     "name": "Rodenhiser Electric",
     "serviceId": "electrician",
@@ -57908,17 +57875,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for electrician in Grafton, MA? Rodenhiser Electric offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "grafton-electrician-3",
-    "name": "Wired Electrical Contractors",
-    "serviceId": "electrician",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.ihiredwired.com/service-area/grafton-ma-electricians/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Grafton, MA? Wired Electrical Contractors offers trusted local services for homeowners and businesses."
   },
   {
     "id": "grafton-roofing-1",
@@ -57952,39 +57908,6 @@
     "facebook": "",
     "verified": false,
     "description": "O’LYN Roofing is a local roofing company serving Grafton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "grafton-yard-landscaping-1",
-    "name": "Corning Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.corninglandscape.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Corning Landscaping offers expert yard landscaping services in Grafton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "grafton-yard-landscaping-2",
-    "name": "Tender Touch Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://www.tendertouchlandscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Grafton, MA? Tender Touch Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "grafton-yard-landscaping-3",
-    "name": "Hillman Landscape and Construction, LLC",
-    "serviceId": "yard-landscaping",
-    "townSlug": "grafton",
-    "phone": "",
-    "website": "https://hillmanconstruction.com/grafton-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Hillman Landscape and Construction, LLC offers expert yard landscaping services in Grafton, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "newton-yard-landscaping-1",
@@ -69232,19 +69155,6 @@
     "verified": false
   },
   {
-    "id": "ma-gardner-yard-landscaping-z-hastings-landscape-construction",
-    "slug": "z-hastings-landscape-construction",
-    "name": "Z. Hastings Landscape Construction",
-    "state": "MA",
-    "townSlug": "gardner",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "website": "https://business.gardnerma.com/list/member/z-hastings-landscape-construction-5742",
-    "facebook": "",
-    "description": "Landscape company serving the Gardner area with patios, walkways, retaining walls, and related outdoor projects.",
-    "verified": false
-  },
-  {
     "id": "ma-gill-plumbing-zilinski-heating-cooling",
     "slug": "zilinski-heating-cooling",
     "name": "Zilinski Heating & Cooling",
@@ -76837,13 +76747,14 @@
   },
   {
     "id": "easton-roofing-4",
-    "name": "South Shore Roofing",
-    "state": "MA",
-    "townSlug": "easton",
+    "name": "REI Roofing",
     "serviceId": "roofing",
-    "phone": "508-230-8000",
-    "website": "",
-    "verified": false
+    "townSlug": "easton",
+    "phone": "(508) 463-3111",
+    "website": "https://reiroofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "REI Roofing provides residential roofing services for Easton homeowners, including roof replacement, repairs, and inspections."
   },
   {
     "id": "easton-yard-2",
@@ -77746,16 +77657,6 @@
     "verified": true
   },
   {
-    "id": "groton-plumbing-3",
-    "name": "Matley Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "plumbing",
-    "phone": "",
-    "website": "https://matleyplumbing.com/groton-ma/",
-    "verified": false
-  },
-  {
     "id": "groton-hvac-2",
     "name": "Gervais Mechanical Services",
     "state": "MA",
@@ -77763,16 +77664,6 @@
     "serviceId": "hvac",
     "phone": "508-426-6991",
     "website": "https://www.gervaismechanical.com/service-areas/groton/",
-    "verified": false
-  },
-  {
-    "id": "groton-hvac-3",
-    "name": "Royal Flush Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "hvac",
-    "phone": "",
-    "website": "https://www.rfplumbingheating.com/furnace-plumbing-ac-groton",
     "verified": false
   },
   {
@@ -77796,26 +77687,6 @@
     "verified": false
   },
   {
-    "id": "groton-roofing-2",
-    "name": "Red Dog's Roofing",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "roofing",
-    "phone": "",
-    "website": "https://www.reddogsroofing.com/groton-ma/roofing/",
-    "verified": false
-  },
-  {
-    "id": "groton-roofing-3",
-    "name": "Magee Roofing",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "roofing",
-    "phone": "",
-    "website": "https://www.mageeroof.com/areas-serviced/groton/",
-    "verified": false
-  },
-  {
     "id": "groton-yard-landscaping-2",
     "name": "Gardner's Landscaping, LLC",
     "state": "MA",
@@ -77823,16 +77694,6 @@
     "serviceId": "yard-landscaping",
     "phone": "978-758-7066",
     "website": "https://www.gardnerslandscapingllc.com/",
-    "verified": false
-  },
-  {
-    "id": "groton-yard-landscaping-3",
-    "name": "Turf Unlimited",
-    "state": "MA",
-    "townSlug": "groton",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "website": "https://www.turfunlimited.com/service-area/groton-ma/",
     "verified": false
   },
   {
@@ -79743,5 +79604,423 @@
     "facebook": "",
     "verified": false,
     "description": "Rodenhiser Home Services provides electrical services in Hopkinton, MA and nearby communities."
+  },
+  {
+    "id": "easton-plumbing-4",
+    "name": "NGF Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "easton",
+    "phone": "(508) 294-9601",
+    "website": "https://www.ngfplumbing.com/",
+    "facebook": "https://www.facebook.com/NGFPlumbing/",
+    "verified": false,
+    "description": "NGF Plumbing provides residential plumbing services for Easton homeowners, including repairs, gas line work, water heaters, and bathroom plumbing projects."
+  },
+  {
+    "id": "easton-hvac-4",
+    "name": "Rego Electric Heating, Cooling, and Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "easton",
+    "phone": "(508) 978-2540",
+    "website": "https://rego-services.com/about/service-area/easton-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Rego Electric Heating, Cooling, and Plumbing provides heating and air conditioning service for Easton homeowners, including HVAC repair, installation, and maintenance."
+  },
+  {
+    "id": "easton-roofing-5",
+    "name": "REI Roofing",
+    "serviceId": "roofing",
+    "townSlug": "easton",
+    "phone": "(508) 463-3111",
+    "website": "https://reiroofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "REI Roofing provides residential roofing services for Easton homeowners, including roof replacement, repairs, and inspections."
+  },
+  {
+    "id": "easton-yard-landscaping-4",
+    "name": "Greener Group LLC",
+    "serviceId": "yard-landscaping",
+    "townSlug": "easton",
+    "phone": "(508) 238-5296",
+    "website": "https://www.greenergroupllc.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Greener Group LLC provides landscaping and lawn care services in Easton, including lawn maintenance, planting, and property care."
+  },
+  {
+    "id": "gardner-plumbing-4",
+    "name": "Roto-Rooter Plumbing & Water Cleanup",
+    "serviceId": "plumbing",
+    "townSlug": "gardner",
+    "phone": "(978) 355-7200",
+    "website": "https://www.rotorooter.com/gardnerma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Roto-Rooter provides plumbing services in Gardner, MA including drain cleaning, emergency plumbing repairs, and water cleanup services."
+  },
+  {
+    "id": "gardner-hvac-4",
+    "name": "Wilson Bros Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "gardner",
+    "phone": "(978) 343-7744",
+    "website": "https://wilsonbros.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Wilson Bros Heating & Air Conditioning provides HVAC services in Gardner including heating repair, air conditioning installation, and system maintenance."
+  },
+  {
+    "id": "gardner-electrician-4",
+    "name": "Wilson Bros Electric",
+    "serviceId": "electrician",
+    "townSlug": "gardner",
+    "phone": "(978) 343-7744",
+    "website": "https://wilsonbros.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Wilson Bros Electric provides licensed electrical services in Gardner including wiring, panel upgrades, and electrical system work for residential properties."
+  },
+  {
+    "id": "gardner-electrician-5",
+    "name": "Wilson Bros Electric",
+    "serviceId": "electrician",
+    "townSlug": "gardner",
+    "phone": "(978) 343-7744",
+    "website": "https://wilsonbros.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Wilson Bros Electric provides licensed electrical services in Gardner including wiring, panel upgrades, and electrical system work for residential properties."
+  },
+  {
+    "id": "gardner-yard-landscaping-4",
+    "name": "Brooks Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "gardner",
+    "phone": "(978) 632-1234",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Brooks Landscaping provides lawn care and landscaping services in Gardner including mowing, yard maintenance, and seasonal property cleanup."
+  },
+  {
+    "id": "gardner-yard-landscaping-5",
+    "name": "Ayer Landscaping, Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "gardner",
+    "phone": "(978) 772-2273",
+    "website": "https://www.ayerlandscaping.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Ayer Landscaping, Inc. provides landscaping and lawn care services for Gardner-area properties, including maintenance, planting, and seasonal cleanup."
+  },
+  {
+    "id": "gardner-yard-landscaping-6",
+    "name": "Mass Hardscapes",
+    "serviceId": "yard-landscaping",
+    "townSlug": "gardner",
+    "phone": "(978) 652-1950",
+    "website": "https://www.masshardscapes.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Mass Hardscapes provides landscaping and hardscape services in the Gardner area, including patios, walkways, lawn installation, and outdoor living projects."
+  },
+  {
+    "id": "groton-plumbing-4",
+    "name": "Heritage Home Service",
+    "serviceId": "plumbing",
+    "townSlug": "groton",
+    "phone": "(978) 633-1737",
+    "website": "https://justcallheritage.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Heritage Home Service provides plumbing services in Groton including repairs, installations, and emergency plumbing support for residential properties."
+  },
+  {
+    "id": "groton-plumbing-5",
+    "name": "Papalia Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "groton",
+    "phone": "(978) 568-7373",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Papalia Home Services provides plumbing services in Groton including repairs, installations, and maintenance for residential systems."
+  },
+  {
+    "id": "groton-plumbing-6",
+    "name": "Sila Heating, Air Conditioning, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "groton",
+    "phone": "(978) 671-4880",
+    "website": "https://www.sila.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Sila provides plumbing services in the Groton area including repairs, water heaters, and full residential plumbing support."
+  },
+  {
+    "id": "groton-hvac-4",
+    "name": "Nashoba Air & BoilerWorks",
+    "serviceId": "hvac",
+    "townSlug": "groton",
+    "phone": "(978) 772-4328",
+    "website": "https://nashobaair.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Nashoba Air & BoilerWorks provides heating and air conditioning services in Groton including system installation, repair, and maintenance."
+  },
+  {
+    "id": "groton-electrician-4",
+    "name": "Village Home Services",
+    "serviceId": "electrician",
+    "townSlug": "groton",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Village Home Services provides electrical services in Groton including wiring, panel upgrades, troubleshooting, and residential electrical work."
+  },
+  {
+    "id": "groton-roofing-4",
+    "name": "REI Roofing",
+    "serviceId": "roofing",
+    "townSlug": "groton",
+    "phone": "(508) 463-3111",
+    "website": "https://reiroofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "REI Roofing provides residential roofing services in the Groton area including roof replacement, repairs, and inspections."
+  },
+  {
+    "id": "groton-roofing-5",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "groton",
+    "phone": "(781) 633-6536",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides roofing services in the Groton area including roof replacement, repairs, and maintenance for residential properties."
+  },
+  {
+    "id": "groton-yard-landscaping-4",
+    "name": "St. Laurent Property Maintenance",
+    "serviceId": "yard-landscaping",
+    "townSlug": "groton",
+    "phone": "(978) 448-6246",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "St. Laurent Property Maintenance provides landscaping and lawn care services in Groton including maintenance, seasonal cleanup, and property care."
+  },
+  {
+    "id": "groton-yard-landscaping-5",
+    "name": "Landscaping by J. Michael",
+    "serviceId": "yard-landscaping",
+    "townSlug": "groton",
+    "phone": "(978) 433-4933",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Landscaping by J. Michael provides lawn care and landscaping services in the Groton area including maintenance, planting, and property upkeep."
+  },
+  {
+    "id": "hadley-plumbing-4",
+    "name": "Fletcher Sewer & Drain",
+    "serviceId": "plumbing",
+    "townSlug": "hadley",
+    "phone": "(413) 532-0381",
+    "website": "https://www.fletchersdrain.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Fletcher Sewer & Drain provides plumbing and drain services in Hadley including sewer cleaning, repairs, and residential plumbing support."
+  },
+  {
+    "id": "hadley-hvac-4",
+    "name": "Hurley & David",
+    "serviceId": "hvac",
+    "townSlug": "hadley",
+    "phone": "(413) 218-1027",
+    "website": "https://www.hurleyanddavid.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Hurley & David provides heating and air conditioning services in Hadley including installation, repair, and maintenance for residential systems."
+  },
+  {
+    "id": "hadley-electrician-4",
+    "name": "Integrity Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "hadley",
+    "phone": "(413) 586-1234",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "Integrity Electrical Services provides electrical work in Hadley including wiring, panel upgrades, troubleshooting, and residential electrical services."
+  },
+  {
+    "id": "hadley-yard-landscaping-4",
+    "name": "Hartney Greymont",
+    "serviceId": "yard-landscaping",
+    "townSlug": "hadley",
+    "phone": "(413) 536-1621",
+    "website": "https://www.hartney.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Hartney Greymont provides landscaping and tree care services in Hadley including lawn care, planting, and property maintenance."
+  },
+  {
+    "id": "falmouth-plumbing-4",
+    "name": "Capeway Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "falmouth",
+    "phone": "(508) 540-3821",
+    "website": "https://www.capewayplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Capeway Plumbing & Heating provides plumbing services in Falmouth including repairs, installations, and maintenance for residential systems."
+  },
+  {
+    "id": "falmouth-hvac-4",
+    "name": "South Shore Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "falmouth",
+    "phone": "(508) 888-2253",
+    "website": "https://www.southshoreheatingandcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "South Shore Heating & Cooling provides HVAC services in Falmouth including air conditioning, heating repair, and system installations."
+  },
+  {
+    "id": "falmouth-electrician-4",
+    "name": "M.R. Electricians",
+    "serviceId": "electrician",
+    "townSlug": "falmouth",
+    "phone": "(508) 540-0200",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "M.R. Electricians provides electrical services in Falmouth including wiring, panel upgrades, and residential electrical work."
+  },
+  {
+    "id": "falmouth-yard-landscaping-4",
+    "name": "Cape Cod Lawn Care",
+    "serviceId": "yard-landscaping",
+    "townSlug": "falmouth",
+    "phone": "(508) 548-5296",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "Cape Cod Lawn Care provides landscaping and lawn maintenance services in Falmouth including mowing, cleanup, and property care."
+  },
+  {
+    "id": "grafton-plumbing-4",
+    "name": "Rodenhiser Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "grafton",
+    "phone": "(508) 754-0300",
+    "website": "https://www.rodenhiser.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Rodenhiser Home Services provides plumbing services in Grafton including repairs, installations, and maintenance for residential systems."
+  },
+  {
+    "id": "grafton-plumbing-5",
+    "name": "Sila Heating, Air Conditioning, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "grafton",
+    "phone": "(508) 925-1600",
+    "website": "https://www.sila.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Sila provides plumbing services in Grafton including repairs, water heaters, and residential plumbing support."
+  },
+  {
+    "id": "grafton-plumbing-6",
+    "name": "Garabedian Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "grafton",
+    "phone": "(508) 839-4680",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Garabedian Plumbing & Heating provides plumbing services in Grafton including repairs, installations, and maintenance."
+  },
+  {
+    "id": "grafton-hvac-4",
+    "name": "Precision Heating & Cooling",
+    "serviceId": "hvac",
+    "townSlug": "grafton",
+    "phone": "(508) 754-2300",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "Precision Heating & Cooling provides HVAC services in Grafton including heating repair, air conditioning installation, and system maintenance."
+  },
+  {
+    "id": "grafton-hvac-5",
+    "name": "C&C Temp Control",
+    "serviceId": "hvac",
+    "townSlug": "grafton",
+    "phone": "(508) 887-8500",
+    "website": "https://cctempcontrol.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "C&C Temp Control provides heating and cooling services in Grafton including installation, repair, and HVAC system maintenance."
+  },
+  {
+    "id": "grafton-electrician-4",
+    "name": "DJF Electrical Services",
+    "serviceId": "electrician",
+    "townSlug": "grafton",
+    "phone": "(508) 839-4100",
+    "website": "",
+    "facebook": "",
+    "verified": true,
+    "description": "DJF Electrical Services provides electrical work in Grafton including wiring, panel upgrades, troubleshooting, and residential electrical services."
+  },
+  {
+    "id": "grafton-electrician-5",
+    "name": "Village Home Services",
+    "serviceId": "electrician",
+    "townSlug": "grafton",
+    "phone": "(508) 882-1000",
+    "website": "https://www.villagehomeservices.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Village Home Services provides electrical services in Grafton including wiring, panel upgrades, and residential electrical work."
+  },
+  {
+    "id": "grafton-yard-landscaping-4",
+    "name": "Tender Touch Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "grafton",
+    "phone": "(508) 839-7354",
+    "website": "https://www.tendertouchlandscaping.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Tender Touch Landscaping provides landscaping services in Grafton including lawn maintenance, irrigation, patios, walkways, and property care."
+  },
+  {
+    "id": "grafton-yard-landscaping-5",
+    "name": "All Seasons Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "grafton",
+    "phone": "(508) 839-4500",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "All Seasons Landscaping provides landscaping services in Grafton including lawn care, maintenance, and property upkeep."
+  },
+  {
+    "id": "grafton-yard-landscaping-6",
+    "name": "Green Valley Landscape & Design",
+    "serviceId": "yard-landscaping",
+    "townSlug": "grafton",
+    "phone": "(508) 887-9300",
+    "website": "",
+    "facebook": "",
+    "verified": false,
+    "description": "Green Valley Landscape & Design provides landscaping services in Grafton including design, installation, and lawn maintenance."
   }
 ]
