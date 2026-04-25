@@ -2052,19 +2052,6 @@
     "verified": false
   },
   {
-    "id": "addario-hvac-framingham",
-    "name": "Addario's Services",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "hvac",
-    "phone": "(508) 875-8882",
-    "website": "https://www.addarios.com/",
-    "description": "Heating, cooling, plumbing, and electrical services serving Framingham and MetroWest.",
-    "slug": "addario-hvac",
-    "facebook": "",
-    "verified": false
-  },
-  {
     "id": "landry-mechanical-hvac-framingham",
     "name": "Landry Mechanical",
     "state": "MA",
@@ -4803,198 +4790,6 @@
     "description": "Serving Lynn, Massachusetts, South Bay Electric specializes in electrician services for residential and commercial needs."
   },
   {
-    "id": "lowell-landscaping-bella-vista-landscape",
-    "name": "Bella Vista Landscape",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Bella Vista Landscape offers expert yard landscaping services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lowell-landscaping-merrimack-valley-landscaping",
-    "name": "Merrimack Valley Landscaping",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for yard landscaping in Lowell, MA? Merrimack Valley Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lowell-landscaping-greenline-landscape",
-    "name": "Greenline Landscape",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Greenline Landscape is a local yard landscaping company serving Lowell, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lowell-landscaping-river-city-landscape",
-    "name": "River City Landscape",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lowell, Massachusetts, River City Landscape specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "lowell-landscaping-north-shore-yard-care",
-    "name": "North Shore Yard Care",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "North Shore Yard Care is a local yard landscaping company serving Lowell, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lowell-landscaping-four-seasons-landscaping",
-    "name": "Four Seasons Landscaping",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lowell, Massachusetts, Four Seasons Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "lowell-landscaping-pro-cut-landscaping",
-    "name": "Pro Cut Landscaping",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Pro Cut Landscaping offers expert yard landscaping services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lowell-landscaping-evergreen-landscape-services",
-    "name": "Evergreen Landscape Services",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for yard landscaping in Lowell, MA? Evergreen Landscape Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-landscaping-brothers-landscaping",
-    "name": "Brothers Landscaping",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Brothers Landscaping provides professional yard landscaping services in Framingham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "framingham-landscaping-metro-west-landscaping",
-    "name": "MetroWest Landscaping",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Framingham, Massachusetts, MetroWest Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "framingham-landscaping-four-seasons-landscape",
-    "name": "Four Seasons Landscape",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Framingham, Massachusetts, Four Seasons Landscape specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "framingham-landscaping-precision-landscape",
-    "name": "Precision Landscape",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Precision Landscape is a local yard landscaping company serving Framingham, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "framingham-landscaping-green-works-landscape",
-    "name": "Green Works Landscape",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Green Works Landscape provides professional yard landscaping services in Framingham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "framingham-landscaping-yardmasters",
-    "name": "YardMasters Landscaping",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for yard landscaping in Framingham, MA? YardMasters Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-landscaping-evergreen-landscape-and-design",
-    "name": "Evergreen Landscape & Design",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Framingham, Massachusetts, Evergreen Landscape & Design specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "framingham-landscaping-stonegate-landscape",
-    "name": "Stonegate Landscape",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Stonegate Landscape offers expert yard landscaping services in Framingham, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "quincy-landscaping-patriot-landscape-services",
     "name": "Patriot Landscape Services",
     "state": "MA",
@@ -5017,78 +4812,6 @@
     "facebook": "",
     "website": "",
     "description": "Harborview Landscaping provides professional yard landscaping services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "somerville-plumbing-somerville-plumbing-pros",
-    "name": "Somerville Plumbing Pros",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Somerville Plumbing Pros offers expert plumbing services in Somerville, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "somerville-plumbing-union-square-plumbing",
-    "name": "Union Square Plumbing",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Union Square Plumbing provides professional plumbing services in Somerville, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "somerville-plumbing-davis-square-plumbing-heating",
-    "name": "Davis Square Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Somerville, Massachusetts, Davis Square Plumbing & Heating specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "somerville-plumbing-mystic-river-plumbing",
-    "name": "Mystic River Plumbing",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Mystic River Plumbing offers expert plumbing services in Somerville, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "somerville-plumbing-assembly-row-plumbing",
-    "name": "Assembly Row Plumbing",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Assembly Row Plumbing is a local plumbing company serving Somerville, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "somerville-plumbing-somerville-drain-and-rooter",
-    "name": "Somerville Drain & Rooter",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "plumbing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Somerville Drain & Rooter is a local plumbing company serving Somerville, MA with dependable service and quality workmanship."
   },
   {
     "id": "boston-hvac-boston-hvac-pros",
@@ -5269,150 +4992,6 @@
     "facebook": "",
     "website": "",
     "description": "Serving Boston, Massachusetts, Boston Roof & Gutter specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "lowell-roofing-lowell-roofing-pros",
-    "name": "Lowell Roofing Pros",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Lowell Roofing Pros offers expert roofing services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lowell-roofing-merrimack-valley-roofing",
-    "name": "Merrimack Valley Roofing",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Merrimack Valley Roofing offers expert roofing services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lowell-roofing-north-shore-roofing",
-    "name": "North Shore Roofing",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "North Shore Roofing provides professional roofing services in Lowell, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lowell-roofing-river-city-roofing",
-    "name": "River City Roofing",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "River City Roofing is a local roofing company serving Lowell, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lowell-roofing-trusted-roofing-and-siding",
-    "name": "Trusted Roofing & Siding",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for roofing in Lowell, MA? Trusted Roofing & Siding offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lowell-roofing-evergreen-roofing-services",
-    "name": "Evergreen Roofing Services",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for roofing in Lowell, MA? Evergreen Roofing Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-electrician-metro-west-electric",
-    "name": "MetroWest Electric",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "MetroWest Electric is a local electrician company serving Framingham, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "framingham-electrician-framingham-electric-pros",
-    "name": "Framingham Electric Pros",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for electrician in Framingham, MA? Framingham Electric Pros offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-electrician-home-wiring-and-lighting",
-    "name": "Home Wiring & Lighting",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Home Wiring & Lighting offers expert electrician services in Framingham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "framingham-electrician-precision-electrical",
-    "name": "Precision Electrical",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Precision Electrical is a local electrician company serving Framingham, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "framingham-electrician-mass-electric-services",
-    "name": "Mass Electric Services",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Mass Electric Services offers expert electrician services in Framingham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "framingham-electrician-patriot-electrical-services",
-    "name": "Patriot Electrical Services",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Patriot Electrical Services is a local electrician company serving Framingham, MA with dependable service and quality workmanship."
   },
   {
     "id": "quincy-hvac-quincy-hvac-pros",
@@ -5811,116 +5390,6 @@
     "description": "RJ Landscapes offers expert yard landscaping services in Springfield, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "cambridge-painters-certa-pro-cambridge",
-    "name": "CertaPro Painters of Cambridge",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "description": "Interior and exterior painting services in Cambridge.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-painters-proline-painting",
-    "name": "Proline Painting Services",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "description": "Residential and commercial painting services serving Cambridge.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-painters-rivera-painting",
-    "name": "Rivera Painting",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "description": "Local painting contractor serving the Cambridge area.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-pest-control-green-planet",
-    "name": "Green Planet Pest Control",
-    "townSlug": "cambridge",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "description": "Eco-friendly pest control solutions serving Cambridge.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-pressure-washing-boston-pressure-washing",
-    "name": "Boston Pressure Washing",
-    "townSlug": "cambridge",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "description": "Pressure washing services for driveways, siding, and patios.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-pressure-washing-maintain-that",
-    "name": "MaintainThat Pressure Washing",
-    "townSlug": "cambridge",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "description": "Exterior cleaning and pressure washing services.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "cambridge-pressure-washing-quality-preferred",
-    "name": "Quality Preferred Power Washing",
-    "townSlug": "cambridge",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "description": "Residential and commercial pressure washing services.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "worcester-painters-certa-pro",
-    "name": "CertaPro Painters of Worcester",
-    "townSlug": "worcester",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "description": "Interior and exterior painting services in Worcester.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "worcester-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "townSlug": "worcester",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "description": "Local pest control provider serving Worcester homeowners.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "worcester-pressure-washing-worcester-power-wash",
-    "name": "Worcester Power Washing",
-    "townSlug": "worcester",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "description": "Pressure washing services for homes, driveways, and siding.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
     "id": "springfield-painters-certa-pro",
     "name": "CertaPro Painters of Springfield",
     "townSlug": "springfield",
@@ -5928,17 +5397,6 @@
     "phone": "",
     "website": "https://certapro.com",
     "description": "Interior and exterior painting services in Springfield.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "springfield-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "townSlug": "springfield",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "description": "Local pest control provider serving Springfield homeowners.",
     "verified": false,
     "facebook": ""
   },
@@ -5954,65 +5412,6 @@
     "facebook": ""
   },
   {
-    "id": "lowell-painters-certa-pro",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "verified": false,
-    "facebook": "",
-    "description": "CertaPro Painters provides professional painters services in Lowell, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lowell-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "townSlug": "lowell",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "description": "Local pest control provider serving Lowell homeowners.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "lowell-pressure-washing-lowell-power-wash",
-    "name": "Lowell Power Washing",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Lowell, MA? Lowell Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pest control in Framingham, MA? Guardian Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "framingham-pressure-washing-framingham-power-wash",
-    "name": "Framingham Power Washing",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Framingham, MA? Framingham Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "newton-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -6023,29 +5422,6 @@
     "verified": true,
     "facebook": "",
     "description": "CertaPro Painters offers expert painters services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "newton-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "description": "Local pest control provider serving Newton homeowners.",
-    "verified": false,
-    "facebook": ""
-  },
-  {
-    "id": "newton-pressure-washing-newton-power-wash",
-    "name": "Newton Power Washing",
-    "state": "MA",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Newton Power Washing provides professional pressure washing services in Newton, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "waltham-painters-certa-pro",
@@ -6096,30 +5472,6 @@
     "description": "Looking for painters in Brookline, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "brookline-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "brookline",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Guardian Pest Control offers expert pest control services in Brookline, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brookline-pressure-washing-brookline-power-wash",
-    "name": "Brookline Power Washing",
-    "state": "MA",
-    "townSlug": "brookline",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Brookline Power Washing provides professional pressure washing services in Brookline, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "quincy-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -6142,18 +5494,6 @@
     "verified": false,
     "facebook": "",
     "description": "Guardian Pest Control is a local pest control company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-pressure-washing-quincy-power-wash",
-    "name": "Quincy Power Washing",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Quincy Power Washing provides professional pressure washing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "lynn-painters-certa-pro",
@@ -6190,18 +5530,6 @@
     "verified": true,
     "facebook": "",
     "description": "Looking for painters in Revere, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "revere-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Guardian Pest Control is a local pest control company serving Revere, MA with dependable service and quality workmanship."
   },
   {
     "id": "taunton-painters-certa-pro",
@@ -6312,30 +5640,6 @@
     "description": "Arlington Power Washing offers expert pressure washing services in Arlington, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "framingham-painters-certa-pro",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for painters in Framingham, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lowell-pest-control-terminix",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Serving Lowell, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
-  },
-  {
     "id": "newton-pest-control-terminix",
     "name": "Terminix",
     "state": "MA",
@@ -6444,18 +5748,6 @@
     "description": "Terminix offers expert pest control services in Fall river, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "fallriver-pressure-washing-fallriver-power-wash",
-    "name": "Fall River Power Washing",
-    "state": "MA",
-    "townSlug": "fall-river",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Fall river, MA? Fall River Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "newbedford-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -6478,54 +5770,6 @@
     "verified": false,
     "facebook": "",
     "description": "Serving New bedford, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "newbedford-pressure-washing-newbedford-power-wash",
-    "name": "New Bedford Power Washing",
-    "state": "MA",
-    "townSlug": "new-bedford",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in New bedford, MA? New Bedford Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "leominster-painters-certa-pro",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for painters in Leominster, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "leominster-pest-control-terminix",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Terminix is a local pest control company serving Leominster, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "leominster-pressure-washing-leominster-power-wash",
-    "name": "Leominster Power Washing",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Serving Leominster, Massachusetts, Leominster Power Washing specializes in pressure washing services for residential and commercial needs."
   },
   {
     "id": "pittsfield-painters-certa-pro",
@@ -6900,18 +6144,6 @@
     "description": "Serving Somerville, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
   },
   {
-    "id": "somerville-pressure-washing-somerville-power-wash",
-    "name": "Somerville Power Washing",
-    "state": "MA",
-    "townSlug": "somerville",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Somerville, MA? Somerville Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "everett-pest-control-terminix",
     "name": "Terminix",
     "state": "MA",
@@ -6934,18 +6166,6 @@
     "verified": false,
     "facebook": "",
     "description": "Terminix is a local pest control company serving Chelsea, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "framingham-pest-control-terminix",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Terminix offers expert pest control services in Framingham, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "fitchburg-painters-certa-pro",
@@ -7039,149 +6259,6 @@
     "description": "Looking for pest control in Quincy, MA? NW Pest Control offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "exterior-property-experts-quincy-ma",
-    "name": "Exterior Property Experts",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Quincy, Massachusetts, Exterior Property Experts specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "rolling-suds-power-washing-quincy-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Looking for pressure washing in Quincy, MA? Rolling Suds Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "hicleaners-pressure-washing-quincy-ma",
-    "name": "HiCleaners Pressure Washing",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Quincy, Massachusetts, HiCleaners Pressure Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "certapro-painters-north-shore-lynn-ma",
-    "name": "CertaPro Painters North Shore",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "CertaPro Painters North Shore is a local painters company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "premier-painting-lynn-ma",
-    "name": "Premier Painting Services",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Premier Painting Services specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "north-shore-painting-lynn-ma",
-    "name": "North Shore Painting",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "North Shore Painting is a local painters company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "debug-pest-control-newton-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Debug Pest Control offers expert pest control services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "ladybug-pest-control-newton-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control offers expert pest control services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "rolling-suds-newton-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Newton, Massachusetts, Rolling Suds Power Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "debug-pest-control-somerville-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "somerville",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Somerville, Massachusetts, Debug Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "ladybug-pest-control-somerville-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "somerville",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control is a local pest control company serving Somerville, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "rolling-suds-somerville-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "somerville",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Rolling Suds Power Washing provides professional pressure washing services in Somerville, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "certapro-painters-malden-ma",
-    "name": "CertaPro Painters",
-    "townSlug": "malden",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Malden, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "debug-pest-control-waltham-ma",
     "name": "Debug Pest Control",
     "townSlug": "waltham",
@@ -7213,105 +6290,6 @@
     "phone": "",
     "website": "",
     "description": "Rolling Suds Power Washing provides professional pressure washing services in Waltham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "debug-pest-control-brookline-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "brookline",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Debug Pest Control provides professional pest control services in Brookline, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "ladybug-pest-control-brookline-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "brookline",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control provides professional pest control services in Brookline, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "rolling-suds-brookline-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "brookline",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Rolling Suds Power Washing offers expert pressure washing services in Brookline, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "debug-pest-control-revere-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "revere",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Serving Revere, Massachusetts, Debug Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "ladybug-pest-control-revere-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "revere",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control offers expert pest control services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "certapro-painters-watertown-ma",
-    "name": "CertaPro Painters",
-    "townSlug": "watertown",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "CertaPro Painters is a local painters company serving Watertown, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "debug-pest-control-watertown-ma",
-    "name": "Debug Pest Control",
-    "townSlug": "watertown",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Debug Pest Control is a local pest control company serving Watertown, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "ladybug-pest-control-watertown-ma",
-    "name": "Ladybug Pest Control",
-    "townSlug": "watertown",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Ladybug Pest Control is a local pest control company serving Watertown, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "rolling-suds-watertown-ma",
-    "name": "Rolling Suds Power Washing",
-    "townSlug": "watertown",
-    "serviceId": "pressure-washing",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Looking for pressure washing in Watertown, MA? Rolling Suds Power Washing offers trusted local services for homeowners and businesses."
   },
   {
     "id": "quincy-electric-solutions-quincy",
@@ -7434,18 +6412,6 @@
     "description": "Quincy Pest Solutions offers expert pest control services in Quincy, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "quincy-pressure-wash-quincy",
-    "name": "Quincy Pressure Wash",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Quincy Pressure Wash is a local pressure washing company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "village-home-services-cambridge-electrician-cambridge",
     "name": "Village Home Services",
     "state": "MA",
@@ -7482,54 +6448,6 @@
     "description": "Village Home Services is a local plumbing company serving Cambridge, MA with dependable service and quality workmanship."
   },
   {
-    "id": "gervais-mechanical-cambridge-electrician-cambridge",
-    "name": "Gervais Mechanical",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "electrician",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/cambridge/",
-    "facebook": "",
-    "verified": false,
-    "description": "Gervais Mechanical provides professional electrician services in Cambridge, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "gervais-mechanical-cambridge-hvac-cambridge",
-    "name": "Gervais Mechanical",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "hvac",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/cambridge/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Cambridge, Massachusetts, Gervais Mechanical specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "protek-painters-cambridge-cambridge",
-    "name": "ProTEK Painters",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://protekpainters.com/cambridge/",
-    "facebook": "",
-    "verified": false,
-    "description": "ProTEK Painters is a local painters company serving Cambridge, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "eps-painting-cambridge-cambridge",
-    "name": "EPS Painting",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.epspaintingma.com/painting-company-cambridge-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "EPS Painting offers expert painters services in Cambridge, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "nw-pest-control-cambridge-cambridge",
     "name": "NW Pest Control",
     "state": "MA",
@@ -7554,18 +6472,6 @@
     "description": "Serving Cambridge, Massachusetts, Cambridge Pressure Wash specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "village-home-services-lowell-electrician-lowell",
-    "name": "Village Home Services",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "electrician",
-    "phone": "(978) 733-9593",
-    "website": "https://www.villagehomeservices.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lowell, Massachusetts, Village Home Services specializes in electrician services for residential and commercial needs."
-  },
-  {
     "id": "village-home-services-lowell-hvac-lowell",
     "name": "Village Home Services",
     "state": "MA",
@@ -7588,42 +6494,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Lowell, Massachusetts, Village Home Services specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "milltown-plumbing-heating-cooling-electrical-lowell-electrician-lowell",
-    "name": "MillTown Plumbing, Heating, Cooling & Electrical",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "electrician",
-    "phone": "",
-    "website": "https://milltownplumbing.com/lowell/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Lowell, MA? MillTown Plumbing, Heating, Cooling & Electrical offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "milltown-plumbing-heating-cooling-electrical-lowell-hvac-lowell",
-    "name": "MillTown Plumbing, Heating, Cooling & Electrical",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "hvac",
-    "phone": "",
-    "website": "https://milltownplumbing.com/lowell/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lowell, Massachusetts, MillTown Plumbing, Heating, Cooling & Electrical specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "milltown-plumbing-heating-cooling-electrical-lowell-plumbing-lowell",
-    "name": "MillTown Plumbing, Heating, Cooling & Electrical",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "plumbing",
-    "phone": "",
-    "website": "https://milltownplumbing.com/lowell/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lowell, Massachusetts, MillTown Plumbing, Heating, Cooling & Electrical specializes in plumbing services for residential and commercial needs."
   },
   {
     "id": "lowell-electrician-guys-lowell-lowell",
@@ -7660,186 +6530,6 @@
     "facebook": "",
     "verified": true,
     "description": "Looking for pressure washing in Lowell, MA? Top Quality Soft Washing LLC offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "micks-exterior-cleaning-lowell-lowell",
-    "name": "Mick's Exterior Cleaning Services",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.mickspowerwash.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Mick's Exterior Cleaning Services offers expert pressure washing services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "certapro-painters-cambridge",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters provides professional painters services in Cambridge, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "painter1-of-boston-cambridge",
-    "name": "Painter1 of Boston",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://painter1.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Cambridge, MA? Painter1 of Boston offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "terminix-cambridge",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Terminix offers expert pest control services in Cambridge, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "men-in-kilts-cambridge",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Cambridge, MA? Men In Kilts offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "window-genie-cambridge",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "cambridge",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Window Genie is a local pressure washing company serving Cambridge, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "certapro-painters-lowell",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Lowell, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "terminix-lowell",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Terminix is a local pest control company serving Lowell, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "men-in-kilts-lowell",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts offers expert pressure washing services in Lowell, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "window-genie-lowell",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "lowell",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Lowell, MA? Window Genie offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "certapro-painters-worcester",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "worcester",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Worcester, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "terminix-worcester",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "worcester",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Terminix is a local pest control company serving Worcester, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "men-in-kilts-worcester",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "worcester",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Worcester, Massachusetts, Men In Kilts specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "window-genie-worcester",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "worcester",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Window Genie offers expert pressure washing services in Worcester, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "certapro-painters-framingham",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "framingham",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Framingham, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
   },
   {
     "id": "certapro-painters-boston",
@@ -7914,30 +6604,6 @@
     "description": "Looking for pest control in Quincy, MA? Terminix offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "men-in-kilts-quincy",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts provides professional pressure washing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "window-genie-quincy",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Quincy, Massachusetts, Window Genie specializes in pressure washing services for residential and commercial needs."
-  },
-  {
     "id": "certapro-painters-springfield",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -7948,18 +6614,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for painters in Springfield, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "terminix-springfield",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "springfield",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Springfield, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
   },
   {
     "id": "men-in-kilts-springfield",
@@ -7984,18 +6638,6 @@
     "facebook": "",
     "verified": false,
     "description": "Window Genie offers expert pressure washing services in Springfield, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "certapro-painters-lynn",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "certapro-painters-waltham",
@@ -8046,54 +6688,6 @@
     "description": "Window Genie is a local pressure washing company serving Waltham, MA with dependable service and quality workmanship."
   },
   {
-    "id": "certapro-painters-newton",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "newton",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Newton, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "terminix-newton",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Newton, MA? Terminix offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "men-in-kilts-newton",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts offers expert pressure washing services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "window-genie-newton",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "newton",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Window Genie is a local pressure washing company serving Newton, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "certapro-painters-marlborough",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -8104,30 +6698,6 @@
     "facebook": "",
     "verified": false,
     "description": "CertaPro Painters offers expert painters services in Marlborough, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "certapro-painters-revere",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters offers expert painters services in Revere, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "terminix-revere",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "revere",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Revere, MA? Terminix offers trusted local services for homeowners and businesses."
   },
   {
     "id": "certapro-painters-salem",
@@ -8248,54 +6818,6 @@
     "facebook": "",
     "verified": false,
     "description": "Window Genie is a local pressure washing company serving Lawrence, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "certapro-painters-leominster",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters is a local painters company serving Leominster, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "terminix-leominster",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Terminix offers expert pest control services in Leominster, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "men-in-kilts-leominster",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts provides professional pressure washing services in Leominster, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "window-genie-leominster",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "leominster",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Window Genie is a local pressure washing company serving Leominster, MA with dependable service and quality workmanship."
   },
   {
     "id": "certapro-painters-fitchburg",
@@ -11023,17 +9545,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for pressure washing in Melrose, MA? Melrose Power Washing Co offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "malden-painter-5",
-    "name": "CertaPro Painters of North Shore & Cape Ann",
-    "townSlug": "malden",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/cape-ann/",
-    "description": "Residential and commercial painting company serving Malden and surrounding North Shore communities.",
-    "verified": false
   },
   {
     "id": "malden-pressurewash-5",
@@ -14757,17 +13268,6 @@
     "description": "Residential and commercial painting company serving Framingham with interior and exterior painting services."
   },
   {
-    "id": "framingham-painter-6",
-    "name": "CertaPro Painters of the Upper Charles",
-    "townSlug": "framingham",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/ashland/framingham-professional-painters/",
-    "description": "Professional house and commercial painting company serving Framingham and the surrounding Upper Charles area.",
-    "verified": false
-  },
-  {
     "id": "framingham-painter-7",
     "name": "Pro Painting and Carpentry",
     "townSlug": "framingham",
@@ -14917,28 +13417,6 @@
     "phone": "",
     "website": "https://www.orkin.com/locations/massachusetts-ma/wilmington-pest-control",
     "description": "Regional pest control provider serving Massachusetts with inspection, treatment, and prevention services.",
-    "verified": false
-  },
-  {
-    "id": "somerville-pest-5",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "somerville",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.clancybrospestcontrol.com/pest-control-somerville",
-    "description": "Family-owned pest control company serving Somerville with rodent control and general residential pest services.",
-    "verified": false
-  },
-  {
-    "id": "somerville-pest-6",
-    "name": "A1 Exterminators",
-    "townSlug": "somerville",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.a1exterminators.com/service-area/somerville-ma-pest-control/",
-    "description": "Massachusetts pest control company serving Somerville with rodent control and general extermination services.",
     "verified": false
   },
   {
@@ -15093,17 +13571,6 @@
     "description": "Painting company offering interior and exterior painting services for residential and commercial properties."
   },
   {
-    "id": "somerville-painter-5",
-    "name": "CertaPro Painters of the North Shore",
-    "townSlug": "somerville",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Somerville with interior and exterior painting services.",
-    "verified": false
-  },
-  {
     "id": "somerville-painter-6",
     "name": "Catchlight Painting",
     "townSlug": "somerville",
@@ -15154,28 +13621,6 @@
     "description": "New England pest control provider offering year-round pest prevention and treatment."
   },
   {
-    "id": "brookline-pest-5",
-    "name": "A1 Exterminators",
-    "townSlug": "brookline",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.a1exterminators.com/service-area/brookline-ma-pest-control/",
-    "description": "Pest control company serving Brookline with rodent control, termite treatment, and general extermination services.",
-    "verified": false
-  },
-  {
-    "id": "brookline-pest-7",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "brookline",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.clancybrospestcontrol.com/pest-control-brookline",
-    "description": "Family-owned pest control company serving Brookline with rodent control, wildlife removal, and general pest management.",
-    "verified": false
-  },
-  {
     "id": "brookline-pest-8",
     "name": "Big Blue Bug Solutions",
     "townSlug": "brookline",
@@ -15196,17 +13641,6 @@
     "description": "Painting contractor serving Everett with interior painting and exterior painting services for homes and businesses."
   },
   {
-    "id": "lynn-painter-5",
-    "name": "CertaPro Painters of North Shore",
-    "townSlug": "lynn",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com",
-    "description": "Residential and commercial painting company serving Lynn with interior painting, exterior painting, and related services.",
-    "verified": false
-  },
-  {
     "id": "lynn-painter-6",
     "name": "Catchlight Painting",
     "townSlug": "lynn",
@@ -15225,17 +13659,6 @@
     "phone": "(800) 525-4825",
     "website": "https://a1exterminators.com",
     "description": "Massachusetts pest control company offering termite treatment, rodent control, and bed bug extermination."
-  },
-  {
-    "id": "framingham-pest-7",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "framingham",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
-    "verified": false
   },
   {
     "id": "framingham-pest-8",
@@ -15362,39 +13785,6 @@
     "description": "Boston area painting company providing interior painting, exterior painting, and fine finish work."
   },
   {
-    "id": "lowell-painter-9",
-    "name": "CertaPro Painters of Nashua, NH and Westford, MA",
-    "townSlug": "lowell",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "(603) 943-8101",
-    "website": "https://certapro.com/nashua-westford/house-painters-lowell-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "description": "Residential and commercial painting company serving Lowell with interior painting, exterior painting, drywall repair, and related services."
-  },
-  {
-    "id": "lowell-painter-11",
-    "name": "Leon Valcourt & Sons Painting",
-    "townSlug": "lowell",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "(978) 683-0848",
-    "website": "http://www.valcourtpainting.com/house-painting/lowell-ma",
-    "facebook": "",
-    "description": "House painting company serving Lowell with residential interior and exterior painting services."
-  },
-  {
-    "id": "lowell-painter-12",
-    "name": "JF and Son's Painting",
-    "townSlug": "lowell",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "(978) 710-8037",
-    "website": "https://www.jfandsonspainting.com/",
-    "facebook": "https://www.facebook.com/jfandsonspainting",
-    "description": "Middlesex County painting contractor based in Lowell providing residential and commercial painting services."
-  },
-  {
     "id": "lawrence-pest-5",
     "name": "A1 Exterminators",
     "townSlug": "lawrence",
@@ -15437,18 +13827,6 @@
     "website": "https://certapro.com/boston/professional-painters-in-revere-ma/",
     "facebook": "https://www.facebook.com/CertaProPainters",
     "description": "Residential and commercial painting company serving Revere with interior painting, exterior painting, drywall repair, and related services."
-  },
-  {
-    "id": "revere-painter-10",
-    "name": "Paintzen Revere",
-    "townSlug": "revere",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.paintzen.com/residential/ma/revere",
-    "facebook": "",
-    "description": "Residential painting service serving Revere with interior and exterior house painting for local homes.",
-    "verified": false
   },
   {
     "id": "revere-painter-11",
@@ -15572,17 +13950,6 @@
     "description": "Residential and commercial painting company serving Cambridge with interior painting, exterior painting, and related services."
   },
   {
-    "id": "cambridge-painter-14",
-    "name": "Catchlight Painting",
-    "townSlug": "cambridge",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "(617) 491-5300",
-    "website": "https://catchlightpainting.com",
-    "facebook": "",
-    "description": "Boston-area painting company providing interior painting, exterior painting, and fine finish work."
-  },
-  {
     "id": "worcester-pest-9",
     "name": "A1 Exterminators",
     "townSlug": "worcester",
@@ -15603,18 +13970,6 @@
     "website": "https://www.a1exterminators.com/locations/",
     "facebook": "",
     "description": "Pest control company serving Massachusetts with residential and commercial pest management services."
-  },
-  {
-    "id": "worcester-pest-12",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "worcester",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://clancybrospestcontrol.com",
-    "facebook": "",
-    "description": "Family-owned pest control company serving Massachusetts with rodent, termite, and general pest management services.",
-    "verified": false
   },
   {
     "id": "springfield-painter-13",
@@ -16657,26 +15012,6 @@
     "website": "https://freshcoatpainters.com/locations/metro-west/",
     "facebook": "",
     "description": "Looking for painters in Newton, MA? Fresh Coat Painters of Metro West offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "newton-pest-1",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "phone": "(781) 893-9111",
-    "website": "https://www.clancybrospestcontrol.com",
-    "facebook": "",
-    "description": "Serving Newton, Massachusetts, Clancy Brothers Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "newton-pest-2",
-    "name": "Big Blue Bug Solutions",
-    "townSlug": "newton",
-    "serviceId": "pest-control",
-    "phone": "(888) 258-3284",
-    "website": "https://www.bigbluebug.com",
-    "facebook": "https://www.facebook.com/bigbluebug",
-    "description": "Looking for pest control in Newton, MA? Big Blue Bug Solutions offers trusted local services for homeowners and businesses."
   },
   {
     "id": "newton-pressurewash-1",
@@ -19995,28 +18330,6 @@
     "description": "House Painting in Medford MA is a local painters company serving Malden, MA with dependable service and quality workmanship."
   },
   {
-    "id": "malden-painter-2",
-    "name": "Painter's Etcetera",
-    "townSlug": "malden",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://paintersetcetera.com/professional-painters-in-medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Malden, MA? Painter's Etcetera offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "malden-painter-3",
-    "name": "Vision Painting Contractors",
-    "townSlug": "malden",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/house-painting-medford-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Malden, Massachusetts, Vision Painting Contractors specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "malden-pressurewash-3",
     "name": "G.R. Painting Contractors",
     "townSlug": "malden",
@@ -20027,17 +18340,6 @@
     "description": "G.R. Painting Contractors provides professional pressure washing services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "somerville-painter-1",
-    "name": "CertaPro Painters of Boston",
-    "townSlug": "somerville",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/boston/professional-painters-in-somerville-ma/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "verified": false,
-    "description": "Serving Somerville, Massachusetts, CertaPro Painters of Boston specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "somerville-painter-2",
     "name": "Countryside Painting Company",
     "townSlug": "somerville",
@@ -20046,17 +18348,6 @@
     "website": "https://countrysidepaintingcompany.com/",
     "facebook": "",
     "description": "Countryside Painting Company offers expert painters services in Somerville, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "somerville-painter-3",
-    "name": "ProTEK Painters",
-    "townSlug": "somerville",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://protekpainters.com/somerville/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Somerville, Massachusetts, ProTEK Painters specializes in painters services for residential and commercial needs."
   },
   {
     "id": "somerville-pest-2",
@@ -20642,17 +18933,6 @@
     "description": "Serving Saugus, Massachusetts, Orcutt Painting and More specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "lynn-painter-1",
-    "name": "CertaPro Painters of North Shore and Cape Ann",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/cape-ann/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "verified": false,
-    "description": "CertaPro Painters of North Shore and Cape Ann provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "lynn-painter-2",
     "name": "Danieli Painting",
     "townSlug": "lynn",
@@ -20661,17 +18941,6 @@
     "website": "https://danielipainting.com/Lynn_MA.htm",
     "facebook": "",
     "description": "Danieli Painting is a local painters company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-painter-3",
-    "name": "Orcutt Painting and More",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://orcuttpainting.com/Lynn_MA.htm",
-    "facebook": "",
-    "verified": false,
-    "description": "Orcutt Painting and More offers expert painters services in Lynn, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "lynn-pest-1",
@@ -22238,39 +20507,6 @@
     "description": "Serving Dracut, Massachusetts, Mass Power Washing specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "lowell-painters-1",
-    "name": "CertaPro Painters of Nashua, NH and Westford, MA",
-    "serviceId": "painters",
-    "townSlug": "lowell",
-    "phone": "",
-    "website": "https://certapro.com/nashua-westford/house-painters-lowell-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lowell, Massachusetts, CertaPro Painters of Nashua, NH and Westford, MA specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "lowell-painters-2",
-    "name": "David Potter Professional Painting",
-    "serviceId": "painters",
-    "townSlug": "lowell",
-    "phone": "",
-    "website": "https://paintingserviceslowell.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Lowell, MA? David Potter Professional Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lowell-painters-3",
-    "name": "UP Painting",
-    "serviceId": "painters",
-    "townSlug": "lowell",
-    "phone": "",
-    "website": "https://uppaintinginc.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "UP Painting provides professional painters services in Lowell, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "lowell-pest-control-1",
     "name": "Mantis Pest Control LLC",
     "serviceId": "pest-control",
@@ -22289,27 +20525,6 @@
     "website": "https://eliminating365.com/",
     "facebook": "",
     "description": "Eliminating 365 Pest Control is a local pest control company serving Lowell, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lowell-pest-control-3",
-    "name": "A1 Exterminators",
-    "serviceId": "pest-control",
-    "townSlug": "lowell",
-    "phone": "(800) 525-4825",
-    "website": "https://www.a1exterminators.com/service-area/lowell-ma-pest-control/",
-    "facebook": "",
-    "description": "Looking for pest control in Lowell, MA? A1 Exterminators offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lowell-pressure-washing-1",
-    "name": "DaSilva Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "lowell",
-    "phone": "",
-    "website": "https://dasilvapowerwash.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "DaSilva Power Washing provides professional pressure washing services in Lowell, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "lowell-pressure-washing-2",
@@ -23444,17 +21659,6 @@
     "description": "HiCleaners Pressure Washing is a local pressure washing company serving Winthrop, MA with dependable service and quality workmanship."
   },
   {
-    "id": "revere-painters-1",
-    "name": "CertaPro Painters of Boston, MA",
-    "serviceId": "painters",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://certapro.com/boston/professional-painters-in-revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Revere, Massachusetts, CertaPro Painters of Boston, MA specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "revere-painters-3",
     "name": "Painters Etcetera",
     "serviceId": "painters",
@@ -23716,17 +21920,6 @@
     "description": "Painters Etcetera offers expert painters services in Somerville, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "somerville-painters-2",
-    "name": "Vision Painting Contractors",
-    "serviceId": "painters",
-    "townSlug": "somerville",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/house-painting-somerville-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Somerville, Massachusetts, Vision Painting Contractors specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "somerville-painters-3",
     "name": "AMT Painting Inc.",
     "serviceId": "painters",
@@ -23755,16 +21948,6 @@
     "website": "https://fox-pest.com/locations/massachusetts/somerville/",
     "facebook": "",
     "description": "Fox Pest Control is a local pest control company serving Somerville, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "somerville-pest-control-3",
-    "name": "Colonial Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "somerville",
-    "phone": "(800) 525-8084",
-    "website": "https://www.colonialpest.com/service-areas/",
-    "facebook": "",
-    "description": "Colonial Pest Control provides professional pest control services in Somerville, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "somerville-pressure-washing-1",
@@ -30871,17 +29054,6 @@
     "description": "Provides plumbing services in Revere, MA. Call for details and availability."
   },
   {
-    "id": "revere-landscaping-1",
-    "name": "AA & B Landscaping & Irrigation, Inc.",
-    "serviceId": "yard-landscaping",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://reverelandscapeservicema.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "AA & B Landscaping & Irrigation, Inc. is a local yard landscaping company serving Revere, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "revere-landscaping-2",
     "name": "J Landscaping",
     "serviceId": "yard-landscaping",
@@ -30891,28 +29063,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Revere, MA? J Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "revere-landscaping-3",
-    "name": "A & D Landscape Service Inc",
-    "serviceId": "yard-landscaping",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.aanddlandscaping.org/landscaper-masonry-and-excavating-revere-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Revere, MA? A & D Landscape Service Inc offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "revere-landscaping-4",
-    "name": "MACH Masonry and Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://machmasonrylandscaping.com/revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "MACH Masonry and Landscaping provides professional yard landscaping services in Revere, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "chelsea-electrician-1",
@@ -31144,28 +29294,6 @@
     "facebook": "",
     "verified": true,
     "description": "Looking for yard landscaping in Malden, MA? MACH Masonry and Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "malden-landscaping-2",
-    "name": "Cassidy Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "malden",
-    "phone": "",
-    "website": "https://cassidylandscaping.com/landscape-design-malden-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Cassidy Landscaping provides professional yard landscaping services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "malden-landscaping-3",
-    "name": "Mike's Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "malden",
-    "phone": "",
-    "website": "http://mikeslandscapingco.com/landscape-maintenance-company-malden-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Malden, Massachusetts, Mike's Landscaping specializes in yard landscaping services for residential and commercial needs."
   },
   {
     "id": "medford-electrician-1",
@@ -32166,28 +30294,6 @@
     "description": "Watertown Landscaping provides professional yard landscaping services in Watertown, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "watertown-landscaping-2",
-    "name": "Moodscapes",
-    "serviceId": "yard-landscaping",
-    "townSlug": "watertown",
-    "phone": "",
-    "website": "https://www.moodscapesdesign.com/landscape-service-area/landscaper-landscaping-watertown-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Moodscapes offers expert yard landscaping services in Watertown, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "watertown-landscaping-3",
-    "name": "Ostiguy Landscape",
-    "serviceId": "yard-landscaping",
-    "townSlug": "watertown",
-    "phone": "",
-    "website": "https://ostiguylandscape.com/towns-we-service/landscaping-watertown-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Ostiguy Landscape provides professional yard landscaping services in Watertown, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "lexington-electrician-1",
     "name": "GEM Plumbing, Heating, Cooling & Electric",
     "serviceId": "electrician",
@@ -32529,17 +30635,6 @@
     "description": "Winters Home Services provides professional hvac services in Newton, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "newton-hvac-3",
-    "name": "Papalia Home Services",
-    "serviceId": "hvac",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://www.papaliahomeservices.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Papalia Home Services offers expert hvac services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "newton-plumbing-1",
     "name": "Sila Heating, Air Conditioning & Plumbing",
     "serviceId": "plumbing",
@@ -32562,17 +30657,6 @@
     "description": "Winters Home Services is a local plumbing company serving Newton, MA with dependable service and quality workmanship."
   },
   {
-    "id": "newton-plumbing-3",
-    "name": "Papalia Home Services",
-    "serviceId": "plumbing",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://www.papaliahomeservices.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Papalia Home Services provides professional plumbing services in Newton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "newton-roofing-1",
     "name": "O’LYN Roofing",
     "serviceId": "roofing",
@@ -32582,17 +30666,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for roofing in Newton, MA? O’LYN Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "newton-roofing-2",
-    "name": "Golden Group Roofing",
-    "serviceId": "roofing",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://goldengrouproofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Newton, MA? Golden Group Roofing offers trusted local services for homeowners and businesses."
   },
   {
     "id": "newton-roofing-3",
@@ -32606,39 +30679,6 @@
     "description": "CAN Roof Construction offers expert roofing services in Newton, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "newton-landscaping-1",
-    "name": "Ferre Landscaping & Exterior Management",
-    "serviceId": "yard-landscaping",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://ferrelandscaping.com/service-areas/newton-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Newton, MA? Ferre Landscaping & Exterior Management offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "newton-landscaping-2",
-    "name": "Moodscapes",
-    "serviceId": "yard-landscaping",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://www.moodscapesdesign.com/landscape-service-area/landscaper-landscaping-watertown-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Moodscapes offers expert yard landscaping services in Newton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "newton-landscaping-3",
-    "name": "Ostiguy Landscape",
-    "serviceId": "yard-landscaping",
-    "townSlug": "newton",
-    "phone": "",
-    "website": "https://ostiguylandscape.com/towns-we-service/landscaping-lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Newton, Massachusetts, Ostiguy Landscape specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
     "id": "brookline-electrician-1",
     "name": "VMA Electric",
     "serviceId": "electrician",
@@ -32650,28 +30690,6 @@
     "description": "Serving Brookline, Massachusetts, VMA Electric specializes in electrician services for residential and commercial needs."
   },
   {
-    "id": "brookline-electrician-2",
-    "name": "Paul Macrina Electrical",
-    "serviceId": "electrician",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://paulmacrina.com/communities-we-serve/brookline/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Brookline, Massachusetts, Paul Macrina Electrical specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "brookline-electrician-3",
-    "name": "Kuhlman Electric",
-    "serviceId": "electrician",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.kuhlmanelectricalservices.com/service-areas/brookline-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Kuhlman Electric is a local electrician company serving Brookline, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "brookline-hvac-1",
     "name": "Sila Heating, Cooling, Plumbing & Electrical",
     "serviceId": "hvac",
@@ -32681,39 +30699,6 @@
     "facebook": "",
     "verified": true,
     "description": "Sila Heating, Cooling, Plumbing & Electrical is a local hvac company serving Brookline, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brookline-hvac-2",
-    "name": "128 Plumbing, Heating, Cooling & Electric",
-    "serviceId": "hvac",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.128plumbing.com/hvac-company-brookline/",
-    "facebook": "",
-    "verified": false,
-    "description": "128 Plumbing, Heating, Cooling & Electric offers expert hvac services in Brookline, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brookline-hvac-3",
-    "name": "Aspinwall Plumbing & Heating",
-    "serviceId": "hvac",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.aspinwallplumbing.com/service-area/brookline-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Aspinwall Plumbing & Heating offers expert hvac services in Brookline, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brookline-plumbing-1",
-    "name": "Aspinwall Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.aspinwallplumbing.com/service-area/brookline-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Brookline, Massachusetts, Aspinwall Plumbing & Heating specializes in plumbing services for residential and commercial needs."
   },
   {
     "id": "brookline-plumbing-2",
@@ -32738,17 +30723,6 @@
     "description": "Narrow Way Plumbing offers expert plumbing services in Brookline, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "brookline-roofing-1",
-    "name": "O'LYN Roofing",
-    "serviceId": "roofing",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.olynroofing.com/service-area/brookline-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Brookline, MA? O'LYN Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "brookline-roofing-2",
     "name": "Couto Construction",
     "serviceId": "roofing",
@@ -32758,50 +30732,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for roofing in Brookline, MA? Couto Construction offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brookline-roofing-3",
-    "name": "GF Sprague",
-    "serviceId": "roofing",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.gfsprague.com/ma/service-areas/brookline",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Brookline, MA? GF Sprague offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brookline-landscaping-1",
-    "name": "A Yard & A Half Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://ayardandahalf.com/service-areas/brookline-landscaping/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Brookline, MA? A Yard & A Half Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brookline-landscaping-2",
-    "name": "Jim's Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://www.jimslandscaping.com/locations/landscaping-bookline-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Brookline, Massachusetts, Jim's Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "brookline-landscaping-3",
-    "name": "Ferre Landscaping & Exterior Management",
-    "serviceId": "yard-landscaping",
-    "townSlug": "brookline",
-    "phone": "",
-    "website": "https://ferrelandscaping.com/service-areas/brookline-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Ferre Landscaping & Exterior Management offers expert yard landscaping services in Brookline, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "dedham-electrician-4",
@@ -33036,25 +30966,25 @@
   },
   {
     "id": "malden-electrician-4",
-    "name": "All-Tech Electric",
+    "name": "Peak Electrical Services",
     "serviceId": "electrician",
     "townSlug": "malden",
-    "phone": "(781) 322-6057",
-    "website": "https://alltechelectric.com/",
+    "phone": "(781) 342-0138",
+    "website": "https://peakelectricalservices.info/",
     "facebook": "",
-    "verified": true,
-    "description": "All-Tech Electric provides professional electrician services in Malden, Massachusetts. Contact them for reliable local service and expert solutions."
+    "verified": false,
+    "description": "Peak Electrical Services provides licensed electrical services from Malden, MA."
   },
   {
     "id": "malden-hvac-4",
-    "name": "Falite Bros.",
+    "name": "Better Comfort Systems",
     "serviceId": "hvac",
     "townSlug": "malden",
-    "phone": "(781) 262-3348",
-    "website": "https://www.falitebros.com/malden-heating-ac/",
+    "phone": "(781) 321-4099",
+    "website": "https://www.bettercomfort.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Falite Bros. offers expert hvac services in Malden, MA. Reach out for fast, reliable local service."
+    "verified": true,
+    "description": "Better Comfort Systems provides HVAC maintenance, heating, cooling, and emergency service from Malden, MA."
   },
   {
     "id": "malden-plumbing-4",
@@ -34528,17 +32458,6 @@
     "facebook": "",
     "verified": false,
     "description": "Davis Square Electric Company provides professional electrician services in Somerville, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "somerville-electrician-3",
-    "name": "Deao Electric",
-    "serviceId": "electrician",
-    "townSlug": "somerville",
-    "phone": "",
-    "website": "https://www.deaoelectric.com/contact/electrician-service-area/somerville-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Somerville, MA? Deao Electric offers trusted local services for homeowners and businesses."
   },
   {
     "id": "somerville-electrician-4",
@@ -43495,17 +41414,6 @@
     "description": "Outdoor Living Landscape offers expert yard landscaping services in Hopkinton, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "leominster-plumbing-1",
-    "name": "Jay Moody HVAC",
-    "serviceId": "plumbing",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Jay Moody HVAC offers expert plumbing services in Leominster, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "leominster-plumbing-2",
     "name": "Landry Mechanical",
     "serviceId": "plumbing",
@@ -43517,39 +41425,6 @@
     "description": "Looking for plumbing in Leominster, MA? Landry Mechanical offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "leominster-plumbing-3",
-    "name": "Pierce Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://www.pierceplumbingandheating.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Pierce Plumbing & Heating is a local plumbing company serving Leominster, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "leominster-hvac-1",
-    "name": "Jay Moody HVAC",
-    "serviceId": "hvac",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Jay Moody HVAC offers expert hvac services in Leominster, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "leominster-hvac-2",
-    "name": "DDM Heating & Air Conditioning, Inc.",
-    "serviceId": "hvac",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://www.ddmheating.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Leominster, Massachusetts, DDM Heating & Air Conditioning, Inc. specializes in hvac services for residential and commercial needs."
-  },
-  {
     "id": "leominster-hvac-3",
     "name": "GEM Plumbing & Heating",
     "serviceId": "hvac",
@@ -43559,17 +41434,6 @@
     "facebook": "",
     "verified": false,
     "description": "GEM Plumbing & Heating is a local hvac company serving Leominster, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "leominster-electrician-1",
-    "name": "Jay Moody HVAC",
-    "serviceId": "electrician",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Leominster, Massachusetts, Jay Moody HVAC specializes in electrician services for residential and commercial needs."
   },
   {
     "id": "leominster-electrician-2",
@@ -43592,50 +41456,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for electrician in Leominster, MA? GEM Plumbing & Heating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "leominster-roofing-1",
-    "name": "Rockwell Roofing, Inc.",
-    "serviceId": "roofing",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://www.rockwellroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Rockwell Roofing, Inc. is a local roofing company serving Leominster, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "leominster-roofing-2",
-    "name": "Shepard Roofing",
-    "serviceId": "roofing",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://shepardroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Shepard Roofing offers expert roofing services in Leominster, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "leominster-roofing-3",
-    "name": "Altitude Roofing",
-    "serviceId": "roofing",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://www.altituderoofingma.com/leominster-roofing/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Leominster, MA? Altitude Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "leominster-yard-landscaping-1",
-    "name": "LandPro Landscape, Inc.",
-    "serviceId": "yard-landscaping",
-    "townSlug": "leominster",
-    "phone": "",
-    "website": "https://landprolandscapeinc.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Leominster, Massachusetts, LandPro Landscape, Inc. specializes in yard landscaping services for residential and commercial needs."
   },
   {
     "id": "leominster-yard-landscaping-2",
@@ -48190,17 +46010,6 @@
     "facebook": "https://www.facebook.com/mlandlinc/",
     "verified": false,
     "description": "Serving Natick, Massachusetts, Mitchell Land + Labor, Inc. specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "watertown-yard-landscaping-1",
-    "name": "Watertown Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "watertown",
-    "phone": "(617) 926-6182",
-    "website": "https://watertownlandscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Watertown Landscaping offers expert yard landscaping services in Watertown, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "gloucester-plumbing-1",
@@ -64696,14 +62505,14 @@
   },
   {
     "id": "chelsea-roofing-5",
-    "name": "ID Flat Roof",
+    "name": "FRS Roofing & Gutter Services",
     "serviceId": "roofing",
     "townSlug": "chelsea",
-    "phone": "(617) 000-0000",
-    "website": "https://idflatroof.com/",
+    "phone": "(617) 327-3636",
+    "website": "https://frsroofing.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Chelsea, MA. Call for details and availability."
+    "verified": true,
+    "description": "FRS Roofing & Gutter Services provides roof repair, roof replacement, gutter installation, and exterior services in Chelsea, MA."
   },
   {
     "id": "chelsea-roofing-6",
@@ -64959,17 +62768,6 @@
     "description": "Provides HVAC services in Revere, MA. Call for details and availability."
   },
   {
-    "id": "revere-hvac-5",
-    "name": "JA Mechanical",
-    "serviceId": "hvac",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.jamechanical.net/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides HVAC services in Revere, MA. Call for details and availability."
-  },
-  {
     "id": "revere-electrician-3",
     "name": "Castle Electric",
     "serviceId": "electrician",
@@ -64993,25 +62791,14 @@
   },
   {
     "id": "revere-electrician-5",
-    "name": "Ski Electric Co",
+    "name": "Castro Electric Corp",
     "serviceId": "electrician",
     "townSlug": "revere",
-    "phone": "(781) 286-6360",
-    "website": "http://skielectricco.localsearch.com",
+    "phone": "(617) 668-1884",
+    "website": "https://castroelectriccorp.com/ev-charger-installation-revere/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides electrical services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-roofing-1",
-    "name": "O'LYN Roofing",
-    "serviceId": "roofing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.olynroofing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Revere, MA. Call for details and availability."
+    "verified": true,
+    "description": "Castro Electric Corp provides electrical services, EV charger installation, and residential electrical work in Revere, MA."
   },
   {
     "id": "revere-roofing-2",
@@ -65020,39 +62807,6 @@
     "townSlug": "revere",
     "phone": "(781) 629-9558",
     "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-roofing-3",
-    "name": "Nuza Roofing Corporation",
-    "serviceId": "roofing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.bbb.org/us/ma/revere/profile/roofing-contractors/nuza-roofing-corporation-0021-119187",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-roofing-4",
-    "name": "Power Home Remodeling",
-    "serviceId": "roofing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://powerhrg.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-roofing-5",
-    "name": "FRS Roofing & Gutter Services",
-    "serviceId": "roofing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://frsroofing.com/",
     "facebook": "",
     "verified": false,
     "description": "Provides roofing services in Revere, MA. Call for details and availability."
@@ -65091,17 +62845,6 @@
     "description": "Provides landscaping services in Revere, MA. Call for details and availability."
   },
   {
-    "id": "revere-yard-landscaping-5",
-    "name": "J Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides landscaping services in Revere, MA. Call for details and availability."
-  },
-  {
     "id": "revere-pest-control-4",
     "name": "NW Pest Control",
     "serviceId": "pest-control",
@@ -65122,28 +62865,6 @@
     "facebook": "",
     "verified": false,
     "description": "Provides pest control services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-pressure-washing-4",
-    "name": "Cocos Cleaners",
-    "serviceId": "pressure-washing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://cocoscleaners.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides pressure washing services in Revere, MA. Call for details and availability."
-  },
-  {
-    "id": "revere-pressure-washing-5",
-    "name": "Vision Painting Contractors",
-    "serviceId": "pressure-washing",
-    "townSlug": "revere",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/power-washing-revere-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides pressure washing services in Revere, MA. Call for details and availability."
   },
   {
     "id": "revere-plumbing-5",
@@ -65246,36 +62967,36 @@
   },
   {
     "id": "malden-plumbing-5",
-    "name": "RCL Mechanical",
+    "name": "Buckley Brothers, Inc.",
     "serviceId": "plumbing",
     "townSlug": "malden",
-    "phone": "(617) 889-0000",
-    "website": "https://www.rclmechanical.com/",
+    "phone": "(781) 322-7509",
+    "website": "https://www.buckleybrothers.net/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides plumbing services in Malden, MA. Call for details and availability."
+    "verified": true,
+    "description": "Buckley Brothers, Inc. provides plumbing, heating, and sewer and drain cleaning services in Malden, MA."
   },
   {
     "id": "malden-hvac-5",
-    "name": "Gervais Mechanical",
+    "name": "Falite Bros.",
     "serviceId": "hvac",
     "townSlug": "malden",
-    "phone": "(508) 426-6991",
-    "website": "https://www.gervaismechanical.com/",
+    "phone": "(781) 262-3348",
+    "website": "https://www.falitebros.com/malden-heating-ac/",
     "facebook": "",
-    "verified": true,
-    "description": "Provides HVAC services in Malden, MA. Call for details and availability."
+    "verified": false,
+    "description": "Falite Bros. provides heating and air conditioning services in Malden, MA."
   },
   {
     "id": "malden-roofing-5",
-    "name": "FRS Roofing & Gutter Services",
+    "name": "Hurley Construction & Roofing",
     "serviceId": "roofing",
     "townSlug": "malden",
-    "phone": "(781) 000-0000",
-    "website": "https://frsroofing.com/",
+    "phone": "(781) 322-0015",
+    "website": "https://www.hurleyroofing.net/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Malden, MA. Call for details and availability."
+    "verified": true,
+    "description": "Hurley Construction & Roofing provides roofing and construction services from Malden, MA."
   },
   {
     "id": "malden-roofing-6",
@@ -65364,17 +63085,6 @@
     "facebook": "",
     "verified": true,
     "description": "Provides landscaping services in Somerville, MA. Call for details and availability."
-  },
-  {
-    "id": "somerville-pressure-washing-9",
-    "name": "Jose's Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "somerville",
-    "phone": "774-285-9484",
-    "website": "https://www.josespainting.co/",
-    "facebook": "",
-    "verified": false,
-    "description": "Provides pressure washing services in Somerville, MA. Call for details and availability."
   },
   {
     "id": "arlington-plumbing-5",
@@ -65749,5 +63459,1248 @@
     "facebook": "",
     "verified": true,
     "description": "Provides roofing services in Watertown, MA. Call for details and availability."
+  },
+  {
+    "id": "watertown-yard-landscaping-8",
+    "name": "Gatica Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "watertown",
+    "phone": "(857) 340-5188",
+    "website": "https://ma-landscapingsvc.com/contact/",
+    "facebook": "",
+    "verified": true,
+    "description": "Gatica Landscaping provides lawn care, landscaping, tree trimming, hardscaping, mulching, irrigation, and seasonal cleanup services in Watertown, MA."
+  },
+  {
+    "id": "watertown-yard-landscaping-9",
+    "name": "Boston's Tree Removal and Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "watertown",
+    "phone": "(857) 326-8724",
+    "website": "https://bostonslandscapingservices.com/services/",
+    "facebook": "https://www.facebook.com/people/Boston-Landscaping/100047710814395/",
+    "verified": false,
+    "description": "Boston's Tree Removal and Landscaping provides lawn care, landscaping, tree planting, tree removal, trimming, pruning, and yard service in the Watertown area."
+  },
+  {
+    "id": "watertown-yard-landscaping-10",
+    "name": "K.P. McDade Landscape & Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "watertown",
+    "phone": "(617) 923-1187",
+    "website": "https://kpmcdadecorp.wordpress.com/about/",
+    "facebook": "",
+    "verified": false,
+    "description": "K.P. McDade Landscape & Construction provides landscaping, construction, and gutter cleaning services from Watertown, MA."
+  },
+  {
+    "id": "brookline-pressure-washing-3",
+    "name": "Unicorn Window Cleaning",
+    "serviceId": "pressure-washing",
+    "townSlug": "brookline",
+    "phone": "(617) 606-9130",
+    "website": "https://www.unicornwindowcleaning.com/pressure-washing-services/brookline-ma",
+    "facebook": "",
+    "verified": true,
+    "description": "Unicorn Window Cleaning provides pressure washing, window cleaning, gutter cleaning, and exterior cleaning services in Brookline, MA."
+  },
+  {
+    "id": "brookline-pressure-washing-4",
+    "name": "Jose's Painting & Home Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "brookline",
+    "phone": "(774) 285-9484",
+    "website": "https://www.josespainting.co/cities-towns/power-washing-in-brookline-ma",
+    "facebook": "",
+    "verified": false,
+    "description": "Jose's Painting & Home Services provides power washing and exterior home services for Brookline, MA properties."
+  },
+  {
+    "id": "brookline-pressure-washing-5",
+    "name": "Clean Rowe",
+    "serviceId": "pressure-washing",
+    "townSlug": "brookline",
+    "phone": "(781) 439-0605",
+    "website": "https://www.cleanrowe.com/power-washing-brookline-ma.html",
+    "facebook": "",
+    "verified": false,
+    "description": "Clean Rowe provides power washing and exterior cleaning services for Brookline and nearby Massachusetts communities."
+  },
+  {
+    "id": "brookline-pressure-washing-6",
+    "name": "HiCleaners",
+    "serviceId": "pressure-washing",
+    "townSlug": "brookline",
+    "phone": "(781) 333-8758",
+    "website": "https://hicleaners.net/areas/brookline-ma",
+    "facebook": "",
+    "verified": false,
+    "description": "HiCleaners provides pressure washing, window cleaning, gutter cleaning, roof cleaning, and exterior house cleaning services in Brookline, MA."
+  },
+  {
+    "id": "brookline-yard-landscaping-5",
+    "name": "BrooklineLandscaping.com",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brookline",
+    "phone": "(617) 383-7997",
+    "website": "https://brooklinelandscaping.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrooklineLandscaping.com provides lawn care, gardening, yard clean-up, and landscaping services in Brookline, MA."
+  },
+  {
+    "id": "brookline-yard-landscaping-6",
+    "name": "Earth & Leaf Brookline Landscapes",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brookline",
+    "phone": "(857) 361-0610",
+    "website": "https://www.brooklinelandscaper.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Earth & Leaf Brookline Landscapes provides lawn care, landscape design, hardscaping, irrigation, and tree care services in Brookline, MA."
+  },
+  {
+    "id": "brookline-plumbing-5",
+    "name": "Plumbing Solutions Inc.",
+    "serviceId": "plumbing",
+    "townSlug": "brookline",
+    "phone": "(781) 326-6004",
+    "website": "https://plumbing-solutions-inc.com/brookline-ma/",
+    "facebook": "",
+    "verified": true,
+    "description": "Plumbing Solutions Inc. provides plumbing services for Brookline, MA, with licensed plumbing support for residential and commercial customers."
+  },
+  {
+    "id": "brookline-plumbing-6",
+    "name": "Winters Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "brookline",
+    "phone": "(617) 221-6563",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides plumbing, heating, cooling, and electrical services in Brookline, MA."
+  },
+  {
+    "id": "brookline-hvac-5",
+    "name": "Central Cooling & Heating",
+    "serviceId": "hvac",
+    "townSlug": "brookline",
+    "phone": "(800) 950-8870",
+    "website": "https://centralcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Central Cooling & Heating provides HVAC installation, repair, and maintenance services in Brookline, MA."
+  },
+  {
+    "id": "brookline-hvac-6",
+    "name": "Cooling Unlimited, Inc.",
+    "serviceId": "hvac",
+    "townSlug": "brookline",
+    "phone": "(781) 944-1030",
+    "website": "https://www.coolingunlimited.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Cooling Unlimited provides HVAC services including installation, repair, and maintenance in Brookline."
+  },
+  {
+    "id": "brookline-hvac-7",
+    "name": "Accutemp Engineering, LLC",
+    "serviceId": "hvac",
+    "townSlug": "brookline",
+    "phone": "(617) 489-6322",
+    "website": "https://accutempengineering.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Accutemp Engineering provides heating, cooling, and mechanical services in Brookline, MA."
+  },
+  {
+    "id": "brookline-electrician-5",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "brookline",
+    "phone": "(781) 899-6900",
+    "website": "https://markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides residential and commercial electrical services in Brookline, MA."
+  },
+  {
+    "id": "brookline-electrician-6",
+    "name": "JMR Electric Group",
+    "serviceId": "electrician",
+    "townSlug": "brookline",
+    "phone": "(617) 319-8387",
+    "website": "https://jmrelectric.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "JMR Electric Group provides electrical installation and repair services in Brookline, MA."
+  },
+  {
+    "id": "brookline-roofing-5",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "brookline",
+    "phone": "(781) 633-6536",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides roof replacement, repair, and maintenance services in Brookline, MA."
+  },
+  {
+    "id": "brookline-roofing-6",
+    "name": "FRS Roofing & Gutter Services",
+    "serviceId": "roofing",
+    "townSlug": "brookline",
+    "phone": "(617) 327-3636",
+    "website": "https://frsroofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "FRS Roofing & Gutter Services provides roofing and gutter services in Brookline, MA."
+  },
+  {
+    "id": "brookline-yard-landscaping-7",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brookline",
+    "phone": "(781) 646-6262",
+    "website": "https://lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscaping and outdoor living services in Brookline, MA."
+  },
+  {
+    "id": "brookline-pest-control-8",
+    "name": "Clancy Brothers Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "brookline",
+    "phone": "(781) 592-7648",
+    "website": "https://clancybrothers.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Clancy Brothers Pest Control provides residential and commercial pest control services in Brookline, MA."
+  },
+  {
+    "id": "brookline-electrician-7",
+    "name": "TF Electric",
+    "serviceId": "electrician",
+    "townSlug": "brookline",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/electrician-brookline-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "TF Electric provides residential and commercial electrical services in Brookline, MA."
+  },
+  {
+    "id": "brookline-roofing-7",
+    "name": "The Brookline Roofers",
+    "serviceId": "roofing",
+    "townSlug": "brookline",
+    "phone": "(857) 227-9840",
+    "website": "https://thebrooklineroofers.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "The Brookline Roofers provides roof repair, roof installation, and roof replacement services in Brookline, MA."
+  },
+  {
+    "id": "brookline-yard-landscaping-8",
+    "name": "A Yard & A Half Landscaping Cooperative",
+    "serviceId": "yard-landscaping",
+    "townSlug": "brookline",
+    "phone": "(781) 788-8855",
+    "website": "https://ayardandahalf.com/service-areas/brookline-landscaping/",
+    "facebook": "",
+    "verified": false,
+    "description": "A Yard & A Half Landscaping Cooperative provides landscape design, construction, and maintenance services in Brookline, MA."
+  },
+  {
+    "id": "brookline-pest-control-9",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "brookline",
+    "phone": "(508) 576-5662",
+    "website": "https://fox-pest.com/locations/massachusetts/brookline/",
+    "facebook": "",
+    "verified": false,
+    "description": "Fox Pest Control provides pest control and extermination services for homes in Brookline, MA."
+  },
+  {
+    "id": "framingham-pressure-washing-6",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "framingham",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "All Clean Power Wash provides professional pressure washing and exterior cleaning services in Framingham, MA."
+  },
+  {
+    "id": "framingham-pressure-washing-7",
+    "name": "Mass Pro Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "framingham",
+    "phone": "(508) 395-9274",
+    "website": "https://masspropowerwashing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mass Pro Power Washing provides residential and commercial pressure washing services in Framingham, MA."
+  },
+  {
+    "id": "framingham-pressure-washing-8",
+    "name": "Supreme Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "framingham",
+    "phone": "(508) 840-3640",
+    "website": "https://supremepowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Supreme Power Wash provides house washing, roof cleaning, and exterior pressure washing services in Framingham, MA."
+  },
+  {
+    "id": "framingham-pressure-washing-9",
+    "name": "New England Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "framingham",
+    "phone": "(508) 545-0998",
+    "website": "https://newenglandpowerwash.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "New England Power Wash provides residential pressure washing and exterior cleaning services in Framingham, MA."
+  },
+  {
+    "id": "framingham-electrician-5",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "framingham",
+    "phone": "(781) 899-6900",
+    "website": "https://markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides residential and commercial electrical services in Framingham, MA."
+  },
+  {
+    "id": "framingham-yard-landscaping-11",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "framingham",
+    "phone": "(781) 646-6262",
+    "website": "https://lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscaping and outdoor living services in Framingham, MA."
+  },
+  {
+    "id": "framingham-yard-landscaping-12",
+    "name": "Greenhow Landscape Design",
+    "serviceId": "yard-landscaping",
+    "townSlug": "framingham",
+    "phone": "(617) 923-1144",
+    "website": "https://greenhowlandscape.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Greenhow Landscape Design provides landscaping and outdoor services in Framingham, MA."
+  },
+  {
+    "id": "framingham-yard-landscaping-13",
+    "name": "Boston Landscaping and Lawn Specialists",
+    "serviceId": "yard-landscaping",
+    "townSlug": "framingham",
+    "phone": "(617) 592-9185",
+    "website": "https://www.bostonlandscapingandlawn.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Boston Landscaping and Lawn Specialists provides lawn care and landscaping services in Framingham, MA."
+  },
+  {
+    "id": "framingham-painters-4",
+    "name": "Fresh Coat Painters of Metro West",
+    "serviceId": "painters",
+    "townSlug": "framingham",
+    "phone": "(508) 251-3050",
+    "website": "https://freshcoatpainters.com/metro-west/",
+    "facebook": "",
+    "verified": true,
+    "description": "Fresh Coat Painters provides residential and commercial painting services in Framingham, MA."
+  },
+  {
+    "id": "framingham-painters-5",
+    "name": "CertaPro Painters of MetroWest",
+    "serviceId": "painters",
+    "townSlug": "framingham",
+    "phone": "(508) 875-4700",
+    "website": "https://certapro.com/metrowest/",
+    "facebook": "",
+    "verified": false,
+    "description": "CertaPro Painters provides interior and exterior painting services in Framingham, MA."
+  },
+  {
+    "id": "framingham-pest-control-6",
+    "name": "Clancy Brothers Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "framingham",
+    "phone": "(781) 592-7648",
+    "website": "https://clancybrothers.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Clancy Brothers provides pest control services for homes and businesses in Framingham, MA."
+  },
+  {
+    "id": "framingham-pest-control-7",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "framingham",
+    "phone": "(866) 569-4035",
+    "website": "https://www.terminix.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Terminix provides pest control and termite treatment services in Framingham, MA."
+  },
+  {
+    "id": "framingham-pest-control-8",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "framingham",
+    "phone": "(508) 576-5662",
+    "website": "https://fox-pest.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Fox Pest Control provides residential pest control services in Framingham, MA."
+  },
+  {
+    "id": "springfield-painters-6",
+    "name": "IN&OUT Painting",
+    "serviceId": "painters",
+    "townSlug": "springfield",
+    "phone": "(413) 356-1122",
+    "website": "https://www.inandoutpaintingma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "IN&OUT Painting provides residential and commercial interior painting services in Springfield, MA."
+  },
+  {
+    "id": "springfield-painters-7",
+    "name": "Painting Beyond",
+    "serviceId": "painters",
+    "townSlug": "springfield",
+    "phone": "(413) 459-5351",
+    "website": "https://painting-beyond.org/",
+    "facebook": "",
+    "verified": false,
+    "description": "Painting Beyond provides residential painting services in the Springfield, MA area."
+  },
+  {
+    "id": "springfield-pest-control-3",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "springfield",
+    "phone": "(413) 324-5261",
+    "website": "https://fox-pest.com/locations/massachusetts/springfield/",
+    "facebook": "",
+    "verified": true,
+    "description": "Fox Pest Control provides pest control and extermination services in Springfield, MA."
+  },
+  {
+    "id": "springfield-pest-control-4",
+    "name": "Rid-A-Pest",
+    "serviceId": "pest-control",
+    "townSlug": "springfield",
+    "phone": "(413) 788-4716",
+    "website": "https://www.ridapest.org/",
+    "facebook": "",
+    "verified": false,
+    "description": "Rid-A-Pest provides pest control services for homes and businesses in Springfield, MA."
+  },
+  {
+    "id": "springfield-pest-control-5",
+    "name": "Modern Pest Services",
+    "serviceId": "pest-control",
+    "townSlug": "springfield",
+    "phone": "(800) 323-7378",
+    "website": "https://www.modernpest.com/exterminator/massachusetts/springfield-ma/residential-pest-control/",
+    "facebook": "",
+    "verified": false,
+    "description": "Modern Pest Services provides residential pest control services in Springfield, MA."
+  },
+  {
+    "id": "springfield-pressure-washing-8",
+    "name": "Liam & Company Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "springfield",
+    "phone": "(413) 300-4023",
+    "website": "https://www.liamandcompanyservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Liam & Company Services provides power washing, house washing, roof cleaning, driveway cleaning, and exterior cleaning in Springfield, MA."
+  },
+  {
+    "id": "springfield-pest-control-6",
+    "name": "Eliminate 'Em Pest Control Services",
+    "serviceId": "pest-control",
+    "townSlug": "springfield",
+    "phone": "(866) 802-7378",
+    "website": "https://eliminateem.com/pest-control/massachusetts/springfield-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Eliminate 'Em Pest Control Services provides pest control, rodent removal, and wildlife control services in Springfield, MA."
+  },
+  {
+    "id": "springfield-pest-control-7",
+    "name": "413 Pest Free",
+    "serviceId": "pest-control",
+    "townSlug": "springfield",
+    "phone": "(413) 966-1095",
+    "website": "https://www.413pestfree.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "413 Pest Free provides pest control services for homes and businesses in Springfield and Western Massachusetts."
+  },
+  {
+    "id": "new-bedford-yard-landscaping-5",
+    "name": "Elf's Landscape Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "new-bedford",
+    "phone": "(508) 995-1911",
+    "website": "https://elfslandscapeinc.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Elf's Landscape Inc. provides lawn maintenance, landscape design, shrub trimming, mulching, and cleanup services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-yard-landscaping-6",
+    "name": "Make 'Em Run",
+    "serviceId": "yard-landscaping",
+    "townSlug": "new-bedford",
+    "phone": "(774) 778-6123",
+    "website": "https://www.makeemrun.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Make 'Em Run provides landscaping, lawn care, spring cleanups, and property services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-painters-4",
+    "name": "Oliver's Painting Co.",
+    "serviceId": "painters",
+    "townSlug": "new-bedford",
+    "phone": "(774) 365-1119",
+    "website": "https://oliverspaintingco.yourwebsitespace.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Oliver's Painting Co. provides interior painting, exterior painting, power washing, deck, and gutter services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-painters-5",
+    "name": "Commercial Pro Painting LLC",
+    "serviceId": "painters",
+    "townSlug": "new-bedford",
+    "phone": "(774) 425-2020",
+    "website": "https://pcn.procoretech-qa.com/p/commercial-pro-painting-llc-new-bedford",
+    "facebook": "",
+    "verified": false,
+    "description": "Commercial Pro Painting LLC provides painting and coating services in the New Bedford, MA area."
+  },
+  {
+    "id": "new-bedford-pressure-washing-2",
+    "name": "Whaling City Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "new-bedford",
+    "phone": "(508) 742-7489",
+    "website": "https://whalingcitypressurewashing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Whaling City Pressure Washing provides house washing, gutter cleaning, and exterior cleaning services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-pressure-washing-3",
+    "name": "ViewCrew Power Washing Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "new-bedford",
+    "phone": "(774) 333-8173",
+    "website": "https://www.viewcrewservices.com/service-areas/new-bedford",
+    "facebook": "",
+    "verified": false,
+    "description": "ViewCrew Power Washing Services provides pressure washing, window cleaning, paver sealing, and exterior cleaning in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-pressure-washing-4",
+    "name": "JL Painting Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "new-bedford",
+    "phone": "(774) 228-7701",
+    "website": "https://jl-painting.com/pressure-washing-new-bedford-ma-02740",
+    "facebook": "",
+    "verified": false,
+    "description": "JL Painting Services provides pressure washing and exterior cleaning services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-pressure-washing-5",
+    "name": "A & A Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "new-bedford",
+    "phone": "(774) 473-0362",
+    "website": "https://www.aapressurewashing.net/",
+    "facebook": "",
+    "verified": true,
+    "description": "A & A Pressure Washing provides pressure washing and exterior cleaning services in New Bedford, MA."
+  },
+  {
+    "id": "new-bedford-pressure-washing-6",
+    "name": "Summit Exterior Cleaning",
+    "serviceId": "pressure-washing",
+    "townSlug": "new-bedford",
+    "phone": "(774) 319-6373",
+    "website": "https://www.summitprofessionalservicesllc.com/areas-we-serve/new-bedford-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Summit Exterior Cleaning provides power washing, soft washing, and roof cleaning services in New Bedford, MA."
+  },
+  {
+    "id": "fall-river-yard-landscaping-5",
+    "name": "Rock Solid Landscaping Inc.",
+    "serviceId": "yard-landscaping",
+    "townSlug": "fall-river",
+    "phone": "(508) 536-1694",
+    "website": "https://www.rocksolidlandscapinginc.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Rock Solid Landscaping Inc. provides landscaping and outdoor property services in the Fall River, MA area."
+  },
+  {
+    "id": "fall-river-painters-4",
+    "name": "Meticulous Painting",
+    "serviceId": "painters",
+    "townSlug": "fall-river",
+    "phone": "(508) 989-0788",
+    "website": "https://meticulouspainting.net/",
+    "facebook": "",
+    "verified": true,
+    "description": "Meticulous Painting provides interior and exterior painting services in Fall River, MA."
+  },
+  {
+    "id": "fall-river-painters-5",
+    "name": "Fall River Painting Contractors",
+    "serviceId": "painters",
+    "townSlug": "fall-river",
+    "phone": "(508) 299-5525",
+    "website": "https://fallriverpaintingcontractors.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Fall River Painting Contractors provides residential and commercial painting services in Fall River, MA."
+  },
+  {
+    "id": "fall-river-pest-control-2",
+    "name": "Mosquito Joe of Westport",
+    "serviceId": "pest-control",
+    "townSlug": "fall-river",
+    "phone": "(508) 474-8842",
+    "website": "https://mosquitojoe.com/locations/massachusetts/westport/",
+    "facebook": "",
+    "verified": true,
+    "description": "Mosquito Joe of Westport provides mosquito, tick, flea, and yard pest control services for Fall River and nearby South Coast communities."
+  },
+  {
+    "id": "fall-river-pest-control-3",
+    "name": "Debug Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "fall-river",
+    "phone": "(401) 437-0555",
+    "website": "https://www.debugpestcontrol.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Debug Pest Control provides residential and commercial pest control services in Fall River and nearby communities."
+  },
+  {
+    "id": "fall-river-pest-control-4",
+    "name": "Big Blue Bug Solutions",
+    "serviceId": "pest-control",
+    "townSlug": "fall-river",
+    "phone": "(888) 258-3284",
+    "website": "https://www.bigbluebug.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Big Blue Bug Solutions provides pest control and extermination services in Fall River and nearby areas."
+  },
+  {
+    "id": "fall-river-pest-control-5",
+    "name": "A1 Exterminators",
+    "serviceId": "pest-control",
+    "townSlug": "fall-river",
+    "phone": "(781) 592-2733",
+    "website": "https://www.a1exterminators.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "A1 Exterminators provides pest control and exterminator services in Fall River and surrounding Massachusetts communities."
+  },
+  {
+    "id": "fall-river-pressure-washing-2",
+    "name": "Pontes Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "fall-river",
+    "phone": "(508) 567-8910",
+    "website": "https://www.facebook.com/PontesPowerWashing/",
+    "facebook": "https://www.facebook.com/PontesPowerWashing/",
+    "verified": true,
+    "description": "Pontes Power Washing provides residential and commercial power washing services in Fall River and nearby South Coast communities."
+  },
+  {
+    "id": "fall-river-pressure-washing-3",
+    "name": "K&S High Quality Painting and Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "fall-river",
+    "phone": "(508) 493-9921",
+    "website": "https://www.bbb.org/us/ma/fall-river/profile/painting-contractors/ks-high-quality-painting-and-power-washing-0021-188367",
+    "facebook": "",
+    "verified": false,
+    "description": "K&S High Quality Painting and Power Washing provides painting and power washing services from Fall River, MA."
+  },
+  {
+    "id": "fall-river-pressure-washing-4",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "fall-river",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All Clean Power Wash provides professional pressure washing and exterior cleaning services in Fall River, MA."
+  },
+  {
+    "id": "fall-river-pressure-washing-5",
+    "name": "Mass Pro Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "fall-river",
+    "phone": "(508) 395-9274",
+    "website": "https://masspropowerwashing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mass Pro Power Washing provides residential and commercial pressure washing services in Fall River, MA."
+  },
+  {
+    "id": "revere-pressure-washing-5",
+    "name": "Jose's Painting & Home Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "revere",
+    "phone": "(774) 285-9484",
+    "website": "https://www.josespainting.co/cities-towns/power-washing-in-revere-ma",
+    "facebook": "",
+    "verified": true,
+    "description": "Jose's Painting & Home Services provides power washing and exterior cleaning services in Revere, MA."
+  },
+  {
+    "id": "revere-pressure-washing-6",
+    "name": "Fresh Start Home Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "revere",
+    "phone": "(781) 240-3360",
+    "website": "https://www.chamberofcommerce.com/business-directory/massachusetts/revere/pressure-washing-service/2033463287-fresh-start-home-services",
+    "facebook": "",
+    "verified": false,
+    "description": "Fresh Start Home Services provides pressure washing and exterior cleaning services in Revere, MA."
+  },
+  {
+    "id": "revere-pressure-washing-7",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "revere",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All Clean Power Wash provides professional pressure washing and exterior cleaning services in Revere, MA."
+  },
+  {
+    "id": "revere-pressure-washing-8",
+    "name": "Mass Pro Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "revere",
+    "phone": "(508) 395-9274",
+    "website": "https://masspropowerwashing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mass Pro Power Washing provides residential and commercial pressure washing services in Revere, MA."
+  },
+  {
+    "id": "leominster-plumbing-4",
+    "name": "Jay Moody HVAC",
+    "serviceId": "plumbing",
+    "townSlug": "leominster",
+    "phone": "(978) 534-9483",
+    "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
+    "facebook": "",
+    "verified": true,
+    "description": "Jay Moody HVAC provides plumbing, heating, cooling, and electrical services in Leominster, MA."
+  },
+  {
+    "id": "leominster-hvac-4",
+    "name": "DDM Heating & Air Conditioning, Inc.",
+    "serviceId": "hvac",
+    "townSlug": "leominster",
+    "phone": "(978) 534-8303",
+    "website": "https://www.ddmheating.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "DDM Heating & Air Conditioning provides heating and air conditioning services in Leominster, MA."
+  },
+  {
+    "id": "leominster-electrician-4",
+    "name": "Jay Moody HVAC",
+    "serviceId": "electrician",
+    "townSlug": "leominster",
+    "phone": "(978) 534-9483",
+    "website": "https://jaymoodyhvac.com/about-us/service-areas/leominster-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Jay Moody HVAC provides electrical, plumbing, heating, and cooling services in Leominster, MA."
+  },
+  {
+    "id": "leominster-hvac-5",
+    "name": "Beaudoin Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "leominster",
+    "phone": "(978) 345-4270",
+    "website": "https://www.beaudoinhvac.com/contact-us",
+    "facebook": "",
+    "verified": false,
+    "description": "Beaudoin Heating & Air Conditioning provides HVAC service from Leominster, MA."
+  },
+  {
+    "id": "leominster-plumbing-5",
+    "name": "McNulty & Bedard Plumbing and Heating",
+    "serviceId": "plumbing",
+    "townSlug": "leominster",
+    "phone": "(978) 365-3210",
+    "website": "https://www.mcnultyandbedard.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "McNulty & Bedard Plumbing and Heating provides plumbing, heating, and cooling services near Leominster, MA."
+  },
+  {
+    "id": "leominster-electrician-5",
+    "name": "DMH Electric Inc.",
+    "serviceId": "electrician",
+    "townSlug": "leominster",
+    "phone": "(978) 345-8883",
+    "website": "https://dmhelectricinc.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "DMH Electric Inc. provides residential and commercial electrical services in Leominster, MA."
+  },
+  {
+    "id": "leominster-roofing-4",
+    "name": "Trinity Roofing Contractor",
+    "serviceId": "roofing",
+    "townSlug": "leominster",
+    "phone": "(978) 590-8524",
+    "website": "http://trinityroofingcontractor.com",
+    "facebook": "",
+    "verified": true,
+    "description": "Trinity Roofing Contractor provides roofing, gutter cleaning, and contractor services from Leominster, MA."
+  },
+  {
+    "id": "leominster-roofing-5",
+    "name": "ProTak Roofing Services",
+    "serviceId": "roofing",
+    "townSlug": "leominster",
+    "phone": "(877) 629-4598",
+    "website": "https://roofers-in-leominster-ma.protakroofing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "ProTak Roofing Services provides roof replacement, roof repair, and emergency roofing services in Leominster, MA."
+  },
+  {
+    "id": "leominster-yard-landscaping-4",
+    "name": "Bessa Construction and Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "leominster",
+    "phone": "(857) 270-4165",
+    "website": "https://www.facebook.com/groups/1278151723069384/posts/1668643254020227/",
+    "facebook": "https://www.facebook.com/groups/1278151723069384/posts/1668643254020227/",
+    "verified": false,
+    "description": "Bessa Construction and Landscaping provides landscaping, masonry, and outdoor property services in the Leominster area."
+  },
+  {
+    "id": "leominster-yard-landscaping-5",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "leominster",
+    "phone": "(781) 646-6262",
+    "website": "https://lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscaping and outdoor living services in Leominster, MA."
+  },
+  {
+    "id": "leominster-painters-3",
+    "name": "Walter's Painting",
+    "serviceId": "painters",
+    "townSlug": "leominster",
+    "phone": "(978) 360-2521",
+    "website": "https://www.walterspaintingcorpinc.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Walter's Painting provides interior and exterior painting services in Leominster, MA."
+  },
+  {
+    "id": "leominster-painters-4",
+    "name": "Ultimate Pro Finish Painting, LLC",
+    "serviceId": "painters",
+    "townSlug": "leominster",
+    "phone": "(508) 440-7009",
+    "website": "https://www.bbb.org/us/ma/leominster/profile/painting-contractors/ultimate-pro-finish-painting-llc-0021-558906",
+    "facebook": "",
+    "verified": false,
+    "description": "Ultimate Pro Finish Painting provides residential and commercial painting services from Leominster, MA."
+  },
+  {
+    "id": "leominster-painters-5",
+    "name": "Moura Painting Inc.",
+    "serviceId": "painters",
+    "townSlug": "leominster",
+    "phone": "(508) 989-7343",
+    "website": "https://www.paintingcontractorleominster.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Moura Painting Inc. provides residential and commercial painting services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pest-control-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "leominster",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/locations/massachusetts/leominster/",
+    "facebook": "",
+    "verified": true,
+    "description": "Fox Pest Control provides pest control and extermination services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pest-control-2",
+    "name": "Leominster Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "leominster",
+    "phone": "(978) 467-0678",
+    "website": "https://www.leominstermapestcontrol.com/contact.html",
+    "facebook": "",
+    "verified": false,
+    "description": "Leominster Pest Control provides residential and commercial pest control services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pest-control-3",
+    "name": "Colonial Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "leominster",
+    "phone": "(800) 525-8084",
+    "website": "https://www.colonialpest.com/service-area/leominster/",
+    "facebook": "",
+    "verified": false,
+    "description": "Colonial Pest Control provides pest control and exterminator services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pest-control-4",
+    "name": "Mosquito Joe of Leominster",
+    "serviceId": "pest-control",
+    "townSlug": "leominster",
+    "phone": "(978) 843-4163",
+    "website": "https://mosquitojoe.com/locations/massachusetts/leominster/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mosquito Joe provides mosquito, tick, flea, and outdoor pest control services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pest-control-5",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "leominster",
+    "phone": "(866) 569-4035",
+    "website": "https://www.terminix.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Terminix provides pest control and termite treatment services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pressure-washing-1",
+    "name": "Restco Corporation",
+    "serviceId": "pressure-washing",
+    "townSlug": "leominster",
+    "phone": "(508) 987-3357",
+    "website": "https://www.restco.com/leominster/",
+    "facebook": "",
+    "verified": true,
+    "description": "Restco Corporation provides building restoration and power washing services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pressure-washing-2",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "leominster",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All Clean Power Wash provides pressure washing and exterior cleaning services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pressure-washing-3",
+    "name": "Mass Pro Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "leominster",
+    "phone": "(508) 395-9274",
+    "website": "https://masspropowerwashing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Mass Pro Power Washing provides residential and commercial pressure washing services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pressure-washing-4",
+    "name": "North Central Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "leominster",
+    "phone": "(978) 471-3145",
+    "website": "https://www.facebook.com/seenitallcleaneditall/",
+    "facebook": "https://www.facebook.com/seenitallcleaneditall/",
+    "verified": false,
+    "description": "North Central Power Washing provides residential and commercial pressure washing services in Leominster, MA."
+  },
+  {
+    "id": "leominster-pressure-washing-5",
+    "name": "New England Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "leominster",
+    "phone": "(508) 545-0998",
+    "website": "https://newenglandpowerwash.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "New England Power Wash provides residential pressure washing and exterior cleaning services in Leominster, MA."
+  },
+  {
+    "id": "worcester-painters-3",
+    "name": "Creative Painters",
+    "serviceId": "painters",
+    "townSlug": "worcester",
+    "phone": "(774) 251-1108",
+    "website": "https://www.creativepaintersma.net/",
+    "facebook": "",
+    "verified": true,
+    "description": "Creative Painters provides interior and exterior residential painting services in Worcester, MA."
+  },
+  {
+    "id": "worcester-painters-4",
+    "name": "Frank Demore Painting",
+    "serviceId": "painters",
+    "townSlug": "worcester",
+    "phone": "(508) 598-2424",
+    "website": "https://www.frankdemorepainting.com/ma-house-painters/painting-contractor-worcester-ma.php",
+    "facebook": "",
+    "verified": false,
+    "description": "Frank Demore Painting provides house painting and painting contractor services in Worcester, MA."
+  },
+  {
+    "id": "worcester-painters-5",
+    "name": "New Creation Painters",
+    "serviceId": "painters",
+    "townSlug": "worcester",
+    "phone": "(508) 868-4297",
+    "website": "https://newcreationpainters.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "New Creation Painters provides interior and exterior painting services in Worcester, MA."
+  },
+  {
+    "id": "worcester-painters-6",
+    "name": "Vision Painting Contractors",
+    "serviceId": "painters",
+    "townSlug": "worcester",
+    "phone": "(774) 482-5454",
+    "website": "https://www.visionpaintingco.com/house-painting-worcester-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Vision Painting Contractors provides interior painting, exterior painting, deck staining, pressure washing, and wood rot repair services in Worcester, MA."
+  },
+  {
+    "id": "worcester-painters-7",
+    "name": "Zuck Painting",
+    "serviceId": "painters",
+    "townSlug": "worcester",
+    "phone": "(508) 556-7297",
+    "website": "https://zuckpainting.com/worcester-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Zuck Painting provides interior painting, exterior painting, cabinet painting, and residential painting services in Worcester, MA."
+  },
+  {
+    "id": "cambridge-pressure-washing-7",
+    "name": "HiCleaners",
+    "serviceId": "pressure-washing",
+    "townSlug": "cambridge",
+    "phone": "(781) 333-8758",
+    "website": "https://hicleaners.net/",
+    "facebook": "",
+    "verified": false,
+    "description": "HiCleaners provides pressure washing, window cleaning, gutter cleaning, roof cleaning, and exterior house cleaning services in Cambridge, MA."
+  },
+  {
+    "id": "cambridge-pressure-washing-8",
+    "name": "Jose's Painting & Home Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "cambridge",
+    "phone": "(774) 285-9484",
+    "website": "https://www.josespainting.co/",
+    "facebook": "",
+    "verified": false,
+    "description": "Jose's Painting & Home Services provides power washing and exterior home services in Cambridge, MA."
+  },
+  {
+    "id": "cambridge-pressure-washing-9",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "cambridge",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All Clean Power Wash provides pressure washing and exterior cleaning services in Cambridge, MA."
+  },
+  {
+    "id": "cambridge-pressure-washing-10",
+    "name": "New England Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "cambridge",
+    "phone": "(781) 424-5200",
+    "website": "https://newenglandpowerwashing.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "New England Power Washing provides residential and commercial pressure washing and exterior cleaning services in Cambridge, MA."
+  },
+  {
+    "id": "lynn-yard-landscaping-5",
+    "name": "Four Seasons Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(781) 593-0044",
+    "website": "https://fourseasonslandscapingma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Four Seasons Landscaping provides lawn care, landscaping, and outdoor property services in Lynn, MA."
+  },
+  {
+    "id": "quincy-pressure-washing-10",
+    "name": "HiCleaners",
+    "serviceId": "pressure-washing",
+    "townSlug": "quincy",
+    "phone": "(781) 333-8758",
+    "website": "https://hicleaners.net/",
+    "facebook": "",
+    "verified": false,
+    "description": "HiCleaners provides pressure washing, window cleaning, gutter cleaning, roof cleaning, and exterior cleaning services in Quincy, MA."
+  },
+  {
+    "id": "quincy-pressure-washing-11",
+    "name": "Jose's Painting & Home Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "quincy",
+    "phone": "(774) 285-9484",
+    "website": "https://www.josespainting.co/",
+    "facebook": "",
+    "verified": false,
+    "description": "Jose's Painting & Home Services provides power washing and exterior home services in Quincy, MA."
+  },
+  {
+    "id": "quincy-pressure-washing-12",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "quincy",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "All Clean Power Wash provides pressure washing and exterior cleaning services in Quincy, MA."
+  },
+  {
+    "id": "newton-plumbing-5",
+    "name": "Aspinwall Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "newton",
+    "phone": "(617) 332-2200",
+    "website": "https://www.aspinwallplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Aspinwall Plumbing & Heating provides residential plumbing services in Newton, MA."
+  },
+  {
+    "id": "newton-hvac-5",
+    "name": "Papalia Home Services",
+    "serviceId": "hvac",
+    "townSlug": "newton",
+    "phone": "(877) 534-3343",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Papalia Home Services provides HVAC installation and repair services in Newton, MA."
+  },
+  {
+    "id": "newton-electrician-5",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "newton",
+    "phone": "(781) 444-9456",
+    "website": "https://kuhlmanelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Kuhlman Electric provides residential and commercial electrical services in Newton, MA."
+  },
+  {
+    "id": "newton-roofing-5",
+    "name": "FRS Roofing & Gutter Services",
+    "serviceId": "roofing",
+    "townSlug": "newton",
+    "phone": "(617) 327-3636",
+    "website": "https://frsroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "FRS Roofing & Gutter Services provides roofing and gutter services in Newton, MA."
+  },
+  {
+    "id": "somerville-plumbing-11",
+    "name": "Winters Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "somerville",
+    "phone": "(617) 221-6563",
+    "website": "https://www.wintershomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides plumbing, heating, cooling, and electrical services in Somerville, MA."
+  },
+  {
+    "id": "somerville-pressure-washing-10",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "somerville",
+    "phone": "(508) 736-2230",
+    "website": "https://allcleanpowerwashma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "All Clean Power Wash provides pressure washing and exterior cleaning services in Somerville, MA."
+  },
+  {
+    "id": "malden-electrician-3",
+    "name": "Wilko Systems, Inc.",
+    "serviceId": "electrician",
+    "townSlug": "malden",
+    "phone": "(781) 322-3173",
+    "website": "https://wilkosystems.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Wilko Systems, Inc. provides electrical contractor and residential electrician services in Malden, MA."
+  },
+  {
+    "id": "malden-electrician-5",
+    "name": "Four Star Lighting and Electric",
+    "serviceId": "electrician",
+    "townSlug": "malden",
+    "phone": "(978) 543-1050",
+    "website": "https://www.fourstarlighting.net/areas-we-serve/malden/",
+    "facebook": "",
+    "verified": true,
+    "description": "Four Star Lighting and Electric provides residential and commercial electrical services in Malden, MA."
   }
 ]
