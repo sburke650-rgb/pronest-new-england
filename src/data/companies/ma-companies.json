@@ -2377,110 +2377,6 @@
     "verified": true
   },
   {
-    "id": "drain-pros-plumbing-lynn",
-    "name": "Drain Pros Plumbing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 592-8200",
-    "website": "",
-    "description": "Drain cleaning, plumbing repair, and emergency plumbing services serving Lynn, Massachusetts.",
-    "slug": "drain-pros-plumbing",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "roto-rooter-lynn",
-    "name": "Roto-Rooter Plumbing & Drain Service",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 599-4700",
-    "website": "https://www.rotorooter.com/",
-    "description": "Plumbing repair, drain cleaning, and emergency plumbing services serving Lynn and surrounding North Shore towns.",
-    "slug": "roto-rooter-lynn",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "north-shore-hvac-lynn",
-    "name": "North Shore Heating & Cooling",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(781) 598-5100",
-    "website": "",
-    "description": "Heating and air conditioning installation, repair, and maintenance contractor serving Lynn and the North Shore.",
-    "slug": "north-shore-heating-cooling",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "sila-heating-lynn",
-    "name": "Sila Heating, Air Conditioning, Plumbing & Electrical",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(781) 995-2627",
-    "website": "https://www.sila.com/",
-    "description": "Heating and cooling installation and repair services serving Lynn and surrounding North Shore communities.",
-    "slug": "sila-heating-lynn",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "crowe-electric-lynn",
-    "name": "Crowe Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 395-3773",
-    "website": "http://www.croweelectric.com/",
-    "description": "Residential and commercial electrical contractor serving Lynn and Greater Boston.",
-    "slug": "crowe-electric",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "north-shore-electric-lynn",
-    "name": "North Shore Electrical Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 593-4300",
-    "website": "",
-    "description": "Electrical repair, wiring, and panel upgrade contractor serving Lynn, Massachusetts.",
-    "slug": "north-shore-electrical-services",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "lynn-roofing-company",
-    "name": "Lynn Roofing Company",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 592-7000",
-    "website": "",
-    "description": "Roof repair and replacement contractor serving Lynn and surrounding North Shore towns.",
-    "slug": "lynn-roofing-company",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "north-shore-roofing-lynn",
-    "name": "North Shore Roofing & Construction",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 595-8800",
-    "website": "",
-    "description": "Residential roofing contractor serving Lynn and the Massachusetts North Shore.",
-    "slug": "north-shore-roofing",
-    "facebook": "",
-    "verified": false
-  },
-  {
     "id": "roto-rooter-new-bedford",
     "name": "Roto-Rooter Plumbing & Drain Service",
     "state": "MA",
@@ -2984,102 +2880,6 @@
     "description": "A-1 Plumbing & Heating is a local plumbing company serving Springfield, MA with dependable service and quality workmanship."
   },
   {
-    "id": "lynn-plumbing-roto-rooter-lynn",
-    "name": "Roto-Rooter (Lynn)",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 581-0282",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Roto-Rooter (Lynn) provides professional plumbing services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-plumbing-michael-russo-jr-plumbing-heating",
-    "name": "Michael Russo Jr. Plumbing & Heating Co., Inc.",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 595-2732",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Michael Russo Jr. Plumbing & Heating Co., Inc. offers expert plumbing services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-plumbing-waldman-plumbing-heating",
-    "name": "Waldman Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 780-3184",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for plumbing in Lynn, MA? Waldman Plumbing & Heating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-plumbing-dello-russo-plumbing-heating",
-    "name": "Dello Russo Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 819-2709",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for plumbing in Lynn, MA? Dello Russo Plumbing & Heating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-plumbing-aquaflow-plumbing-heating",
-    "name": "Aquaflow Plumbing & Heating Inc.",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 206-2887",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Aquaflow Plumbing & Heating Inc. offers expert plumbing services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-plumbing-daniel-e-cadotte-plumbing-heating",
-    "name": "Daniel E. Cadotte Plumbing and Heating INC.",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 718-2273",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Daniel E. Cadotte Plumbing and Heating INC. specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-plumbing-crn-plumbing",
-    "name": "CRN Plumbing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 248-9568",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "CRN Plumbing is a local plumbing company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-plumbing-super-service-today",
-    "name": "Super Service Today (Lynn)",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 519-9921",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Super Service Today (Lynn) specializes in plumbing services for residential and commercial needs."
-  },
-  {
     "id": "fall-river-plumbing-rj-marchand-plumbing",
     "name": "R.J. Marchand Plumbing & Heating",
     "state": "MA",
@@ -3270,102 +3070,6 @@
     "facebook": "",
     "website": "",
     "description": "Wayne Fostin Plumbing & Heating, LLC provides professional plumbing services in New bedford, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-roofing-rodriguez-roofing",
-    "name": "Rodriguez Roofing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 593-7663",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Rodriguez Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-roofing-express-roofing",
-    "name": "Express Roofing & Siding",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 581-7877",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Express Roofing & Siding specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-roofing-advanced-roofing",
-    "name": "Advanced Roofing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 844-6050",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Advanced Roofing provides professional roofing services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-roofing-northshore-roofing",
-    "name": "Northshore Roofing Inc.",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 910-0075",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for roofing in Lynn, MA? Northshore Roofing Inc. offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-roofing-castle-roofing",
-    "name": "Castle Roofing & Construction",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 268-7773",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Castle Roofing & Construction specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-roofing-mighty-dog-roofing-northshore",
-    "name": "Mighty Dog Roofing (North Shore)",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 519-3796",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Mighty Dog Roofing (North Shore) is a local roofing company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-roofing-roof-king",
-    "name": "Roof King LLC",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 592-7663",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Roof King LLC is a local roofing company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-roofing-superior-exteriors",
-    "name": "Superior Exteriors Roofing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "roofing",
-    "phone": "(781) 284-9444",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Superior Exteriors Roofing provides professional roofing services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "new-bedford-roofing-breault-roofing",
@@ -4136,198 +3840,6 @@
     "description": "Riley Landscape provides professional yard landscaping services in Cambridge, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "lynn-hvac-falite-brothers",
-    "name": "Falite Bros.",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(781) 262-3348",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Falite Bros. provides professional hvac services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-hvac-gervais-mechanical",
-    "name": "Gervais Mechanical Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(508) 290-7154",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Gervais Mechanical Services provides professional hvac services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-hvac-cooling-and-heating-solutions",
-    "name": "Cooling and Heating Solutions",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(339) 226-0730",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Cooling and Heating Solutions offers expert hvac services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-hvac-townsend-energy",
-    "name": "Townsend Energy",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(978) 717-0490",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Townsend Energy specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-hvac-pann-home-services",
-    "name": "Pann Home Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(617) 864-2625",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Pann Home Services is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-hvac-blaisdell-plumbing-and-heating",
-    "name": "Blaisdell Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(781) 631-7755",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for hvac in Lynn, MA? Blaisdell Plumbing & Heating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-hvac-morris-plumbing-heating-air",
-    "name": "Morris Plumbing, Heating & Air Conditioning",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(978) 961-0338",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Morris Plumbing, Heating & Air Conditioning is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-hvac-cranney-home-services",
-    "name": "Cranney Home Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "hvac",
-    "phone": "(978) 650-3827",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Cranney Home Services is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-electrician-boston-voltage-electric",
-    "name": "Boston Voltage Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 595-9300",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Boston Voltage Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-electrician-pioneer-electric",
-    "name": "Pioneer Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 599-6100",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Pioneer Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-electrician-lynn-electric-company",
-    "name": "Lynn Electric Company",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 586-3000",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for electrician in Lynn, MA? Lynn Electric Company offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-electrician-north-shore-power",
-    "name": "North Shore Power & Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 910-2121",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, North Shore Power & Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-electrician-precision-electrical-services",
-    "name": "Precision Electrical Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 953-4430",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for electrician in Lynn, MA? Precision Electrical Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-electrician-greater-boston-electric",
-    "name": "Greater Boston Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 520-3300",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Greater Boston Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-electrician-allied-electric",
-    "name": "Allied Electric Services",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 598-4400",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, Allied Electric Services specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-electrician-south-bay-electric",
-    "name": "South Bay Electric",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "electrician",
-    "phone": "(781) 593-7200",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Lynn, Massachusetts, South Bay Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
     "id": "cambridge-electrician-harvard-electric",
     "name": "Harvard Electric",
     "state": "MA",
@@ -4756,18 +4268,6 @@
     "verified": true,
     "facebook": "",
     "description": "Looking for painters in Quincy, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-painters-certa-pro",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "phone": "800-462-3782",
-    "website": "https://certapro.com",
-    "verified": true,
-    "facebook": "",
-    "description": "CertaPro Painters is a local painters company serving Lynn, MA with dependable service and quality workmanship."
   },
   {
     "id": "medford-painters-certa-pro",
@@ -5286,18 +4786,6 @@
     "description": "Gloucester Power Washing offers expert pressure washing services in Gloucester, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "lynn-pest-control-terminix",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "pest-control",
-    "phone": "877-837-6464",
-    "website": "https://www.terminix.com",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pest control in Lynn, MA? Terminix offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "revere-pest-control-terminix",
     "name": "Terminix",
     "state": "MA",
@@ -5679,18 +5167,6 @@
     "description": "CertaPro Painters offers expert painters services in Marlborough, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "certapro-painters-salem",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters provides professional painters services in Salem, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "certapro-painters-methuen",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -5857,30 +5333,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Marlborough, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "northshore-painting-salem",
-    "name": "North Shore Painting",
-    "state": "MA",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "North Shore Painting offers expert painters services in Salem, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "essex-county-painting-salem",
-    "name": "Essex County Painting",
-    "state": "MA",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Salem, MA? Essex County Painting offers trusted local services for homeowners and businesses."
   },
   {
     "id": "haverhill-painting-company",
@@ -7573,30 +7025,6 @@
     "facebook": "",
     "verified": false,
     "description": "Gloucester Coastal Power Wash is a local pressure washing company serving Gloucester, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "salem-home-painting",
-    "name": "Salem Home Painting",
-    "state": "MA",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Salem Home Painting provides professional painters services in Salem, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "salem-coastal-painting",
-    "name": "Salem Coastal Painting",
-    "state": "MA",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Salem, MA? Salem Coastal Painting offers trusted local services for homeowners and businesses."
   },
   {
     "id": "saugus-home-painting",
@@ -12315,16 +11743,6 @@
     "description": "Painting contractor serving Everett with interior painting and exterior painting services for homes and businesses."
   },
   {
-    "id": "lynn-painter-6",
-    "name": "Catchlight Painting",
-    "townSlug": "lynn",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "(617) 491-5300",
-    "website": "https://catchlightpainting.com",
-    "description": "Boston area painting company providing interior painting, exterior painting, and fine finish work."
-  },
-  {
     "id": "framingham-pest-5",
     "name": "A1 Exterminators",
     "townSlug": "framingham",
@@ -12345,17 +11763,6 @@
     "description": "New England pest control provider offering year-round pest prevention and treatment."
   },
   {
-    "id": "salem-painter-9",
-    "name": "CertaPro Painters of North Shore and Salem",
-    "townSlug": "salem",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/cape-ann/house-painters-salem-ma-near-me/",
-    "description": "Residential and commercial painting company serving Salem with interior and exterior painting services.",
-    "verified": false
-  },
-  {
     "id": "salem-painter-10",
     "name": "Preserve Services",
     "townSlug": "salem",
@@ -12364,17 +11771,6 @@
     "phone": "(866) 371-6839",
     "website": "https://preserveservices.com/salem-ma/house-painters/",
     "description": "North Shore painting company serving Salem with house painting and exterior improvement services."
-  },
-  {
-    "id": "salem-painter-11",
-    "name": "Presto Painting",
-    "townSlug": "salem",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.prestopainting.biz/",
-    "description": "Full-service interior and exterior painting company serving Salem and nearby North Shore communities.",
-    "verified": false
   },
   {
     "id": "malden-pest-5",
@@ -17521,56 +16917,6 @@
     "description": "Serving Saugus, Massachusetts, Orcutt Painting and More specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "lynn-painter-2",
-    "name": "Danieli Painting",
-    "townSlug": "lynn",
-    "serviceId": "painters",
-    "phone": "(978) 541-3112",
-    "website": "https://danielipainting.com/Lynn_MA.htm",
-    "facebook": "",
-    "description": "Danieli Painting is a local painters company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-pest-1",
-    "name": "NW Pest Control",
-    "townSlug": "lynn",
-    "serviceId": "pest-control",
-    "phone": "(877) 893-6607",
-    "website": "https://nwpestcontrol.com/lynn-pest-control/",
-    "facebook": "",
-    "description": "NW Pest Control is a local pest control company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-pest-3",
-    "name": "Big Blue Bug Solutions",
-    "townSlug": "lynn",
-    "serviceId": "pest-control",
-    "phone": "(888) 258-3284",
-    "website": "https://www.bigbluebug.com",
-    "facebook": "https://www.facebook.com/bigbluebug",
-    "description": "Big Blue Bug Solutions offers expert pest control services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-pressurewash-1",
-    "name": "Benjamin's Power Washing",
-    "townSlug": "lynn",
-    "serviceId": "pressure-washing",
-    "phone": "(978) 856-5188",
-    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-lynn-ma/",
-    "facebook": "",
-    "description": "Benjamin's Power Washing offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-pressurewash-2",
-    "name": "Danieli Painting",
-    "townSlug": "lynn",
-    "serviceId": "pressure-washing",
-    "phone": "(978) 541-3112",
-    "website": "https://danielipainting.com/Lynn_MA.htm",
-    "facebook": "",
-    "description": "Looking for pressure washing in Lynn, MA? Danieli Painting offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "nahant-painter-1",
     "name": "CertaPro Painters of North Shore and Cape Ann",
     "townSlug": "nahant",
@@ -17672,38 +17018,6 @@
     "website": "https://paintingcontractormarblehead.com/services/power-washing/",
     "facebook": "",
     "description": "Looking for pressure washing in Marblehead, MA? NV Painting LC offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "salem-painter-1",
-    "name": "CertaPro Painters of North Shore and Cape Ann",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/cape-ann/house-painters-salem-ma-near-me/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "verified": false,
-    "description": "Looking for painters in Salem, MA? CertaPro Painters of North Shore and Cape Ann offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "salem-painter-2",
-    "name": "Presto Painting",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.prestopainting.biz/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Salem, MA? Presto Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "salem-painter-3",
-    "name": "Preserve Services",
-    "townSlug": "salem",
-    "serviceId": "painters",
-    "phone": "(978) 745-8745",
-    "website": "https://preserveservices.com/",
-    "facebook": "",
-    "description": "Serving Salem, Massachusetts, Preserve Services specializes in painters services for residential and commercial needs."
   },
   {
     "id": "salem-pest-1",
@@ -19797,16 +19111,6 @@
     "description": "All Care Exterior Cleaning provides professional pressure washing services in Danvers, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "beverly-pressure-washing-1",
-    "name": "WC Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "beverly",
-    "phone": "(978) 423-9252",
-    "website": "https://www.wcpowerwashing.com/",
-    "facebook": "",
-    "description": "WC Power Washing is a local pressure washing company serving Beverly, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "beverly-pressure-washing-2",
     "name": "Aqua Van LLC",
     "serviceId": "pressure-washing",
@@ -19865,16 +19169,6 @@
     "website": "https://www.ntpestcontrol.com/",
     "facebook": "",
     "description": "Serving Salem, Massachusetts, New Tech Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "salem-pressure-washing-1",
-    "name": "WC Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "salem",
-    "phone": "(978) 423-9252",
-    "website": "https://www.wcpowerwashing.com/",
-    "facebook": "",
-    "description": "WC Power Washing provides professional pressure washing services in Salem, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "salem-pressure-washing-2",
@@ -19955,86 +19249,6 @@
     "website": "https://pacificpowerwashingandpainting.com/",
     "facebook": "",
     "description": "Pacific Power Washing & Painting provides professional pressure washing services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-painters-1",
-    "name": "CertaPro Painters of Woburn, MA",
-    "serviceId": "painters",
-    "townSlug": "lynn",
-    "phone": "(978) 409-1772",
-    "website": "https://certapro.com/woburn/",
-    "facebook": "",
-    "description": "Looking for painters in Lynn, MA? CertaPro Painters of Woburn, MA offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lynn-painters-2",
-    "name": "Painters Etcetera",
-    "serviceId": "painters",
-    "townSlug": "lynn",
-    "phone": "(978) 443-3673",
-    "website": "https://paintersetcetera.com/",
-    "facebook": "",
-    "description": "Painters Etcetera provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-painters-3",
-    "name": "Paintline Painting",
-    "serviceId": "painters",
-    "townSlug": "lynn",
-    "phone": "(978) 654-2556",
-    "website": "https://www.paintlinepaintingma.com/",
-    "facebook": "",
-    "description": "Paintline Painting provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-pest-control-1",
-    "name": "Colonial Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "lynn",
-    "phone": "(800) 525-8084",
-    "website": "https://www.colonialpest.com/service-area/lynn/",
-    "facebook": "",
-    "description": "Colonial Pest Control provides professional pest control services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-pest-control-3",
-    "name": "New Tech Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "lynn",
-    "phone": "(800) 244-6423",
-    "website": "https://www.ntpestcontrol.com/",
-    "facebook": "",
-    "description": "Serving Lynn, Massachusetts, New Tech Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-pressure-washing-1",
-    "name": "WC Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "lynn",
-    "phone": "(978) 423-9252",
-    "website": "https://www.wcpowerwashing.com/",
-    "facebook": "",
-    "description": "WC Power Washing is a local pressure washing company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "lynn-pressure-washing-2",
-    "name": "Aqua Van LLC",
-    "serviceId": "pressure-washing",
-    "townSlug": "lynn",
-    "phone": "(781) 327-6106",
-    "website": "https://www.aquavanllc.com/",
-    "facebook": "https://www.facebook.com/aquavanllc/",
-    "description": "Aqua Van LLC offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "lynn-pressure-washing-3",
-    "name": "Pacific Power Washing & Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "lynn",
-    "phone": "(781) 696-2420",
-    "website": "https://pacificpowerwashingandpainting.com/",
-    "facebook": "",
-    "description": "Pacific Power Washing & Painting offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "nahant-painters-1",
@@ -30118,50 +29332,6 @@
     "description": "Looking for yard landscaping in Fall river, MA? Rock Solid Landscaping Inc. offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "lynn-yard-landscaping-1",
-    "name": "W.Martin Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lynn",
-    "phone": "(978) 396-9497",
-    "website": "https://wmartinlandscaping.com/",
-    "facebook": "",
-    "verified": true,
-    "description": "Serving Lynn, Massachusetts, W.Martin Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-yard-landscaping-2",
-    "name": "J Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lynn",
-    "phone": "(781) 650-5239",
-    "website": "https://j-landscaping-masonry.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "J Landscaping provides professional yard landscaping services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lynn-yard-landscaping-3",
-    "name": "Edgar Landscape & Construction",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lynn",
-    "phone": "(978) 601-9010",
-    "website": "https://edgarlandscapeandconstruction.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lynn, Massachusetts, Edgar Landscape & Construction specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "lynn-yard-landscaping-4",
-    "name": "C&C Landscaping Company",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lynn",
-    "phone": "(978) 360-1188",
-    "website": "https://candc-landscaping.com/service-area/landscaping-lynn-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lynn, Massachusetts, C&C Landscaping Company specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
     "id": "new-bedford-yard-landscaping-1",
     "name": "South Coast Landscaping",
     "serviceId": "yard-landscaping",
@@ -34474,61 +33644,6 @@
     "description": "Looking for yard landscaping in Beverly, MA? Beverly Yard & Landscape offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "swampscott-plumbing-1",
-    "name": "Swampscott Plumbing Services",
-    "serviceId": "plumbing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0411",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Swampscott Plumbing Services is a local plumbing company serving Swampscott, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "swampscott-hvac-1",
-    "name": "Swampscott Heating & Cooling",
-    "serviceId": "hvac",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0422",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Heating & Cooling provides professional hvac services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "swampscott-electrician-1",
-    "name": "Swampscott Electrical Pros",
-    "serviceId": "electrician",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0433",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Electrical Pros provides professional electrician services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "swampscott-roofing-1",
-    "name": "North Shore Roofing Swampscott",
-    "serviceId": "roofing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0444",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Swampscott, Massachusetts, North Shore Roofing Swampscott specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "swampscott-yard-1",
-    "name": "Swampscott Yard & Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0455",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Swampscott, Massachusetts, Swampscott Yard & Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
     "id": "saugus-plumbing-1",
     "name": "Saugus Plumbing Services",
     "serviceId": "plumbing",
@@ -34584,61 +33699,6 @@
     "description": "Saugus Yard & Landscaping offers expert yard landscaping services in Saugus, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "swampscott-plumbing-2",
-    "name": "Swampscott Rapid Plumbing",
-    "serviceId": "plumbing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0461",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Rapid Plumbing provides professional plumbing services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "swampscott-hvac-2",
-    "name": "Coastal Climate Swampscott",
-    "serviceId": "hvac",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0472",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Serving Swampscott, Massachusetts, Coastal Climate Swampscott specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "swampscott-electrician-2",
-    "name": "Swampscott Electric Co",
-    "serviceId": "electrician",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0483",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Electric Co is a local electrician company serving Swampscott, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "swampscott-roofing-2",
-    "name": "Swampscott Roofing Experts",
-    "serviceId": "roofing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0494",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Roofing Experts is a local roofing company serving Swampscott, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "swampscott-yard-2",
-    "name": "Coastal Green Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0405",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Swampscott, MA? Coastal Green Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "saugus-plumbing-2",
     "name": "Rapid Plumbing Saugus",
     "serviceId": "plumbing",
@@ -34692,116 +33752,6 @@
     "facebook": "",
     "verified": false,
     "description": "GreenLine Landscaping Saugus offers expert yard landscaping services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "swampscott-plumbing-3",
-    "name": "Elite Plumbing Swampscott",
-    "serviceId": "plumbing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0511",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Elite Plumbing Swampscott offers expert plumbing services in Swampscott, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "swampscott-hvac-3",
-    "name": "Coastal Comfort Systems",
-    "serviceId": "hvac",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0522",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Coastal Comfort Systems is a local hvac company serving Swampscott, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "swampscott-electrician-3",
-    "name": "North Shore Electric Swampscott",
-    "serviceId": "electrician",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0533",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "North Shore Electric Swampscott provides professional electrician services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "swampscott-roofing-3",
-    "name": "Reliable Roofing Swampscott",
-    "serviceId": "roofing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0544",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Swampscott, Massachusetts, Reliable Roofing Swampscott specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "swampscott-yard-3",
-    "name": "Swampscott Lawn & Landscape Pros",
-    "serviceId": "yard-landscaping",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0555",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Lawn & Landscape Pros offers expert yard landscaping services in Swampscott, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "swampscott-plumbing-4",
-    "name": "Pro Plumbing Solutions Swampscott",
-    "serviceId": "plumbing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0561",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Swampscott, MA? Pro Plumbing Solutions Swampscott offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "swampscott-hvac-4",
-    "name": "Advanced HVAC Swampscott",
-    "serviceId": "hvac",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0572",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for hvac in Swampscott, MA? Advanced HVAC Swampscott offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "swampscott-electrician-4",
-    "name": "Swampscott Electrical Experts",
-    "serviceId": "electrician",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0583",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Swampscott, Massachusetts, Swampscott Electrical Experts specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "swampscott-roofing-4",
-    "name": "TopLine Roofing Swampscott",
-    "serviceId": "roofing",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0594",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "TopLine Roofing Swampscott provides professional roofing services in Swampscott, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "swampscott-yard-4",
-    "name": "Swampscott Outdoor Living",
-    "serviceId": "yard-landscaping",
-    "townSlug": "swampscott",
-    "phone": "(781) 555-0505",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Swampscott Outdoor Living offers expert yard landscaping services in Swampscott, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "saugus-plumbing-3",
@@ -62247,17 +61197,6 @@
     "description": "New England Power Washing provides residential and commercial pressure washing and exterior cleaning services in Cambridge, MA."
   },
   {
-    "id": "lynn-yard-landscaping-5",
-    "name": "Four Seasons Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lynn",
-    "phone": "(781) 593-0044",
-    "website": "https://fourseasonslandscapingma.com/",
-    "facebook": "",
-    "verified": true,
-    "description": "Four Seasons Landscaping provides lawn care, landscaping, and outdoor property services in Lynn, MA."
-  },
-  {
     "id": "quincy-pressure-washing-10",
     "name": "HiCleaners",
     "serviceId": "pressure-washing",
@@ -65092,5 +64031,1771 @@
     "phone": "(781) 985-2388",
     "website": "https://www.allcleanpowerwash.com/",
     "verified": true
+  },
+  {
+    "id": "roto-rooter-lynn",
+    "name": "Roto-Rooter Plumbing & Drain Service",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 599-4700",
+    "website": "https://www.rotorooter.com/",
+    "description": "Plumbing repair, drain cleaning, and emergency plumbing services serving Lynn and surrounding North Shore towns.",
+    "slug": "roto-rooter-lynn",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "sila-heating-lynn",
+    "name": "Sila Heating, Air Conditioning, Plumbing & Electrical",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(781) 995-2627",
+    "website": "https://www.sila.com/",
+    "description": "Heating and cooling installation and repair services serving Lynn and surrounding North Shore communities.",
+    "slug": "sila-heating-lynn",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "crowe-electric-lynn",
+    "name": "Crowe Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 395-3773",
+    "website": "http://www.croweelectric.com/",
+    "description": "Residential and commercial electrical contractor serving Lynn and Greater Boston.",
+    "slug": "crowe-electric",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "lynn-painters-certa-pro",
+    "name": "CertaPro Painters",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "painters",
+    "phone": "800-462-3782",
+    "website": "https://certapro.com",
+    "verified": true,
+    "facebook": "",
+    "description": "CertaPro Painters is a local painters company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-yard-landscaping-1",
+    "name": "W.Martin Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(978) 396-9497",
+    "website": "https://wmartinlandscaping.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Serving Lynn, Massachusetts, W.Martin Landscaping specializes in yard landscaping services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-yard-landscaping-5",
+    "name": "Four Seasons Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(781) 593-0044",
+    "website": "https://fourseasonslandscapingma.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Four Seasons Landscaping provides lawn care, landscaping, and outdoor property services in Lynn, MA."
+  },
+  {
+    "id": "lynn-plumbing-sila-1",
+    "name": "Sila Heating, Air Conditioning, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "lynn",
+    "phone": "(781) 995-2622",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "lynn-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "lynn",
+    "phone": "(978) 750-6900",
+    "website": "https://cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "lynn-pest-control-terminix",
+    "name": "Terminix",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "pest-control",
+    "phone": "877-837-6464",
+    "website": "https://www.terminix.com",
+    "verified": false,
+    "facebook": "",
+    "description": "Looking for pest control in Lynn, MA? Terminix offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-painter-6",
+    "name": "Catchlight Painting",
+    "townSlug": "lynn",
+    "state": "MA",
+    "serviceId": "painters",
+    "phone": "(617) 491-5300",
+    "website": "https://catchlightpainting.com",
+    "description": "Boston area painting company providing interior painting, exterior painting, and fine finish work."
+  },
+  {
+    "id": "lynn-painter-2",
+    "name": "Danieli Painting",
+    "townSlug": "lynn",
+    "serviceId": "painters",
+    "phone": "(978) 541-3112",
+    "website": "https://danielipainting.com/Lynn_MA.htm",
+    "facebook": "",
+    "description": "Danieli Painting is a local painters company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-pest-1",
+    "name": "NW Pest Control",
+    "townSlug": "lynn",
+    "serviceId": "pest-control",
+    "phone": "(877) 893-6607",
+    "website": "https://nwpestcontrol.com/lynn-pest-control/",
+    "facebook": "",
+    "description": "NW Pest Control is a local pest control company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-pest-3",
+    "name": "Big Blue Bug Solutions",
+    "townSlug": "lynn",
+    "serviceId": "pest-control",
+    "phone": "(888) 258-3284",
+    "website": "https://www.bigbluebug.com",
+    "facebook": "https://www.facebook.com/bigbluebug",
+    "description": "Big Blue Bug Solutions offers expert pest control services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-pressurewash-1",
+    "name": "Benjamin's Power Washing",
+    "townSlug": "lynn",
+    "serviceId": "pressure-washing",
+    "phone": "(978) 856-5188",
+    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-lynn-ma/",
+    "facebook": "",
+    "description": "Benjamin's Power Washing offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-pressurewash-2",
+    "name": "Danieli Painting",
+    "townSlug": "lynn",
+    "serviceId": "pressure-washing",
+    "phone": "(978) 541-3112",
+    "website": "https://danielipainting.com/Lynn_MA.htm",
+    "facebook": "",
+    "description": "Looking for pressure washing in Lynn, MA? Danieli Painting offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-painters-1",
+    "name": "CertaPro Painters of Woburn, MA",
+    "serviceId": "painters",
+    "townSlug": "lynn",
+    "phone": "(978) 409-1772",
+    "website": "https://certapro.com/woburn/",
+    "facebook": "",
+    "description": "Looking for painters in Lynn, MA? CertaPro Painters of Woburn, MA offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-painters-2",
+    "name": "Painters Etcetera",
+    "serviceId": "painters",
+    "townSlug": "lynn",
+    "phone": "(978) 443-3673",
+    "website": "https://paintersetcetera.com/",
+    "facebook": "",
+    "description": "Painters Etcetera provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-painters-3",
+    "name": "Paintline Painting",
+    "serviceId": "painters",
+    "townSlug": "lynn",
+    "phone": "(978) 654-2556",
+    "website": "https://www.paintlinepaintingma.com/",
+    "facebook": "",
+    "description": "Paintline Painting provides professional painters services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-pest-control-1",
+    "name": "Colonial Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "lynn",
+    "phone": "(800) 525-8084",
+    "website": "https://www.colonialpest.com/service-area/lynn/",
+    "facebook": "",
+    "description": "Colonial Pest Control provides professional pest control services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-pest-control-3",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "lynn",
+    "phone": "(800) 244-6423",
+    "website": "https://www.ntpestcontrol.com/",
+    "facebook": "",
+    "description": "Serving Lynn, Massachusetts, New Tech Pest Control specializes in pest control services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-pressure-washing-1",
+    "name": "WC Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "lynn",
+    "phone": "(978) 423-9252",
+    "website": "https://www.wcpowerwashing.com/",
+    "facebook": "",
+    "description": "WC Power Washing is a local pressure washing company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-pressure-washing-2",
+    "name": "Aqua Van LLC",
+    "serviceId": "pressure-washing",
+    "townSlug": "lynn",
+    "phone": "(781) 327-6106",
+    "website": "https://www.aquavanllc.com/",
+    "facebook": "https://www.facebook.com/aquavanllc/",
+    "description": "Aqua Van LLC offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-pressure-washing-3",
+    "name": "Pacific Power Washing & Painting",
+    "serviceId": "pressure-washing",
+    "townSlug": "lynn",
+    "phone": "(781) 696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/",
+    "facebook": "",
+    "description": "Pacific Power Washing & Painting offers expert pressure washing services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-yard-landscaping-2",
+    "name": "J Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(781) 650-5239",
+    "website": "https://j-landscaping-masonry.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "J Landscaping provides professional yard landscaping services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-yard-landscaping-3",
+    "name": "Edgar Landscape & Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(978) 601-9010",
+    "website": "https://edgarlandscapeandconstruction.com/",
+    "facebook": "",
+    "verified": false,
+    "description": "Serving Lynn, Massachusetts, Edgar Landscape & Construction specializes in yard landscaping services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-yard-landscaping-4",
+    "name": "C&C Landscaping Company",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynn",
+    "phone": "(978) 360-1188",
+    "website": "https://candc-landscaping.com/service-area/landscaping-lynn-ma/",
+    "facebook": "",
+    "verified": false,
+    "description": "Serving Lynn, Massachusetts, C&C Landscaping Company specializes in yard landscaping services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-plumbing-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "plumbing",
+    "townSlug": "lynn",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "drain-pros-plumbing-lynn",
+    "name": "Drain Pros Plumbing",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 592-8200",
+    "website": "",
+    "description": "Drain cleaning, plumbing repair, and emergency plumbing services serving Lynn, Massachusetts.",
+    "slug": "drain-pros-plumbing",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "north-shore-hvac-lynn",
+    "name": "North Shore Heating & Cooling",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(781) 598-5100",
+    "website": "",
+    "description": "Heating and air conditioning installation, repair, and maintenance contractor serving Lynn and the North Shore.",
+    "slug": "north-shore-heating-cooling",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "north-shore-electric-lynn",
+    "name": "North Shore Electrical Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 593-4300",
+    "website": "",
+    "description": "Electrical repair, wiring, and panel upgrade contractor serving Lynn, Massachusetts.",
+    "slug": "north-shore-electrical-services",
+    "facebook": "",
+    "verified": false
+  },
+  {
+    "id": "lynn-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "description": "Roof repair and replacement contractor serving Lynn and surrounding North Shore towns.",
+    "slug": "lynn-roofing-company",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "lynn-roofing-frs-1",
+    "name": "FRS Roofing & Gutter Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "description": "Residential roofing contractor serving Lynn and the Massachusetts North Shore.",
+    "slug": "north-shore-roofing",
+    "facebook": "",
+    "verified": true
+  },
+  {
+    "id": "lynn-plumbing-michael-russo-jr-plumbing-heating",
+    "name": "Michael Russo Jr. Plumbing & Heating Co., Inc.",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 595-2732",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Michael Russo Jr. Plumbing & Heating Co., Inc. offers expert plumbing services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-plumbing-waldman-plumbing-heating",
+    "name": "Waldman Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 780-3184",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for plumbing in Lynn, MA? Waldman Plumbing & Heating offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-plumbing-dello-russo-plumbing-heating",
+    "name": "Dello Russo Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 819-2709",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for plumbing in Lynn, MA? Dello Russo Plumbing & Heating offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-plumbing-aquaflow-plumbing-heating",
+    "name": "Aquaflow Plumbing & Heating Inc.",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 206-2887",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Aquaflow Plumbing & Heating Inc. offers expert plumbing services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-plumbing-daniel-e-cadotte-plumbing-heating",
+    "name": "Daniel E. Cadotte Plumbing and Heating INC.",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 718-2273",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Daniel E. Cadotte Plumbing and Heating INC. specializes in plumbing services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-plumbing-crn-plumbing",
+    "name": "CRN Plumbing",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 248-9568",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "CRN Plumbing is a local plumbing company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-plumbing-super-service-today",
+    "name": "Super Service Today (Lynn)",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "plumbing",
+    "phone": "(781) 519-9921",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Super Service Today (Lynn) specializes in plumbing services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-roofing-roofhub-1",
+    "name": "Roof Hub",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 633-7663",
+    "verified": true,
+    "facebook": "",
+    "website": "https://roofhub.com/",
+    "description": "Serving Lynn, Massachusetts, Rodriguez Roofing specializes in roofing services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-roofing-express-roofing",
+    "name": "Express Roofing & Siding",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 581-7877",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Express Roofing & Siding specializes in roofing services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-roofing-advanced-roofing",
+    "name": "Advanced Roofing",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 844-6050",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Advanced Roofing provides professional roofing services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-roofing-northshore-roofing",
+    "name": "Northshore Roofing Inc.",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 910-0075",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for roofing in Lynn, MA? Northshore Roofing Inc. offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-roofing-castle-roofing",
+    "name": "Castle Roofing & Construction",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 268-7773",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Castle Roofing & Construction specializes in roofing services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-roofing-mighty-dog-roofing-northshore",
+    "name": "Mighty Dog Roofing (North Shore)",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 519-3796",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Mighty Dog Roofing (North Shore) is a local roofing company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-roofing-roof-king",
+    "name": "Roof King LLC",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 592-7663",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Roof King LLC is a local roofing company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-roofing-superior-exteriors",
+    "name": "Superior Exteriors Roofing",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "roofing",
+    "phone": "(781) 284-9444",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Superior Exteriors Roofing provides professional roofing services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-hvac-falite-brothers",
+    "name": "Falite Bros.",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(781) 262-3348",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Falite Bros. provides professional hvac services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-hvac-gervais-mechanical",
+    "name": "Gervais Mechanical Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(508) 290-7154",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Gervais Mechanical Services provides professional hvac services in Lynn, Massachusetts. Contact them for reliable local service and expert solutions."
+  },
+  {
+    "id": "lynn-hvac-cooling-and-heating-solutions",
+    "name": "Cooling and Heating Solutions",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(339) 226-0730",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Cooling and Heating Solutions offers expert hvac services in Lynn, MA. Reach out for fast, reliable local service."
+  },
+  {
+    "id": "lynn-hvac-townsend-energy",
+    "name": "Townsend Energy",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(978) 717-0490",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Townsend Energy specializes in hvac services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-hvac-pann-home-services",
+    "name": "Pann Home Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(617) 864-2625",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Pann Home Services is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-hvac-blaisdell-plumbing-and-heating",
+    "name": "Blaisdell Plumbing & Heating",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(781) 631-7755",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for hvac in Lynn, MA? Blaisdell Plumbing & Heating offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-hvac-morris-plumbing-heating-air",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(978) 961-0338",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Morris Plumbing, Heating & Air Conditioning is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-hvac-cranney-home-services",
+    "name": "Cranney Home Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "hvac",
+    "phone": "(978) 650-3827",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Cranney Home Services is a local hvac company serving Lynn, MA with dependable service and quality workmanship."
+  },
+  {
+    "id": "lynn-electrician-boston-voltage-electric",
+    "name": "Boston Voltage Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 595-9300",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Boston Voltage Electric specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-electrician-pioneer-electric",
+    "name": "Pioneer Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 599-6100",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Pioneer Electric specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-electrician-lynn-electric-company",
+    "name": "Lynn Electric Company",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 586-3000",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for electrician in Lynn, MA? Lynn Electric Company offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-electrician-north-shore-power",
+    "name": "North Shore Power & Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 910-2121",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, North Shore Power & Electric specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-electrician-precision-electrical-services",
+    "name": "Precision Electrical Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 953-4430",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Looking for electrician in Lynn, MA? Precision Electrical Services offers trusted local services for homeowners and businesses."
+  },
+  {
+    "id": "lynn-electrician-greater-boston-electric",
+    "name": "Greater Boston Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 520-3300",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Greater Boston Electric specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-electrician-allied-electric",
+    "name": "Allied Electric Services",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 598-4400",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, Allied Electric Services specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "lynn-electrician-south-bay-electric",
+    "name": "South Bay Electric",
+    "state": "MA",
+    "townSlug": "lynn",
+    "serviceId": "electrician",
+    "phone": "(781) 593-7200",
+    "verified": false,
+    "facebook": "",
+    "website": "",
+    "description": "Serving Lynn, Massachusetts, South Bay Electric specializes in electrician services for residential and commercial needs."
+  },
+  {
+    "id": "salem-plumbing-blaisdell-1",
+    "name": "Blaisdell Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "salem",
+    "phone": "(781) 631-7755",
+    "website": "https://www.blaisdellplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "salem-plumbing-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "salem",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "salem-hvac-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "salem",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "salem-hvac-pann-1",
+    "name": "Pann Home Services",
+    "serviceId": "hvac",
+    "townSlug": "salem",
+    "phone": "(800) 286-5959",
+    "website": "https://www.pannhomeservices.com/salem-heating/",
+    "verified": false
+  },
+  {
+    "id": "salem-electrician-clifford-1",
+    "name": "Clifford Electric",
+    "serviceId": "electrician",
+    "townSlug": "salem",
+    "phone": "(978) 745-1314",
+    "website": "https://clifford-electric.com/",
+    "verified": true
+  },
+  {
+    "id": "salem-pressure-washing-clearview-1",
+    "name": "ClearView Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "salem",
+    "phone": "(978) 219-4031",
+    "website": "https://www.pressurewashingcv.com/",
+    "verified": false
+  },
+  {
+    "id": "salem-yard-landscaping-jims-affordable-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "salem",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/landscapers-salem-ma/",
+    "verified": false
+  },
+  {
+    "id": "salem-electrician-stefys-1",
+    "name": "Stefy's Electric",
+    "serviceId": "electrician",
+    "townSlug": "salem",
+    "phone": "(978) 587-5835",
+    "website": "https://www.stefyselectric.com/",
+    "verified": false
+  },
+  {
+    "id": "salem-roofing-osgood-1",
+    "name": "Osgood Roofing, Siding, and Guttering Company",
+    "serviceId": "roofing",
+    "townSlug": "salem",
+    "phone": "(978) 740-1885",
+    "website": "https://osgoodroofing.co/contact",
+    "verified": false
+  },
+  {
+    "id": "salem-pressure-washing-wc-industries-1",
+    "name": "WC Industries Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "salem",
+    "phone": "(978) 423-9252",
+    "website": "https://www.wcpowerwashing.com/",
+    "verified": false
+  },
+  {
+    "id": "salem-pest-control-oran-1",
+    "name": "Orkin Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "salem",
+    "phone": "(978) 744-4100",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/salem-pest-control",
+    "verified": true
+  },
+  {
+    "id": "salem-pressure-washing-benjamins-verified-1",
+    "name": "Benjamin's Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "salem",
+    "phone": "(978) 531-9274",
+    "website": "https://benjaminspowerwashing.com/",
+    "verified": true
+  },
+  {
+    "id": "beverly-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "beverly",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/service-area/beverly-ma/",
+    "verified": true
+  },
+  {
+    "id": "beverly-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "beverly",
+    "phone": "781-512-4505",
+    "website": "https://www.fagoneplumbing.com/plumbing-heating-hvac-beverly-ma",
+    "verified": false
+  },
+  {
+    "id": "beverly-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "beverly",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/service-area/beverly-ma/",
+    "verified": true
+  },
+  {
+    "id": "beverly-hvac-128-1",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "serviceId": "hvac",
+    "townSlug": "beverly",
+    "phone": "(781) 670-3261",
+    "website": "https://www.128plumbing.com/hvac-services/beverly/",
+    "verified": false
+  },
+  {
+    "id": "beverly-electrician-beverly-electricians-1",
+    "name": "Beverly Electricians",
+    "serviceId": "electrician",
+    "townSlug": "beverly",
+    "phone": "(978) 238-6040",
+    "website": "https://beverlyelectricians.com/",
+    "verified": true
+  },
+  {
+    "id": "beverly-roofing-jp-carroll-1",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "beverly",
+    "phone": "(203) 351-9240",
+    "website": "https://jpcarrollroofing.com/areas-served/massachusetts/beverly/",
+    "verified": false
+  },
+  {
+    "id": "beverly-roofing-glenn-battistelli-1",
+    "name": "Glenn Battistelli Construction",
+    "serviceId": "roofing",
+    "townSlug": "beverly",
+    "phone": "(978) 922-6338",
+    "website": "https://www.glennbattistellillc.com/roofing",
+    "verified": false
+  },
+  {
+    "id": "beverly-yard-landscaping-jims-affordable-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "beverly",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "beverly-pest-control-fox-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "beverly",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/locations/massachusetts/beverly/",
+    "verified": true
+  },
+  {
+    "id": "beverly-pest-control-new-tech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "beverly",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
+  },
+  {
+    "id": "beverly-pest-control-colonial-1",
+    "name": "Colonial Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "beverly",
+    "phone": "(800) 525-8084",
+    "website": "https://www.colonialpest.com/",
+    "verified": false
+  },
+  {
+    "id": "beverly-pressure-washing-benjamins-1",
+    "name": "Benjamin's Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "beverly",
+    "phone": "(978) 531-9274",
+    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-beverly-ma/",
+    "verified": true
+  },
+  {
+    "id": "beverly-pressure-washing-north-shore-cleaning-1",
+    "name": "North Shore Cleaning Systems",
+    "serviceId": "pressure-washing",
+    "townSlug": "beverly",
+    "phone": "978-809-5533",
+    "website": "https://northshoreclean.com/pressurecleaning/",
+    "verified": false
+  },
+  {
+    "id": "beverly-painters-catchlight-1",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "beverly",
+    "phone": "(978) 338-9993",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": false
+  },
+  {
+    "id": "beverly-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "beverly",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "beverly-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "beverly",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-plumbing-vasiles-1",
+    "name": "Vasile's Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "danvers",
+    "phone": "(978) 531-2020",
+    "website": "https://vasilesplumbing.com/areas-we-serve/danvers-ma/plumbing-services/",
+    "verified": true
+  },
+  {
+    "id": "danvers-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "danvers",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "danvers",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/danvers-ma",
+    "verified": false
+  },
+  {
+    "id": "danvers-plumbing-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "plumbing",
+    "townSlug": "danvers",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/service-areas/danvers/",
+    "verified": false
+  },
+  {
+    "id": "danvers-plumbing-townsend-1",
+    "name": "Townsend Energy Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "danvers",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "danvers",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-hvac-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "danvers",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/danvers-ma",
+    "verified": false
+  },
+  {
+    "id": "danvers-hvac-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "danvers",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/service-areas/danvers/",
+    "verified": false
+  },
+  {
+    "id": "danvers-hvac-drb-1",
+    "name": "DRB Heating and Cooling, LLC",
+    "serviceId": "hvac",
+    "townSlug": "danvers",
+    "phone": "(978) 705-1327",
+    "website": "https://drbhvac.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-hvac-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "danvers",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "danvers",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-electrician-mr-electric-1",
+    "name": "Mr. Electric of Danvers",
+    "serviceId": "electrician",
+    "townSlug": "danvers",
+    "phone": "(978) 219-2455",
+    "website": "https://mrelectric.com/locations/massachusetts/danvers/",
+    "verified": false
+  },
+  {
+    "id": "danvers-electrician-kuhlman-1",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "danvers",
+    "phone": "(781) 512-7272",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "danvers",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-roofing-danvers-roofing-1",
+    "name": "Danvers Roofing",
+    "serviceId": "roofing",
+    "townSlug": "danvers",
+    "phone": "(978) 777-2059",
+    "website": "https://www.danversroofingma.com/contact.html",
+    "verified": true
+  },
+  {
+    "id": "danvers-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "danvers",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-roofing-dasilva-1",
+    "name": "DaSilva Roofing LLC",
+    "serviceId": "roofing",
+    "townSlug": "danvers",
+    "phone": "(978) 304-6341",
+    "website": "https://www.dasilvaroofing.com/contact",
+    "verified": false
+  },
+  {
+    "id": "danvers-roofing-decarney-1",
+    "name": "DeCarney Roofing",
+    "serviceId": "roofing",
+    "townSlug": "danvers",
+    "phone": "(978) 921-5027",
+    "website": "https://www.decarneyroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "danvers",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-yard-landscaping-jims-affordable-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "danvers",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-yard-landscaping-greener-lawn-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "danvers",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-yard-landscaping-bella-1",
+    "name": "Bella Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "danvers",
+    "phone": "(978) 921-8994",
+    "website": "https://bellalandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-yard-landscaping-scapes-1",
+    "name": "Scapes Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "danvers",
+    "phone": "(978) 774-2600",
+    "website": "https://www.scapescorp.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-yard-landscaping-patricks-1",
+    "name": "Patrick's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "danvers",
+    "phone": "(978) 777-5296",
+    "website": "https://www.patrickslandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-painters-catchlight-1",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "danvers",
+    "phone": "(978) 338-9993",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-pest-control-fox-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "danvers",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/locations/massachusetts/danvers/",
+    "verified": true
+  },
+  {
+    "id": "danvers-pest-control-terminix-1",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "danvers",
+    "phone": "(978) 548-0068",
+    "website": "https://www.terminix.com/exterminators/ma/danvers-2249/",
+    "verified": false
+  },
+  {
+    "id": "danvers-pest-control-new-tech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "danvers",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
+  },
+  {
+    "id": "danvers-pressure-washing-benjamins-1",
+    "name": "Benjamin's Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "danvers",
+    "phone": "(978) 531-9274",
+    "website": "https://benjaminspowerwashing.com/",
+    "verified": true
+  },
+  {
+    "id": "danvers-electrician-beantown-1",
+    "name": "Beantown Electric",
+    "serviceId": "electrician",
+    "townSlug": "danvers",
+    "phone": "(978) 777-2700",
+    "website": "https://beantownelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-plumbing-vasiles-1",
+    "name": "Vasile's Plumbing & Heating",
+    "serviceId": "plumbing",
+    "townSlug": "peabody",
+    "phone": "(978) 531-2020",
+    "website": "https://vasilesplumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "peabody",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "peabody",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-plumbing-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "plumbing",
+    "townSlug": "peabody",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-plumbing-townsend-1",
+    "name": "Townsend Energy Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "peabody",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "peabody",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-hvac-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "peabody",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-hvac-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "peabody",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-hvac-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "peabody",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-hvac-drb-1",
+    "name": "DRB Heating and Cooling, LLC",
+    "serviceId": "hvac",
+    "townSlug": "peabody",
+    "phone": "(978) 705-1327",
+    "website": "https://drbhvac.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "peabody",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "peabody",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-electrician-kuhlman-1",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "peabody",
+    "phone": "(781) 512-7272",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-electrician-mr-electric-1",
+    "name": "Mr. Electric",
+    "serviceId": "electrician",
+    "townSlug": "peabody",
+    "phone": "(978) 219-2455",
+    "website": "https://mrelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-electrician-beantown-1",
+    "name": "Beantown Electric",
+    "serviceId": "electrician",
+    "townSlug": "peabody",
+    "phone": "(978) 777-2700",
+    "website": "https://beantownelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "peabody",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-roofing-decarney-1",
+    "name": "DeCarney Roofing",
+    "serviceId": "roofing",
+    "townSlug": "peabody",
+    "phone": "(978) 921-5027",
+    "website": "https://www.decarneyroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "peabody",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-roofing-dasilva-1",
+    "name": "DaSilva Roofing LLC",
+    "serviceId": "roofing",
+    "townSlug": "peabody",
+    "phone": "(978) 304-6341",
+    "website": "https://www.dasilvaroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-roofing-jp-carroll-1",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "peabody",
+    "phone": "(203) 351-9240",
+    "website": "https://jpcarrollroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "peabody",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-yard-greener-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "peabody",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-yard-bella-1",
+    "name": "Bella Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "peabody",
+    "phone": "(978) 921-8994",
+    "website": "https://bellalandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-yard-scapes-1",
+    "name": "Scapes Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "peabody",
+    "phone": "(978) 774-2600",
+    "website": "https://www.scapescorp.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-yard-patricks-1",
+    "name": "Patrick's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "peabody",
+    "phone": "(978) 777-5296",
+    "website": "https://www.patrickslandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-painters-catchlight-1",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "peabody",
+    "phone": "(978) 338-9993",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-pest-fox-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "peabody",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/",
+    "verified": true
+  },
+  {
+    "id": "peabody-pest-newtech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "peabody",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-pest-colonial-1",
+    "name": "Colonial Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "peabody",
+    "phone": "(800) 525-8084",
+    "website": "https://www.colonialpest.com/",
+    "verified": false
+  },
+  {
+    "id": "peabody-pressure-benjamins-1",
+    "name": "Benjamin's Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "peabody",
+    "phone": "(978) 531-9274",
+    "website": "https://benjaminspowerwashing.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-plumbing-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "swampscott",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "swampscott",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "swampscott",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-plumbing-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "plumbing",
+    "townSlug": "swampscott",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-plumbing-townsend-1",
+    "name": "Townsend Energy Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "swampscott",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-hvac-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "swampscott",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "swampscott",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-hvac-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "swampscott",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-hvac-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "swampscott",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-hvac-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "swampscott",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "swampscott",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "swampscott",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-electrician-kuhlman-1",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "swampscott",
+    "phone": "(781) 512-7272",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-electrician-mr-electric-1",
+    "name": "Mr. Electric",
+    "serviceId": "electrician",
+    "townSlug": "swampscott",
+    "phone": "(978) 219-2455",
+    "website": "https://mrelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-electrician-beantown-1",
+    "name": "Beantown Electric",
+    "serviceId": "electrician",
+    "townSlug": "swampscott",
+    "phone": "(978) 777-2700",
+    "website": "https://beantownelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "swampscott",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-roofing-decarney-1",
+    "name": "DeCarney Roofing",
+    "serviceId": "roofing",
+    "townSlug": "swampscott",
+    "phone": "(978) 921-5027",
+    "website": "https://www.decarneyroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "swampscott",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-roofing-dasilva-1",
+    "name": "DaSilva Roofing LLC",
+    "serviceId": "roofing",
+    "townSlug": "swampscott",
+    "phone": "(978) 304-6341",
+    "website": "https://www.dasilvaroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-roofing-jp-carroll-1",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "swampscott",
+    "phone": "(203) 351-9240",
+    "website": "https://jpcarrollroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "swampscott",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-yard-greener-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "swampscott",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-yard-bella-1",
+    "name": "Bella Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "swampscott",
+    "phone": "(978) 921-8994",
+    "website": "https://bellalandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-yard-scapes-1",
+    "name": "Scapes Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "swampscott",
+    "phone": "(978) 774-2600",
+    "website": "https://www.scapescorp.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-yard-patricks-1",
+    "name": "Patrick's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "swampscott",
+    "phone": "(978) 777-5296",
+    "website": "https://www.patrickslandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-pest-fox-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "swampscott",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/",
+    "verified": true
+  },
+  {
+    "id": "swampscott-painters-catchlight-1",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "swampscott",
+    "phone": "(978) 338-9993",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": false
+  },
+  {
+    "id": "swampscott-pest-newtech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "swampscott",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
   }
 ]
