@@ -8452,222 +8452,6 @@
     "description": "Looking for pressure washing in Saugus, MA? Saugus Coastal Power Wash offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "wakefield-home-painting",
-    "name": "Wakefield Home Painting",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Wakefield Home Painting is a local painters company serving Wakefield, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "wakefield-coastal-painting",
-    "name": "Wakefield Coastal Painting",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Wakefield Coastal Painting is a local painters company serving Wakefield, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "wakefield-home-pest-control",
-    "name": "Wakefield Home Pest Control",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Wakefield Home Pest Control offers expert pest control services in Wakefield, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "wakefield-coastal-pest",
-    "name": "Wakefield Coastal Pest",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Wakefield, MA? Wakefield Coastal Pest offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "wakefield-home-pressure-wash",
-    "name": "Wakefield Home Pressure Wash",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Wakefield Home Pressure Wash offers expert pressure washing services in Wakefield, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "wakefield-coastal-power-wash",
-    "name": "Wakefield Coastal Power Wash",
-    "state": "MA",
-    "townSlug": "wakefield",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, Wakefield Coastal Power Wash specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "melrose-home-painting",
-    "name": "Melrose Home Painting",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Melrose, MA? Melrose Home Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "melrose-coastal-painting",
-    "name": "Melrose Coastal Painting",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Melrose Coastal Painting provides professional painters services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-home-pest-control",
-    "name": "Melrose Home Pest Control",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Melrose, Massachusetts, Melrose Home Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "melrose-coastal-pest",
-    "name": "Melrose Coastal Pest",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Melrose Coastal Pest provides professional pest control services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-home-pressure-washing",
-    "name": "Melrose Home Pressure Washing",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Melrose Home Pressure Washing provides professional pressure washing services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-coastal-power-wash",
-    "name": "Melrose Coastal Power Wash",
-    "state": "MA",
-    "townSlug": "melrose",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Melrose, Massachusetts, Melrose Coastal Power Wash specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "stoneham-home-painting",
-    "name": "Stoneham Home Painting",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Stoneham Home Painting provides professional painters services in Stoneham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "stoneham-coastal-painting",
-    "name": "Stoneham Coastal Painting",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Stoneham Coastal Painting offers expert painters services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-home-pest-control",
-    "name": "Stoneham Home Pest Control",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Stoneham, Massachusetts, Stoneham Home Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "stoneham-coastal-pest",
-    "name": "Stoneham Coastal Pest",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Stoneham Coastal Pest offers expert pest control services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-home-pressure-washing",
-    "name": "Stoneham Home Pressure Washing",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Stoneham, Massachusetts, Stoneham Home Pressure Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "stoneham-coastal-power-wash",
-    "name": "Stoneham Coastal Power Wash",
-    "state": "MA",
-    "townSlug": "stoneham",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Stoneham Coastal Power Wash provides professional pressure washing services in Stoneham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "paintline-painting-middleton-painters",
     "name": "Paintline Painting",
     "townSlug": "middleton",
@@ -9865,39 +9649,6 @@
     "facebook": "",
     "verified": false,
     "description": "Barnstable Power Washing is a local pressure washing company serving Barnstable, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "belmont-painter-5",
-    "name": "Belmont Fine Painters",
-    "townSlug": "belmont",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Belmont Fine Painters offers expert painters services in Belmont, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "belmont-pest-5",
-    "name": "Belmont Pest Solutions",
-    "townSlug": "belmont",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Belmont Pest Solutions provides professional pest control services in Belmont, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "belmont-pressurewash-5",
-    "name": "Belmont Exterior Cleaning",
-    "townSlug": "belmont",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Belmont Exterior Cleaning offers expert pressure washing services in Belmont, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "boxborough-painter-5",
@@ -14434,16 +14185,6 @@
     "facebook": "",
     "verified": true,
     "description": "Serving Bedford, Massachusetts, All Pro Exterior Cleaning specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-painter-1",
-    "name": "CertaPro Painters of Woburn",
-    "townSlug": "burlington",
-    "serviceId": "painters",
-    "phone": "(781) 935-1800",
-    "website": "https://certapro.com/woburn/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "description": "Serving Burlington, Massachusetts, CertaPro Painters of Woburn specializes in painters services for residential and commercial needs."
   },
   {
     "id": "burlington-painter-2",
@@ -20693,26 +20434,6 @@
     "description": "Painters Etcetera offers expert pressure washing services in Wilmington, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "wakefield-painters-1",
-    "name": "CertaPro Painters of Woburn",
-    "serviceId": "painters",
-    "townSlug": "wakefield",
-    "phone": "(781) 935-1800",
-    "website": "https://certapro.com/woburn/",
-    "verified": false,
-    "description": "CertaPro Painters provides professional painting services in Wakefield, MA with a focus on quality and customer satisfaction."
-  },
-  {
-    "id": "wakefield-painters-2",
-    "name": "Fresh Coat Painters of North Shore",
-    "serviceId": "painters",
-    "townSlug": "wakefield",
-    "phone": "(978) 737-1188",
-    "website": "https://freshcoatpainters.com/locations/north-shore/",
-    "verified": false,
-    "description": "Fresh Coat Painters offers interior and exterior painting services in Wakefield, MA with dependable service and attention to detail."
-  },
-  {
     "id": "wakefield-painters-3",
     "name": "Paintline Painting",
     "serviceId": "painters",
@@ -21742,28 +21463,6 @@
     "website": "https://www.josespainting.co/cities-towns/power-washing-in-arlington-ma",
     "facebook": "",
     "description": "Looking for pressure washing in Arlington, MA? Jose's Painting offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "belmont-painters-1",
-    "name": "CertaPro Painters of Boston, MA",
-    "serviceId": "painters",
-    "townSlug": "belmont",
-    "phone": "",
-    "website": "http://certapro.com/boston/professional-painters-in-belmont-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters of Boston, MA provides professional painters services in Belmont, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "belmont-painters-3",
-    "name": "Vision Painting Contractors",
-    "serviceId": "painters",
-    "townSlug": "belmont",
-    "phone": "",
-    "website": "https://www.visionpaintingco.com/house-painting-belmont-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Vision Painting Contractors offers expert painters services in Belmont, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "belmont-pest-control-1",
@@ -29110,17 +28809,6 @@
     "description": "Serving Medford, Massachusetts, Mass Roofing & Gutters specializes in roofing services for residential and commercial needs."
   },
   {
-    "id": "melrose-electrician-1",
-    "name": "Melrose Electric Co.",
-    "serviceId": "electrician",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://melrose-electricco.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Melrose Electric Co. is a local electrician company serving Melrose, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "melrose-electrician-2",
     "name": "J.P. McCurdy Electrical Services",
     "serviceId": "electrician",
@@ -29130,17 +28818,6 @@
     "facebook": "",
     "verified": true,
     "description": "J.P. McCurdy Electrical Services provides professional electrician services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-electrician-3",
-    "name": "Deao Electric",
-    "serviceId": "electrician",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.deaoelectric.com/contact/electrician-service-area/melrose-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Melrose, Massachusetts, Deao Electric specializes in electrician services for residential and commercial needs."
   },
   {
     "id": "melrose-electrician-4",
@@ -29154,72 +28831,6 @@
     "description": "Looking for electrician in Melrose, MA? Melrose Electric Services offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "melrose-hvac-1",
-    "name": "Spencer Home Services",
-    "serviceId": "hvac",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://spencerhomeservice.com/melrose-electrician/",
-    "facebook": "",
-    "verified": false,
-    "description": "Spencer Home Services provides professional hvac services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-hvac-2",
-    "name": "Cooling Unlimited",
-    "serviceId": "hvac",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.coolingunlimited.com/service-areas/medford-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Melrose, Massachusetts, Cooling Unlimited specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "melrose-hvac-3",
-    "name": "SumZero Energy Systems",
-    "serviceId": "hvac",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.sumzeroenergysystems.com/service-area/chelsea-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "SumZero Energy Systems provides professional hvac services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-plumbing-1",
-    "name": "Spencer Home Services",
-    "serviceId": "plumbing",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://spencerhomeservice.com/melrose-electrician/",
-    "facebook": "",
-    "verified": false,
-    "description": "Spencer Home Services offers expert plumbing services in Melrose, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "melrose-plumbing-2",
-    "name": "Roto-Rooter",
-    "serviceId": "plumbing",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.rotorooter.com/medfordma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Melrose, MA? Roto-Rooter offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "melrose-plumbing-3",
-    "name": "Cooling Unlimited",
-    "serviceId": "plumbing",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.coolingunlimited.com/service-areas/medford-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Cooling Unlimited is a local plumbing company serving Melrose, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "melrose-roofing-1",
     "name": "Glenn Crowell Construction",
     "serviceId": "roofing",
@@ -29229,28 +28840,6 @@
     "facebook": "",
     "verified": false,
     "description": "Glenn Crowell Construction provides professional roofing services in Melrose, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "melrose-roofing-2",
-    "name": "Peak Quality Roofing",
-    "serviceId": "roofing",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://peakqualityroofing.com/melrose-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Melrose, Massachusetts, Peak Quality Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "melrose-roofing-3",
-    "name": "O'LYN Roofing",
-    "serviceId": "roofing",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "https://www.olynroofing.com/service-area/melrose-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "O'LYN Roofing is a local roofing company serving Melrose, MA with dependable service and quality workmanship."
   },
   {
     "id": "melrose-landscaping-1",
@@ -29264,17 +28853,6 @@
     "description": "Jason Landscaping offers expert yard landscaping services in Melrose, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "melrose-landscaping-2",
-    "name": "Greenwood & Sons",
-    "serviceId": "yard-landscaping",
-    "townSlug": "melrose",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Greenwood & Sons offers expert yard landscaping services in Melrose, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "stoneham-electrician-1",
     "name": "JMR Electric Group",
     "serviceId": "electrician",
@@ -29284,61 +28862,6 @@
     "facebook": "",
     "verified": true,
     "description": "JMR Electric Group offers expert electrician services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-electrician-2",
-    "name": "All-Tech Electric",
-    "serviceId": "electrician",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://alltechelectric.com/electrical-services-stoneham-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Stoneham, MA? All-Tech Electric offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "stoneham-electrician-3",
-    "name": "Penney Electrical Corp.",
-    "serviceId": "electrician",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://penneyelectricalcorp.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Penney Electrical Corp. provides professional electrician services in Stoneham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "stoneham-hvac-1",
-    "name": "Boston Unique Indoor Comfort",
-    "serviceId": "hvac",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://bostonuniqueindoorcomfort.com/air-conditioning-heating-services-in-stoneham-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Boston Unique Indoor Comfort provides professional hvac services in Stoneham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "stoneham-hvac-2",
-    "name": "Cooling Unlimited",
-    "serviceId": "hvac",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.coolingunlimited.com/service-areas/stoneham-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Cooling Unlimited offers expert hvac services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-hvac-3",
-    "name": "SumZero Energy Systems",
-    "serviceId": "hvac",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.sumzeroenergysystems.com/service-area/stoneham-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "SumZero Energy Systems is a local hvac company serving Stoneham, MA with dependable service and quality workmanship."
   },
   {
     "id": "stoneham-plumbing-1",
@@ -29352,61 +28875,6 @@
     "description": "Looking for plumbing in Stoneham, MA? Silco Plumbing, Heating & Air Conditioning offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "stoneham-plumbing-2",
-    "name": "Cooling Unlimited",
-    "serviceId": "plumbing",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.coolingunlimited.com/service-areas/stoneham-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Stoneham, MA? Cooling Unlimited offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "stoneham-plumbing-3",
-    "name": "Roto-Rooter",
-    "serviceId": "plumbing",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.rotorooter.com/stonehamma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Stoneham, MA? Roto-Rooter offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "stoneham-roofing-1",
-    "name": "GF Sprague",
-    "serviceId": "roofing",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.gfsprague.com/ma/service-areas/stoneham",
-    "facebook": "",
-    "verified": false,
-    "description": "GF Sprague is a local roofing company serving Stoneham, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "stoneham-roofing-2",
-    "name": "Ranch Roofing",
-    "serviceId": "roofing",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://ranchroofing.com/locations/stoneham-roofing/",
-    "facebook": "",
-    "verified": false,
-    "description": "Ranch Roofing offers expert roofing services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-roofing-3",
-    "name": "CF Brothers Roofing",
-    "serviceId": "roofing",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://www.reliableroofingnow.com/contact/roofing-contractor-service-area/stoneham-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Stoneham, MA? CF Brothers Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "stoneham-landscaping-1",
     "name": "Jason Landscaping",
     "serviceId": "yard-landscaping",
@@ -29416,28 +28884,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Stoneham, MA? Jason Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "stoneham-landscaping-2",
-    "name": "Mike's Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://mikeslandscapingco.com/landscape-maintenance-programs-stoneham-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Stoneham, MA? Mike's Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "stoneham-landscaping-3",
-    "name": "Lentine Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "stoneham",
-    "phone": "",
-    "website": "https://lentinelandscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Lentine Landscaping offers expert yard landscaping services in Stoneham, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "wakefield-electrician-1",
@@ -29460,16 +28906,6 @@
     "description": "Wakefield Electric Services offers local electrical services in Wakefield, MA."
   },
   {
-    "id": "wakefield-electrician-3",
-    "name": "Kuhlman Electric",
-    "serviceId": "electrician",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://www.kuhlmanelectricalservices.com/electrician/ma/wakefield/",
-    "verified": false,
-    "description": "Kuhlman Electric provides electrical services in Wakefield, MA."
-  },
-  {
     "id": "wakefield-hvac-1",
     "name": "JLB Plumbing & Mechanical, LLC",
     "serviceId": "hvac",
@@ -29479,28 +28915,6 @@
     "facebook": "",
     "verified": false,
     "description": "JLB Plumbing & Mechanical, LLC provides professional hvac services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "wakefield-hvac-2",
-    "name": "Total Temperature Control",
-    "serviceId": "hvac",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://growcycle.com/services/pro/total-temperature-control",
-    "facebook": "",
-    "verified": false,
-    "description": "Total Temperature Control provides professional hvac services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "wakefield-hvac-3",
-    "name": "Cooling Unlimited",
-    "serviceId": "hvac",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://www.coolingunlimited.com/service-areas/wakefield-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for hvac in Wakefield, MA? Cooling Unlimited offers trusted local services for homeowners and businesses."
   },
   {
     "id": "wakefield-plumbing-1",
@@ -29514,72 +28928,6 @@
     "description": "Serving Wakefield, Massachusetts, JLB Plumbing & Mechanical, LLC specializes in plumbing services for residential and commercial needs."
   },
   {
-    "id": "wakefield-plumbing-2",
-    "name": "Roto-Rooter",
-    "serviceId": "plumbing",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://www.rotorooter.com/wakefieldma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, Roto-Rooter specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-plumbing-3",
-    "name": "Silco Plumbing, Heating & Air Conditioning",
-    "serviceId": "plumbing",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://www.silcoplumbing.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Silco Plumbing, Heating & Air Conditioning provides professional plumbing services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "wakefield-roofing-1",
-    "name": "Wakefield Roofing",
-    "serviceId": "roofing",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "https://wakefieldroofers.com/locations",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, Wakefield Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-roofing-2",
-    "name": "D&G Exteriors",
-    "serviceId": "roofing",
-    "townSlug": "wakefield",
-    "phone": "(781) 328-4063",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, D&G Exteriors specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-roofing-3",
-    "name": "O'LYN Roofing",
-    "serviceId": "roofing",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "http://www.olynroofing.com/service-area/wakefield-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Wakefield, Massachusetts, O'LYN Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-landscaping-1",
-    "name": "Craig Tree Service of Wakefield, MA",
-    "serviceId": "yard-landscaping",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Craig Tree Service of Wakefield, MA provides professional yard landscaping services in Wakefield, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "wakefield-landscaping-2",
     "name": "Jason Landscaping",
     "serviceId": "yard-landscaping",
@@ -29589,17 +28937,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Wakefield, Massachusetts, Jason Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "wakefield-landscaping-3",
-    "name": "Mike's Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "wakefield",
-    "phone": "",
-    "website": "http://mikeslandscapingco.com/landscape-maintenance-company-wakefield-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Wakefield, MA? Mike's Landscaping offers trusted local services for homeowners and businesses."
   },
   {
     "id": "woburn-electrician-1",
@@ -29787,28 +29124,6 @@
     "facebook": "",
     "verified": true,
     "description": "John's Landscaping provides professional yard landscaping services in Belmont, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "belmont-landscaping-2",
-    "name": "J&E Corp",
-    "serviceId": "yard-landscaping",
-    "townSlug": "belmont",
-    "phone": "",
-    "website": "https://www.jandecorp.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "J&E Corp provides professional yard landscaping services in Belmont, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "belmont-landscaping-3",
-    "name": "Cassidy Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "belmont",
-    "phone": "",
-    "website": "https://cassidylandscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Cassidy Landscaping provides professional yard landscaping services in Belmont, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "watertown-electrician-1",
@@ -30009,17 +29324,6 @@
     "description": "Basnett Plumbing, Heating, AC & Electrical is a local hvac company serving Lexington, MA with dependable service and quality workmanship."
   },
   {
-    "id": "lexington-hvac-3",
-    "name": "SumZero Energy Systems",
-    "serviceId": "hvac",
-    "townSlug": "lexington",
-    "phone": "",
-    "website": "https://www.sumzeroenergysystems.com/service-area/lexington-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lexington, Massachusetts, SumZero Energy Systems specializes in hvac services for residential and commercial needs."
-  },
-  {
     "id": "lexington-plumbing-1",
     "name": "Sila Heating, Cooling, Plumbing & Electrical",
     "serviceId": "plumbing",
@@ -30029,17 +29333,6 @@
     "facebook": "",
     "verified": false,
     "description": "Sila Heating, Cooling, Plumbing & Electrical provides professional plumbing services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "lexington-roofing-1",
-    "name": "O'LYN Roofing",
-    "serviceId": "roofing",
-    "townSlug": "lexington",
-    "phone": "",
-    "website": "https://www.olynroofing.com/service-area/lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "O'LYN Roofing offers expert roofing services in Lexington, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "lexington-roofing-2",
@@ -30075,17 +29368,6 @@
     "description": "Looking for yard landscaping in Lexington, MA? John's Landscaping offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "burlington-electrician-1",
-    "name": "Sirois Electric, Inc.",
-    "serviceId": "electrician",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.siroiselectric.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Sirois Electric, Inc. offers expert electrician services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "burlington-electrician-2",
     "name": "J.P. McCurdy Electrical Services",
     "serviceId": "electrician",
@@ -30097,50 +29379,6 @@
     "description": "Serving Burlington, Massachusetts, J.P. McCurdy Electrical Services specializes in electrician services for residential and commercial needs."
   },
   {
-    "id": "burlington-electrician-3",
-    "name": "Spencer Home Services",
-    "serviceId": "electrician",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://spencerhomeservice.com/burlington-electrician/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Burlington, MA? Spencer Home Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "burlington-hvac-1",
-    "name": "Gervais Mechanical",
-    "serviceId": "hvac",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/burlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Gervais Mechanical offers expert hvac services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-hvac-2",
-    "name": "Village Home Services",
-    "serviceId": "hvac",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.villagehomeservices.com/burlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Burlington, Massachusetts, Village Home Services specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "burlington-hvac-3",
-    "name": "Endless Energy",
-    "serviceId": "hvac",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://goendlessenergy.com/service-areas/burlington-heat-pumps-mini-split-hvac/",
-    "facebook": "",
-    "verified": false,
-    "description": "Endless Energy provides professional hvac services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "burlington-plumbing-1",
     "name": "Kirkland & Shaw",
     "serviceId": "plumbing",
@@ -30150,72 +29388,6 @@
     "facebook": "",
     "verified": true,
     "description": "Kirkland & Shaw offers expert plumbing services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-plumbing-2",
-    "name": "Gervais Mechanical",
-    "serviceId": "plumbing",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.gervaismechanical.com/service-areas/burlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Gervais Mechanical provides professional plumbing services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "burlington-plumbing-3",
-    "name": "Village Home Services",
-    "serviceId": "plumbing",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.villagehomeservices.com/burlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Village Home Services offers expert plumbing services in Burlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "burlington-roofing-1",
-    "name": "JP Carroll Roofing",
-    "serviceId": "roofing",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://jpcarrollroofing.com/areas-served/massachusetts/burlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Burlington, MA? JP Carroll Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "burlington-roofing-2",
-    "name": "Universal Roofing Solutions",
-    "serviceId": "roofing",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://universalroofingsolutions.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Universal Roofing Solutions provides professional roofing services in Burlington, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "burlington-roofing-3",
-    "name": "CF Brothers Roofing",
-    "serviceId": "roofing",
-    "townSlug": "burlington",
-    "phone": "",
-    "website": "https://www.reliableroofingnow.com/contact/roofing-contractor-service-area/burlington-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Burlington, MA? CF Brothers Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "burlington-landscaping-2",
-    "name": "James A. Martin Company",
-    "serviceId": "yard-landscaping",
-    "townSlug": "burlington",
-    "phone": "(781) 272-3262",
-    "website": "http://www.jamartinco.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Burlington, MA? James A. Martin Company offers trusted local services for homeowners and businesses."
   },
   {
     "id": "newton-electrician-1",
@@ -31218,28 +30390,6 @@
     "description": "James McNiff Plumbing & Heating is a local plumbing company serving Stoneham, MA with dependable service and quality workmanship."
   },
   {
-    "id": "stoneham-roofing-4",
-    "name": "Holland Homes Roofing Co",
-    "serviceId": "roofing",
-    "townSlug": "stoneham",
-    "phone": "(781) 864-2525",
-    "website": "https://roofwithhh.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Holland Homes Roofing Co offers expert roofing services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "stoneham-yard-landscaping-4",
-    "name": "Walsh Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "stoneham",
-    "phone": "(781) 438-0706",
-    "website": "https://www.walsh-landscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Walsh Landscaping offers expert yard landscaping services in Stoneham, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "walpole-yard-landscaping-4",
     "name": "Walpole Landscape Group",
     "serviceId": "yard-landscaping",
@@ -31414,17 +30564,6 @@
     "facebook": "",
     "verified": false,
     "description": "Motta Landscaping provides professional yard landscaping services in Foxborough, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "wakefield-electrician-5",
-    "name": "North Shore Electrical Services",
-    "serviceId": "electrician",
-    "townSlug": "wakefield",
-    "phone": "(781) 246-9900",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "North Shore Electrical Services is a local electrician company serving Wakefield, MA with dependable service and quality workmanship."
   },
   {
     "id": "wakefield-hvac-5",
@@ -46750,17 +45889,6 @@
     "description": "Duval Roofing is a local roofing company serving Reading, MA with dependable service and quality workmanship."
   },
   {
-    "id": "reading-roofing-2",
-    "name": "Mighty Dog Roofing of North Boston",
-    "serviceId": "roofing",
-    "townSlug": "reading",
-    "phone": "(617) 934-4336",
-    "website": "https://www.mightydogroofing.com/north-boston-ma/areas-we-serve/reading/",
-    "facebook": "",
-    "verified": false,
-    "description": "Mighty Dog Roofing of North Boston provides professional roofing services in Reading, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "reading-roofing-3",
     "name": "FRS Roofing + Gutters",
     "serviceId": "roofing",
@@ -60720,56 +59848,6 @@
     "description": "UP Painting offers professional painting services in Wakefield, MA with a focus on reliability and high-quality finishes."
   },
   {
-    "id": "wakefield-pest-4",
-    "name": "Colonial Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "wakefield",
-    "phone": "(888) 460-7905",
-    "website": "https://www.colonialpest.com/service-area/wakefield/",
-    "verified": false,
-    "description": "Colonial Pest Control delivers professional pest management services in Wakefield, MA."
-  },
-  {
-    "id": "wakefield-pressure-1",
-    "name": "New England Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "wakefield",
-    "phone": "(781) 953-9274",
-    "website": "https://www.newenglandpowerwashing.com",
-    "verified": false,
-    "description": "New England Power Washing provides exterior cleaning services in Wakefield, MA."
-  },
-  {
-    "id": "wakefield-pressure-2",
-    "name": "All Care Exterior Cleaning",
-    "serviceId": "pressure-washing",
-    "townSlug": "wakefield",
-    "phone": "(781) 552-8446",
-    "website": "https://allcareclean.com/",
-    "verified": false,
-    "description": "All Care Exterior Cleaning offers professional power washing services in Wakefield, MA."
-  },
-  {
-    "id": "wakefield-pressure-3",
-    "name": "Pacific Power Washing & Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "wakefield",
-    "phone": "(781) 696-2420",
-    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-wakefield-ma/",
-    "verified": false,
-    "description": "Pacific Power Washing & Painting provides exterior cleaning and painting services in Wakefield, MA."
-  },
-  {
-    "id": "wakefield-pressure-4",
-    "name": "Mass Pro Power Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "wakefield",
-    "phone": "(617) 512-3456",
-    "website": "",
-    "verified": false,
-    "description": "Mass Pro Power Washing offers residential and commercial pressure washing services in Wakefield, MA."
-  },
-  {
     "id": "lexington-plumbing-2",
     "name": "Start 2 Finish Plumbing",
     "serviceId": "plumbing",
@@ -65363,5 +64441,1229 @@
     "facebook": "",
     "verified": true,
     "description": "Purple Suds Property Services provides pressure washing and exterior cleaning services."
+  },
+  {
+    "id": "winchester-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "winchester",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/winchester-ma/plumber-service/",
+    "verified": true
+  },
+  {
+    "id": "winchester-plumbing-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "winchester",
+    "serviceId": "plumbing",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/service-areas/winchester/",
+    "verified": true
+  },
+  {
+    "id": "winchester-hvac-total-comfort-mechanical",
+    "name": "Total Comfort Mechanical",
+    "townSlug": "winchester",
+    "serviceId": "hvac",
+    "phone": "(781) 999-1275",
+    "website": "https://www.totalcomfortmech.com/winchester",
+    "verified": false
+  },
+  {
+    "id": "winchester-electrician-tf-electric",
+    "name": "TF Electric",
+    "townSlug": "winchester",
+    "serviceId": "electrician",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/local-electrical-contractor-winchester-ma/",
+    "verified": true
+  },
+  {
+    "id": "winchester-electrician-network-electric",
+    "name": "Network Electric",
+    "townSlug": "winchester",
+    "serviceId": "electrician",
+    "phone": "(781) 729-1555",
+    "website": "https://networkelectricalcorp.com/contact.html",
+    "verified": true
+  },
+  {
+    "id": "winchester-roofing-holland-homes-roofing",
+    "name": "Holland Homes Roofing Co.",
+    "townSlug": "winchester",
+    "serviceId": "roofing",
+    "phone": "(781) 864-2525",
+    "website": "https://roofwithhh.com/about-us/service-areas/winchester-ma/",
+    "verified": true
+  },
+  {
+    "id": "winchester-yard-landscaping-suburban-yard-specialists",
+    "name": "Suburban Yard Specialists",
+    "townSlug": "winchester",
+    "serviceId": "yard-landscaping",
+    "phone": "(781) 729-6828",
+    "website": "https://www.suburbanyardspecialists.net/",
+    "verified": true
+  },
+  {
+    "id": "winchester-yard-landscaping-platinum-lawn-care",
+    "name": "Platinum Lawn Care Inc.",
+    "townSlug": "winchester",
+    "serviceId": "yard-landscaping",
+    "phone": "781-526-8844",
+    "website": "https://www.platinumlawncareinc.com/",
+    "verified": true
+  },
+  {
+    "id": "winchester-painters-new-england-painting-contracting",
+    "name": "New England Painting & Contracting",
+    "townSlug": "winchester",
+    "serviceId": "painters",
+    "phone": "(978) 435-5800",
+    "website": "https://www.newenglandpaintingcontracting.com/painting-contractor-winchester-ma",
+    "verified": true
+  },
+  {
+    "id": "winchester-painters-danieli-painting",
+    "name": "Danieli Painting",
+    "townSlug": "winchester",
+    "serviceId": "painters",
+    "phone": "(978) 541-3112",
+    "website": "https://danielipainting.com/Winchester_MA.htm",
+    "verified": true
+  },
+  {
+    "id": "winchester-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "winchester",
+    "serviceId": "pest-control",
+    "phone": "877-893-6607",
+    "website": "https://nwpestcontrol.com/winchester-pest-control/",
+    "verified": true
+  },
+  {
+    "id": "winchester-pest-control-colonial-pest-control",
+    "name": "Colonial Pest Control",
+    "townSlug": "winchester",
+    "serviceId": "pest-control",
+    "phone": "1-800-525-8084",
+    "website": "https://www.colonialpest.com/service-area/winchester/",
+    "verified": true
+  },
+  {
+    "id": "winchester-pest-control-assurance-pest-solutions",
+    "name": "Assurance Pest Solutions",
+    "townSlug": "winchester",
+    "serviceId": "pest-control",
+    "phone": "(781) 630-5653",
+    "website": "https://www.assurancepestsolutions.com/winchester-ma-pest-control/",
+    "verified": true
+  },
+  {
+    "id": "winchester-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "winchester",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-winchester-ma/",
+    "verified": true
+  },
+  {
+    "id": "belmont-plumbing-winters-home-services",
+    "name": "Winters Home Services",
+    "townSlug": "belmont",
+    "serviceId": "plumbing",
+    "phone": "617-221-5899",
+    "website": "https://www.wintershomeservices.com/belmont/",
+    "verified": true
+  },
+  {
+    "id": "belmont-hvac-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "belmont",
+    "serviceId": "hvac",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/service-areas/belmont/",
+    "verified": true
+  },
+  {
+    "id": "belmont-hvac-thermoil",
+    "name": "ThermOil, Inc.",
+    "townSlug": "belmont",
+    "serviceId": "hvac",
+    "phone": "(617) 926-0779",
+    "website": "https://thermoilenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "belmont-electrician-tf-electric",
+    "name": "TF Electric",
+    "townSlug": "belmont",
+    "serviceId": "electrician",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/ev-charger-installation-belmont-ma/",
+    "verified": true
+  },
+  {
+    "id": "belmont-electrician-elliot-daniels",
+    "name": "Elliot Daniels Master Electrician LLC",
+    "townSlug": "belmont",
+    "serviceId": "electrician",
+    "phone": "(617) 438-4888",
+    "website": "https://www.bbb.org/us/ma/waverley/profile/electrician/elliot-daniels-master-electrician-llc-0021-98859",
+    "verified": true
+  },
+  {
+    "id": "belmont-roofing-premiere-roofing",
+    "name": "Premiere Roofing",
+    "townSlug": "belmont",
+    "serviceId": "roofing",
+    "phone": "(781) 646-0051",
+    "website": "https://premiereroofing.com/roofing-roof-repairs-belmont-ma/",
+    "verified": true
+  },
+  {
+    "id": "belmont-roofing-storm-works-roofing",
+    "name": "Storm Works Roofing & Restoration",
+    "townSlug": "belmont",
+    "serviceId": "roofing",
+    "phone": "(844) 786-7696",
+    "website": "https://www.stormworksroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "belmont-yard-landscaping-zacarias-tree-landscaping",
+    "name": "Zacarias Tree and Landscaping, Inc.",
+    "townSlug": "belmont",
+    "serviceId": "yard-landscaping",
+    "phone": "(781) 704-1096",
+    "website": "https://zacariastreeservices.com/hardscaping-services-in-belmont-ma/",
+    "verified": true
+  },
+  {
+    "id": "belmont-painters-leblanc-painting-service",
+    "name": "Leblanc Painting Service",
+    "townSlug": "belmont",
+    "serviceId": "painters",
+    "phone": "(978) 742-9876",
+    "website": "https://leblancpainting.com/MA/Belmont-painter.html",
+    "verified": true
+  },
+  {
+    "id": "burlington-plumbing-village-home-services",
+    "name": "Village Home Services",
+    "townSlug": "burlington",
+    "serviceId": "plumbing",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/burlington/",
+    "verified": true
+  },
+  {
+    "id": "burlington-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "burlington",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-plumbing-elge-plumbing-heating",
+    "name": "ELGE Plumbing & Heating Co.",
+    "townSlug": "burlington",
+    "serviceId": "plumbing",
+    "phone": "(617) 782-4300",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "burlington-plumbing-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "burlington",
+    "serviceId": "plumbing",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-hvac-total-comfort-mechanical",
+    "name": "Total Comfort Mechanical",
+    "townSlug": "burlington",
+    "serviceId": "hvac",
+    "phone": "(781) 999-1275",
+    "website": "https://www.totalcomfortmech.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-hvac-village-home-services",
+    "name": "Village Home Services",
+    "townSlug": "burlington",
+    "serviceId": "hvac",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/burlington/",
+    "verified": true
+  },
+  {
+    "id": "burlington-hvac-accutemp-engineering",
+    "name": "Accutemp Engineering",
+    "townSlug": "burlington",
+    "serviceId": "hvac",
+    "phone": "(617) 926-1221",
+    "website": "https://www.accutemp-eng.com/heating-air-conditioning-service-burlington-ma/",
+    "verified": true
+  },
+  {
+    "id": "burlington-hvac-denommee-plumbing-hvac-electric",
+    "name": "Denommee Plumbing, HVAC & Electric",
+    "townSlug": "burlington",
+    "serviceId": "hvac",
+    "phone": "(781) 202-6623",
+    "website": "https://www.denommee.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-electrician-spencer-home-services",
+    "name": "Spencer Home Services",
+    "townSlug": "burlington",
+    "serviceId": "electrician",
+    "phone": "978-293-5770",
+    "website": "https://spencerhomeservice.com/burlington-electrician/",
+    "verified": true
+  },
+  {
+    "id": "burlington-electrician-village-home-services",
+    "name": "Village Home Services",
+    "townSlug": "burlington",
+    "serviceId": "electrician",
+    "phone": "(978) 733-9593",
+    "website": "https://www.villagehomeservices.com/burlington/",
+    "verified": true
+  },
+  {
+    "id": "burlington-electrician-michael-pupa-electrician",
+    "name": "Michael Pupa Electrician",
+    "townSlug": "burlington",
+    "serviceId": "electrician",
+    "phone": "(781) 724-6244",
+    "website": "https://mjpelectrician.com/electrician-burlington-ma/",
+    "verified": true
+  },
+  {
+    "id": "burlington-electrician-tf-electric",
+    "name": "TF Electric",
+    "townSlug": "burlington",
+    "serviceId": "electrician",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/",
+    "verified": true
+  },
+  {
+    "id": "burlington-roofing-duval-roofing",
+    "name": "Duval Roofing",
+    "townSlug": "burlington",
+    "serviceId": "roofing",
+    "phone": "978-664-2557",
+    "website": "https://duvalroofing.com/towns/roofing-burlington-ma/",
+    "verified": true
+  },
+  {
+    "id": "burlington-yard-landscaping-burlington-landscape",
+    "name": "Burlington Landscape",
+    "townSlug": "burlington",
+    "serviceId": "yard-landscaping",
+    "phone": "(781) 222-8411",
+    "website": "https://www.burlingtonlandscape.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-yard-landscaping-johnny-ds-landscaping",
+    "name": "Johnny D's Landscaping Services",
+    "townSlug": "burlington",
+    "serviceId": "yard-landscaping",
+    "phone": "781-272-0124",
+    "website": "https://johnnydslandscaping.com/contact-johnny-ds-landscaping/",
+    "verified": true
+  },
+  {
+    "id": "burlington-painters-certapro-woburn",
+    "name": "CertaPro Painters of Woburn",
+    "townSlug": "burlington",
+    "serviceId": "painters",
+    "phone": "978-409-1772",
+    "website": "https://certapro.com/woburn/",
+    "verified": true
+  },
+  {
+    "id": "burlington-painters-total-finish",
+    "name": "Total Finish LLC",
+    "townSlug": "burlington",
+    "serviceId": "painters",
+    "phone": "(617) 785-5960",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "burlington-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "burlington",
+    "serviceId": "pest-control",
+    "phone": "781-891-5313",
+    "website": "https://nwpestcontrol.com/contact/",
+    "verified": true
+  },
+  {
+    "id": "burlington-pest-control-colonial-pest-control",
+    "name": "Colonial Pest Control",
+    "townSlug": "burlington",
+    "serviceId": "pest-control",
+    "phone": "1-800-525-8084",
+    "website": "https://www.colonialpest.com/service-area/burlington/",
+    "verified": true
+  },
+  {
+    "id": "burlington-pest-control-a1-exterminators",
+    "name": "A1 Exterminators",
+    "townSlug": "burlington",
+    "serviceId": "pest-control",
+    "phone": "(800) 525-4825",
+    "website": "https://www.a1exterminators.com/service-area/burlington-ma-pest-control/",
+    "verified": true
+  },
+  {
+    "id": "burlington-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "burlington",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-pressure-washing-servpro-burlington-woburn",
+    "name": "SERVPRO of Burlington / Woburn",
+    "townSlug": "burlington",
+    "serviceId": "pressure-washing",
+    "phone": "(781) 935-8222",
+    "website": "https://www.servpro.com/locations/ma/burlington",
+    "verified": true
+  },
+  {
+    "id": "burlington-hvac-baystate-air",
+    "name": "BayState Air, Inc.",
+    "townSlug": "burlington",
+    "serviceId": "hvac",
+    "phone": "(781) 229-0095",
+    "website": "https://www.baystateair.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-roofing-universal-roofing-solutions-phone",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "burlington",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "burlington-roofing-rhino-back-roofing",
+    "name": "Rhino-Back Roofing",
+    "townSlug": "burlington",
+    "serviceId": "roofing",
+    "phone": "(860) 317-0267",
+    "website": "https://rhinobackroofing.com/burlington",
+    "verified": true
+  },
+  {
+    "id": "burlington-roofing-salemi-exteriors",
+    "name": "Salemi Exteriors",
+    "townSlug": "burlington",
+    "serviceId": "roofing",
+    "phone": "978-804-5972",
+    "website": "https://salemiexteriors.com/roofing-siding-contractor-burlington-ma/",
+    "verified": true
+  },
+  {
+    "id": "burlington-roofing-premier-roofing",
+    "name": "Premier Roofing",
+    "townSlug": "burlington",
+    "serviceId": "roofing",
+    "phone": "877-318-1112",
+    "website": "https://www.premierroofinghaverhill.com/service-area-burlington-ma-roofers/",
+    "verified": true
+  },
+  {
+    "id": "burlington-painters-cassio-painting",
+    "name": "Cassio Painting",
+    "townSlug": "burlington",
+    "serviceId": "painters",
+    "phone": "(781) 859-6655",
+    "website": "https://www.cassiopainting.com/",
+    "verified": true
+  },
+  {
+    "id": "lexington-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "lexington",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/lexington-ma/plumber-service/",
+    "verified": true
+  },
+  {
+    "id": "lexington-hvac-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "lexington",
+    "serviceId": "hvac",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/lexington-ma/ac-repair-service/",
+    "verified": true
+  },
+  {
+    "id": "lexington-roofing-universal-roofing-solutions",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "lexington",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "reading",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/plumbing-services/reading-ma/",
+    "verified": true
+  },
+  {
+    "id": "reading-hvac-falite-bros",
+    "name": "Falite Bros.",
+    "townSlug": "reading",
+    "serviceId": "hvac",
+    "phone": "(781) 262-3348",
+    "website": "https://www.falitebros.com/reading-heating-ac/",
+    "verified": true
+  },
+  {
+    "id": "reading-electrician-dagle-electrical",
+    "name": "Dagle Electrical Construction, Corp.",
+    "townSlug": "reading",
+    "serviceId": "electrician",
+    "phone": "(781) 710-9912",
+    "website": "https://www.bbb.org/us/ma/reading/profile/electrician/dagle-electrical-construction-corp-0021-76975",
+    "verified": true
+  },
+  {
+    "id": "reading-roofing-mighty-dog-roofing",
+    "name": "Mighty Dog Roofing of North Boston",
+    "townSlug": "reading",
+    "serviceId": "roofing",
+    "phone": "(617) 934-4336",
+    "website": "https://www.mightydogroofing.com/north-boston-ma/areas-we-serve/reading/",
+    "verified": true
+  },
+  {
+    "id": "reading-roofing-premier-roofing",
+    "name": "Premier Roofing",
+    "townSlug": "reading",
+    "serviceId": "roofing",
+    "phone": "877-318-1112",
+    "website": "https://www.premierroofinghaverhill.com/service-area-north-reading-ma-roofers/",
+    "verified": true
+  },
+  {
+    "id": "reading-painters-cooks-simple-painting",
+    "name": "Cook's Simple Painting",
+    "townSlug": "reading",
+    "serviceId": "painters",
+    "phone": "978-658-7577",
+    "website": "https://cookssimplepainting.com/reading/",
+    "verified": true
+  },
+  {
+    "id": "reading-painters-leblanc-painting",
+    "name": "Leblanc Painting Service",
+    "townSlug": "reading",
+    "serviceId": "painters",
+    "phone": "(978) 742-9876",
+    "website": "https://leblancpainting.com/MA/Reading-painter.html",
+    "verified": true
+  },
+  {
+    "id": "reading-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "reading",
+    "serviceId": "pest-control",
+    "phone": "877-893-6607",
+    "website": "https://nwpestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-pest-control-colonial-pest-control",
+    "name": "Colonial Pest Control",
+    "townSlug": "reading",
+    "serviceId": "pest-control",
+    "phone": "1-800-525-8084",
+    "website": "https://www.colonialpest.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-pest-control-a1-exterminators",
+    "name": "A1 Exterminators",
+    "townSlug": "reading",
+    "serviceId": "pest-control",
+    "phone": "(800) 525-4825",
+    "website": "https://www.a1exterminators.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "reading",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-reading-ma/",
+    "verified": true
+  },
+  {
+    "id": "reading-pressure-washing-pristine-power-washing",
+    "name": "Pristine Power Washing Inc.",
+    "townSlug": "reading",
+    "serviceId": "pressure-washing",
+    "phone": "781-219-8012",
+    "website": "https://pristinepowerwashinginc.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-yard-landscaping-cicoria-tree-service",
+    "name": "Cicoria Tree and Crane Service",
+    "townSlug": "reading",
+    "serviceId": "yard-landscaping",
+    "phone": "(978) 922-5500",
+    "website": "https://www.cicoriatree.com/",
+    "verified": true
+  },
+  {
+    "id": "reading-roofing-universal-roofing-solutions",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "reading",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "stoneham",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/stoneham-ma/plumber-service/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-plumbing-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "stoneham",
+    "serviceId": "plumbing",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/service-areas/stoneham/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-plumbing-heritage-home-service",
+    "name": "Heritage Home Service",
+    "townSlug": "stoneham",
+    "serviceId": "plumbing",
+    "phone": "(603) 601-3955",
+    "website": "https://justcallheritage.com/massachusetts/stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-hvac-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "stoneham",
+    "serviceId": "hvac",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/stoneham-ma/stoneham-heating-services/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-hvac-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "stoneham",
+    "serviceId": "hvac",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/service-areas/stoneham/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-hvac-boston-unique-indoor-comfort",
+    "name": "Boston Unique Indoor Comfort",
+    "townSlug": "stoneham",
+    "serviceId": "hvac",
+    "phone": "(781) 933-7878",
+    "website": "https://bostonuniqueindoorcomfort.com/air-conditioning-heating-services-in-stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-hvac-accutemp-engineering",
+    "name": "Accutemp Engineering",
+    "townSlug": "stoneham",
+    "serviceId": "hvac",
+    "phone": "(617) 926-1221",
+    "website": "https://www.accutemp-eng.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-electrician-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "stoneham",
+    "serviceId": "electrician",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-electrician-tf-electric",
+    "name": "TF Electric",
+    "townSlug": "stoneham",
+    "serviceId": "electrician",
+    "phone": "(978) 479-9030",
+    "website": "https://tf-electric.net/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-electrician-heritage-home-service",
+    "name": "Heritage Home Service",
+    "townSlug": "stoneham",
+    "serviceId": "electrician",
+    "phone": "(603) 601-3955",
+    "website": "https://justcallheritage.com/massachusetts/stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-roofing-golini-roofing",
+    "name": "Golini Roofing",
+    "townSlug": "stoneham",
+    "serviceId": "roofing",
+    "phone": "(781) 438-7663",
+    "website": "https://goliniroofing.com/roofing-contractor-stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-roofing-holland-homes-roofing",
+    "name": "Holland Homes Roofing Co.",
+    "townSlug": "stoneham",
+    "serviceId": "roofing",
+    "phone": "(781) 864-2525",
+    "website": "https://roofwithhh.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-roofing-universal-roofing-solutions",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "stoneham",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-roofing-frs-roofing-gutters",
+    "name": "FRS Roofing + Gutters",
+    "townSlug": "stoneham",
+    "serviceId": "roofing",
+    "phone": "(781) 322-6252",
+    "website": "https://frsroof.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-yard-landscaping-walsh-landscaping",
+    "name": "Walsh Landscaping",
+    "townSlug": "stoneham",
+    "serviceId": "yard-landscaping",
+    "phone": "781-438-0706",
+    "website": "https://www.walsh-landscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-yard-landscaping-mikes-landscaping",
+    "name": "Mike's Landscaping",
+    "townSlug": "stoneham",
+    "serviceId": "yard-landscaping",
+    "phone": "877-33-MIKES",
+    "website": "https://mikeslandscapingco.com/landscape-maintenance-programs-stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-yard-landscaping-johns-landscaping",
+    "name": "John's Landscaping",
+    "townSlug": "stoneham",
+    "serviceId": "yard-landscaping",
+    "phone": "(781) 944-3766",
+    "website": "https://johnslandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-painters-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "stoneham",
+    "serviceId": "painters",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "stoneham",
+    "serviceId": "pest-control",
+    "phone": "877-893-6607",
+    "website": "https://nwpestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-pest-control-colonial-pest-control",
+    "name": "Colonial Pest Control",
+    "townSlug": "stoneham",
+    "serviceId": "pest-control",
+    "phone": "1-800-525-8084",
+    "website": "https://www.colonialpest.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "stoneham",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/service-area/power-washing-stoneham-ma/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-plumbing-silco-plumbing-heating-air",
+    "name": "Silco Plumbing, Heating & Air Conditioning",
+    "townSlug": "wakefield",
+    "serviceId": "plumbing",
+    "phone": "(781) 438-8925",
+    "website": "https://www.silcoplumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-hvac-total-temperature-control",
+    "name": "Total Temperature Control",
+    "townSlug": "wakefield",
+    "serviceId": "hvac",
+    "phone": "781-224-2400",
+    "website": "https://totaltempcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-hvac-silco-plumbing-heating-air",
+    "name": "Silco Plumbing, Heating & Air Conditioning",
+    "townSlug": "wakefield",
+    "serviceId": "hvac",
+    "phone": "(781) 438-8925",
+    "website": "https://www.silcoplumbing.com/wakefield-ma/hvac/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-electrician-kuhlman-electric",
+    "name": "Kuhlman Electric",
+    "townSlug": "wakefield",
+    "serviceId": "electrician",
+    "phone": "(781) 269-0623",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-roofing-dg-exteriors",
+    "name": "D&G Exteriors",
+    "townSlug": "wakefield",
+    "serviceId": "roofing",
+    "phone": "781-328-4063",
+    "website": "https://dandgexteriors.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-roofing-olyn-roofing",
+    "name": "O'LYN Roofing",
+    "townSlug": "wakefield",
+    "serviceId": "roofing",
+    "phone": "(781) 300-7231",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-yard-landscaping-mikes-landscaping",
+    "name": "Mike's Landscaping",
+    "townSlug": "wakefield",
+    "serviceId": "yard-landscaping",
+    "phone": "877-33-MIKES",
+    "website": "https://mikeslandscapingco.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-yard-landscaping-walsh-landscaping",
+    "name": "Walsh Landscaping",
+    "townSlug": "wakefield",
+    "serviceId": "yard-landscaping",
+    "phone": "781-438-0706",
+    "website": "https://www.walsh-landscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-painters-cassio-painting",
+    "name": "Cassio Painting",
+    "townSlug": "wakefield",
+    "serviceId": "painters",
+    "phone": "(781) 859-6655",
+    "website": "https://www.cassiopainting.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-plumbing-central-plumbing-heating",
+    "name": "Central Plumbing & Heating Inc.",
+    "townSlug": "wakefield",
+    "serviceId": "plumbing",
+    "phone": "781-245-5513",
+    "website": "https://centralplumbingandheating.net/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-electrician-jml-electric",
+    "name": "J.M.L. Electric Inc.",
+    "townSlug": "wakefield",
+    "serviceId": "electrician",
+    "phone": "(781) 587-0875",
+    "website": "https://www.jml-electric.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-roofing-golini-roofing",
+    "name": "Golini Roofing",
+    "townSlug": "wakefield",
+    "serviceId": "roofing",
+    "phone": "781-246-0141",
+    "website": "https://goliniroofing.com/best-roofing-company-wakefield-ma/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-roofing-universal-roofing-solutions",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "wakefield",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-yard-landscaping-constantine-landscape",
+    "name": "Constantine Landscape Company",
+    "townSlug": "wakefield",
+    "serviceId": "yard-landscaping",
+    "phone": "781-801-4356",
+    "website": "https://constantinelandscape.wixsite.com/company",
+    "verified": true
+  },
+  {
+    "id": "melrose-plumbing-spencer-home-services",
+    "name": "Spencer Home Services",
+    "townSlug": "melrose",
+    "serviceId": "plumbing",
+    "phone": "978-293-5770",
+    "website": "https://spencerhomeservice.com/melrose-plumber/",
+    "verified": true
+  },
+  {
+    "id": "melrose-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "melrose",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-plumbing-gervais-mechanical",
+    "name": "Gervais Mechanical",
+    "townSlug": "melrose",
+    "serviceId": "plumbing",
+    "phone": "508-290-7154",
+    "website": "https://www.gervaismechanical.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-plumbing-silco-plumbing-heating-air",
+    "name": "Silco Plumbing, Heating & Air Conditioning",
+    "townSlug": "melrose",
+    "serviceId": "plumbing",
+    "phone": "(781) 438-8925",
+    "website": "https://www.silcoplumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-hvac-spencer-home-services",
+    "name": "Spencer Home Services",
+    "townSlug": "melrose",
+    "serviceId": "hvac",
+    "phone": "978-293-5770",
+    "website": "https://spencerhomeservice.com/melrose-heating-furnace-contractor/",
+    "verified": true
+  },
+  {
+    "id": "melrose-hvac-total-temperature-control",
+    "name": "Total Temperature Control",
+    "townSlug": "melrose",
+    "serviceId": "hvac",
+    "phone": "781-224-2400",
+    "website": "https://totaltempcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-hvac-boston-unique-indoor-comfort",
+    "name": "Boston Unique Indoor Comfort",
+    "townSlug": "melrose",
+    "serviceId": "hvac",
+    "phone": "(781) 933-7878",
+    "website": "https://bostonuniqueindoorcomfort.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-hvac-silco-plumbing-heating-air",
+    "name": "Silco Plumbing, Heating & Air Conditioning",
+    "townSlug": "melrose",
+    "serviceId": "hvac",
+    "phone": "(781) 438-8925",
+    "website": "https://www.silcoplumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-electrician-spencer-home-services",
+    "name": "Spencer Home Services",
+    "townSlug": "melrose",
+    "serviceId": "electrician",
+    "phone": "978-293-5770",
+    "website": "https://spencerhomeservice.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-electrician-deao-electric",
+    "name": "Deao Electric",
+    "townSlug": "melrose",
+    "serviceId": "electrician",
+    "phone": "781-727-4268",
+    "website": "https://deaoelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-electrician-kuhlman-electric",
+    "name": "Kuhlman Electric",
+    "townSlug": "melrose",
+    "serviceId": "electrician",
+    "phone": "(781) 269-0623",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-roofing-olyn-roofing",
+    "name": "O'LYN Roofing",
+    "townSlug": "melrose",
+    "serviceId": "roofing",
+    "phone": "(781) 300-7231",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-roofing-gf-sprague",
+    "name": "GF Sprague",
+    "townSlug": "melrose",
+    "serviceId": "roofing",
+    "phone": "617-213-6641",
+    "website": "https://www.gfsprague.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-roofing-universal-roofing-solutions",
+    "name": "Universal Roofing Solutions",
+    "townSlug": "melrose",
+    "serviceId": "roofing",
+    "phone": "(781) 328-0638",
+    "website": "https://www.universalroofingsolutions.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-roofing-frs-roofing-gutters",
+    "name": "FRS Roofing + Gutters",
+    "townSlug": "melrose",
+    "serviceId": "roofing",
+    "phone": "(781) 322-6252",
+    "website": "https://frsroof.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-yard-landscaping-mikes-landscaping",
+    "name": "Mike's Landscaping",
+    "townSlug": "melrose",
+    "serviceId": "yard-landscaping",
+    "phone": "877-33-MIKES",
+    "website": "https://mikeslandscapingco.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-yard-landscaping-johns-landscaping",
+    "name": "John's Landscaping",
+    "townSlug": "melrose",
+    "serviceId": "yard-landscaping",
+    "phone": "(781) 944-3766",
+    "website": "https://johnslandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-yard-landscaping-walsh-landscaping",
+    "name": "Walsh Landscaping",
+    "townSlug": "melrose",
+    "serviceId": "yard-landscaping",
+    "phone": "781-438-0706",
+    "website": "https://www.walsh-landscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-painters-new-england-painting-contracting",
+    "name": "New England Painting & Contracting",
+    "townSlug": "melrose",
+    "serviceId": "painters",
+    "phone": "(978) 435-5800",
+    "website": "https://www.newenglandpaintingcontracting.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-pest-control-colonial-pest-control",
+    "name": "Colonial Pest Control",
+    "townSlug": "melrose",
+    "serviceId": "pest-control",
+    "phone": "1-800-525-8084",
+    "website": "https://www.colonialpest.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "melrose",
+    "serviceId": "pest-control",
+    "phone": "877-893-6607",
+    "website": "https://nwpestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "melrose-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "melrose",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "malden-plumbing-128-plumbing-heating-cooling",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "malden",
+    "serviceId": "plumbing",
+    "phone": "888-CALL-128",
+    "website": "https://www.128plumbing.com/",
+    "verified": true
+  },
+  {
+    "id": "malden-electrician-kuhlman-electric",
+    "name": "Kuhlman Electric",
+    "townSlug": "malden",
+    "serviceId": "electrician",
+    "phone": "(781) 269-0623",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": true
+  },
+  {
+    "id": "malden-roofing-frs-roofing-gutters",
+    "name": "FRS Roofing + Gutters",
+    "townSlug": "malden",
+    "serviceId": "roofing",
+    "phone": "(781) 322-6252",
+    "website": "https://frsroof.com/",
+    "verified": true
+  },
+  {
+    "id": "winchester-hvac-spencer-home-services",
+    "name": "Spencer Home Services",
+    "townSlug": "winchester",
+    "serviceId": "hvac",
+    "phone": "978-293-5770",
+    "website": "https://spencerhomeservice.com/winchester-heating-furnace-contractor/",
+    "verified": true
+  },
+  {
+    "id": "belmont-pest-control-buono-pest-control",
+    "name": "Buono Pest Control Co., Inc.",
+    "townSlug": "belmont",
+    "serviceId": "pest-control",
+    "phone": "617-489-3008",
+    "website": "https://www.buonopestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "belmont-pressure-washing-vision-painting-contractors",
+    "name": "Vision Painting Contractors",
+    "townSlug": "belmont",
+    "serviceId": "pressure-washing",
+    "phone": "508-405-0524",
+    "website": "https://www.visionpaintingco.com/power-washing/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-pest-control-ultra-safe-pest-management",
+    "name": "Ultra Safe Pest Management",
+    "townSlug": "wakefield",
+    "serviceId": "pest-control",
+    "phone": "(866) 472-5858",
+    "website": "https://ultrasafepest.com/",
+    "verified": true
+  },
+  {
+    "id": "wakefield-pressure-washing-vivianes-cleaning-restoration",
+    "name": "Viviane's Cleaning & Restoration Inc.",
+    "townSlug": "wakefield",
+    "serviceId": "pressure-washing",
+    "phone": "(978) 216-2484",
+    "website": "https://vivianes-cleaning.com/Construction-Cleaning_Wakefield_MA.htm",
+    "verified": true
+  },
+  {
+    "id": "malden-painters-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "malden",
+    "serviceId": "painters",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/service-area/painting-company-malden-ma/",
+    "verified": true
+  },
+  {
+    "id": "malden-pest-control-nw-pest-control",
+    "name": "NW Pest Control",
+    "townSlug": "malden",
+    "serviceId": "pest-control",
+    "phone": "877-893-6607",
+    "website": "https://nwpestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "malden-pressure-washing-pacific-power-washing-painting",
+    "name": "Pacific Power Washing & Painting",
+    "townSlug": "malden",
+    "serviceId": "pressure-washing",
+    "phone": "781-696-2420",
+    "website": "https://pacificpowerwashingandpainting.com/",
+    "verified": true
   }
 ]
