@@ -853,7 +853,7 @@
     "townSlug": "springfield",
     "serviceId": "electrician",
     "phone": "(413) 739-9700",
-    "website": "",
+    "website": "https://advancedelectricservice.com/",
     "description": "Advanced Electric Service provides electrician services in Springfield, Massachusetts.",
     "slug": "advanced-electric-service-springfield",
     "facebook": "",
@@ -2351,19 +2351,6 @@
     "verified": false
   },
   {
-    "id": "sullivan-plumbing-brockton",
-    "name": "Sullivan Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 588-6900",
-    "website": "",
-    "description": "Residential plumbing and heating contractor serving Brockton and surrounding South Shore towns.",
-    "slug": "sullivan-plumbing-heating",
-    "facebook": "",
-    "verified": false
-  },
-  {
     "id": "roto-rooter-brockton",
     "name": "Roto-Rooter Plumbing & Drain Service",
     "state": "MA",
@@ -2373,32 +2360,6 @@
     "website": "https://www.rotorooter.com/",
     "description": "Drain cleaning and plumbing repair services serving Brockton, Massachusetts.",
     "slug": "roto-rooter-brockton",
-    "facebook": "",
-    "verified": true
-  },
-  {
-    "id": "south-shore-hvac-brockton",
-    "name": "South Shore Heating & Cooling",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 584-4200",
-    "website": "",
-    "description": "Heating and cooling installation and repair contractor serving Brockton and surrounding towns.",
-    "slug": "south-shore-heating-cooling",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "cranney-hvac-brockton",
-    "name": "Cranney Home Services",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(800) 235-9819",
-    "website": "",
-    "description": "Heating and cooling installation, repair, and maintenance services serving Eastern Massachusetts.",
-    "slug": "cranney-home-services",
     "facebook": "",
     "verified": true
   },
@@ -2414,45 +2375,6 @@
     "slug": "crowe-electric",
     "facebook": "",
     "verified": true
-  },
-  {
-    "id": "south-shore-electric-brockton",
-    "name": "South Shore Electrical Services",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 580-2200",
-    "website": "",
-    "description": "Electrical repair, wiring, and panel upgrade contractor serving Brockton, MA.",
-    "slug": "south-shore-electrical-services",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "brownell-roofing-brockton",
-    "name": "Brownell Roofing",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 586-4900",
-    "website": "",
-    "description": "Roof repair and replacement contractor serving Brockton and surrounding South Shore towns.",
-    "slug": "brownell-roofing",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "reliable-roofing-brockton",
-    "name": "Reliable Roofing & Construction",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 587-7700",
-    "website": "",
-    "description": "Residential roofing contractor serving Brockton and Southeastern Massachusetts.",
-    "slug": "reliable-roofing",
-    "facebook": "",
-    "verified": false
   },
   {
     "id": "drain-pros-plumbing-lynn",
@@ -3060,198 +2982,6 @@
     "facebook": "",
     "verified": false,
     "description": "A-1 Plumbing & Heating is a local plumbing company serving Springfield, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-plumbing-rivera-plumbing-brockton",
-    "name": "Rivera Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2101",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Rivera Plumbing & Heating offers expert plumbing services in Brockton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brockton-plumbing-south-shore-plumbing",
-    "name": "South Shore Plumbing Services",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2102",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "South Shore Plumbing Services is a local plumbing company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-plumbing-prime-rooter-brockton",
-    "name": "Prime Rooter & Drain",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2103",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Prime Rooter & Drain offers expert plumbing services in Brockton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brockton-plumbing-hometown-plumbing",
-    "name": "Hometown Plumbing Co.",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2104",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Brockton, Massachusetts, Hometown Plumbing Co. specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "brockton-plumbing-bay-state-plumbing",
-    "name": "Bay State Plumbing & Repair",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2105",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Bay State Plumbing & Repair provides professional plumbing services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-plumbing-precision-plumbing",
-    "name": "Precision Plumbing Solutions",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2106",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Precision Plumbing Solutions is a local plumbing company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-plumbing-all-star-plumbing",
-    "name": "All Star Plumbing & Heating",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2107",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for plumbing in Brockton, MA? All Star Plumbing & Heating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brockton-plumbing-rapid-response-plumbing",
-    "name": "Rapid Response Plumbing",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "plumbing",
-    "phone": "(508) 555-2108",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for plumbing in Brockton, MA? Rapid Response Plumbing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brockton-roofing-couto-construction",
-    "name": "Couto Construction",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 580-7150",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Couto Construction is a local roofing company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-roofing-mighty-dog-roofing-south-shore",
-    "name": "Mighty Dog Roofing (South Shore MA)",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 928-3755",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Mighty Dog Roofing (South Shore MA) is a local roofing company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-roofing-reliable-roofing-siding-windows",
-    "name": "Reliable Roofing, Siding & Windows",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(781) 821-2220",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Reliable Roofing, Siding & Windows provides professional roofing services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-roofing-sunrise-exterior",
-    "name": "Sunrise Exterior Inc",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 584-7663",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for roofing in Brockton, MA? Sunrise Exterior Inc offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brockton-roofing-the-brockton-roofers",
-    "name": "The Brockton Roofers",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 306-8683",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Brockton, Massachusetts, The Brockton Roofers specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "brockton-roofing-np-roofing-company-inc",
-    "name": "NP Roofing Company Inc",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 313-6438",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "NP Roofing Company Inc is a local roofing company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-roofing-blue-rhino-roofing",
-    "name": "BlueRhino Roofing LLC",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 443-7567",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "BlueRhino Roofing LLC provides professional roofing services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-roofing-lyman-roofing",
-    "name": "Lyman Roofing",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "roofing",
-    "phone": "(508) 813-0389",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Lyman Roofing provides professional roofing services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "lynn-plumbing-roto-rooter-lynn",
@@ -4256,9 +3986,9 @@
     "townSlug": "quincy",
     "serviceId": "yard-landscaping",
     "phone": "(617) 797-0483",
-    "verified": false,
+    "verified": true,
     "facebook": "",
-    "website": "",
+    "website": "https://www.modonnelllandscaping.com/",
     "description": "M. O'Donnell Landscaping offers expert yard landscaping services in Quincy, MA. Reach out for fast, reliable local service."
   },
   {
@@ -4404,198 +4134,6 @@
     "facebook": "",
     "website": "",
     "description": "Riley Landscape provides professional yard landscaping services in Cambridge, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-hvac-tri-star-heating",
-    "name": "Tri Star Heating",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 584-4000",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Tri Star Heating is a local hvac company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-hvac-dias-heating-cooling",
-    "name": "Dias Heating & Cooling",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 580-1199",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Brockton, Massachusetts, Dias Heating & Cooling specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "brockton-hvac-north-east-heating",
-    "name": "North East Heating & AC",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 559-4328",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "North East Heating & AC provides professional hvac services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-hvac-armstrong-heating",
-    "name": "Armstrong Heating & Cooling",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 586-7400",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Armstrong Heating & Cooling is a local hvac company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-hvac-gomes-heating",
-    "name": "Gomes Heating & Air",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 857-6100",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for hvac in Brockton, MA? Gomes Heating & Air offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brockton-hvac-advanced-air-systems",
-    "name": "Advanced Air Systems",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 588-9000",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Advanced Air Systems provides professional hvac services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-hvac-south-shore-hvac",
-    "name": "South Shore HVAC Services",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 894-7700",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "South Shore HVAC Services provides professional hvac services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-hvac-prime-heating-cooling",
-    "name": "Prime Heating & Cooling",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "hvac",
-    "phone": "(508) 583-3000",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Prime Heating & Cooling provides professional hvac services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-electrician-john-page-electric",
-    "name": "John Page Electric, Inc.",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 427-4480",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Brockton, Massachusetts, John Page Electric, Inc. specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "brockton-electrician-douglas-ahaesy-electric",
-    "name": "Douglas Ahaesy Electric LLC",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 726-0660",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Douglas Ahaesy Electric LLC offers expert electrician services in Brockton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brockton-electrician-stadelmann-electric",
-    "name": "Stadelmann Electric",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 586-5000",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Stadelmann Electric is a local electrician company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-electrician-wm-stadelmann-jr-electrical-service",
-    "name": "WM Stadelmann Jr Electrical Service, LLC",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 583-7795",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "WM Stadelmann Jr Electrical Service, LLC provides professional electrician services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "brockton-electrician-ita-electric",
-    "name": "ITA Electric",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 663-9056",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for electrician in Brockton, MA? ITA Electric offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "brockton-electrician-landerholm-electric-company",
-    "name": "Landerholm Electric Company, Inc.",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 580-4645",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Brockton, Massachusetts, Landerholm Electric Company, Inc. specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "brockton-electrician-marrese-electric",
-    "name": "Marrese Electric",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 505-4116",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Marrese Electric is a local electrician company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-electrician-ws-anderson",
-    "name": "W.S. Anderson Inc.",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "electrician",
-    "phone": "(508) 586-6997",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "W.S. Anderson Inc. is a local electrician company serving Brockton, MA with dependable service and quality workmanship."
   },
   {
     "id": "lynn-hvac-falite-brothers",
@@ -4788,90 +4326,6 @@
     "facebook": "",
     "website": "",
     "description": "Serving Lynn, Massachusetts, South Bay Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "quincy-landscaping-patriot-landscape-services",
-    "name": "Patriot Landscape Services",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for yard landscaping in Quincy, MA? Patriot Landscape Services offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "quincy-landscaping-harborview-landscaping",
-    "name": "Harborview Landscaping",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "yard-landscaping",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Harborview Landscaping provides professional yard landscaping services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "quincy-hvac-quincy-hvac-pros",
-    "name": "Quincy HVAC Pros",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for hvac in Quincy, MA? Quincy HVAC Pros offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "quincy-hvac-south-shore-heating-and-cooling",
-    "name": "South Shore Heating & Cooling",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "South Shore Heating & Cooling offers expert hvac services in Quincy, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "quincy-hvac-quincy-comfort-heating-and-cooling",
-    "name": "Quincy Comfort Heating & Cooling",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Quincy Comfort Heating & Cooling provides professional hvac services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "quincy-hvac-milton-heating-and-air",
-    "name": "Milton Heating & Air",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Milton Heating & Air is a local hvac company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-hvac-harbor-area-heating-and-cooling",
-    "name": "Harbor Area Heating & Cooling",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Harbor Area Heating & Cooling is a local hvac company serving Quincy, MA with dependable service and quality workmanship."
   },
   {
     "id": "cambridge-electrician-harvard-electric",
@@ -5304,18 +4758,6 @@
     "description": "Looking for painters in Quincy, MA? CertaPro Painters offers trusted local services for homeowners and businesses."
   },
   {
-    "id": "quincy-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Guardian Pest Control is a local pest control company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "lynn-painters-certa-pro",
     "name": "CertaPro Painters",
     "state": "MA",
@@ -5506,18 +4948,6 @@
     "verified": false,
     "facebook": "",
     "description": "Terminix is a local pest control company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-pressure-washing-brockton-power-wash",
-    "name": "Brockton Power Washing",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Looking for pressure washing in Brockton, MA? Brockton Power Washing offers trusted local services for homeowners and businesses."
   },
   {
     "id": "fallriver-painters-certa-pro",
@@ -6000,61 +5430,6 @@
     "description": "Fitchburg Power Washing is a local pressure washing company serving Fitchburg, MA with dependable service and quality workmanship."
   },
   {
-    "id": "certapro-painters-south-shore-quincy-ma",
-    "name": "CertaPro Painters South Shore",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "CertaPro Painters South Shore provides professional painters services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "artisan-painting-quincy-ma",
-    "name": "Artisan Painting and Decorating",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Looking for painters in Quincy, MA? Artisan Painting and Decorating offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "wilder-painting-quincy-ma",
-    "name": "Wilder Painting Contractors",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Wilder Painting Contractors provides professional painters services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "south-shore-ipm-quincy-ma",
-    "name": "South Shore IPM",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "South Shore IPM offers expert pest control services in Quincy, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "nw-pest-control-quincy-ma",
-    "name": "NW Pest Control",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "verified": false,
-    "facebook": "",
-    "phone": "",
-    "website": "",
-    "description": "Looking for pest control in Quincy, MA? NW Pest Control offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "debug-pest-control-waltham-ma",
     "name": "Debug Pest Control",
     "townSlug": "waltham",
@@ -6086,126 +5461,6 @@
     "phone": "",
     "website": "",
     "description": "Rolling Suds Power Washing provides professional pressure washing services in Waltham, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "quincy-electric-solutions-quincy",
-    "name": "Quincy Electric Solutions",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "electrician",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Quincy, MA? Quincy Electric Solutions offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "bay-state-electric-quincy",
-    "name": "Bay State Electric",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "electrician",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Bay State Electric is a local electrician company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "south-shore-electric-quincy",
-    "name": "South Shore Electric",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "electrician",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "South Shore Electric is a local electrician company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-plumbing-services-quincy",
-    "name": "Quincy Plumbing Services",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "plumbing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Quincy Plumbing Services offers expert plumbing services in Quincy, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "south-shore-plumbing-quincy",
-    "name": "South Shore Plumbing",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "plumbing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for plumbing in Quincy, MA? South Shore Plumbing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "quincy-roofing-group-quincy",
-    "name": "Quincy Roofing Group",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "roofing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Quincy Roofing Group provides professional roofing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "south-shore-roofing-quincy",
-    "name": "South Shore Roofing",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "roofing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "South Shore Roofing provides professional roofing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "bay-state-roofing-quincy",
-    "name": "Bay State Roofing",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "roofing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Bay State Roofing is a local roofing company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-painting-company-quincy",
-    "name": "Quincy Painting Company",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Quincy, Massachusetts, Quincy Painting Company specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "quincy-pest-solutions-quincy",
-    "name": "Quincy Pest Solutions",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Quincy Pest Solutions offers expert pest control services in Quincy, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "village-home-services-cambridge-electrician-cambridge",
@@ -6326,30 +5581,6 @@
     "facebook": "",
     "verified": true,
     "description": "Looking for pressure washing in Lowell, MA? Top Quality Soft Washing LLC offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "certapro-painters-quincy",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Quincy, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "terminix-quincy",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Quincy, MA? Terminix offers trusted local services for homeowners and businesses."
   },
   {
     "id": "certapro-painters-springfield",
@@ -6626,18 +5857,6 @@
     "facebook": "",
     "verified": false,
     "description": "Serving Marlborough, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "certapro-painters-brockton",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "brockton",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Brockton, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
   },
   {
     "id": "northshore-painting-salem",
@@ -13016,17 +12235,6 @@
     "description": "Residential and commercial painting company serving Quincy with interior painting, exterior painting, carpentry, and related services."
   },
   {
-    "id": "quincy-painter-7",
-    "name": "Paintzen Quincy",
-    "townSlug": "quincy",
-    "state": "MA",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://www.paintzen.com/service-areas/ma/quincy",
-    "description": "Residential painting service for Quincy homes offering interior and exterior painting projects.",
-    "verified": false
-  },
-  {
     "id": "quincy-painter-8",
     "name": "Fresh Coat Painters of Arlington",
     "townSlug": "quincy",
@@ -13197,27 +12405,6 @@
     "phone": "(617) 491-5300",
     "website": "https://catchlightpainting.com",
     "description": "Boston area painting company providing interior painting, exterior painting, and fine finish work."
-  },
-  {
-    "id": "quincy-pest-9",
-    "name": "A1 Exterminators",
-    "townSlug": "quincy",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(800) 525-4825",
-    "website": "https://a1exterminators.com",
-    "description": "Massachusetts pest control company providing termite treatment, rodent removal, and bed bug extermination."
-  },
-  {
-    "id": "quincy-pest-11",
-    "name": "Clancy Brothers Pest Control",
-    "townSlug": "quincy",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://clancybrospestcontrol.com",
-    "description": "Family owned pest control company serving Greater Boston with rodent, termite, and pest management services.",
-    "verified": false
   },
   {
     "id": "quincy-pest-12",
@@ -13580,17 +12767,6 @@
     "website": "https://catchlightpainting.com",
     "facebook": "",
     "description": "New England painting company providing interior and exterior painting services."
-  },
-  {
-    "id": "worcester-pest-13",
-    "name": "A1 Exterminators",
-    "townSlug": "worcester",
-    "state": "MA",
-    "serviceId": "pest-control",
-    "phone": "(800) 525-4825",
-    "website": "https://www.a1exterminators.com/service-area/worcester-ma-pest-control/",
-    "facebook": "",
-    "description": "Pest control company serving Worcester with rodent control, termite treatment, and general extermination services."
   },
   {
     "id": "worcester-pest-15",
@@ -15238,17 +14414,6 @@
     "description": "First Response Power Wash LLC offers expert pressure washing services in Braintree, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "quincy-painter-1",
-    "name": "CertaPro Painters of the South Shore and Boston",
-    "townSlug": "quincy",
-    "serviceId": "painters",
-    "phone": "781-585-7246",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Looking for painters in Quincy, MA? CertaPro Painters of the South Shore and Boston offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "quincy-painter-2",
     "name": "AMT Painting",
     "townSlug": "quincy",
@@ -15269,17 +14434,6 @@
     "facebook": "",
     "verified": true,
     "description": "Fox Pest Control is a local pest control company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-pest-2",
-    "name": "A1 Exterminators",
-    "townSlug": "quincy",
-    "serviceId": "pest-control",
-    "phone": "800-525-4825",
-    "website": "https://www.a1exterminators.com/service-area/quincy-ma-pest-control/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Quincy, MA? A1 Exterminators offers trusted local services for homeowners and businesses."
   },
   {
     "id": "quincy-pressurewash-1",
@@ -16743,17 +15897,6 @@
     "facebook": "",
     "verified": false,
     "description": "Painter's Etcetera is a local painters company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-painter-3",
-    "name": "Ma & Pop's Painting",
-    "serviceId": "painters",
-    "townSlug": "brockton",
-    "phone": "",
-    "website": "https://www.mapopspainting.com/contact/painting-company-service-area/brockton-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Ma & Pop's Painting offers expert painters services in Brockton, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "brockton-pest-1",
@@ -21163,26 +20306,6 @@
     "website": "https://paintersetcetera.com/power-washing-services-in-chelsea-ma/",
     "facebook": "",
     "description": "Serving Chelsea, Massachusetts, Painters Etcetera specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "everett-painters-1",
-    "name": "CertaPro Painters",
-    "serviceId": "painters",
-    "townSlug": "everett",
-    "phone": "800-462-3782",
-    "website": "https://certapro.com",
-    "verified": true,
-    "description": "CertaPro Painters provides professional residential and commercial painting services in Everett, MA."
-  },
-  {
-    "id": "everett-painters-2",
-    "name": "Aldana Painting Inc",
-    "serviceId": "painters",
-    "townSlug": "everett",
-    "phone": "(781) 521-2563",
-    "website": "https://aldanapaintingboston.com/served-areas/everett/",
-    "verified": false,
-    "description": "Aldana Painting Inc offers interior and exterior painting services in Everett, MA."
   },
   {
     "id": "everett-pest-control-2",
@@ -27016,28 +26139,6 @@
     "description": "Serving Quincy, Massachusetts, Aspinwall Plumbing & Heating specializes in hvac services for residential and commercial needs."
   },
   {
-    "id": "quincy-hvac-2",
-    "name": "Suburban HVAC",
-    "serviceId": "hvac",
-    "townSlug": "quincy",
-    "phone": "",
-    "website": "https://suburban-hvac.com/residential/service-area/quincy-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Suburban HVAC is a local hvac company serving Quincy, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "quincy-hvac-3",
-    "name": "Efficiency Plumbing, Heating & Air",
-    "serviceId": "hvac",
-    "townSlug": "quincy",
-    "phone": "",
-    "website": "https://efficiencypr.com/service-areas/plumbing-and-hvac-services-in-quincy-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Efficiency Plumbing, Heating & Air provides professional hvac services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "quincy-plumbing-1",
     "name": "DMB Plumbing & Heating Inc",
     "serviceId": "plumbing",
@@ -27047,17 +26148,6 @@
     "facebook": "",
     "verified": true,
     "description": "DMB Plumbing & Heating Inc provides professional plumbing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "quincy-plumbing-2",
-    "name": "Aspinwall Plumbing & Heating",
-    "serviceId": "plumbing",
-    "townSlug": "quincy",
-    "phone": "(617) 539-7672",
-    "website": "https://www.aspinwallplumbing.com/service-area/quincy-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Aspinwall Plumbing & Heating provides professional plumbing services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "quincy-plumbing-3",
@@ -27102,39 +26192,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for roofing in Quincy, MA? O'LYN Roofing offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "quincy-yard-landscaping-1",
-    "name": "Brothers Landscapers Inc",
-    "serviceId": "yard-landscaping",
-    "townSlug": "quincy",
-    "phone": "",
-    "website": "https://brotherslandscapers.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Brothers Landscapers Inc offers expert yard landscaping services in Quincy, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "quincy-yard-landscaping-2",
-    "name": "Pat Gibbs Landscape Design & Construction",
-    "serviceId": "yard-landscaping",
-    "townSlug": "quincy",
-    "phone": "",
-    "website": "https://www.patgibbslandscaping.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Pat Gibbs Landscape Design & Construction offers expert yard landscaping services in Quincy, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "quincy-yard-landscaping-3",
-    "name": "Millennium Landscape & Design",
-    "serviceId": "yard-landscaping",
-    "townSlug": "quincy",
-    "phone": "",
-    "website": "https://millenniumlandscapeinc.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Millennium Landscape & Design offers expert yard landscaping services in Quincy, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "weymouth-electrician-1",
@@ -31015,28 +30072,6 @@
     "facebook": "",
     "verified": false,
     "description": "Fred's Landscaping is a local yard landscaping company serving Brockton, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "brockton-yard-landscaping-3",
-    "name": "Green Garden Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "brockton",
-    "phone": "(508) 857-3990",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Green Garden Landscaping offers expert yard landscaping services in Brockton, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "brockton-yard-landscaping-4",
-    "name": "Brothers Landscaping Inc",
-    "serviceId": "yard-landscaping",
-    "townSlug": "brockton",
-    "phone": "(508) 728-1122",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Brothers Landscaping Inc provides professional yard landscaping services in Brockton, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "fall-river-yard-landscaping-1",
@@ -54100,42 +53135,6 @@
     "verified": false
   },
   {
-    "id": "quincy-plumbing-aspinwall-plumbing",
-    "name": "Aspinwall Plumbing",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "plumbing",
-    "phone": "",
-    "website": "https://www.aspinwallplumbing.com/",
-    "description": "Plumbing contractor serving Quincy, MA with plumbing, heating, and air conditioning services.",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "quincy-hvac-endless-energy",
-    "name": "Endless Energy",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "hvac",
-    "phone": "",
-    "website": "https://goendlessenergy.com/hvac-services/hvac-quincy-ma/",
-    "description": "HVAC company with a dedicated Quincy, MA service page for heating and cooling solutions.",
-    "facebook": "",
-    "verified": false
-  },
-  {
-    "id": "quincy-yard-landscaping-m-odonnell-landscaping",
-    "name": "M. O'Donnell Landscaping",
-    "state": "MA",
-    "townSlug": "quincy",
-    "serviceId": "yard-landscaping",
-    "phone": "(617) 797-0483",
-    "website": "https://odonnelllandscapema.com/",
-    "description": "Landscaping company serving Quincy and other South Shore communities.",
-    "facebook": "",
-    "verified": false
-  },
-  {
     "id": "oxford-plumbing-rj-kiely-plumbing",
     "name": "R.J. Kiely Plumbing, Heating & Cooling",
     "state": "MA",
@@ -59219,46 +58218,6 @@
     "facebook": "",
     "verified": true,
     "description": "Winters Home Services provides professional plumbing services in Watertown, MA. Trusted company offering repairs, installations, and emergency plumbing service."
-  },
-  {
-    "id": "everett-pressure-1",
-    "name": "Purple Suds Property Services",
-    "serviceId": "pressure-washing",
-    "townSlug": "everett",
-    "phone": "(508) 593-5008",
-    "website": "https://purplesudspressurewashing.com/",
-    "verified": false,
-    "description": "Purple Suds Property Services provides professional pressure washing services in Everett, MA."
-  },
-  {
-    "id": "everett-pressure-2",
-    "name": "HiCleaners Pressure Washing",
-    "serviceId": "pressure-washing",
-    "townSlug": "everett",
-    "phone": "(781) 333-8758",
-    "website": "https://everett.hipressurewashing.net/",
-    "verified": false,
-    "description": "HiCleaners Pressure Washing offers exterior cleaning and pressure washing services in Everett, MA."
-  },
-  {
-    "id": "everett-pressure-3",
-    "name": "Jose's Painting",
-    "serviceId": "pressure-washing",
-    "townSlug": "everett",
-    "phone": "(774) 285-9484",
-    "website": "https://www.josespainting.co/cities-towns/power-washing-in-everett-ma",
-    "verified": false,
-    "description": "Jose's Painting provides painting and pressure washing services in Everett, MA."
-  },
-  {
-    "id": "everett-pressure-4",
-    "name": "Painters Etcetera",
-    "serviceId": "pressure-washing",
-    "townSlug": "everett",
-    "phone": "(978) 443-3673",
-    "website": "https://paintersetcetera.com/power-washing-services-in-everett-ma/",
-    "verified": false,
-    "description": "Painters Etcetera offers professional power washing services in Everett, MA."
   },
   {
     "id": "everett-plumbing-5",
@@ -65664,6 +64623,474 @@
     "serviceId": "pressure-washing",
     "phone": "781-696-2420",
     "website": "https://pacificpowerwashingandpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "medford-electrician-mr-electric",
+    "name": "Mr. Electric of Central Boston",
+    "townSlug": "medford",
+    "serviceId": "electrician",
+    "phone": "(617) 807-5309",
+    "website": "https://mrelectric.com/central-boston",
+    "verified": true
+  },
+  {
+    "id": "medford-pest-control-orkin",
+    "name": "Orkin Pest Control",
+    "townSlug": "medford",
+    "serviceId": "pest-control",
+    "phone": "(781) 350-5290",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/medford-pest-control",
+    "verified": true
+  },
+  {
+    "id": "revere-electrician-jmr-electric-group",
+    "name": "JMR Electric Group",
+    "townSlug": "revere",
+    "serviceId": "electrician",
+    "phone": "(781) 350-7072",
+    "website": "https://jmrelectricgroup.com/",
+    "verified": true
+  },
+  {
+    "id": "revere-pest-control-orkin",
+    "name": "Orkin Pest Control",
+    "townSlug": "revere",
+    "serviceId": "pest-control",
+    "phone": "(781) 350-5290",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/revere-pest-control",
+    "verified": true
+  },
+  {
+    "id": "chelsea-roofing-frs-roofing",
+    "name": "FRS Roofing & Gutter Services",
+    "townSlug": "chelsea",
+    "serviceId": "roofing",
+    "phone": "(781) 233-1910",
+    "website": "https://frsroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "everett-roofing-mass-roofing",
+    "name": "Mass Roofing & Gutters",
+    "townSlug": "everett",
+    "serviceId": "roofing",
+    "phone": "(617) 389-7663",
+    "website": "https://massroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "everett-pest-control-orkin",
+    "name": "Orkin Pest Control",
+    "townSlug": "everett",
+    "serviceId": "pest-control",
+    "phone": "(781) 350-5290",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/everett-pest-control",
+    "verified": true
+  },
+  {
+    "id": "everett-pressure-washing-vision-painting",
+    "name": "Vision Painting",
+    "townSlug": "everett",
+    "serviceId": "pressure-washing",
+    "phone": "(508) 405-0524",
+    "website": "https://www.visionpaintingco.com/pressure-washing-services-everett-ma/",
+    "verified": true
+  },
+  {
+    "id": "somerville-electrician-jmr-electric-group",
+    "name": "JMR Electric Group",
+    "townSlug": "somerville",
+    "serviceId": "electrician",
+    "phone": "(781) 350-7072",
+    "website": "https://jmrelectricgroup.com/",
+    "verified": true
+  },
+  {
+    "id": "cambridge-electrician-jmr-electric-group",
+    "name": "JMR Electric Group",
+    "townSlug": "cambridge",
+    "serviceId": "electrician",
+    "phone": "(781) 350-7072",
+    "website": "https://jmrelectricgroup.com/",
+    "verified": true
+  },
+  {
+    "id": "cambridge-painters-catchlight-painting",
+    "name": "Catchlight Painting",
+    "townSlug": "cambridge",
+    "serviceId": "painters",
+    "phone": "(617) 576-2200",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "cambridge-pest-control-orkin",
+    "name": "Orkin Pest Control",
+    "townSlug": "cambridge",
+    "serviceId": "pest-control",
+    "phone": "(781) 350-5290",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/cambridge-pest-control",
+    "verified": true
+  },
+  {
+    "id": "boston-electrician-jmr-electric-group",
+    "name": "JMR Electric Group",
+    "townSlug": "boston",
+    "serviceId": "electrician",
+    "phone": "(781) 350-7072",
+    "website": "https://jmrelectricgroup.com/",
+    "verified": true
+  },
+  {
+    "id": "brookline-pressure-washing-purple-suds",
+    "name": "Purple Suds Property Services",
+    "townSlug": "brookline",
+    "serviceId": "pressure-washing",
+    "phone": "(617) 302-4192",
+    "website": "https://purplesuds.com/",
+    "verified": true
+  },
+  {
+    "id": "newton-plumbing-128-plumbing",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "townSlug": "newton",
+    "serviceId": "plumbing",
+    "phone": "(781) 924-2665",
+    "website": "https://128plumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "newton-hvac-addarios",
+    "name": "Addario’s Services",
+    "townSlug": "newton",
+    "serviceId": "hvac",
+    "phone": "(781) 289-3531",
+    "website": "https://addarioservices.com/",
+    "verified": false
+  },
+  {
+    "id": "newton-roofing-frs-roofing",
+    "name": "FRS Roofing & Gutter Services",
+    "townSlug": "newton",
+    "serviceId": "roofing",
+    "phone": "(781) 233-1910",
+    "website": "https://frsroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "somerville-pest-control-orkin",
+    "name": "Orkin Pest Control",
+    "townSlug": "somerville",
+    "serviceId": "pest-control",
+    "phone": "(781) 350-5290",
+    "website": "https://www.orkin.com/locations/massachusetts-ma/somerville-pest-control",
+    "verified": true
+  },
+  {
+    "id": "lowell-roofing-roofing-solutions",
+    "name": "Roofing Solutions",
+    "townSlug": "lowell",
+    "serviceId": "roofing",
+    "phone": "(978) 802-5373",
+    "website": "https://www.ajdowdservices.com/service-area/lowell-ma",
+    "verified": true
+  },
+  {
+    "id": "lowell-yard-landscaping-chelmsford-pro-landscaping",
+    "name": "Chelmsford Pro Landscaping",
+    "townSlug": "lowell",
+    "serviceId": "yard-landscaping",
+    "phone": "(978) 226-1023",
+    "website": "https://www.chelmsfordprolandscaping.com/lowell-landscaping.html",
+    "verified": false
+  },
+  {
+    "id": "lowell-yard-landscaping-jd-landscaping",
+    "name": "J D Landscaping",
+    "townSlug": "lowell",
+    "serviceId": "yard-landscaping",
+    "phone": "(978) 868-8503",
+    "website": "http://www.jaydlandscaping.com",
+    "verified": false
+  },
+  {
+    "id": "lowell-yard-landscaping-preferred-landscaping-service",
+    "name": "Preferred Landscaping Service",
+    "townSlug": "lowell",
+    "serviceId": "yard-landscaping",
+    "phone": "(978) 458-0093",
+    "website": "https://www.preferlandscape.com/",
+    "verified": true
+  },
+  {
+    "id": "lowell-painters-drc-construction-painting",
+    "name": "DRC Construction and Painting",
+    "townSlug": "lowell",
+    "serviceId": "painters",
+    "phone": "(978) 413-4718",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "lowell-painters-innovation-plus",
+    "name": "Innovation Plus Inc",
+    "townSlug": "lowell",
+    "serviceId": "painters",
+    "phone": "(978) 905-0022",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "lowell-pressure-washing-top-power-wash",
+    "name": "Top Power Wash",
+    "townSlug": "lowell",
+    "serviceId": "pressure-washing",
+    "phone": "(978) 728-2419",
+    "website": "https://toppowerwash.com/",
+    "verified": true
+  },
+  {
+    "id": "worcester-pest-control-pro-tech",
+    "name": "Pro-Tech Pest Control",
+    "townSlug": "worcester",
+    "serviceId": "pest-control",
+    "phone": "(508) 757-2409",
+    "website": "https://www.protechpestcontrol.com/",
+    "verified": true
+  },
+  {
+    "id": "worcester-pressure-washing-cleanmax-exterior",
+    "name": "Cleanmax Exterior Power Washing",
+    "townSlug": "worcester",
+    "serviceId": "pressure-washing",
+    "phone": "(774) 243-2009",
+    "website": "https://cleanmaxexterior.com/",
+    "verified": true
+  },
+  {
+    "id": "framingham-pressure-washing-purple-suds",
+    "name": "Purple Suds Property Services",
+    "townSlug": "framingham",
+    "serviceId": "pressure-washing",
+    "phone": "(617) 302-4192",
+    "website": "https://purplesuds.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-hvac-cranney-home-services",
+    "name": "Cranney Home Services",
+    "townSlug": "brockton",
+    "serviceId": "hvac",
+    "phone": "(978) 650-3827",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-roofing-couto-construction",
+    "name": "Couto Construction",
+    "townSlug": "brockton",
+    "serviceId": "roofing",
+    "phone": "(508) 580-7150",
+    "website": "https://www.coutoconstruction.com/ma/service-areas/brockton",
+    "verified": true
+  },
+  {
+    "id": "brockton-pressure-washing-first-response-power-wash",
+    "name": "First Response Power Wash LLC",
+    "townSlug": "brockton",
+    "serviceId": "pressure-washing",
+    "phone": "(781) 985-2388",
+    "website": "https://www.firstresponsepowerwash.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-pressure-washing-hi-cleaners",
+    "name": "HiCleaners",
+    "townSlug": "brockton",
+    "serviceId": "pressure-washing",
+    "phone": "(617) 855-8828",
+    "website": "https://hicleaners.com/",
+    "verified": false
+  },
+  {
+    "id": "brockton-plumbing-plumbing-solutions-inc",
+    "name": "Plumbing Solutions Inc.",
+    "townSlug": "brockton",
+    "serviceId": "plumbing",
+    "phone": "(781) 326-6004",
+    "website": "https://plumbing-solutions-inc.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-plumbing-city-plumbing",
+    "name": "City Plumbing LLC",
+    "townSlug": "brockton",
+    "serviceId": "plumbing",
+    "phone": "(508) 813-6020",
+    "website": "https://www.manta.com/c/mkbxdqk/city-plumbing-llc",
+    "verified": false
+  },
+  {
+    "id": "brockton-hvac-all-town-heating-ac",
+    "name": "All Town Heating & A/C Inc.",
+    "townSlug": "brockton",
+    "serviceId": "hvac",
+    "phone": "(508) 586-3720",
+    "website": "https://www.alltownheatingandac.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-hvac-blue-tech-mechanical",
+    "name": "Blue Tech Mechanical HVAC",
+    "townSlug": "brockton",
+    "serviceId": "hvac",
+    "phone": "(774) 360-8813",
+    "website": "https://www.bryant.com/en/us/dealers/ma/brockton/192-healey-terrace-bry-9038759-loc",
+    "verified": false
+  },
+  {
+    "id": "brockton-electrician-john-page-electric",
+    "name": "John Page Electric, Inc.",
+    "townSlug": "brockton",
+    "serviceId": "electrician",
+    "phone": "(508) 427-4480",
+    "website": "https://www.johnpageelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-yard-landscaping-rose-of-sharon",
+    "name": "Rose of Sharon Landscaping",
+    "townSlug": "brockton",
+    "serviceId": "yard-landscaping",
+    "phone": "(508) 840-4903",
+    "website": "https://www.roseofsharonlandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-plumbing-sila",
+    "name": "Sila Heating, Air Conditioning & Plumbing",
+    "townSlug": "brockton",
+    "serviceId": "plumbing",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-plumbing-winters-home-services",
+    "name": "Winters Home Services",
+    "townSlug": "brockton",
+    "serviceId": "plumbing",
+    "phone": "(617) 977-3101",
+    "website": "https://www.wintershomeservices.com/",
+    "verified": false
+  },
+  {
+    "id": "brockton-hvac-townsend-energy",
+    "name": "Townsend Energy",
+    "townSlug": "brockton",
+    "serviceId": "hvac",
+    "phone": "(800) 888-2888",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-hvac-sila",
+    "name": "Sila Heating, Air Conditioning & Plumbing",
+    "townSlug": "brockton",
+    "serviceId": "hvac",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-electrician-markarian-electric",
+    "name": "Markarian Electric",
+    "townSlug": "brockton",
+    "serviceId": "electrician",
+    "phone": "(781) 819-3000",
+    "website": "https://markarianelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-electrician-jmr-electric-group",
+    "name": "JMR Electric Group",
+    "townSlug": "brockton",
+    "serviceId": "electrician",
+    "phone": "(781) 350-7072",
+    "website": "https://jmrelectricgroup.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-electrician-castle-electric",
+    "name": "Castle Electric",
+    "townSlug": "brockton",
+    "serviceId": "electrician",
+    "phone": "(781) 844-4424",
+    "website": "https://www.castleelectricma.com/",
+    "verified": false
+  },
+  {
+    "id": "brockton-roofing-olyn-roofing",
+    "name": "O'LYN Roofing",
+    "townSlug": "brockton",
+    "serviceId": "roofing",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-roofing-frs-roofing",
+    "name": "FRS Roofing & Gutter Services",
+    "townSlug": "brockton",
+    "serviceId": "roofing",
+    "phone": "(781) 233-1910",
+    "website": "https://frsroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-roofing-roof-hub",
+    "name": "Roof Hub",
+    "townSlug": "brockton",
+    "serviceId": "roofing",
+    "phone": "(857) 237-7648",
+    "website": "https://myroofhub.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-roofing-capital-roof-company",
+    "name": "Capital Roof Company",
+    "townSlug": "brockton",
+    "serviceId": "roofing",
+    "phone": "(781) 350-8866",
+    "website": "https://capitalroofcompany.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-yard-landscaping-brightview",
+    "name": "BrightView Landscape",
+    "townSlug": "brockton",
+    "serviceId": "yard-landscaping",
+    "phone": "(866) 678-4775",
+    "website": "https://www.brightview.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-painters-catchlight-painting",
+    "name": "Catchlight Painting",
+    "townSlug": "brockton",
+    "serviceId": "painters",
+    "phone": "(617) 576-2200",
+    "website": "https://www.catchlightpainting.com/",
+    "verified": true
+  },
+  {
+    "id": "brockton-pressure-washing-all-clean-power-wash",
+    "name": "All Clean Power Wash",
+    "townSlug": "brockton",
+    "serviceId": "pressure-washing",
+    "phone": "(781) 985-2388",
+    "website": "https://www.allcleanpowerwash.com/",
     "verified": true
   }
 ]
