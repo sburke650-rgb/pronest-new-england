@@ -974,7 +974,7 @@
     "description": "Gallagher Electric provides electrician services in Cambridge, Massachusetts.",
     "slug": "gallagher-electric-cambridge",
     "facebook": "",
-    "verified": true
+    "verified": false
   },
   {
     "id": "cambridge-electrician-carr-electric",
@@ -4814,186 +4814,6 @@
     "description": "Harborview Landscaping provides professional yard landscaping services in Quincy, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "boston-hvac-boston-hvac-pros",
-    "name": "Boston HVAC Pros",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Boston HVAC Pros offers expert hvac services in Boston, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "boston-hvac-back-bay-heating-and-cooling",
-    "name": "Back Bay Heating & Cooling",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Back Bay Heating & Cooling is a local hvac company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "boston-hvac-south-boston-heating-and-air",
-    "name": "South Boston Heating & Air",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "South Boston Heating & Air offers expert hvac services in Boston, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "boston-hvac-downtown-boston-heating-and-cooling",
-    "name": "Downtown Boston Heating & Cooling",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Boston, Massachusetts, Downtown Boston Heating & Cooling specializes in hvac services for residential and commercial needs."
-  },
-  {
-    "id": "boston-hvac-boston-comfort-heating-and-cooling",
-    "name": "Boston Comfort Heating & Cooling",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "hvac",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Boston Comfort Heating & Cooling provides professional hvac services in Boston, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "boston-electrician-boston-electric-pros",
-    "name": "Boston Electric Pros",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Boston Electric Pros provides professional electrician services in Boston, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "boston-electrician-back-bay-electric",
-    "name": "Back Bay Electric",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Back Bay Electric offers expert electrician services in Boston, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "boston-electrician-south-boston-electric",
-    "name": "South Boston Electric",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Boston, Massachusetts, South Boston Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "boston-electrician-downtown-boston-electric",
-    "name": "Downtown Boston Electric",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Boston, Massachusetts, Downtown Boston Electric specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "boston-electrician-boston-lighting-and-electrical",
-    "name": "Boston Lighting & Electrical",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "electrician",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Boston Lighting & Electrical is a local electrician company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "boston-roofing-boston-roofing-pros",
-    "name": "Boston Roofing Pros",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Looking for roofing in Boston, MA? Boston Roofing Pros offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "boston-roofing-back-bay-roofing",
-    "name": "Back Bay Roofing",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Back Bay Roofing provides professional roofing services in Boston, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "boston-roofing-south-boston-roofing",
-    "name": "South Boston Roofing",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "South Boston Roofing is a local roofing company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "boston-roofing-downtown-boston-roofing",
-    "name": "Downtown Boston Roofing",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Boston, Massachusetts, Downtown Boston Roofing specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "boston-roofing-boston-roof-and-gutter",
-    "name": "Boston Roof & Gutter",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "roofing",
-    "phone": "",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "Serving Boston, Massachusetts, Boston Roof & Gutter specializes in roofing services for residential and commercial needs."
-  },
-  {
     "id": "quincy-hvac-quincy-hvac-pros",
     "name": "Quincy HVAC Pros",
     "state": "MA",
@@ -5614,30 +5434,6 @@
     "verified": true,
     "facebook": "",
     "description": "Serving Arlington, Massachusetts, CertaPro Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "arlington-pest-control-guardian",
-    "name": "Guardian Pest Control",
-    "state": "MA",
-    "townSlug": "arlington",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Serving Arlington, Massachusetts, Guardian Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "arlington-pressure-washing-arlington-power-wash",
-    "name": "Arlington Power Washing",
-    "state": "MA",
-    "townSlug": "arlington",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "verified": false,
-    "facebook": "",
-    "description": "Arlington Power Washing offers expert pressure washing services in Arlington, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "newton-pest-control-terminix",
@@ -6530,54 +6326,6 @@
     "facebook": "",
     "verified": true,
     "description": "Looking for pressure washing in Lowell, MA? Top Quality Soft Washing LLC offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "certapro-painters-boston",
-    "name": "CertaPro Painters",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "CertaPro Painters is a local painters company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "terminix-boston",
-    "name": "Terminix",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "https://www.terminix.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Boston, Massachusetts, Terminix specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "men-in-kilts-boston",
-    "name": "Men In Kilts",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.meninkilts.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Men In Kilts offers expert pressure washing services in Boston, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "window-genie-boston",
-    "name": "Window Genie",
-    "state": "MA",
-    "townSlug": "boston",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://www.windowgenie.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Window Genie is a local pressure washing company serving Boston, MA with dependable service and quality workmanship."
   },
   {
     "id": "certapro-painters-quincy",
@@ -12836,39 +12584,6 @@
     "description": "Serving Pepperell, Massachusetts, Pepperell Power Washing specializes in pressure washing services for residential and commercial needs."
   },
   {
-    "id": "boston-painter-4",
-    "name": "Boston Precision Painting",
-    "townSlug": "boston",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Boston Precision Painting is a local painters company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "boston-pest-4",
-    "name": "Boston Pest Control",
-    "townSlug": "boston",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Boston Pest Control is a local pest control company serving Boston, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "boston-pressurewash-4",
-    "name": "Boston Power Washing",
-    "townSlug": "boston",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Boston Power Washing provides professional pressure washing services in Boston, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
     "id": "newburyport-painter-4",
     "name": "Newburyport Precision Painting",
     "townSlug": "newburyport",
@@ -14831,17 +14546,6 @@
     "website": "https://certapro.com/lexington-concord-ma/house-painters-arlington-ma/",
     "facebook": "",
     "description": "Serving Arlington, Massachusetts, CertaPro Painters of Lexington/Concord specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "arlington-painter-2",
-    "name": "Fresh Coat Painters of Arlington",
-    "townSlug": "arlington",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://freshcoatpainters.com/locations/arlington/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for painters in Arlington, MA? Fresh Coat Painters of Arlington offers trusted local services for homeowners and businesses."
   },
   {
     "id": "arlington-pest-2",
@@ -21988,17 +21692,6 @@
     "website": "https://fox-pest.com/locations/massachusetts/cambridge/",
     "facebook": "",
     "description": "Serving Cambridge, Massachusetts, Fox Pest Control specializes in pest control services for residential and commercial needs."
-  },
-  {
-    "id": "arlington-painters-1",
-    "name": "CertaPro Painters of Boston, MA",
-    "serviceId": "painters",
-    "townSlug": "arlington",
-    "phone": "",
-    "website": "http://certapro.com/boston/professional-painters-in-arlington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Arlington, Massachusetts, CertaPro Painters of Boston, MA specializes in painters services for residential and commercial needs."
   },
   {
     "id": "arlington-painters-2",
@@ -29380,7 +29073,7 @@
     "phone": "(781) 572-2575",
     "website": "",
     "facebook": "",
-    "verified": true,
+    "verified": false,
     "description": "In A Flash Heating and Plumbing LLC provides professional plumbing services in Medford, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
@@ -29997,17 +29690,6 @@
     "description": "Winters Home Services provides professional plumbing services in Woburn, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "woburn-plumbing-3",
-    "name": "Papalia Home Services",
-    "serviceId": "plumbing",
-    "townSlug": "woburn",
-    "phone": "",
-    "website": "https://www.papaliahomeservices.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Papalia Home Services offers expert plumbing services in Woburn, MA. Reach out for fast, reliable local service."
-  },
-  {
     "id": "woburn-roofing-1",
     "name": "O’LYN Roofing",
     "serviceId": "roofing",
@@ -30072,28 +29754,6 @@
     "facebook": "",
     "verified": true,
     "description": "Serving Arlington, Massachusetts, J.P. McCurdy Electrical Services specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "arlington-landscaping-1",
-    "name": "J&E Corp",
-    "serviceId": "yard-landscaping",
-    "townSlug": "arlington",
-    "phone": "",
-    "website": "https://www.jandecorp.com/service-area/landscape-contractor-arlington-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "J&E Corp offers expert yard landscaping services in Arlington, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "arlington-landscaping-2",
-    "name": "Cassidy Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "arlington",
-    "phone": "",
-    "website": "https://cassidylandscaping.com/landscape-design-arlington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Cassidy Landscaping is a local yard landscaping company serving Arlington, MA with dependable service and quality workmanship."
   },
   {
     "id": "arlington-landscaping-3",
@@ -30383,25 +30043,25 @@
   },
   {
     "id": "lexington-roofing-2",
-    "name": "Scott's Roofing Services",
+    "name": "FRS Roofing + Gutters",
     "serviceId": "roofing",
     "townSlug": "lexington",
-    "phone": "(603) 505-4455",
-    "website": "https://www.scottsroofing.com/lexington-ma-residential-roofing-contractor",
+    "phone": "(781) 231-0199",
+    "website": "https://www.frsroofing.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Scott's Roofing Services provides professional roofing services in Lexington, Massachusetts. Contact them for reliable local service and expert solutions."
+    "verified": true,
+    "description": "FRS Roofing provides roofing and gutter services."
   },
   {
     "id": "lexington-roofing-3",
-    "name": "Ranch Roofing",
+    "name": "Roof Hub",
     "serviceId": "roofing",
     "townSlug": "lexington",
-    "phone": "",
-    "website": "https://ranchroofing.com/",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Ranch Roofing is a local roofing company serving Lexington, MA with dependable service and quality workmanship."
+    "verified": true,
+    "description": "Roof Hub provides roofing installation and repair services."
   },
   {
     "id": "lexington-landscaping-1",
@@ -30413,28 +30073,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Lexington, MA? John's Landscaping offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "lexington-landscaping-2",
-    "name": "Moodscapes",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lexington",
-    "phone": "",
-    "website": "https://www.moodscapesdesign.com/landscape-service-area/landscaper-landscaping-lexington-ma",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Lexington, Massachusetts, Moodscapes specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
-    "id": "lexington-landscaping-3",
-    "name": "Ostiguy Landscape",
-    "serviceId": "yard-landscaping",
-    "townSlug": "lexington",
-    "phone": "",
-    "website": "https://ostiguylandscape.com/towns-we-service/landscaping-lexington-ma/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for yard landscaping in Lexington, MA? Ostiguy Landscape offers trusted local services for homeowners and businesses."
   },
   {
     "id": "burlington-electrician-1",
@@ -30977,14 +30615,14 @@
   },
   {
     "id": "malden-hvac-4",
-    "name": "Better Comfort Systems",
+    "name": "Townsend Energy",
     "serviceId": "hvac",
     "townSlug": "malden",
-    "phone": "(781) 321-4099",
-    "website": "https://www.bettercomfort.com/",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
     "facebook": "",
     "verified": true,
-    "description": "Better Comfort Systems provides HVAC maintenance, heating, cooling, and emergency service from Malden, MA."
+    "description": "Townsend Energy provides heating and cooling services including installation, maintenance, and emergency repairs for residential systems."
   },
   {
     "id": "malden-plumbing-4",
@@ -31010,14 +30648,14 @@
   },
   {
     "id": "malden-yard-landscaping-4",
-    "name": "Malden Landscaping",
+    "name": "Alvarez Landscaping LLC",
     "serviceId": "yard-landscaping",
     "townSlug": "malden",
-    "phone": "(781) 399-8965",
-    "website": "https://maldenlandscaping.com/",
+    "phone": "(781) 605-2273",
+    "website": "",
     "facebook": "",
     "verified": false,
-    "description": "Malden Landscaping offers expert yard landscaping services in Malden, MA. Reach out for fast, reliable local service."
+    "description": "Alvarez Landscaping LLC provides lawn care and landscaping services including maintenance, cleanups, and outdoor improvements."
   },
   {
     "id": "newton-electrician-4",
@@ -32522,7 +32160,7 @@
     "phone": "(617) 623-4500",
     "website": "",
     "facebook": "",
-    "verified": true,
+    "verified": false,
     "description": "Serving Somerville, Massachusetts, Alvarez Landscaping LLC specializes in yard landscaping services for residential and commercial needs."
   },
   {
@@ -61155,14 +60793,14 @@
   },
   {
     "id": "lexington-plumbing-5",
-    "name": "Winters Home Services",
+    "name": "Big Blue Plumbing",
     "serviceId": "plumbing",
     "townSlug": "lexington",
-    "phone": "(617) 221-5741",
-    "website": "https://www.wintershomeservices.com/",
+    "phone": "(617) 284-9444",
+    "website": "https://bigblueplumbing.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Winters Home Services provides plumbing repairs, installations, and maintenance services in and around Lexington, MA."
+    "verified": true,
+    "description": "Big Blue Plumbing provides plumbing and heating services for Lexington and nearby communities."
   },
   {
     "id": "burlington-yard-landscaping-10",
@@ -62505,14 +62143,14 @@
   },
   {
     "id": "chelsea-roofing-5",
-    "name": "FRS Roofing & Gutter Services",
+    "name": "Roof Hub",
     "serviceId": "roofing",
     "townSlug": "chelsea",
-    "phone": "(617) 327-3636",
-    "website": "https://frsroofing.com/",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
     "facebook": "",
     "verified": true,
-    "description": "FRS Roofing & Gutter Services provides roof repair, roof replacement, gutter installation, and exterior services in Chelsea, MA."
+    "description": "Roof Hub provides roof replacement and repair services for homeowners and property owners."
   },
   {
     "id": "chelsea-roofing-6",
@@ -62791,25 +62429,25 @@
   },
   {
     "id": "revere-electrician-5",
-    "name": "Castro Electric Corp",
+    "name": "Markarian Electric",
     "serviceId": "electrician",
     "townSlug": "revere",
-    "phone": "(617) 668-1884",
-    "website": "https://castroelectriccorp.com/ev-charger-installation-revere/",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
     "facebook": "",
     "verified": true,
-    "description": "Castro Electric Corp provides electrical services, EV charger installation, and residential electrical work in Revere, MA."
+    "description": "Markarian Electric provides residential and commercial electrical services."
   },
   {
     "id": "revere-roofing-2",
-    "name": "A C Roofing",
+    "name": "O'LYN Roofing",
     "serviceId": "roofing",
     "townSlug": "revere",
-    "phone": "(781) 629-9558",
-    "website": "",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides roofing services in Revere, MA. Call for details and availability."
+    "verified": true,
+    "description": "O'LYN Roofing offers roof replacement and repair services."
   },
   {
     "id": "revere-yard-landscaping-1",
@@ -62857,14 +62495,14 @@
   },
   {
     "id": "revere-pest-control-5",
-    "name": "Lighthouse Exterminators",
+    "name": "A1 Exterminators",
     "serviceId": "pest-control",
     "townSlug": "revere",
-    "phone": "(781) 808-1723",
-    "website": "https://www.lighthouseexterminators.com/revere-ma/",
+    "phone": "(781) 592-2731",
+    "website": "https://www.a1exterminators.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides pest control services in Revere, MA. Call for details and availability."
+    "verified": true,
+    "description": "A1 Exterminators provides pest control solutions for homes and businesses."
   },
   {
     "id": "revere-plumbing-5",
@@ -62912,14 +62550,14 @@
   },
   {
     "id": "everett-roofing-5",
-    "name": "Four Seasons Roofing and Contracting, Inc.",
+    "name": "O'LYN Roofing",
     "serviceId": "roofing",
     "townSlug": "everett",
-    "phone": "617-387-8333",
-    "website": "https://fourseasonroofing.com/",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
     "facebook": "",
     "verified": true,
-    "description": "Provides roofing services in Everett, MA. Call for details and availability."
+    "description": "O'LYN Roofing offers residential roof replacement and repair services."
   },
   {
     "id": "everett-roofing-6",
@@ -62978,14 +62616,14 @@
   },
   {
     "id": "malden-hvac-5",
-    "name": "Falite Bros.",
+    "name": "Revise, Inc.",
     "serviceId": "hvac",
     "townSlug": "malden",
-    "phone": "(781) 262-3348",
-    "website": "https://www.falitebros.com/malden-heating-ac/",
+    "phone": "(781) 819-0009",
+    "website": "https://www.callrevise.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Falite Bros. provides heating and air conditioning services in Malden, MA."
+    "verified": true,
+    "description": "Revise, Inc. offers HVAC and energy efficiency services with a focus on improving home comfort and system performance."
   },
   {
     "id": "malden-roofing-5",
@@ -63011,14 +62649,14 @@
   },
   {
     "id": "malden-yard-landscaping-5",
-    "name": "Boston Landscape Co.",
+    "name": "Greenhow Landscaping",
     "serviceId": "yard-landscaping",
     "townSlug": "malden",
-    "phone": "(781) 000-0000",
-    "website": "https://www.bostonlandscapeco.com/",
+    "phone": "(617) 389-4814",
+    "website": "https://www.greenhow.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Provides landscaping services in Malden, MA. Call for details and availability."
+    "verified": true,
+    "description": "Greenhow Landscaping offers professional landscaping services including design, maintenance, and seasonal property care."
   },
   {
     "id": "malden-pest-control-5",
@@ -63055,14 +62693,14 @@
   },
   {
     "id": "somerville-electrician-5",
-    "name": "TF Electric",
+    "name": "Markarian Electric",
     "serviceId": "electrician",
     "townSlug": "somerville",
-    "phone": "(978) 479-9030",
-    "website": "https://tf-electric.net/electrician-somerville-ma/",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
     "facebook": "",
     "verified": true,
-    "description": "Provides electrical services in Somerville, MA. Call for details and availability."
+    "description": "Markarian Electric provides residential and commercial electrical services including repairs, installations, and upgrades."
   },
   {
     "id": "somerville-roofing-5",
@@ -63517,14 +63155,14 @@
   },
   {
     "id": "brookline-pressure-washing-5",
-    "name": "Clean Rowe",
+    "name": "All Clean Power Wash",
     "serviceId": "pressure-washing",
     "townSlug": "brookline",
-    "phone": "(781) 439-0605",
-    "website": "https://www.cleanrowe.com/power-washing-brookline-ma.html",
+    "phone": "(781) 995-3343",
+    "website": "https://www.allcleanpowerwash.com/",
     "facebook": "",
-    "verified": false,
-    "description": "Clean Rowe provides power washing and exterior cleaning services for Brookline and nearby Massachusetts communities."
+    "verified": true,
+    "description": "All Clean Power Wash provides exterior cleaning and pressure washing services."
   },
   {
     "id": "brookline-pressure-washing-6",
@@ -64617,25 +64255,25 @@
   },
   {
     "id": "newton-plumbing-5",
-    "name": "Aspinwall Plumbing & Heating",
+    "name": "Big Blue Plumbing",
     "serviceId": "plumbing",
     "townSlug": "newton",
-    "phone": "(617) 332-2200",
-    "website": "https://www.aspinwallplumbing.com/",
+    "phone": "(617) 284-9444",
+    "website": "https://bigblueplumbing.com/",
     "facebook": "",
     "verified": true,
-    "description": "Aspinwall Plumbing & Heating provides residential plumbing services in Newton, MA."
+    "description": "Big Blue Plumbing provides plumbing and heating services for Newton and nearby communities."
   },
   {
     "id": "newton-hvac-5",
-    "name": "Papalia Home Services",
+    "name": "Townsend Energy",
     "serviceId": "hvac",
     "townSlug": "newton",
-    "phone": "(877) 534-3343",
-    "website": "https://www.papaliahomeservices.com/",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
     "facebook": "",
     "verified": true,
-    "description": "Papalia Home Services provides HVAC installation and repair services in Newton, MA."
+    "description": "Townsend Energy provides heating and cooling installation, maintenance, and repair services."
   },
   {
     "id": "newton-electrician-5",
@@ -64650,14 +64288,14 @@
   },
   {
     "id": "newton-roofing-5",
-    "name": "FRS Roofing & Gutter Services",
+    "name": "Roof Hub",
     "serviceId": "roofing",
     "townSlug": "newton",
-    "phone": "(617) 327-3636",
-    "website": "https://frsroofing.com/",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
     "facebook": "",
     "verified": true,
-    "description": "FRS Roofing & Gutter Services provides roofing and gutter services in Newton, MA."
+    "description": "Roof Hub provides roof replacement and repair services for homeowners and property owners."
   },
   {
     "id": "somerville-plumbing-11",
@@ -64878,5 +64516,852 @@
     "facebook": "",
     "verified": true,
     "description": "New England Power Wash offers exterior cleaning services including siding, decks, and driveways."
+  },
+  {
+    "id": "malden-yard-landscaping-6",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "malden",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView Landscape provides professional landscaping and maintenance services for residential and commercial properties."
+  },
+  {
+    "id": "malden-yard-landscaping-7",
+    "name": "Davey Tree Expert Company",
+    "serviceId": "yard-landscaping",
+    "townSlug": "malden",
+    "phone": "(781) 245-0100",
+    "website": "https://www.davey.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Davey Tree offers tree care and landscaping services including pruning, removal, and property maintenance."
+  },
+  {
+    "id": "malden-hvac-6",
+    "name": "Addario’s Services",
+    "serviceId": "hvac",
+    "townSlug": "malden",
+    "phone": "(781) 935-0009",
+    "website": "https://www.addarioservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Addario’s Services provides heating and cooling installation, repair, and maintenance services for residential customers."
+  },
+  {
+    "id": "malden-hvac-7",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "serviceId": "hvac",
+    "townSlug": "malden",
+    "phone": "(781) 233-2424",
+    "website": "https://www.128plumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "128 Plumbing, Heating, Cooling & Electric offers HVAC services including system installation, repair, and maintenance."
+  },
+  {
+    "id": "medford-hvac-6",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "medford",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides heating and cooling installation, maintenance, and repair services."
+  },
+  {
+    "id": "medford-roofing-6",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "medford",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides roof replacement, repair, and maintenance services for residential properties."
+  },
+  {
+    "id": "medford-yard-landscaping-6",
+    "name": "Greenhow Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(617) 389-4814",
+    "website": "https://www.greenhow.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Greenhow Landscaping offers professional landscape design, installation, and maintenance services."
+  },
+  {
+    "id": "medford-yard-landscaping-7",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "medford",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView provides full-service landscaping and property maintenance solutions."
+  },
+  {
+    "id": "medford-plumbing-6",
+    "name": "Big Blue Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "medford",
+    "phone": "(617) 284-9444",
+    "website": "https://bigblueplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Big Blue Plumbing provides plumbing and heating services for Medford and nearby communities."
+  },
+  {
+    "id": "everett-roofing-4",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "everett",
+    "phone": "(781) 231-0199",
+    "website": "https://www.frsroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "FRS Roofing provides roofing and gutter installation and repair services."
+  },
+  {
+    "id": "everett-hvac-6",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "everett",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides heating and cooling installation and repair services."
+  },
+  {
+    "id": "everett-electrician-6",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "everett",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides licensed electrical installation and repair services."
+  },
+  {
+    "id": "everett-painters-5",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "everett",
+    "phone": "(781) 710-1663",
+    "website": "https://www.catchlightpainting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Catchlight Painting provides interior and exterior residential painting services."
+  },
+  {
+    "id": "everett-painters-6",
+    "name": "Premier Painting & Wall Covering",
+    "serviceId": "painters",
+    "townSlug": "everett",
+    "phone": "(781) 233-5292",
+    "website": "https://www.premierpaintingboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Premier Painting offers professional painting and finishing services."
+  },
+  {
+    "id": "everett-painters-7",
+    "name": "Precision Painting Plus",
+    "serviceId": "painters",
+    "townSlug": "everett",
+    "phone": "(866) 469-9980",
+    "website": "https://precisionpaintingplus.net/",
+    "facebook": "",
+    "verified": true,
+    "description": "Precision Painting Plus provides full-service residential painting solutions."
+  },
+  {
+    "id": "revere-hvac-5",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "revere",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides heating and cooling services including installation and repair."
+  },
+  {
+    "id": "revere-hvac-6",
+    "name": "Addario’s Services",
+    "serviceId": "hvac",
+    "townSlug": "revere",
+    "phone": "(781) 935-0009",
+    "website": "https://www.addarioservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Addario’s Services provides HVAC system installation, repair, and maintenance."
+  },
+  {
+    "id": "revere-roofing-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "revere",
+    "phone": "(781) 231-0199",
+    "website": "https://www.frsroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "FRS Roofing provides roofing and gutter installation and repair."
+  },
+  {
+    "id": "revere-roofing-3",
+    "name": "Power Home Remodeling",
+    "serviceId": "roofing",
+    "townSlug": "revere",
+    "phone": "(888) 736-6335",
+    "website": "https://www.powerhrg.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Power Home Remodeling provides roofing installation and exterior services."
+  },
+  {
+    "id": "revere-roofing-4",
+    "name": "Roof Hub",
+    "serviceId": "roofing",
+    "townSlug": "revere",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Roof Hub delivers modern roofing solutions and installations."
+  },
+  {
+    "id": "revere-roofing-5",
+    "name": "Mass Roofing & Gutters",
+    "serviceId": "roofing",
+    "townSlug": "revere",
+    "phone": "(781) 233-3600",
+    "website": "https://www.massroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Mass Roofing & Gutters provides residential roofing and gutter services."
+  },
+  {
+    "id": "revere-yard-landscaping-5",
+    "name": "Greenhow Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "revere",
+    "phone": "(617) 389-4814",
+    "website": "https://www.greenhow.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Greenhow Landscaping offers design, installation, and maintenance services."
+  },
+  {
+    "id": "revere-yard-landscaping-6",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "revere",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView provides full-service landscaping and maintenance."
+  },
+  {
+    "id": "cambridge-yard-landscaping-10",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "cambridge",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView Landscape provides professional landscaping and property maintenance services."
+  },
+  {
+    "id": "cambridge-yard-landscaping-11",
+    "name": "Greenhow Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "cambridge",
+    "phone": "(617) 389-4814",
+    "website": "https://www.greenhow.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Greenhow Landscaping offers landscape design, installation, and maintenance services."
+  },
+  {
+    "id": "boston-painters-4",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "boston",
+    "phone": "(781) 710-1663",
+    "website": "https://www.catchlightpainting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Catchlight Painting provides interior and exterior residential painting services."
+  },
+  {
+    "id": "boston-painters-5",
+    "name": "Premier Painting & Wall Covering",
+    "serviceId": "painters",
+    "townSlug": "boston",
+    "phone": "(781) 233-5292",
+    "website": "https://www.premierpaintingboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Premier Painting & Wall Covering offers professional painting and finishing services."
+  },
+  {
+    "id": "boston-pressure-washing-5",
+    "name": "All Clean Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "boston",
+    "phone": "(781) 995-3343",
+    "website": "https://www.allcleanpowerwash.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "All Clean Power Wash provides exterior cleaning and pressure washing services."
+  },
+  {
+    "id": "boston-painters-6",
+    "name": "CertaPro Painters of Boston",
+    "serviceId": "painters",
+    "townSlug": "boston",
+    "phone": "(617) 588-1664",
+    "website": "https://certapro.com/boston/",
+    "facebook": "",
+    "verified": true,
+    "description": "CertaPro Painters of Boston provides interior and exterior painting services for residential and commercial properties."
+  },
+  {
+    "id": "boston-painters-7",
+    "name": "Fresh Coat Painters of Boston",
+    "serviceId": "painters",
+    "townSlug": "boston",
+    "phone": "(617) 855-4871",
+    "website": "https://freshcoatpainters.com/locations/boston/",
+    "facebook": "",
+    "verified": true,
+    "description": "Fresh Coat Painters of Boston offers professional painting services for homes and businesses."
+  },
+  {
+    "id": "boston-pressure-washing-6",
+    "name": "HiCleaners Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "boston",
+    "phone": "(617) 977-1606",
+    "website": "https://hicleaners.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "HiCleaners Pressure Washing provides exterior cleaning and pressure washing services for homes and businesses."
+  },
+  {
+    "id": "boston-pressure-washing-7",
+    "name": "Purple Suds Property Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "boston",
+    "phone": "(781) 269-9999",
+    "website": "https://www.purplesuds.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Purple Suds Property Services offers pressure washing and exterior cleaning services."
+  },
+  {
+    "id": "boston-pressure-washing-8",
+    "name": "New England Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "boston",
+    "phone": "(781) 995-3343",
+    "website": "https://www.newenglandpowerwashing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "New England Power Washing provides residential and commercial pressure washing services."
+  },
+  {
+    "id": "brookline-painters-5",
+    "name": "Premier Painting & Wall Covering",
+    "serviceId": "painters",
+    "townSlug": "brookline",
+    "phone": "(781) 233-5292",
+    "website": "https://www.premierpaintingboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Premier Painting & Wall Covering provides professional painting and finishing services for residential and commercial properties."
+  },
+  {
+    "id": "brookline-pest-control-5",
+    "name": "A1 Exterminators",
+    "serviceId": "pest-control",
+    "townSlug": "brookline",
+    "phone": "(781) 592-2731",
+    "website": "https://www.a1exterminators.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "A1 Exterminators provides pest control services for homes and businesses."
+  },
+  {
+    "id": "newton-yard-landscaping-5",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "newton",
+    "phone": "(781) 245-1765",
+    "website": "https://www.lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscape design, installation, and maintenance services."
+  },
+  {
+    "id": "waltham-hvac-4",
+    "name": "Central Cooling & Heating",
+    "serviceId": "hvac",
+    "townSlug": "waltham",
+    "phone": "(800) 950-8870",
+    "website": "https://www.centralcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Central Cooling & Heating provides heating and cooling installation, repair, and maintenance services."
+  },
+  {
+    "id": "waltham-hvac-5",
+    "name": "Papalia Home Services",
+    "serviceId": "hvac",
+    "townSlug": "waltham",
+    "phone": "(877) 534-3343",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Papalia Home Services offers HVAC service, repair, and installation for homeowners."
+  },
+  {
+    "id": "waltham-electrician-4",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "waltham",
+    "phone": "(781) 318-6126",
+    "website": "https://kuhlmanelectricalservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Kuhlman Electric provides residential and commercial electrical services."
+  },
+  {
+    "id": "waltham-electrician-5",
+    "name": "Castle Electric",
+    "serviceId": "electrician",
+    "townSlug": "waltham",
+    "phone": "(781) 595-7990",
+    "website": "https://www.castleelectric.biz/",
+    "facebook": "",
+    "verified": true,
+    "description": "Castle Electric provides electrical repair, installation, and upgrade services."
+  },
+  {
+    "id": "waltham-roofing-4",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "waltham",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides residential roof repair and replacement services."
+  },
+  {
+    "id": "waltham-roofing-5",
+    "name": "Roof Hub",
+    "serviceId": "roofing",
+    "townSlug": "waltham",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Roof Hub provides roof replacement and repair services."
+  },
+  {
+    "id": "waltham-yard-landscaping-4",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "waltham",
+    "phone": "(781) 245-1765",
+    "website": "https://www.lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscaping design, installation, and maintenance services."
+  },
+  {
+    "id": "waltham-yard-landscaping-5",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "waltham",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView Landscape provides landscaping and property maintenance services."
+  },
+  {
+    "id": "arlington-painters-7",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "arlington",
+    "phone": "(781) 710-1663",
+    "website": "https://www.catchlightpainting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Catchlight Painting provides interior and exterior residential painting services."
+  },
+  {
+    "id": "arlington-pest-control-6",
+    "name": "Big Blue Bug Solutions",
+    "serviceId": "pest-control",
+    "townSlug": "arlington",
+    "phone": "(888) 258-3284",
+    "website": "https://www.bigbluebug.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Big Blue Bug Solutions provides pest control services for homes and businesses."
+  },
+  {
+    "id": "lexington-hvac-4",
+    "name": "Central Cooling & Heating",
+    "serviceId": "hvac",
+    "townSlug": "lexington",
+    "phone": "(800) 950-8870",
+    "website": "https://www.centralcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Central Cooling & Heating provides HVAC installation and repair services."
+  },
+  {
+    "id": "lexington-hvac-5",
+    "name": "Addario’s Services",
+    "serviceId": "hvac",
+    "townSlug": "lexington",
+    "phone": "(781) 935-0009",
+    "website": "https://www.addarioservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Addario’s Services provides HVAC maintenance and installation services."
+  },
+  {
+    "id": "lexington-hvac-6",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "lexington",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides heating and cooling services."
+  },
+  {
+    "id": "lexington-electrician-4",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "lexington",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides residential and commercial electrical services."
+  },
+  {
+    "id": "lexington-electrician-5",
+    "name": "Castle Electric",
+    "serviceId": "electrician",
+    "townSlug": "lexington",
+    "phone": "(781) 595-7990",
+    "website": "https://www.castleelectric.biz/",
+    "facebook": "",
+    "verified": true,
+    "description": "Castle Electric provides electrical repair and installation services."
+  },
+  {
+    "id": "lexington-roofing-4",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "lexington",
+    "phone": "(781) 769-8599",
+    "website": "https://www.olynroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "O'LYN Roofing provides residential roofing services."
+  },
+  {
+    "id": "lexington-roofing-5",
+    "name": "Power Home Remodeling",
+    "serviceId": "roofing",
+    "townSlug": "lexington",
+    "phone": "(888) 736-6335",
+    "website": "https://www.powerhrg.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Power Home Remodeling provides roofing and exterior services."
+  },
+  {
+    "id": "lexington-yard-landscaping-2",
+    "name": "Greenhow Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lexington",
+    "phone": "(617) 389-4814",
+    "website": "https://www.greenhow.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Greenhow Landscaping provides landscaping design and maintenance services."
+  },
+  {
+    "id": "lexington-yard-landscaping-3",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lexington",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView provides landscaping and property maintenance services."
+  },
+  {
+    "id": "lexington-yard-landscaping-4",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lexington",
+    "phone": "(781) 245-1765",
+    "website": "https://www.lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction provides landscaping services."
+  },
+  {
+    "id": "lexington-yard-landscaping-5",
+    "name": "The Grounds Guys",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lexington",
+    "phone": "(781) 484-0128",
+    "website": "https://www.groundsguys.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "The Grounds Guys provide lawn care and landscaping services."
+  },
+  {
+    "id": "lexington-pest-control-5",
+    "name": "A1 Exterminators",
+    "serviceId": "pest-control",
+    "townSlug": "lexington",
+    "phone": "(781) 592-2731",
+    "website": "https://www.a1exterminators.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "A1 Exterminators provides pest control services."
+  },
+  {
+    "id": "woburn-plumbing-4",
+    "name": "Big Blue Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "woburn",
+    "phone": "(617) 284-9444",
+    "website": "https://bigblueplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Big Blue Plumbing provides plumbing and heating services for Woburn and nearby communities."
+  },
+  {
+    "id": "woburn-plumbing-5",
+    "name": "128 Plumbing, Heating, Cooling & Electric",
+    "serviceId": "plumbing",
+    "townSlug": "woburn",
+    "phone": "(781) 233-2424",
+    "website": "https://www.128plumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "128 Plumbing, Heating, Cooling & Electric provides plumbing repair, installation, and maintenance services."
+  },
+  {
+    "id": "woburn-plumbing-6",
+    "name": "Townsend Energy",
+    "serviceId": "plumbing",
+    "townSlug": "woburn",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides plumbing, heating, and home comfort services."
+  },
+  {
+    "id": "woburn-hvac-4",
+    "name": "Central Cooling & Heating",
+    "serviceId": "hvac",
+    "townSlug": "woburn",
+    "phone": "(800) 950-8870",
+    "website": "https://www.centralcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Central Cooling & Heating provides heating and cooling installation, repair, and maintenance services."
+  },
+  {
+    "id": "woburn-hvac-5",
+    "name": "Addario’s Services",
+    "serviceId": "hvac",
+    "townSlug": "woburn",
+    "phone": "(781) 935-0009",
+    "website": "https://www.addarioservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Addario’s Services provides HVAC service, repair, and installation."
+  },
+  {
+    "id": "woburn-hvac-6",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "woburn",
+    "phone": "(781) 396-5000",
+    "website": "https://www.townsendtotalenergy.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Townsend Energy provides heating and cooling services for residential customers."
+  },
+  {
+    "id": "woburn-electrician-4",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "woburn",
+    "phone": "(781) 318-6126",
+    "website": "https://kuhlmanelectricalservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Kuhlman Electric provides residential and commercial electrical services."
+  },
+  {
+    "id": "woburn-electrician-5",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "woburn",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides electrical installation, repair, and upgrade services."
+  },
+  {
+    "id": "woburn-roofing-4",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "woburn",
+    "phone": "(781) 231-0199",
+    "website": "https://www.frsroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "FRS Roofing provides roofing and gutter services."
+  },
+  {
+    "id": "woburn-roofing-5",
+    "name": "Roof Hub",
+    "serviceId": "roofing",
+    "townSlug": "woburn",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Roof Hub provides roof replacement and repair services."
+  },
+  {
+    "id": "woburn-roofing-6",
+    "name": "Power Home Remodeling",
+    "serviceId": "roofing",
+    "townSlug": "woburn",
+    "phone": "(888) 736-6335",
+    "website": "https://www.powerhrg.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Power Home Remodeling provides roofing and exterior remodeling services."
+  },
+  {
+    "id": "woburn-yard-landscaping-5",
+    "name": "BrightView Landscape",
+    "serviceId": "yard-landscaping",
+    "townSlug": "woburn",
+    "phone": "(781) 935-4800",
+    "website": "https://www.brightview.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "BrightView Landscape provides landscaping and property maintenance services."
+  },
+  {
+    "id": "woburn-painters-4",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "woburn",
+    "phone": "(781) 710-1663",
+    "website": "https://www.catchlightpainting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Catchlight Painting provides residential interior and exterior painting services."
+  },
+  {
+    "id": "woburn-painters-5",
+    "name": "Premier Painting & Wall Covering",
+    "serviceId": "painters",
+    "townSlug": "woburn",
+    "phone": "(781) 233-5292",
+    "website": "https://www.premierpaintingboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Premier Painting & Wall Covering provides professional painting and finishing services."
+  },
+  {
+    "id": "woburn-pest-control-3",
+    "name": "A1 Exterminators",
+    "serviceId": "pest-control",
+    "townSlug": "woburn",
+    "phone": "(781) 592-2731",
+    "website": "https://www.a1exterminators.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "A1 Exterminators provides pest control services for homes and businesses."
+  },
+  {
+    "id": "woburn-pest-control-4",
+    "name": "NW Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "woburn",
+    "phone": "(888) 466-0160",
+    "website": "https://nwpestcontrol.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "NW Pest Control provides pest control services for residential and commercial properties."
+  },
+  {
+    "id": "woburn-pest-control-5",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "woburn",
+    "phone": "(877) 837-6464",
+    "website": "https://www.terminix.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Terminix provides pest control and prevention services."
+  },
+  {
+    "id": "woburn-pressure-washing-4",
+    "name": "HiCleaners Pressure Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "woburn",
+    "phone": "(617) 977-1606",
+    "website": "https://hicleaners.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "HiCleaners Pressure Washing provides exterior cleaning and pressure washing services."
+  },
+  {
+    "id": "woburn-pressure-washing-5",
+    "name": "Purple Suds Property Services",
+    "serviceId": "pressure-washing",
+    "townSlug": "woburn",
+    "phone": "(781) 269-9999",
+    "website": "https://www.purplesuds.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Purple Suds Property Services provides pressure washing and exterior cleaning services."
   }
 ]
