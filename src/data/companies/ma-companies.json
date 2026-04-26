@@ -64702,5 +64702,181 @@
     "facebook": "",
     "verified": true,
     "description": "Four Star Lighting and Electric provides residential and commercial electrical services in Malden, MA."
+  },
+  {
+    "id": "TOWN-plumbing-4",
+    "name": "Winters Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "TOWN",
+    "phone": "(617) 221-5899",
+    "website": "https://www.wintersplumbing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Winters Home Services provides professional plumbing services with experienced technicians and reliable customer support."
+  },
+  {
+    "id": "TOWN-plumbing-5",
+    "name": "Papalia Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "TOWN",
+    "phone": "(877) 534-3343",
+    "website": "https://www.papaliahomeservices.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Papalia Home Services offers plumbing solutions with a focus on quality workmanship and dependable service."
+  },
+  {
+    "id": "TOWN-hvac-4",
+    "name": "Accutemp Engineering, LLC",
+    "serviceId": "hvac",
+    "townSlug": "TOWN",
+    "phone": "(781) 933-9021",
+    "website": "https://www.accutempengineering.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Accutemp Engineering provides HVAC installation and maintenance services for residential and commercial systems."
+  },
+  {
+    "id": "TOWN-hvac-5",
+    "name": "Central Cooling & Heating",
+    "serviceId": "hvac",
+    "townSlug": "TOWN",
+    "phone": "(800) 950-8870",
+    "website": "https://www.centralcooling.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Central Cooling & Heating delivers professional HVAC services with a strong reputation for efficiency and reliability."
+  },
+  {
+    "id": "TOWN-electrician-4",
+    "name": "Markarian Electric",
+    "serviceId": "electrician",
+    "townSlug": "TOWN",
+    "phone": "(781) 438-6600",
+    "website": "https://www.markarianelectric.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Markarian Electric provides licensed electrical services including installations, repairs, and upgrades."
+  },
+  {
+    "id": "TOWN-electrician-5",
+    "name": "Castle Electric",
+    "serviceId": "electrician",
+    "townSlug": "TOWN",
+    "phone": "(781) 595-7990",
+    "website": "https://www.castleelectric.biz/",
+    "facebook": "",
+    "verified": true,
+    "description": "Castle Electric offers dependable electrical services for residential and commercial customers."
+  },
+  {
+    "id": "TOWN-roofing-4",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "TOWN",
+    "phone": "(781) 231-0199",
+    "website": "https://www.frsroofing.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "FRS Roofing + Gutters provides roofing installation and repair services with a focus on durability and quality."
+  },
+  {
+    "id": "TOWN-roofing-5",
+    "name": "Roof Hub",
+    "serviceId": "roofing",
+    "townSlug": "TOWN",
+    "phone": "(339) 707-5097",
+    "website": "https://www.theroofhub.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Roof Hub delivers modern roofing solutions with experienced crews and efficient project completion."
+  },
+  {
+    "id": "TOWN-yard-landscaping-4",
+    "name": "Lamacchia Landscape Construction",
+    "serviceId": "yard-landscaping",
+    "townSlug": "TOWN",
+    "phone": "(781) 245-1765",
+    "website": "https://www.lamacchialandscape.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Lamacchia Landscape Construction specializes in landscaping design, installation, and maintenance services."
+  },
+  {
+    "id": "TOWN-yard-landscaping-5",
+    "name": "The Grounds Guys",
+    "serviceId": "yard-landscaping",
+    "townSlug": "TOWN",
+    "phone": "(781) 484-0128",
+    "website": "https://www.groundsguys.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "The Grounds Guys provide full-service landscaping solutions including lawn care and seasonal maintenance."
+  },
+  {
+    "id": "TOWN-painters-4",
+    "name": "Premier Painting & Wall Covering",
+    "serviceId": "painters",
+    "townSlug": "TOWN",
+    "phone": "(781) 233-5292",
+    "website": "https://www.premierpaintingboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Premier Painting & Wall Covering offers interior and exterior painting with attention to detail and quality finishes."
+  },
+  {
+    "id": "TOWN-painters-5",
+    "name": "Catchlight Painting",
+    "serviceId": "painters",
+    "townSlug": "TOWN",
+    "phone": "(781) 710-1663",
+    "website": "https://www.catchlightpainting.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Catchlight Painting delivers high-quality residential painting services with a focus on craftsmanship."
+  },
+  {
+    "id": "TOWN-pest-control-4",
+    "name": "Modern Pest Services",
+    "serviceId": "pest-control",
+    "townSlug": "TOWN",
+    "phone": "(800) 323-7378",
+    "website": "https://www.modernpest.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Modern Pest Services provides comprehensive pest control solutions for homes and businesses."
+  },
+  {
+    "id": "TOWN-pest-control-5",
+    "name": "A1 Exterminators",
+    "serviceId": "pest-control",
+    "townSlug": "TOWN",
+    "phone": "(781) 592-2731",
+    "website": "https://www.a1exterminators.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "A1 Exterminators offers professional pest control with effective treatment plans and reliable service."
+  },
+  {
+    "id": "TOWN-pressure-washing-4",
+    "name": "Pro Wash Boston",
+    "serviceId": "pressure-washing",
+    "townSlug": "TOWN",
+    "phone": "(617) 650-9274",
+    "website": "https://www.prowashboston.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "Pro Wash Boston provides professional pressure washing services for homes and commercial properties."
+  },
+  {
+    "id": "TOWN-pressure-washing-5",
+    "name": "New England Power Wash",
+    "serviceId": "pressure-washing",
+    "townSlug": "TOWN",
+    "phone": "(781) 995-3343",
+    "website": "https://www.newenglandpowerwash.com/",
+    "facebook": "",
+    "verified": true,
+    "description": "New England Power Wash offers exterior cleaning services including siding, decks, and driveways."
   }
 ]
