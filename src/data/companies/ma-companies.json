@@ -7027,78 +7027,6 @@
     "description": "Gloucester Coastal Power Wash is a local pressure washing company serving Gloucester, MA with dependable service and quality workmanship."
   },
   {
-    "id": "saugus-home-painting",
-    "name": "Saugus Home Painting",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, Saugus Home Painting specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-coastal-painting",
-    "name": "Saugus Coastal Painting",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, Saugus Coastal Painting specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-home-pest-control",
-    "name": "Saugus Home Pest Control",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Home Pest Control provides professional pest control services in Saugus, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "saugus-coastal-pest",
-    "name": "Saugus Coastal Pest",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Coastal Pest offers expert pest control services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-home-pressure-washing",
-    "name": "Saugus Home Pressure Washing",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Home Pressure Washing is a local pressure washing company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-coastal-power-wash",
-    "name": "Saugus Coastal Power Wash",
-    "state": "MA",
-    "townSlug": "saugus",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pressure washing in Saugus, MA? Saugus Coastal Power Wash offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "paintline-painting-middleton-painters",
     "name": "Paintline Painting",
     "townSlug": "middleton",
@@ -7427,17 +7355,6 @@
     "facebook": "",
     "verified": true,
     "description": "Serving Salisbury, Massachusetts, Benjamin's Power Washing specializes in pressure washing services for residential and commercial needs."
-  },
-  {
-    "id": "souza-painting-saugus-painters",
-    "name": "Souza Painting",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://souzapainting.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Souza Painting is a local painters company serving Saugus, MA with dependable service and quality workmanship."
   },
   {
     "id": "nw-pest-control-saugus-pest-control",
@@ -9858,39 +9775,6 @@
     "facebook": "",
     "verified": false,
     "description": "Sandwich Pressure Wash Co provides professional pressure washing services in Sandwich, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "saugus-painter-4",
-    "name": "Saugus Precision Painters",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, Saugus Precision Painters specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-pest-4",
-    "name": "Saugus Pest Control Team",
-    "townSlug": "saugus",
-    "serviceId": "pest-control",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for pest control in Saugus, MA? Saugus Pest Control Team offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "saugus-pressurewash-4",
-    "name": "Saugus Power Washing",
-    "townSlug": "saugus",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Power Washing offers expert pressure washing services in Saugus, MA. Reach out for fast, reliable local service."
   },
   {
     "id": "scituate-painter-4",
@@ -16834,17 +16718,6 @@
     "description": "Mass Pro Power Washing provides professional pressure washing services in North reading, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
-    "id": "saugus-painter-1",
-    "name": "CertaPro Painters of North Shore and Cape Ann",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://certapro.com/cape-ann/portfolio/gloucester-home-painters/",
-    "facebook": "https://www.facebook.com/CertaProPainters",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, CertaPro Painters of North Shore and Cape Ann specializes in painters services for residential and commercial needs."
-  },
-  {
     "id": "saugus-painter-2",
     "name": "Danieli Painting",
     "townSlug": "saugus",
@@ -16853,27 +16726,6 @@
     "website": "https://danielipainting.com/Saugus_MA.htm",
     "facebook": "",
     "description": "Serving Saugus, Massachusetts, Danieli Painting specializes in painters services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-painter-3",
-    "name": "Orcutt Painting and More",
-    "townSlug": "saugus",
-    "serviceId": "painters",
-    "phone": "",
-    "website": "https://orcuttpainting.com/Saugus_MA.htm",
-    "facebook": "",
-    "verified": false,
-    "description": "Orcutt Painting and More offers expert painters services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-pest-1",
-    "name": "NW Pest Control",
-    "townSlug": "saugus",
-    "serviceId": "pest-control",
-    "phone": "(877) 893-6607",
-    "website": "https://nwpestcontrol.com/saugus-pest-control/",
-    "facebook": "",
-    "description": "Looking for pest control in Saugus, MA? NW Pest Control offers trusted local services for homeowners and businesses."
   },
   {
     "id": "saugus-pest-3",
@@ -16886,16 +16738,6 @@
     "description": "Big Blue Bug Solutions is a local pest control company serving Saugus, MA with dependable service and quality workmanship."
   },
   {
-    "id": "saugus-pressurewash-1",
-    "name": "Benjamin's Power Washing",
-    "townSlug": "saugus",
-    "serviceId": "pressure-washing",
-    "phone": "(978) 856-5188",
-    "website": "https://benjaminspowerwashing.com/contact-us/pressure-washing-in-saugus-ma/",
-    "facebook": "",
-    "description": "Looking for pressure washing in Saugus, MA? Benjamin's Power Washing offers trusted local services for homeowners and businesses."
-  },
-  {
     "id": "saugus-pressurewash-2",
     "name": "Danieli Painting",
     "townSlug": "saugus",
@@ -16904,17 +16746,6 @@
     "website": "https://danielipainting.com/Saugus_MA.htm",
     "facebook": "",
     "description": "Danieli Painting offers expert pressure washing services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-pressurewash-3",
-    "name": "Orcutt Painting and More",
-    "townSlug": "saugus",
-    "serviceId": "pressure-washing",
-    "phone": "",
-    "website": "https://orcuttpainting.com/Saugus_MA.htm",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, Orcutt Painting and More specializes in pressure washing services for residential and commercial needs."
   },
   {
     "id": "nahant-painter-1",
@@ -18999,16 +18830,6 @@
     "website": "https://www.colonialpest.com/service-area/saugus/",
     "facebook": "",
     "description": "Colonial Pest Control is a local pest control company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-pest-control-2",
-    "name": "NW Pest Control",
-    "serviceId": "pest-control",
-    "townSlug": "saugus",
-    "phone": "(877) 893-6607",
-    "website": "https://nwpestcontrol.com/saugus-pest-control/",
-    "facebook": "",
-    "description": "NW Pest Control provides professional pest control services in Saugus, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
     "id": "saugus-pest-control-3",
@@ -27173,7 +26994,7 @@
     "townSlug": "wakefield",
     "phone": "(781) 245-1200",
     "website": "",
-    "verified": true,
+    "verified": false,
     "description": "Wakefield Electric Services offers local electrical services in Wakefield, MA."
   },
   {
@@ -33642,226 +33463,6 @@
     "facebook": "",
     "verified": false,
     "description": "Looking for yard landscaping in Beverly, MA? Beverly Yard & Landscape offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "saugus-plumbing-1",
-    "name": "Saugus Plumbing Services",
-    "serviceId": "plumbing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0611",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Serving Saugus, Massachusetts, Saugus Plumbing Services specializes in plumbing services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-hvac-1",
-    "name": "Saugus Heating & Cooling",
-    "serviceId": "hvac",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0622",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Heating & Cooling offers expert hvac services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-electrician-1",
-    "name": "Saugus Electrical Services",
-    "serviceId": "electrician",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0633",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Electrical Services provides professional electrician services in Saugus, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "saugus-roofing-1",
-    "name": "North Shore Roofing Saugus",
-    "serviceId": "roofing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0644",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, North Shore Roofing Saugus specializes in roofing services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-yard-1",
-    "name": "Saugus Yard & Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0655",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Yard & Landscaping offers expert yard landscaping services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-plumbing-2",
-    "name": "Rapid Plumbing Saugus",
-    "serviceId": "plumbing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0661",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Rapid Plumbing Saugus offers expert plumbing services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-hvac-2",
-    "name": "North Shore Climate Saugus",
-    "serviceId": "hvac",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0672",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "Looking for hvac in Saugus, MA? North Shore Climate Saugus offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "saugus-electrician-2",
-    "name": "Saugus Electric Co",
-    "serviceId": "electrician",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0683",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Saugus, Massachusetts, Saugus Electric Co specializes in electrician services for residential and commercial needs."
-  },
-  {
-    "id": "saugus-roofing-2",
-    "name": "Saugus Roofing Experts",
-    "serviceId": "roofing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0694",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Roofing Experts offers expert roofing services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-yard-2",
-    "name": "GreenLine Landscaping Saugus",
-    "serviceId": "yard-landscaping",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0605",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "GreenLine Landscaping Saugus offers expert yard landscaping services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-plumbing-3",
-    "name": "Elite Plumbing Saugus",
-    "serviceId": "plumbing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0711",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Elite Plumbing Saugus provides professional plumbing services in Saugus, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "saugus-hvac-3",
-    "name": "Saugus Comfort Systems",
-    "serviceId": "hvac",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0722",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Comfort Systems is a local hvac company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-electrician-3",
-    "name": "North Shore Electric Saugus",
-    "serviceId": "electrician",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0733",
-    "website": "",
-    "facebook": "",
-    "verified": true,
-    "description": "North Shore Electric Saugus is a local electrician company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-roofing-3",
-    "name": "Reliable Roofing Saugus",
-    "serviceId": "roofing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0744",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Saugus, MA? Reliable Roofing Saugus offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "saugus-yard-3",
-    "name": "Saugus Lawn & Landscape Pros",
-    "serviceId": "yard-landscaping",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0755",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Lawn & Landscape Pros provides professional yard landscaping services in Saugus, Massachusetts. Contact them for reliable local service and expert solutions."
-  },
-  {
-    "id": "saugus-plumbing-4",
-    "name": "Pro Plumbing Solutions Saugus",
-    "serviceId": "plumbing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0811",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Pro Plumbing Solutions Saugus is a local plumbing company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-hvac-4",
-    "name": "Advanced HVAC Saugus",
-    "serviceId": "hvac",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0822",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Advanced HVAC Saugus offers expert hvac services in Saugus, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "saugus-electrician-4",
-    "name": "Saugus Electrical Experts",
-    "serviceId": "electrician",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0833",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Electrical Experts is a local electrician company serving Saugus, MA with dependable service and quality workmanship."
-  },
-  {
-    "id": "saugus-roofing-4",
-    "name": "TopLine Roofing Saugus",
-    "serviceId": "roofing",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0844",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Saugus, MA? TopLine Roofing Saugus offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "saugus-yard-4",
-    "name": "Saugus Outdoor Living",
-    "serviceId": "yard-landscaping",
-    "townSlug": "saugus",
-    "phone": "(781) 555-0855",
-    "website": "",
-    "facebook": "",
-    "verified": false,
-    "description": "Saugus Outdoor Living is a local yard landscaping company serving Saugus, MA with dependable service and quality workmanship."
   },
   {
     "id": "amherst-plumbing-3",
@@ -65797,5 +65398,644 @@
     "phone": "(781) 395-1660",
     "website": "https://newtechpestcontrol.com/",
     "verified": false
+  },
+  {
+    "id": "saugus-plumbing-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "saugus",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "saugus",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-plumbing-townsend-1",
+    "name": "Townsend Energy Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "saugus",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-hvac-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "saugus",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "saugus",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-hvac-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "saugus",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "saugus",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "saugus",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-electrician-kuhlman-1",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "saugus",
+    "phone": "(781) 512-7272",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "saugus",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "saugus",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-roofing-decarney-1",
+    "name": "DeCarney Roofing",
+    "serviceId": "roofing",
+    "townSlug": "saugus",
+    "phone": "(978) 921-5027",
+    "website": "https://www.decarneyroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "saugus",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-yard-greener-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "saugus",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-yard-scapes-1",
+    "name": "Scapes Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "saugus",
+    "phone": "(978) 774-2600",
+    "website": "https://www.scapescorp.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "saugus",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-plumbing-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "plumbing",
+    "townSlug": "saugus",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-hvac-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "saugus",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-hvac-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "saugus",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-electrician-beantown-1",
+    "name": "Beantown Electric",
+    "serviceId": "electrician",
+    "townSlug": "saugus",
+    "phone": "(978) 777-2700",
+    "website": "https://beantownelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-electrician-mr-electric-1",
+    "name": "Mr. Electric",
+    "serviceId": "electrician",
+    "townSlug": "saugus",
+    "phone": "(978) 219-2455",
+    "website": "https://mrelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-roofing-dasilva-1",
+    "name": "DaSilva Roofing LLC",
+    "serviceId": "roofing",
+    "townSlug": "saugus",
+    "phone": "(978) 304-6341",
+    "website": "https://www.dasilvaroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-roofing-jp-carroll-1",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "saugus",
+    "phone": "(203) 351-9240",
+    "website": "https://jpcarrollroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-yard-bella-1",
+    "name": "Bella Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "saugus",
+    "phone": "(978) 921-8994",
+    "website": "https://bellalandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-yard-patricks-1",
+    "name": "Patrick's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "saugus",
+    "phone": "(978) 777-5296",
+    "website": "https://www.patrickslandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "saugus-painters-certapro-1",
+    "name": "CertaPro Painters",
+    "serviceId": "painters",
+    "townSlug": "saugus",
+    "phone": "(978) 225-3036",
+    "website": "https://certapro.com/",
+    "verified": true
+  },
+  {
+    "id": "saugus-pest-terminix-1",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "saugus",
+    "phone": "(978) 548-0068",
+    "website": "https://www.terminix.com/exterminators/ma/saugus/",
+    "verified": false
+  },
+  {
+    "id": "lynnfield-plumbing-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "lynnfield",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "lynnfield",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-hvac-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "lynnfield",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "lynnfield",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "lynnfield",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "lynnfield",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "lynnfield",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "lynnfield",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "lynnfield-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynnfield",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-yard-greener-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "lynnfield",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "lynnfield-painters-certapro-1",
+    "name": "CertaPro Painters",
+    "serviceId": "painters",
+    "townSlug": "lynnfield",
+    "phone": "(978) 225-3036",
+    "website": "https://certapro.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-pest-fox-1",
+    "name": "Fox Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "lynnfield",
+    "phone": "(508) 257-7556",
+    "website": "https://fox-pest.com/",
+    "verified": true
+  },
+  {
+    "id": "lynnfield-pest-newtech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "lynnfield",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
+  },
+  {
+    "id": "lynnfield-pressure-benjamins-1",
+    "name": "Benjamin's Power Washing",
+    "serviceId": "pressure-washing",
+    "townSlug": "lynnfield",
+    "phone": "(978) 531-9274",
+    "website": "https://benjaminspowerwashing.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-plumbing-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "plumbing",
+    "townSlug": "marblehead",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-plumbing-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "plumbing",
+    "townSlug": "marblehead",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-plumbing-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "plumbing",
+    "townSlug": "marblehead",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-plumbing-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "plumbing",
+    "townSlug": "marblehead",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-plumbing-townsend-1",
+    "name": "Townsend Energy Plumbing Services",
+    "serviceId": "plumbing",
+    "townSlug": "marblehead",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-hvac-sila-1",
+    "name": "Sila Heating, Cooling, Plumbing & Electrical",
+    "serviceId": "hvac",
+    "townSlug": "marblehead",
+    "phone": "(781) 689-0971",
+    "website": "https://boston.sila.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-hvac-cranney-1",
+    "name": "Cranney Home Services",
+    "serviceId": "hvac",
+    "townSlug": "marblehead",
+    "phone": "(978) 750-6900",
+    "website": "https://www.cranneyhomeservices.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-hvac-townsend-1",
+    "name": "Townsend Energy",
+    "serviceId": "hvac",
+    "townSlug": "marblehead",
+    "phone": "(978) 717-0490",
+    "website": "https://www.townsendtotalenergy.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-hvac-fagone-1",
+    "name": "Fagone Plumbing",
+    "serviceId": "hvac",
+    "townSlug": "marblehead",
+    "phone": "(781) 512-4505",
+    "website": "https://www.fagoneplumbing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-hvac-morris-1",
+    "name": "Morris Plumbing, Heating & Air Conditioning",
+    "serviceId": "hvac",
+    "townSlug": "marblehead",
+    "phone": "(978) 961-0338",
+    "website": "https://www.morrisheatingandair.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-electrician-crowe-1",
+    "name": "Crowe Electric",
+    "serviceId": "electrician",
+    "townSlug": "marblehead",
+    "phone": "(781) 246-9437",
+    "website": "https://www.croweelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-electrician-scotti-1",
+    "name": "Scotti Electric",
+    "serviceId": "electrician",
+    "townSlug": "marblehead",
+    "phone": "(978) 767-0293",
+    "website": "https://scottielectric.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-electrician-kuhlman-1",
+    "name": "Kuhlman Electric",
+    "serviceId": "electrician",
+    "townSlug": "marblehead",
+    "phone": "(781) 512-7272",
+    "website": "https://www.kuhlmanelectricalservices.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-electrician-mr-electric-1",
+    "name": "Mr. Electric",
+    "serviceId": "electrician",
+    "townSlug": "marblehead",
+    "phone": "(978) 219-2455",
+    "website": "https://mrelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-electrician-beantown-1",
+    "name": "Beantown Electric",
+    "serviceId": "electrician",
+    "townSlug": "marblehead",
+    "phone": "(978) 777-2700",
+    "website": "https://beantownelectric.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "marblehead",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-roofing-decarney-1",
+    "name": "DeCarney Roofing",
+    "serviceId": "roofing",
+    "townSlug": "marblehead",
+    "phone": "(978) 921-5027",
+    "website": "https://www.decarneyroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-roofing-frs-1",
+    "name": "FRS Roofing + Gutters",
+    "serviceId": "roofing",
+    "townSlug": "marblehead",
+    "phone": "(781) 231-5300",
+    "website": "https://frsroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-roofing-dasilva-1",
+    "name": "DaSilva Roofing LLC",
+    "serviceId": "roofing",
+    "townSlug": "marblehead",
+    "phone": "(978) 304-6341",
+    "website": "https://www.dasilvaroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-roofing-jp-carroll-1",
+    "name": "JP Carroll Roofing",
+    "serviceId": "roofing",
+    "townSlug": "marblehead",
+    "phone": "(203) 351-9240",
+    "website": "https://jpcarrollroofing.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marblehead",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-yard-greener-1",
+    "name": "Greener Lawn Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marblehead",
+    "phone": "(978) 777-6069",
+    "website": "https://greenerlawnlandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-yard-scapes-1",
+    "name": "Scapes Corporation",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marblehead",
+    "phone": "(978) 774-2600",
+    "website": "https://www.scapescorp.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-yard-bella-1",
+    "name": "Bella Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marblehead",
+    "phone": "(978) 921-8994",
+    "website": "https://bellalandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-yard-patricks-1",
+    "name": "Patrick's Landscaping",
+    "serviceId": "yard-landscaping",
+    "townSlug": "marblehead",
+    "phone": "(978) 777-5296",
+    "website": "https://www.patrickslandscaping.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-painters-certapro-1",
+    "name": "CertaPro Painters",
+    "serviceId": "painters",
+    "townSlug": "marblehead",
+    "phone": "(978) 225-3036",
+    "website": "https://certapro.com/",
+    "verified": true
+  },
+  {
+    "id": "marblehead-pest-newtech-1",
+    "name": "New Tech Pest Control",
+    "serviceId": "pest-control",
+    "townSlug": "marblehead",
+    "phone": "(781) 395-1660",
+    "website": "https://newtechpestcontrol.com/",
+    "verified": false
+  },
+  {
+    "id": "marblehead-pest-terminix-1",
+    "name": "Terminix",
+    "serviceId": "pest-control",
+    "townSlug": "marblehead",
+    "phone": "(978) 548-0068",
+    "website": "https://www.terminix.com/exterminators/ma/marblehead/",
+    "verified": false
+  },
+  {
+    "id": "stoneham-roofing-olyn-1",
+    "name": "O'LYN Roofing",
+    "serviceId": "roofing",
+    "townSlug": "stoneham",
+    "phone": "(781) 593-5055",
+    "website": "https://www.olynroofing.com/",
+    "verified": true
+  },
+  {
+    "id": "stoneham-yard-jims-1",
+    "name": "Jim's Affordable Home Services",
+    "serviceId": "yard-landscaping",
+    "townSlug": "stoneham",
+    "phone": "(978) 884-4509",
+    "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
   }
 ]
