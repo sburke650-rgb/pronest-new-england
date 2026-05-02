@@ -64044,18 +64044,6 @@
     "description": "Serving Lynn, Massachusetts, Daniel E. Cadotte Plumbing and Heating INC. specializes in plumbing services for residential and commercial needs."
   },
   {
-    "id": "lynn-plumbing-crn-plumbing",
-    "name": "CRN Plumbing",
-    "state": "MA",
-    "townSlug": "lynn",
-    "serviceId": "plumbing",
-    "phone": "(781) 248-9568",
-    "verified": false,
-    "facebook": "",
-    "website": "",
-    "description": "CRN Plumbing is a local plumbing company serving Lynn, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "lynn-plumbing-super-service-today",
     "name": "Super Service Today (Lynn)",
     "state": "MA",
@@ -66036,6 +66024,51 @@
     "townSlug": "stoneham",
     "phone": "(978) 884-4509",
     "website": "https://www.jimsaffordablelandscaping.com/",
+    "verified": true
+  },
+  {
+    "id": "leominster-roofing-borges",
+    "name": "Borges Roofing",
+    "townSlug": "leominster",
+    "serviceId": "roofing",
+    "phone": "(978) 537-5100",
+    "website": "https://www.borgesroofing.com",
+    "verified": true
+  },
+  {
+    "id": "leominster-roofing-riedel",
+    "name": "Riedel Roofing",
+    "townSlug": "leominster",
+    "serviceId": "roofing",
+    "phone": "(978) 342-7160",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "leominster-plumbing-roy",
+    "name": "Roy Plumbing & Heating",
+    "townSlug": "leominster",
+    "serviceId": "plumbing",
+    "phone": "(978) 534-2811",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "leominster-hvac-wilson",
+    "name": "Wilson Bros Heating & Cooling",
+    "townSlug": "leominster",
+    "serviceId": "hvac",
+    "phone": "(978) 537-3907",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "leominster-painters-certa",
+    "name": "CertaPro Painters of Leominster",
+    "townSlug": "leominster",
+    "serviceId": "painters",
+    "phone": "(978) 840-4200",
+    "website": "https://certapro.com",
     "verified": true
   }
 ]
