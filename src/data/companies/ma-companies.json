@@ -33069,61 +33069,6 @@
     "description": "Serving Bedford, Massachusetts, C & B Landscaping specializes in yard landscaping services for residential and commercial needs."
   },
   {
-    "id": "amherst-plumbing-2",
-    "name": "Pioneer Valley Environmental",
-    "serviceId": "plumbing",
-    "townSlug": "amherst",
-    "phone": "(413) 477-6984",
-    "website": "https://www.pvehvac.com/amherst/",
-    "facebook": "",
-    "verified": true,
-    "description": "Looking for plumbing in Amherst, MA? Pioneer Valley Environmental offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "amherst-hvac-2",
-    "name": "Pioneer Valley Environmental",
-    "serviceId": "hvac",
-    "townSlug": "amherst",
-    "phone": "(413) 477-6984",
-    "website": "https://www.pvehvac.com/amherst/",
-    "facebook": "",
-    "verified": true,
-    "description": "Pioneer Valley Environmental offers expert hvac services in Amherst, MA. Reach out for fast, reliable local service."
-  },
-  {
-    "id": "amherst-electrician-2",
-    "name": "Pioneer Valley Environmental",
-    "serviceId": "electrician",
-    "townSlug": "amherst",
-    "phone": "(413) 477-6984",
-    "website": "https://www.pvehvac.com/amherst/",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for electrician in Amherst, MA? Pioneer Valley Environmental offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "amherst-roofing-2",
-    "name": "Roberts Roofs",
-    "serviceId": "roofing",
-    "townSlug": "amherst",
-    "phone": "(413) 283-4395",
-    "website": "https://www.robertsroofsinc.com/amherst-roofing",
-    "facebook": "",
-    "verified": false,
-    "description": "Looking for roofing in Amherst, MA? Roberts Roofs offers trusted local services for homeowners and businesses."
-  },
-  {
-    "id": "amherst-yard-2",
-    "name": "Busy Bee Landscaping",
-    "serviceId": "yard-landscaping",
-    "townSlug": "amherst",
-    "phone": "(413) 658-7122",
-    "website": "https://busybeelandscaping.co/",
-    "facebook": "",
-    "verified": false,
-    "description": "Serving Amherst, Massachusetts, Busy Bee Landscaping specializes in yard landscaping services for residential and commercial needs."
-  },
-  {
     "id": "avon-plumbing-2",
     "name": "Efficiency Plumbing, Heating & Air",
     "serviceId": "plumbing",
@@ -66069,6 +66014,123 @@
     "serviceId": "painters",
     "phone": "(978) 840-4200",
     "website": "https://certapro.com",
+    "verified": true
+  },
+  {
+    "id": "amesbury-plumbing-murphy",
+    "name": "Murphy Plumbing & Heating",
+    "townSlug": "amesbury",
+    "serviceId": "plumbing",
+    "phone": "(978) 388-2345",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-hvac-ciarcia",
+    "name": "Ciarcia Heating & Cooling",
+    "townSlug": "amesbury",
+    "serviceId": "hvac",
+    "phone": "(978) 834-5211",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-electrician-amesbury-electric",
+    "name": "Amesbury Electric",
+    "townSlug": "amesbury",
+    "serviceId": "electrician",
+    "phone": "(978) 388-1623",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "amesbury-roofing-northshore",
+    "name": "North Shore Roofing",
+    "townSlug": "amesbury",
+    "serviceId": "roofing",
+    "phone": "(978) 465-7900",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "amherst-plumbing-gem",
+    "name": "GEM Plumbing & Heating",
+    "townSlug": "amherst",
+    "serviceId": "plumbing",
+    "phone": "(833) 310-2704",
+    "website": "https://askgem.com/service-area/plumbing/amherst-ma/",
+    "verified": true
+  },
+  {
+    "id": "amherst-plumbing-roto-rooter",
+    "name": "Roto-Rooter Plumbing & Water Cleanup",
+    "townSlug": "amherst",
+    "serviceId": "plumbing",
+    "phone": "(413) 584-2452",
+    "website": "https://www.rotorooter.com/amherstma/",
+    "verified": true
+  },
+  {
+    "id": "amherst-hvac-noonan-energy",
+    "name": "Noonan Energy",
+    "townSlug": "amherst",
+    "serviceId": "hvac",
+    "phone": "(413) 734-7396",
+    "website": "https://www.noonanenergy.com/hvac-contractor-amherst-ma/",
+    "verified": true
+  },
+  {
+    "id": "amherst-hvac-still-services",
+    "name": "Still Services",
+    "townSlug": "amherst",
+    "serviceId": "hvac",
+    "phone": "(855) 413-7378",
+    "website": "https://www.stillservices.com/amherst-ma/",
+    "verified": true
+  },
+  {
+    "id": "amherst-electrician-gem",
+    "name": "GEM Electrical Services",
+    "townSlug": "amherst",
+    "serviceId": "electrician",
+    "phone": "(833) 310-2704",
+    "website": "https://askgem.com/service-area/electrical/amherst-ma/",
+    "verified": true
+  },
+  {
+    "id": "amherst-roofing-rattigan",
+    "name": "Rattigan & Sons Inc.",
+    "townSlug": "amherst",
+    "serviceId": "roofing",
+    "phone": "(413) 824-7161",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "amherst-roofing-tech-roofing",
+    "name": "Tech Roofing Inc.",
+    "townSlug": "amherst",
+    "serviceId": "roofing",
+    "phone": "(413) 331-5667",
+    "website": "https://techroofing.com/commercial-roofing-amherst/",
+    "verified": true
+  },
+  {
+    "id": "amherst-landscaping-summit",
+    "name": "Summit Landscaping and Lawn Care",
+    "townSlug": "amherst",
+    "serviceId": "yard-landscaping",
+    "phone": "(413) 549-0540",
+    "website": "https://www.summitlandscaping.net/contact/3087147",
+    "verified": true
+  },
+  {
+    "id": "amherst-landscaping-ajc",
+    "name": "AJC Lawn and Gardening",
+    "townSlug": "amherst",
+    "serviceId": "yard-landscaping",
+    "phone": "(413) 252-9069",
+    "website": "https://goajc.com/",
     "verified": true
   }
 ]
