@@ -33091,17 +33091,6 @@
     "description": "ECCO HVAC offers expert hvac services in Avon, MA. Reach out for fast, reliable local service."
   },
   {
-    "id": "avon-electrician-2",
-    "name": "Collum Electric",
-    "serviceId": "electrician",
-    "townSlug": "avon",
-    "phone": "(508) 588-6102",
-    "website": "https://www.collumelectric.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "Collum Electric is a local electrician company serving Avon, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "avon-roofing-2",
     "name": "Capital Construction Contracting",
     "serviceId": "roofing",
@@ -33113,17 +33102,6 @@
     "description": "Capital Construction Contracting is a local roofing company serving Avon, MA with dependable service and quality workmanship."
   },
   {
-    "id": "avon-yard-2",
-    "name": "B.M. Norris Enterprises",
-    "serviceId": "yard-landscaping",
-    "townSlug": "avon",
-    "phone": "(508) 726-3611",
-    "website": "https://www.bmnorris.com/",
-    "facebook": "",
-    "verified": false,
-    "description": "B.M. Norris Enterprises is a local yard landscaping company serving Avon, MA with dependable service and quality workmanship."
-  },
-  {
     "id": "auburn-plumbing-2",
     "name": "Auburn Plumbing & Heating",
     "serviceId": "plumbing",
@@ -33131,7 +33109,7 @@
     "phone": "(508) 832-6200",
     "website": "",
     "facebook": "",
-    "verified": true,
+    "verified": false,
     "description": "Auburn Plumbing & Heating provides professional plumbing services in Auburn, Massachusetts. Contact them for reliable local service and expert solutions."
   },
   {
@@ -66196,5 +66174,104 @@
     "phone": "(774) 331-8844",
     "website": "https://www.bryant.com/en/us/dealers/ma/attleboro/6-howard-ireland-dr-bry-70943-loc",
     "verified": true
+  },
+  {
+    "id": "auburn-plumbing-mcdonald",
+    "name": "McDonald Heating, AC and Plumbing, Inc.",
+    "townSlug": "auburn",
+    "serviceId": "plumbing",
+    "phone": "508-832-5444",
+    "website": "https://www.mcdonaldhvac.com/",
+    "verified": true
+  },
+  {
+    "id": "auburn-hvac-all-hvac",
+    "name": "All HVAC",
+    "townSlug": "auburn",
+    "serviceId": "hvac",
+    "phone": "(774) 502-0214",
+    "website": "https://www.all-hvac.net/",
+    "verified": true
+  },
+  {
+    "id": "auburn-electrician-cyr-electric",
+    "name": "Cyr Electric Inc.",
+    "townSlug": "auburn",
+    "serviceId": "electrician",
+    "phone": "(508) 755-1110",
+    "website": "https://www.cyrelectric.com/contact",
+    "verified": true
+  },
+  {
+    "id": "auburn-roofing-capitol-siding",
+    "name": "Capitol Siding & Home Improvement Company",
+    "townSlug": "auburn",
+    "serviceId": "roofing",
+    "phone": "508-832-5981",
+    "website": "https://www.capitolsiding.com/roofing/",
+    "verified": true
+  },
+  {
+    "id": "avon-roofing-stormcare",
+    "name": "StormCare Roofing Inc.",
+    "townSlug": "avon",
+    "serviceId": "roofing",
+    "phone": "(781) 885-7001",
+    "website": "https://www.stormcareroofingma.com/",
+    "verified": true
+  },
+  {
+    "id": "avon-yard-landscaping-bm-norris-website",
+    "name": "B.M. Norris Enterprises",
+    "townSlug": "avon",
+    "serviceId": "yard-landscaping",
+    "phone": "(508) 726-3611",
+    "website": "https://www.bmnorris.com/",
+    "verified": true
+  },
+  {
+    "id": "avon-plumbing-aspinwall",
+    "name": "Aspinwall Plumbing, Heating & Air Conditioning",
+    "townSlug": "avon",
+    "serviceId": "plumbing",
+    "phone": "(617) 539-7672",
+    "website": "https://www.aspinwallplumbing.com/service-area/avon-ma/",
+    "verified": true
+  },
+  {
+    "id": "avon-hvac-aspinwall",
+    "name": "Aspinwall Plumbing, Heating & Air Conditioning",
+    "townSlug": "avon",
+    "serviceId": "hvac",
+    "phone": "(617) 539-7672",
+    "website": "https://www.aspinwallplumbing.com/service-area/avon-ma/",
+    "verified": true
+  },
+  {
+    "id": "avon-electrician-collum-website",
+    "name": "Collum Electric",
+    "townSlug": "avon",
+    "serviceId": "electrician",
+    "phone": "(508) 588-6102",
+    "website": "https://www.collumelectric.com/",
+    "verified": true
+  },
+  {
+    "id": "avon-electrician-joseph-watt",
+    "name": "Joseph Watt Electrician",
+    "townSlug": "avon",
+    "serviceId": "electrician",
+    "phone": "",
+    "website": "",
+    "verified": false
+  },
+  {
+    "id": "avon-yard-landscaping-jacks",
+    "name": "Jack's Landscaping & Construction",
+    "townSlug": "avon",
+    "serviceId": "yard-landscaping",
+    "phone": "",
+    "website": "https://www.jackslandscape.com/",
+    "verified": false
   }
 ]
